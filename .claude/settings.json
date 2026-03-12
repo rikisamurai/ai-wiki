@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/bytedance/riki/notes/ai-wiki status)",
+      "Bash(git -C /Users/bytedance/riki/notes/ai-wiki diff --name-only)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}

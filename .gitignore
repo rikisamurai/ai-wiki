@@ -13,6 +13,7 @@ Desktop.ini
 .obsidian/workspace
 .obsidian/workspace-mobile.json
 .obsidian/cache
+.obsidian/plugins/claudian/data.json
 
 # Keep these Obsidian files
 !.obsidian/app.json
@@ -62,3 +63,6 @@ venv/
 # Trash
 .trash/
 .Trash/
+
+# Claude AI Assistant
+.claude/sessions/
