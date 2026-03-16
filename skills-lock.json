@@ -6,6 +6,11 @@
       "sourceType": "git",
       "computedHash": "bca33ec7db2d49d70c9b4eb058a6a3670e362b8d90ce8acb40a8cec4791ab7f8"
     },
+    "health": {
+      "source": "tw93/claude-health",
+      "sourceType": "github",
+      "computedHash": "09096d688594b10fee6cab2c1e4dcbcbdd3089a48803f2734ab8abcdb6ac1ff6"
+    },
     "json-canvas": {
       "source": "kepano/obsidian-skills",
       "sourceType": "git",

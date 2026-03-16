@@ -8,5 +8,8 @@
       "Bash(rm -rf *)",
       "Bash(sudo *)"
     ]
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true
   }
 }

@@ -66,3 +66,4 @@ venv/
 
 # Claude AI Assistant
 .claude/sessions/
+.claude/claudian-settings.json
