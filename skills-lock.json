@@ -30,6 +30,11 @@
       "source": "kepano/obsidian-skills",
       "sourceType": "git",
       "computedHash": "cacc9058a35ad3fd4985b4c31121bff8202f1337c39808c1326ded6a19a7915f"
+    },
+    "xiaohongshu-cli": {
+      "source": "jackwener/xiaohongshu-cli",
+      "sourceType": "github",
+      "computedHash": "d9484200884d741c0a71ff503ce10765bcccf37b3c1a4e4bff048fe7ffec76cc"
     }
   }
 }
