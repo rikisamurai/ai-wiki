@@ -3,6 +3,9 @@
 
 # Obsidian 使用技巧总结
 
+[MarkDown语法 超详细教程 - 经验分享 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/435)
+
+
 ## 📝 双向链接与知识图谱
 
 ### 基础链接
