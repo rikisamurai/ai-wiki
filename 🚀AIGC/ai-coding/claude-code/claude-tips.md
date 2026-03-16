@@ -7,10 +7,15 @@ tags:
 date: 2026-03-16
 ---
 
+
+![[Pasted image 20260316220024.png]]
+
 # Claude Code 常用命令
 
 > [!abstract] 概览
 > Claude Code 常用命令速查表，涵盖启动、会话管理、斜杠命令、CLI 参数等。
+
+[刹车皮 on X: "Claude Code 命令大全" / X](https://x.com/shachepi/status/2032036375894413458?s=46&t=Yj7u0_qPgM_L3Jx7ArA8UQ)
 
 ## 基础启动
 
