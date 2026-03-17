@@ -80,15 +80,6 @@
       "key": "8"
     }
   ],
-  "outline:open-for-current": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "O"
-    }
-  ],
   "claudian:inline-edit": [
     {
       "modifiers": [
@@ -122,6 +113,15 @@
         "Shift"
       ],
       "key": "J"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
     }
   ]
 }
