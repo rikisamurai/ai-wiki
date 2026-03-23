@@ -5,7 +5,6 @@ tags:
   - claude-code
   - ai-coding
   - memory
-  - CLAUDE-md
 date: 2026-03-13
 ---
 

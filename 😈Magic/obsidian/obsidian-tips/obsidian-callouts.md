@@ -2,7 +2,6 @@
 title: Obsidian Callout 使用指南
 tags:
   - obsidian
-  - callout
   - markdown
 date: 2026-03-16
 ---

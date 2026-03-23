@@ -27,6 +27,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   date: YYYY-MM-DD
   ---
   ```
+- 新增的 tag 必须符合 kebab-case, 且一篇文章最多 3 个 tags
 - 善用 Obsidian callouts（`> [!type]`）组织内容
 
 ## 与用户沟通

@@ -1,8 +1,6 @@
 ---
 tags:
   - obsidian
-  - plugin
-  - AI
   - claude
 source: https://github.com/YishenTu/claudian
 created: 2026-03-12

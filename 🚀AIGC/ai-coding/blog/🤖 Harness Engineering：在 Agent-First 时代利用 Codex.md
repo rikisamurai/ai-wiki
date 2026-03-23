@@ -5,7 +5,7 @@ tags:
   - OpenAI
   - Codex
   - Agent
-  - Harness-Engineering
+  - harness-engineering
 date: 2026-03-11
 source: https://openai.com/index/harness-engineering/
 author: Ryan Lopopolo
@@ -22,7 +22,7 @@ author: Ryan Lopopolo
 
 OpenAI 团队用 **0 行手写代码**，完全依靠 Codex Agent 构建并上线了一款内部产品（约 100 万行代码、~1500 个 PR），总结了 Agent-First 开发模式的核心经验。
 
-![[Pasted image 20260323180456.png]]
+![[Pasted image 20260323180456.png|400]]
 
 ---
 
