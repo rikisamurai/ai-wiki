@@ -30,5 +30,5 @@
   "properties": true,
   "bookmarks": true,
   "bases": true,
-  "webviewer": false
+  "webviewer": true
 }
