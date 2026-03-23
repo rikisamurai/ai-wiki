@@ -6,6 +6,11 @@
       "sourceType": "git",
       "computedHash": "bca33ec7db2d49d70c9b4eb058a6a3670e362b8d90ce8acb40a8cec4791ab7f8"
     },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "d31e234f0c90694a670222cdd1dafa853e051d7066beda389f1097c22dadd461"
+    },
     "health": {
       "source": "tw93/claude-health",
       "sourceType": "github",
@@ -30,6 +35,11 @@
       "source": "kepano/obsidian-skills",
       "sourceType": "git",
       "computedHash": "cacc9058a35ad3fd4985b4c31121bff8202f1337c39808c1326ded6a19a7915f"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "b122f4d1e91aa1d83027e050b5b37c3156203ee85458d7b1360bc48167c9e02a"
     },
     "xiaohongshu-cli": {
       "source": "jackwener/xiaohongshu-cli",
