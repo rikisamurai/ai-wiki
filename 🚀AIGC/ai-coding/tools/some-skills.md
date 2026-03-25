@@ -110,3 +110,63 @@ xhs login --qrcode         # 二维码扫码登录
 > - 内置请求限速（~1-1.5s 间隔），不要并行请求以保护账号安全
 > - 不支持视频下载、私信、直播、关注列表
 > - 同一时间只支持单账号
+
+
+## baoyu-skills
+
+> [!info] 基本信息
+> - **作者**：宝玉 (JimLiu)
+> - **仓库**：[JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills)
+
+宝玉分享的 Claude Code Skills 合集，涵盖内容生成、AI 图片生成和实用工具三大类，旨在提升日常工作效率。所有 skill 支持通过 `EXTEND.md` 文件进行自定义配置。
+
+### 内容生成类 Skills
+
+| Skill | 说明 |
+|-------|------|
+| **baoyu-xhs-images** | 小红书信息图生成器，将内容拆分为 1-10 张卡通风格图片，支持 **Style × Layout** 二维系统（9 种视觉风格 + 6 种布局） |
+| **baoyu-infographic** | 专业信息图生成，提供 20 种布局类型和 17 种视觉风格，自动推荐最佳组合 |
+| **baoyu-cover-image** | 文章封面图生成，采用 **Type × Palette × Rendering × Text × Mood** 五维系统，9 种配色 × 6 种渲染风格 |
+| **baoyu-slide-deck** | 幻灯片生成，从内容创建大纲并逐页生成图片，支持 16 种预设风格，最终自动合并为 `.pptx` 和 `.pdf` |
+| **baoyu-comic** | 知识漫画创作，支持 Art Style × Tone 组合（5 种画风 + 7 种基调），含 ohmsha、wuxia、shoujo 等预设 |
+| **baoyu-article-illustrator** | 智能文章配图，分析文章结构后在合适位置插入插图，支持 Type × Style 二维选择 |
+
+### 内容发布类 Skills
+
+| Skill | 说明 |
+|-------|------|
+| **baoyu-post-to-x** | 发布内容到 X (Twitter)，支持普通推文和 X Articles 长文，使用 Chrome CDP 绕过反自动化 |
+| **baoyu-post-to-wechat** | 发布到微信公众号，支持贴图模式和文章模式，可通过 API 或浏览器发布，支持多账号 |
+| **baoyu-post-to-weibo** | 发布到微博，支持文字/图片/视频普通微博和头条文章 |
+
+### AI 生成后端类 Skills
+
+| Skill | 说明 |
+|-------|------|
+| **baoyu-image-gen** | 基于 AI SDK 的图片生成，统一封装了 OpenAI、Azure OpenAI、Google、OpenRouter、DashScope（通义万相）、即梦、豆包 Seedream、Replicate 等多个 provider，支持文生图、参考图和多种尺寸 |
+| **baoyu-danger-gemini-web** | 通过 Gemini Web 界面生成文本和图片（使用浏览器自动化） |
+
+### 工具类 Skills
+
+| Skill | 说明 |
+|-------|------|
+| **baoyu-youtube-transcript** | 下载 YouTube 视频字幕/转录，支持多语言、翻译、章节分段和说话人识别，带本地缓存 |
+| **baoyu-url-to-markdown** | 通过 Chrome CDP 抓取任意 URL 并转为干净的 Markdown，支持登录页面的等待模式 |
+| **baoyu-danger-x-to-markdown** | 将 X (Twitter) 推文/线程/Articles 转为 Markdown，支持媒体下载 |
+| **baoyu-compress-image** | 图片压缩，在保持质量的同时减小文件体积 |
+| **baoyu-format-markdown** | Markdown 格式化，自动添加 frontmatter、标题、摘要，规范化排版 |
+| **baoyu-markdown-to-html** | Markdown 转 HTML，支持微信公众号主题、代码高亮和底部引用 |
+| **baoyu-translate** | 文档翻译，提供 quick / normal / refined 三种模式，支持自定义术语表、受众和风格，长文档自动分块并行翻译 |
+
+### 安装与使用
+
+```bash
+# 推荐方式
+npx skills add jimliu/baoyu-skills
+
+# 或通过 Claude Code Plugin
+/plugin marketplace add JimLiu/baoyu-skills
+```
+
+> [!tip] 环境配置
+> 部分 skill（如 baoyu-image-gen）需要配置 API Key。可在 `~/.baoyu-skills/.env`（用户级）或 `<项目>/.baoyu-skills/.env`（项目级）中设置环境变量。支持 OpenAI、Google、DashScope、即梦、豆包等多个 provider 的 Key 配置。

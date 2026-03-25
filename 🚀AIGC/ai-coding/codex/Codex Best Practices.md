@@ -13,9 +13,15 @@ source: https://developers.openai.com/codex/learn/best-practices
 > [!abstract] 概述
 > OpenAI Codex 最佳实践指南，涵盖 Prompt 编写、任务规划、AGENTS.md 配置、MCP 集成、Skills 复用及自动化等核心主题。核心理念：**把 Codex 当作一个可以持续配置和改进的团队成员，而非一次性助手。**
 
+![[Gemini_Generated_Image_mhc1akmhc1akmhc1.png]]
+
+
+
+
 ## 1. 提供清晰的 Context 和 Prompt
 
 一个好的 Prompt 应包含四个要素：
+![[Pasted image 20260325141342.png]]
 
 | 要素 | 说明 |
 |------|------|
@@ -52,7 +58,7 @@ source: https://developers.openai.com/codex/learn/best-practices
 - 「完成」的定义及验证方式
 
 **层级结构：**
-
+![[Gemini_Generated_Image_ql1yzbql1yzbql1y.png]]
 - `~/.codex/AGENTS.md` → 个人全局默认
 - 仓库根目录 `AGENTS.md` → 团队共享标准
 - 子目录 `AGENTS.md` → 局部规则（**就近原则，更具体的优先**）
@@ -61,6 +67,8 @@ source: https://developers.openai.com/codex/learn/best-practices
 > - 保持简短精确，比长篇泛泛的规则更有用
 > - 当 Codex 犯同样的错误两次时，让它做 Retrospective 并更新 `AGENTS.md`
 > - 如果文件过大，保持主文件精简，引用独立的 Markdown 文件（如 `code_review.md`、`architecture.md`）
+
+
 
 ## 4. 配置 Codex 保持一致性
 
@@ -113,7 +121,7 @@ source: https://developers.openai.com/codex/learn/best-practices
 ## 7. 将重复工作变成 Skills
 
 当工作流变得可重复时，用 Skill 将指令、Context 和逻辑打包。
-
+![[Gemini_Generated_Image_ipuer8ipuer8ipue.png]]
 **Skill 设计原则：**
 
 - 每个 Skill 专注一个任务

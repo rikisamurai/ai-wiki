@@ -1,6 +1,11 @@
 {
   "version": 1,
   "skills": {
+    "baoyu-article-illustrator": {
+      "source": "jimliu/baoyu-skills",
+      "sourceType": "github",
+      "computedHash": "034ac92d24b2b7c92293fa6dbfe6fda803306dc0bf29ec56c88f64e9e01e66b8"
+    },
     "defuddle": {
       "source": "kepano/obsidian-skills",
       "sourceType": "git",

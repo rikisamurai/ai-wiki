@@ -23,3 +23,4 @@
 
 [agent-browser | Headless Browser Automation for AI](https://agent-browser.dev/)
 
+[OpenCLI — Make Any Website Your CLI](https://opencli.info/)
