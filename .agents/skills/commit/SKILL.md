@@ -51,13 +51,30 @@ chore: 整理 skills 软链接
 fix: 修正 Prompt Engineering 笔记中的错误描述
 ```
 
-### 4. 提交
+### 4. 验收 commit message
+
+将生成的 commit message 以代码块展示给用户：
+
+```
+<生成的 commit message>
+```
+
+使用 `AskUserQuestion` 工具询问用户：
+
+> 以上是准备提交的 commit message，是否确认？如需修改请直接告知新的 message。
+
+根据用户回复：
+- **确认** → 使用原 message 执行 Step 5 提交
+- **提供新 message** → 使用用户提供的 message 执行 Step 5 提交
+- **取消** → 中止提交，告知用户已取消
+
+### 5. 提交
 
 文件已在 Step 1 暂存，直接提交：
 
 ```bash
 git commit -m "$(cat <<'EOF'
-<生成的 commit message>
+<确认的 commit message>
 EOF
 )"
 ```
@@ -66,7 +83,7 @@ EOF
 - 不要添加 `--no-verify`，遵守项目 hooks
 - 如果 commit 失败（如 hook 报错），修复问题后重新提交，不要 amend
 
-### 5. 展示结果
+### 6. 展示结果
 
 提交成功后，运行 `git show --stat HEAD` 并输出：
 1. 提交的 commit hash 和 git message
