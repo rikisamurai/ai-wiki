@@ -72,7 +72,8 @@
     "🚀AIGC": {
       "children": [
         "🚀AIGC/ai-coding",
-        "🚀AIGC/browser-use"
+        "🚀AIGC/browser-use",
+        "🚀AIGC/rag"
       ],
       "sortOrder": "custom"
     },
@@ -118,12 +119,10 @@
     },
     "🚀AIGC/ai-coding/claude-code": {
       "children": [
-        "🚀AIGC/ai-coding/claude-code/asset",
-        "🚀AIGC/ai-coding/claude-code/Claude Code Memory 机制详解.md",
-        "🚀AIGC/ai-coding/claude-code/Claude Code 最佳实践.md",
-        "🚀AIGC/ai-coding/claude-code/Claude Code 深度使用指南 - HiTw93.md",
-        "🚀AIGC/ai-coding/claude-code/claude-code-tools.md",
-        "🚀AIGC/ai-coding/claude-code/claude-tips.md"
+        "🚀AIGC/ai-coding/claude-code/💡claude-tips.md",
+        "🚀AIGC/ai-coding/claude-code/🛠️claude-code-tools.md",
+        "🚀AIGC/ai-coding/claude-code/blog",
+        "🚀AIGC/ai-coding/claude-code/asset"
       ],
       "sortOrder": "custom"
     },
@@ -133,10 +132,18 @@
       ],
       "sortOrder": "custom"
     },
+    "🚀AIGC/ai-coding/claude-code/blog": {
+      "children": [
+        "🚀AIGC/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密.md",
+        "🚀AIGC/ai-coding/claude-code/blog/Claude Code 最佳实践.md",
+        "🚀AIGC/ai-coding/claude-code/blog/Claude Code Memory 机制详解.md",
+        "🚀AIGC/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93.md"
+      ],
+      "sortOrder": "custom"
+    },
     "🚀AIGC/ai-coding/codex": {
       "children": [
         "🚀AIGC/ai-coding/codex/asset",
-        "🚀AIGC/ai-coding/codex/imgs",
         "🚀AIGC/ai-coding/codex/Codex Best Practices.md"
       ],
       "sortOrder": "custom"
@@ -148,16 +155,6 @@
         "🚀AIGC/ai-coding/codex/asset/Gemini_Generated_Image_ql1yzbql1yzbql1y.png",
         "🚀AIGC/ai-coding/codex/asset/Pasted image 20260325141342.png"
       ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/codex/imgs": {
-      "children": [
-        "🚀AIGC/ai-coding/codex/imgs/prompts"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/codex/imgs/prompts": {
-      "children": [],
       "sortOrder": "custom"
     },
     "🚀AIGC/ai-coding/tools": {
@@ -185,6 +182,7 @@
     },
     "🚀AIGC/browser-use/blog": {
       "children": [
+        "🚀AIGC/browser-use/blog/OpenCLI：把任何网站变成 AI Agent 的命令行工具.md",
         "🚀AIGC/browser-use/blog/asset",
         "🚀AIGC/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI",
         "🚀AIGC/browser-use/blog/CDP 视角下的 Browser 控制边界.md",
@@ -214,8 +212,16 @@
       ],
       "sortOrder": "custom"
     },
+    "🚀AIGC/rag": {
+      "children": [
+        "🚀AIGC/rag/intro.md"
+      ],
+      "sortOrder": "custom"
+    },
     "00_inbox": {
       "children": [
+        "00_inbox/搞懂缓存机制，从Gemma4到Claude Code省80%Token.md",
+        "00_inbox/我的 Vibe Coding 项目.md",
         "00_inbox/asset",
         "00_inbox/告别复制粘贴：浏览器一键剪藏到 Obsidian.md"
       ],

@@ -53,15 +53,23 @@ fix: 修正 Prompt Engineering 笔记中的错误描述
 
 ### 4. 验收 commit message
 
-将生成的 commit message 以代码块展示给用户：
+确认面板打开后，用户往往看不到**上一条** assistant 气泡里的 commit message，因此：
+
+1. **必须把完整 commit message 写进 `AskUserQuestion` 的 `prompt`**（主展示位），不要假设用户还能看见别处的内容。
+2. `prompt` 结构建议：一两句说明 +  fenced 代码块包住 message + 一句「是否采用？若要修改请在本轮对话里直接写出新的 message」。
+3. 可选：在同一条 assistant 消息正文里再用代码块写一遍（与 `prompt` 内**完全一致**），便于在时间线里搜索；**以即将提交的内容为准，即 `prompt` 里的那段**。
+
+`prompt` 模板示例（外层围栏用四个反引号，内层才能再写三反引号代码块）：
+
+````text
+准备提交，commit message 如下：
 
 ```
 <生成的 commit message>
 ```
 
-使用 `AskUserQuestion` 工具询问用户：
-
-> 以上是准备提交的 commit message，是否确认？如需修改请直接告知新的 message。
+是否采用？若要改成别的，请在本轮对话里直接写出完整新 message；选「取消」则中止提交。
+````
 
 根据用户回复：
 - **确认** → 使用原 message 执行 Step 5 提交
