@@ -2,18 +2,63 @@
   "customOrder": {
     "/": {
       "children": [
+        "🌇FrontEnd",
         "😈Magic",
         "🚀AIGC",
         "00_inbox",
-        "CLAUDE.md",
-        "skills-lock.json"
+        "AGENTS.md",
+        "skills-lock.json",
+        "CLAUDE.md"
       ],
+      "sortOrder": "custom"
+    },
+    "🌇FrontEnd": {
+      "children": [
+        "🌇FrontEnd/JavaScript",
+        "🌇FrontEnd/React"
+      ],
+      "sortOrder": "custom"
+    },
+    "🌇FrontEnd/JavaScript": {
+      "children": [
+        "🌇FrontEnd/JavaScript/Blog"
+      ],
+      "sortOrder": "custom"
+    },
+    "🌇FrontEnd/JavaScript/Blog": {
+      "children": [
+        "🌇FrontEnd/JavaScript/Blog/JavaScript 市场分析.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "🌇FrontEnd/React": {
+      "children": [
+        "🌇FrontEnd/React/React Native",
+        "🌇FrontEnd/React/Blog"
+      ],
+      "sortOrder": "custom"
+    },
+    "🌇FrontEnd/React/Blog": {
+      "children": [
+        "🌇FrontEnd/React/Blog/asset",
+        "🌇FrontEnd/React/Blog/Why we banned React's useEffect.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "🌇FrontEnd/React/Blog/asset": {
+      "children": [
+        "🌇FrontEnd/React/Blog/asset/Pasted image 20260318190815.png",
+        "🌇FrontEnd/React/Blog/asset/Pasted image 20260318190942.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "🌇FrontEnd/React/React Native": {
+      "children": [],
       "sortOrder": "custom"
     },
     "😈Magic": {
       "children": [
         "😈Magic/obsidian",
-        "😈Magic/React",
         "😈Magic/🧱Cross Walls.md",
         "😈Magic/HTTP3 入门指南.md"
       ],
@@ -46,26 +91,6 @@
     "😈Magic/obsidian/obsidian-tips": {
       "children": [
         "😈Magic/obsidian/obsidian-tips/obsidian-callouts.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "😈Magic/React": {
-      "children": [
-        "😈Magic/React/Blog"
-      ],
-      "sortOrder": "custom"
-    },
-    "😈Magic/React/Blog": {
-      "children": [
-        "😈Magic/React/Blog/asset",
-        "😈Magic/React/Blog/Why we banned React's useEffect.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "😈Magic/React/Blog/asset": {
-      "children": [
-        "😈Magic/React/Blog/asset/Pasted image 20260318190815.png",
-        "😈Magic/React/Blog/asset/Pasted image 20260318190942.png"
       ],
       "sortOrder": "custom"
     },
