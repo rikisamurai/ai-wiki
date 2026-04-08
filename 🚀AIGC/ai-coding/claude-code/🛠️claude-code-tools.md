@@ -118,3 +118,78 @@ npm install
 | **Security Guide** | 攻击向量、沙箱、sanitization、CVE、AgentShield |
 
 **项目链接：** [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)
+
+## Codex Plugin for Claude Code
+
+把 Codex 接到 Claude Code 里的插件，适合已经习惯在 Claude Code 中工作，但希望临时调用 Codex 做 code review、对实现方案做压力测试，或者把某个排障/修复任务委派出去的场景。
+
+### 什么时候适合用
+
+- **只读代码审查** — 用 `/codex:review` 看当前未提交改动，或对比 `main` 做一次独立复审
+- **挑战当前方案** — 用 `/codex:adversarial-review` 专门质疑实现方向、隐藏假设、可靠性和边界条件
+- **委派后台任务** — 用 `/codex:rescue` 把 bug 排查、修复尝试、延续上次任务交给 Codex，在后台慢慢跑
+
+### 常用命令
+
+| 命令                          | 用途                                                |
+| --------------------------- | ------------------------------------------------- |
+| `/codex:review`             | 对当前改动做普通只读 review，支持 `--base main`、`--background` |
+| `/codex:adversarial-review` | 做带攻击性的 review，重点挑战设计、取舍和风险点                       |
+| `/codex:rescue`             | 把任务委派给 Codex subagent，可用于排障、修复、续跑上次任务             |
+| `/codex:status`             | 查看当前仓库里正在运行或最近完成的 Codex 任务                        |
+| `/codex:result`             | 查看后台任务的最终结果，适合和 `--background` 搭配                 |
+
+### 最小安装步骤
+
+> [!info] 前置条件
+> - ChatGPT 订阅（含 Free）或 OpenAI API key
+> - Node.js 18.18+
+
+在 Claude Code 中依次运行：
+
+```bash
+# 1. 添加 marketplace
+/plugin marketplace add openai/codex-plugin-cc
+
+# 2. 安装插件
+/plugin install codex@openai-codex
+
+# 3. 重载插件
+/reload-plugins
+
+# 4. 完成 setup
+/codex:setup
+```
+
+如果本机还没安装 Codex CLI，也可以手动执行：
+
+```bash
+npm install -g @openai/codex
+!codex login
+```
+
+### 一个顺手的实战流
+
+先把 review 放到后台，再回来拿结果：
+
+```bash
+/codex:review --background
+/codex:status
+/codex:result
+```
+
+如果你想让它专门质疑某个方向，可以这样用：
+
+```bash
+/codex:adversarial-review --background look for race conditions and question the chosen approach
+```
+
+如果是排障或修复任务，直接委派：
+
+```bash
+/codex:rescue --background investigate why the tests started failing
+```
+
+对于主要在 Claude Code 中开发的人来说，这个插件的价值不是“替代 Claude”，而是把 Codex 作为第二审阅者和后台执行器接进现有工作流里。
+
+**项目链接：** [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)
