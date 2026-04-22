@@ -70,3 +70,45 @@ title: ai-wiki Activity Log
 ## [2026-04-22 19:08] migrate-next | SKIP · react-native tips
 - SKIP 原因：源文件仅含一条外链（vercel-react-native-skills），无可抽取概念
 - source: sources/posts/frontend/React/React Native/react-native tips.md
+
+## [2026-04-22 20:44] migrate-next | 12/41 · HTTP/3 入门指南
+- 新建：[[wiki/frontend/http-3]]、[[wiki/frontend/quic]]、[[wiki/frontend/head-of-line-blocking]]、[[wiki/frontend/0-rtt-握手]]、[[wiki/frontend/connection-migration]]
+- source: sources/posts/obsidian/HTTP3 入门指南.md
+
+## [2026-04-22 20:46] migrate-next | SKIP · Cross Walls
+- SKIP 原因：仅为机场/客户端链接收藏，无可抽取概念，且主题不在 4 个 wiki domain 内
+- source: sources/posts/obsidian/🧱Cross Walls.md
+
+## [2026-04-22 20:55] migrate-next | 13/41 · obsidian-quick-start
+- 新建：[[wiki/obsidian/knowledge-graph]]、[[wiki/obsidian/templater]]、[[wiki/obsidian/dataview]]、[[wiki/obsidian/para-方法]]、[[wiki/obsidian/zettelkasten]]、[[wiki/obsidian/moc-索引笔记]]
+- 备注：Callouts/block-reference/内部链接 留给后续专题 source 各自专门页面
+- source: sources/posts/obsidian/obsidian/🚀obsidian-quick-start.md
+
+## [2026-04-22 21:05] migrate-next | 14/41 · Claudian - Obsidian × Claude Code
+- 新建：[[wiki/obsidian/claudian]]、[[wiki/aigc/plan-mode]]、[[wiki/aigc/inline-edit]]、[[wiki/aigc/mcp]]、[[wiki/aigc/permission-modes]]
+- 备注：aigc/ 首批入驻；Skills/Custom Agents 留给后续专题 source
+- source: sources/posts/obsidian/obsidian/obsidian-claude/Claudian - Obsidian × Claude Code.md
+
+## [2026-04-22 21:18] migrate-next | 15/41 · obsidian-claude/skills (kepano)
+- 新建：[[wiki/aigc/agent-skills]]、[[wiki/obsidian/obsidian-skills]]、[[wiki/obsidian/obsidian-bases]]、[[wiki/obsidian/json-canvas]]、[[wiki/obsidian/defuddle]]、[[wiki/obsidian/obsidian-cli]]
+- source: sources/posts/obsidian/obsidian/obsidian-claude/skills.md
+
+## [2026-04-22 21:25] migrate-next | 16/41 · obsidian-callouts
+- 新建：[[wiki/obsidian/callouts]]
+- 备注：单页面综合 Callout 语法/13 种内置类型/折叠/嵌套/CSS 自定义
+- source: sources/posts/obsidian/obsidian/obsidian-tips/obsidian-callouts.md
+
+## [2026-04-22 21:32] migrate-next | 17/41 · block-link-demo
+- 新建：[[wiki/obsidian/block-reference]]
+- 备注：source 主要是块引用语法演示；下一条 block reference use cases 会补充使用场景页
+- source: sources/posts/obsidian/obsidian/linking-notes-and-files/block-link-demo.md
+
+## [2026-04-22 21:38] migrate-next | 18/41 · block reference use cases
+- 新建：[[wiki/obsidian/block-reference-use-cases]]
+- 更新：[[wiki/obsidian/block-reference]]（frontmatter sources 追加）
+- source: sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 block reference use cases.md
+
+## [2026-04-22 21:48] migrate-next | 19/41 · 内部链接（Internal Links）
+- 新建：[[wiki/obsidian/wikilink]]、[[wiki/obsidian/embed-files]]、[[wiki/obsidian/aliases]]
+- 备注：块引用部分已在 17/41、18/41 沉淀，此次不重复
+- source: sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）.md

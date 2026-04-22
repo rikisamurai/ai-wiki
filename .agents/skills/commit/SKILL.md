@@ -1,5 +1,5 @@
 ---
-name: commit
+name: commit-doc
 description: Use when the user wants to commit changes - runs git diff, generates a commit message, and commits automatically. Trigger with /commit slash command.
 ---
 

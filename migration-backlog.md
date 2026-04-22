@@ -5,7 +5,7 @@ date: 2026-04-22
 
 # 存量 Source Ingest Backlog
 
-进度：11/41 _（用 `/migrate-next` 推进，每完成一条进度 +1）_
+进度：19/41 _（用 `/migrate-next` 推进，每完成一条进度 +1）_
 
 > 用 `/migrate-next` 自动取下一条。完成的条目会被勾掉并附日期。
 > 失败的标记为 `- [SKIP]` 并附原因，不阻塞流水线。
@@ -57,12 +57,12 @@ _无（已在 pre-flight 基线中删除）_
 
 ## posts/obsidian
 
-- [ ] `sources/posts/obsidian/HTTP3 入门指南.md`
-- [ ] `sources/posts/obsidian/🧱Cross Walls.md`
-- [ ] `sources/posts/obsidian/obsidian/🚀obsidian-quick-start.md`
-- [ ] `sources/posts/obsidian/obsidian/obsidian-claude/Claudian - Obsidian × Claude Code.md`
-- [ ] `sources/posts/obsidian/obsidian/obsidian-claude/skills.md`
-- [ ] `sources/posts/obsidian/obsidian/obsidian-tips/obsidian-callouts.md`
-- [ ] `sources/posts/obsidian/obsidian/linking-notes-and-files/block-link-demo.md`
-- [ ] `sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 block reference use cases.md`
-- [ ] `sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）.md`
+- [x] `sources/posts/obsidian/HTTP3 入门指南.md` ← 2026-04-22
+- [SKIP] `sources/posts/obsidian/🧱Cross Walls.md` ← 2026-04-22: 仅为机场/客户端链接收藏，无可抽取概念，且主题不在 4 个 wiki domain 内
+- [x] `sources/posts/obsidian/obsidian/🚀obsidian-quick-start.md` ← 2026-04-22
+- [x] `sources/posts/obsidian/obsidian/obsidian-claude/Claudian - Obsidian × Claude Code.md` ← 2026-04-22
+- [x] `sources/posts/obsidian/obsidian/obsidian-claude/skills.md` ← 2026-04-22
+- [x] `sources/posts/obsidian/obsidian/obsidian-tips/obsidian-callouts.md` ← 2026-04-22
+- [x] `sources/posts/obsidian/obsidian/linking-notes-and-files/block-link-demo.md` ← 2026-04-22
+- [x] `sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 block reference use cases.md` ← 2026-04-22
+- [x] `sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）.md` ← 2026-04-22
