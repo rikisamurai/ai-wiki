@@ -5,7 +5,7 @@ date: 2026-04-22
 
 # 存量 Source Ingest Backlog
 
-进度：24/41 _（用 `/migrate-next` 推进，每完成一条进度 +1）_
+进度：25/41 _（用 `/migrate-next` 推进，每完成一条进度 +1）_
 
 > 用 `/migrate-next` 自动取下一条。完成的条目会被勾掉并附日期。
 > 失败的标记为 `- [SKIP]` 并附原因，不阻塞流水线。
@@ -27,7 +27,7 @@ date: 2026-04-22
 - [x] `sources/posts/aigc/ai-coding/blog/🛠️ 构建 Claude Code 的经验：如何使用 Skills.md` ← 2026-04-22
 - [x] `sources/posts/aigc/ai-coding/blog/🤖 Harness Engineering：在 Agent-First 时代利用 Codex.md` ← 2026-04-22
 - [x] `sources/posts/aigc/ai-coding/claude-code/blog/Claude Code Memory 机制详解.md` ← 2026-04-22
-- [ ] `sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践.md`
+- [x] `sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践.md` ← 2026-04-22
 - [ ] `sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93.md`
 - [ ] `sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密.md`
 - [ ] `sources/posts/aigc/ai-coding/claude-code/💡claude-tips.md`

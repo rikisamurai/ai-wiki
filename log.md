@@ -113,6 +113,12 @@ title: ai-wiki Activity Log
 - 备注：块引用部分已在 17/41、18/41 沉淀，此次不重复
 - source: sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）.md
 
+## [2026-04-22 23:35] migrate-next | 25/41 · Claude Code 最佳实践
+- 新建：[[wiki/aigc/claude-code]]、[[wiki/ai-coding/验证驱动]]、[[wiki/ai-coding/探索-规划-编码-验证]]、[[wiki/aigc/hooks]]、[[wiki/ai-coding/两次纠正规则]]、[[wiki/ai-coding/writer-reviewer-模式]]、[[wiki/ai-coding/采访驱动-spec]]
+- 更新：[[wiki/aigc/claude-code-memory]]、[[wiki/ai-coding/compact-vs-clear]]、[[wiki/ai-coding/rewind-胜过纠正]]、[[wiki/aigc/plan-mode]]（frontmatter sources 追加）
+- source: sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践.md
+- 备注：建立 wiki/aigc/claude-code.md 主框架页，后续 26/41 深度指南、28/41 claude-tips 走追加补充
+
 ## [2026-04-22 23:08] migrate-next | 24/41 · Claude Code Memory 机制详解
 - 新建：[[wiki/aigc/claude-code-memory]]、[[wiki/aigc/claude-rules]]、[[wiki/aigc/auto-memory]]
 - 更新：[[wiki/ai-coding/agents-md]]（指向 Claude Code 实现）

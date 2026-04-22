@@ -4,6 +4,7 @@ tags: [session-management, claude-code, technique]
 date: 2026-04-22
 sources:
   - "[[sources/inbox/使用 Claude Code：会话管理与 100 万 上下文【译】]]"
+  - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
 last-ingested: 2026-04-22
 status: stable
 ---
