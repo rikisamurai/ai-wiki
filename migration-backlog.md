@@ -5,7 +5,7 @@ date: 2026-04-22
 
 # 存量 Source Ingest Backlog
 
-进度：20/41 _（用 `/migrate-next` 推进，每完成一条进度 +1）_
+进度：21/41 _（用 `/migrate-next` 推进，每完成一条进度 +1）_
 
 > 用 `/migrate-next` 自动取下一条。完成的条目会被勾掉并附日期。
 > 失败的标记为 `- [SKIP]` 并附原因，不阻塞流水线。
@@ -23,7 +23,7 @@ date: 2026-04-22
 ## posts/aigc
 
 - [x] `sources/posts/aigc/ai-coding/blog/从Spec Coding到Harness：AI Coding的两次范式转变与实践总结.md` ← 2026-04-22
-- [ ] `sources/posts/aigc/ai-coding/blog/🔍 AI CR 的理想与现实：别让 AI 帮你做 Lint 的苦力！.md`
+- [x] `sources/posts/aigc/ai-coding/blog/🔍 AI CR 的理想与现实：别让 AI 帮你做 Lint 的苦力！.md` ← 2026-04-22
 - [ ] `sources/posts/aigc/ai-coding/blog/🛠️ 构建 Claude Code 的经验：如何使用 Skills.md`
 - [ ] `sources/posts/aigc/ai-coding/blog/🤖 Harness Engineering：在 Agent-First 时代利用 Codex.md`
 - [ ] `sources/posts/aigc/ai-coding/claude-code/blog/Claude Code Memory 机制详解.md`

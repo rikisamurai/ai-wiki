@@ -113,6 +113,11 @@ title: ai-wiki Activity Log
 - 备注：块引用部分已在 17/41、18/41 沉淀，此次不重复
 - source: sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）.md
 
+## [2026-04-22 22:38] migrate-next | 21/41 · AI CR 的理想与现实
+- 新建：[[wiki/ai-coding/ai-code-review]]、[[wiki/ai-coding/shift-left]]、[[wiki/ai-coding/ai-写-lint]]
+- 更新：[[wiki/ai-coding/review-带宽瓶颈]]（frontmatter sources 追加）
+- source: sources/posts/aigc/ai-coding/blog/🔍 AI CR 的理想与现实：别让 AI 帮你做 Lint 的苦力！.md
+
 ## [2026-04-22 21:57] migrate-next | 20/41 · 从 Spec Coding 到 Harness
 - 新建：[[wiki/ai-coding/spec-coding]]、[[wiki/ai-coding/约束悖论]]、[[wiki/ai-coding/ralph-loop]]、[[wiki/ai-coding/agent-等待时间]]、[[wiki/ai-coding/agents-md]]、[[wiki/ai-coding/行为正确性]]、[[wiki/ai-coding/harness-成熟度]]、[[wiki/ai-coding/任务三维划分]]
 - 更新：[[wiki/ai-coding/harness-engineering]]（追加约束悖论/反应式生长/三层成熟度等关联，frontmatter sources 追加）、[[wiki/ai-coding/vibe-coding]]（TL;DR 补 Karpathy 出处与"大号 demo"，frontmatter sources 追加）

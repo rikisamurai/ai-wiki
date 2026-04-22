@@ -4,6 +4,7 @@ tags: [ai-coding, code-review, agentic-coding]
 date: 2026-04-22
 sources:
   - "[[sources/inbox/Agentic Coding 的边界]]"
+  - "[[sources/posts/aigc/ai-coding/blog/🔍 AI CR 的理想与现实：别让 AI 帮你做 Lint 的苦力！]]"
 last-ingested: 2026-04-22
 status: draft
 ---
