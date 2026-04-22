@@ -1,0 +1,46 @@
+filters:
+  and:
+    - file.folder.startsWith("wiki")
+    - file.ext == "md"
+properties:
+  title:
+    displayName: 标题
+  status:
+    displayName: 状态
+  last-ingested:
+    displayName: 最近 ingest
+  tags:
+    displayName: tags
+views:
+  - type: table
+    name: recent-wiki
+    order:
+      - file.name
+      - status
+      - last-ingested
+      - tags
+    sort:
+      - property: last-ingested
+        direction: DESC
+    limit: 30
+  - type: table
+    name: by-domain
+    groupBy: file.folder
+    order:
+      - file.name
+      - status
+      - last-ingested
+  - type: table
+    name: pending-sources
+    filters:
+      and:
+        - file.folder.startsWith("sources")
+        - file.ext == "md"
+    order:
+      - file.name
+      - file.folder
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 30

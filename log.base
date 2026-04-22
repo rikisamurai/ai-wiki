@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.name == "log.md"
+properties:
+  file.name:
+    displayName: 文件
+views:
+  - type: table
+    name: ops-by-date
+    order:
+      - file.name
