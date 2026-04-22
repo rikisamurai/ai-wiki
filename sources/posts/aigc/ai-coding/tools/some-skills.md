@@ -192,15 +192,15 @@ npx skills add jimliu/baoyu-skills
 
 **Web Application (React + Node.js + PostgreSQL)**
 
-![[🚀AIGC/ai-coding/tools/asset/arch-diagram-web-app.png]]
+![[sources/posts/aigc/ai-coding/tools/asset/arch-diagram-web-app.png]]
 
 **AWS Serverless (Lambda + API Gateway + DynamoDB)**
 
-![[🚀AIGC/ai-coding/tools/asset/arch-diagram-aws-serverless.png]]
+![[sources/posts/aigc/ai-coding/tools/asset/arch-diagram-aws-serverless.png]]
 
 **Microservices (Kubernetes + API Gateway)**
 
-![[🚀AIGC/ai-coding/tools/asset/arch-diagram-microservices.png]]
+![[sources/posts/aigc/ai-coding/tools/asset/arch-diagram-microservices.png]]
 
 ### 配色方案
 

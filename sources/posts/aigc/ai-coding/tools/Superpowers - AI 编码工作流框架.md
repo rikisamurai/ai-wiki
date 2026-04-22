@@ -156,4 +156,4 @@ Skills 随插件自动更新。
 
 ## 相关笔记
 
-- [[😈Magic/ai-coding/claude-code/Claude Code Memory 机制详解]]
+- [[sources/posts/obsidian/ai-coding/claude-code/Claude Code Memory 机制详解]]
