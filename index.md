@@ -12,6 +12,7 @@ date: 2026-04-22
 
 ## AI Coding
 
+- [[wiki/ai-coding/agent-可读性|Agent 可读性（Legibility）]]
 - [[wiki/ai-coding/agent-等待时间|Agent 等待时间（Human Wait）]]
 - [[wiki/ai-coding/agentic-coding|Agentic Coding]]
 - [[wiki/ai-coding/agents-md|AGENTS.md]]
@@ -26,6 +27,8 @@ date: 2026-04-22
 - [[wiki/ai-coding/compact-vs-clear|Compact vs Clear]]
 - [[wiki/ai-coding/context-rot|Context Rot]]
 - [[wiki/ai-coding/context-window|Context Window]]
+- [[wiki/ai-coding/doc-gardening|Doc Gardening Agent]]
+- [[wiki/ai-coding/enforce-invariants|Enforce Invariants, Not Implementations]]
 - [[wiki/ai-coding/harness-engineering|Harness Engineering]]
 - [[wiki/ai-coding/harness-成熟度|Harness 三层成熟度]]
 - [[wiki/ai-coding/kv-cache|KV Cache]]
@@ -53,6 +56,7 @@ date: 2026-04-22
 - [[wiki/ai-coding/约束悖论|约束悖论]]
 - [[wiki/ai-coding/行为正确性|行为正确性]]
 - [[wiki/ai-coding/隐性知识与上下文|隐性知识与上下文]]
+- [[wiki/ai-coding/高吞吐合并哲学|高吞吐合并哲学]]
 
 ## AIGC
 
