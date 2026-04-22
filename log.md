@@ -113,6 +113,11 @@ title: ai-wiki Activity Log
 - 备注：块引用部分已在 17/41、18/41 沉淀，此次不重复
 - source: sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）.md
 
+## [2026-04-22 22:48] migrate-next | 22/41 · 构建 Claude Code 的经验：如何使用 Skills
+- 新建：[[wiki/aigc/skills-9-分类]]、[[wiki/aigc/渐进式披露]]、[[wiki/aigc/skill-编写实践]]
+- 更新：[[wiki/aigc/agent-skills]]（追加深入章节，frontmatter sources 追加）
+- source: sources/posts/aigc/ai-coding/blog/🛠️ 构建 Claude Code 的经验：如何使用 Skills.md
+
 ## [2026-04-22 22:38] migrate-next | 21/41 · AI CR 的理想与现实
 - 新建：[[wiki/ai-coding/ai-code-review]]、[[wiki/ai-coding/shift-left]]、[[wiki/ai-coding/ai-写-lint]]
 - 更新：[[wiki/ai-coding/review-带宽瓶颈]]（frontmatter sources 追加）

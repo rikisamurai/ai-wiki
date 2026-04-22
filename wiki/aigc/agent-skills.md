@@ -4,6 +4,7 @@ tags: [agent, claude-code, spec]
 date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/obsidian/obsidian-claude/skills]]"
+  - "[[sources/posts/aigc/ai-coding/blog/🛠️ 构建 Claude Code 的经验：如何使用 Skills]]"
 last-ingested: 2026-04-22
 status: draft
 ---
@@ -31,3 +32,9 @@ Agent Skills 是一种跨 Agent 通用的能力包格式（规范见 agentskills
 
 > [!tip] 跨 Agent 复用
 > 同一份 skill 仓库（如 [[wiki/obsidian/obsidian-skills|obsidian-skills]]）能服务多种 Agent —— Claude Code 装到 `.claude/skills/`，Codex CLI 装到 `~/.codex/skills`，[[wiki/obsidian/claudian|Claudian]] 装到 `{vault}/.claude/skills/`。这是 [[wiki/aigc/mcp|MCP]] 之外另一条"标准化 Agent 生态"的路径。
+
+## 深入
+
+- [[skills-9-分类]]：Anthropic 内部几百个 Skills 归纳出的 9 大类别，写新 Skill 前先判定属于哪类
+- [[skill-编写实践]]：踩坑点章节、`description` 是 if-then、不要说显而易见的事等钢律
+- [[渐进式披露]]：把 SKILL.md 当索引，细节下沉到 `references/` 和 `assets/`
