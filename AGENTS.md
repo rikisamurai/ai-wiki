@@ -91,6 +91,7 @@ status: draft | stable | stale
 - 新建 wiki 页面必须包含 §wiki 页面规范 中的 frontmatter
 - tag 必须 kebab-case，一篇文章最多 3 个 tags
 - 善用 Obsidian callouts 组织内容
+- **克制使用 header**（`##`、`###`）：短内容（少于 3-5 段实质内容、或只有 1-2 个 bullet 就讲完）不要单独开 header，改用 `**粗体引导句**：` 或直接成段。只有真正多分支且各分支较长的内容才上 header。Callout（`> [!note]` 等）自带视觉边界，外层不要再套 header。
 
 ## 提交规范
 

@@ -5,20 +5,20 @@ date: 2026-04-22
 
 # 存量 Source Ingest Backlog
 
-进度：0/41 _（用 `/migrate-next` 推进，每完成一条进度 +1）_
+进度：11/41 _（用 `/migrate-next` 推进，每完成一条进度 +1）_
 
 > 用 `/migrate-next` 自动取下一条。完成的条目会被勾掉并附日期。
 > 失败的标记为 `- [SKIP]` 并附原因，不阻塞流水线。
 
 ## inbox（最高优先级）
 
-- [ ] `sources/inbox/Agentic Coding 的边界.md`
-- [ ] `sources/inbox/⁠‬⁠​​‬⁠​‍⁠​​​‬​‌​​​​​​⁠﻿​​﻿‬⁠﻿﻿​‬‌⁠​‬﻿⁠⁠​​﻿‌﻿‍‍Prefix Cache：Long Horizon Agent 的效率基石.md`
-- [ ] `sources/inbox/为什么你的"AI 优先"战略可能大错特错？.md`
-- [ ] `sources/inbox/使用 Claude Code：会话管理与 100 万 上下文【译】.md`
-- [ ] `sources/inbox/告别复制粘贴：浏览器一键剪藏到 Obsidian.md`
-- [ ] `sources/inbox/我的 Vibe Coding 项目.md`
-- [ ] `sources/inbox/搞懂缓存机制，从Gemma4到Claude Code省80%Token.md`
+- [x] `sources/inbox/Agentic Coding 的边界.md` ← 2026-04-22
+- [x] `sources/inbox/⁠‬⁠​​‬⁠​‍⁠​​​‬​‌​​​​​​⁠﻿​​﻿‬⁠﻿﻿​‬‌⁠​‬﻿⁠⁠​​﻿‌﻿‍‍Prefix Cache：Long Horizon Agent 的效率基石.md` ← 2026-04-22
+- [x] `sources/inbox/为什么你的"AI 优先"战略可能大错特错？.md` ← 2026-04-22
+- [x] `sources/inbox/使用 Claude Code：会话管理与 100 万 上下文【译】.md` ← 2026-04-22
+- [x] `sources/inbox/告别复制粘贴：浏览器一键剪藏到 Obsidian.md` ← 2026-04-22
+- [x] `sources/inbox/我的 Vibe Coding 项目.md` ← 2026-04-22
+- [x] `sources/inbox/搞懂缓存机制，从Gemma4到Claude Code省80%Token.md` ← 2026-04-22
 
 ## posts/aigc
 
@@ -49,11 +49,11 @@ _无（已在 pre-flight 基线中删除）_
 
 ## posts/frontend
 
-- [ ] `sources/posts/frontend/JavaScript/Blog/JavaScript 市场分析.md`
-- [ ] `sources/posts/frontend/React/Blog/Why we banned React's useEffect.md`
-- [ ] `sources/posts/frontend/React/React Native/learning/flash-list.md`
-- [ ] `sources/posts/frontend/React/React Native/learning/react-native-core-components.md`
-- [ ] `sources/posts/frontend/React/React Native/react-native tips.md`
+- [x] `sources/posts/frontend/JavaScript/Blog/JavaScript 市场分析.md` ← 2026-04-22
+- [x] `sources/posts/frontend/React/Blog/Why we banned React's useEffect.md` ← 2026-04-22
+- [x] `sources/posts/frontend/React/React Native/learning/flash-list.md` ← 2026-04-22
+- [x] `sources/posts/frontend/React/React Native/learning/react-native-core-components.md` ← 2026-04-22
+- [SKIP] `sources/posts/frontend/React/React Native/react-native tips.md` ← 2026-04-22: 源文件仅含一条外链（vercel-react-native-skills），无可抽取概念
 
 ## posts/obsidian
 

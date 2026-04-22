@@ -9,3 +9,6 @@ views:
     name: ops-by-date
     order:
       - file.name
+    sort:
+      - property: file.name
+        direction: ASC
