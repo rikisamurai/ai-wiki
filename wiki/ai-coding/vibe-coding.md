@@ -5,6 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/inbox/为什么你的\"AI 优先\"战略可能大错特错？]]"
   - "[[sources/inbox/我的 Vibe Coding 项目]]"
+  - "[[sources/posts/aigc/ai-coding/blog/从Spec Coding到Harness：AI Coding的两次范式转变与实践总结]]"
 last-ingested: 2026-04-22
 status: stable
 ---
@@ -12,7 +13,7 @@ status: stable
 # Vibe Coding（凭感觉编程）
 
 > [!note] TL;DR
-> Vibe Coding 是当下最常见的 AI 编程姿势——打开 Cursor、不断调提示词直到代码能跑通、提交、重复。**它适合做原型验证，做不了生产系统**。一个真正用于生产的系统必须稳定、可靠、安全；当 AI 写代码时，你需要构建的是兜底系统，那些 prompts 都是用完即弃的。
+> Vibe Coding 是 Karpathy 提出的概念——打开 Cursor、不断调提示词直到代码能跑通、提交、重复。**它适合做原型验证，做不了生产系统**。一个真正用于生产的系统必须稳定、可靠、安全；当 AI 写代码时，你需要构建的是兜底系统，那些 prompts 都是用完即弃的。本质是"许愿编程"，常止于"大号 demo"。后续范式演进：[[spec-coding|Spec Coding]] → [[harness-engineering|Harness Engineering]]。
 
 ## 操作方式
 

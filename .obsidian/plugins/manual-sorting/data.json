@@ -2,297 +2,461 @@
   "customOrder": {
     "/": {
       "children": [
+        "migration-backlog.md",
+        "log.base",
+        "index.base",
+        "log.md",
+        "index.md",
+        "wiki",
+        "sources",
+        "docs",
         "Clippings",
-        "🌇FrontEnd",
-        "😈Magic",
-        "🚀AIGC",
-        "00_inbox",
-        "AGENTS.md",
+        "AGENT.md",
         "skills-lock.json"
-      ],
-      "sortOrder": "custom"
-    },
-    "🌇FrontEnd": {
-      "children": [
-        "🌇FrontEnd/JavaScript",
-        "🌇FrontEnd/React"
-      ],
-      "sortOrder": "custom"
-    },
-    "🌇FrontEnd/JavaScript": {
-      "children": [
-        "🌇FrontEnd/JavaScript/Blog"
-      ],
-      "sortOrder": "custom"
-    },
-    "🌇FrontEnd/JavaScript/Blog": {
-      "children": [
-        "🌇FrontEnd/JavaScript/Blog/JavaScript 市场分析.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "🌇FrontEnd/React": {
-      "children": [
-        "🌇FrontEnd/React/React Native",
-        "🌇FrontEnd/React/Blog"
-      ],
-      "sortOrder": "custom"
-    },
-    "🌇FrontEnd/React/Blog": {
-      "children": [
-        "🌇FrontEnd/React/Blog/asset",
-        "🌇FrontEnd/React/Blog/Why we banned React's useEffect.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "🌇FrontEnd/React/Blog/asset": {
-      "children": [
-        "🌇FrontEnd/React/Blog/asset/Pasted image 20260318190815.png",
-        "🌇FrontEnd/React/Blog/asset/Pasted image 20260318190942.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "🌇FrontEnd/React/React Native": {
-      "children": [
-        "🌇FrontEnd/React/React Native/react-native tips.md",
-        "🌇FrontEnd/React/React Native/learning"
-      ],
-      "sortOrder": "custom"
-    },
-    "🌇FrontEnd/React/React Native/learning": {
-      "children": [
-        "🌇FrontEnd/React/React Native/learning/flash-list.md",
-        "🌇FrontEnd/React/React Native/learning/react-native-core-components.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "😈Magic": {
-      "children": [
-        "😈Magic/obsidian",
-        "😈Magic/🧱Cross Walls.md",
-        "😈Magic/HTTP3 入门指南.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "😈Magic/obsidian": {
-      "children": [
-        "😈Magic/obsidian/linking-notes-and-files",
-        "😈Magic/obsidian/obsidian-claude",
-        "😈Magic/obsidian/obsidian-tips",
-        "😈Magic/obsidian/🚀obsidian-quick-start.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "😈Magic/obsidian/linking-notes-and-files": {
-      "children": [
-        "😈Magic/obsidian/linking-notes-and-files/🔗 block reference use cases.md",
-        "😈Magic/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）.md",
-        "😈Magic/obsidian/linking-notes-and-files/block-link-demo.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "😈Magic/obsidian/obsidian-claude": {
-      "children": [
-        "😈Magic/obsidian/obsidian-claude/skills.md",
-        "😈Magic/obsidian/obsidian-claude/Claudian - Obsidian × Claude Code.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "😈Magic/obsidian/obsidian-tips": {
-      "children": [
-        "😈Magic/obsidian/obsidian-tips/obsidian-callouts.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC": {
-      "children": [
-        "🚀AIGC/ai-coding",
-        "🚀AIGC/browser-use",
-        "🚀AIGC/rag"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding": {
-      "children": [
-        "🚀AIGC/ai-coding/asset",
-        "🚀AIGC/ai-coding/blog",
-        "🚀AIGC/ai-coding/claude-code",
-        "🚀AIGC/ai-coding/codex",
-        "🚀AIGC/ai-coding/tools"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/asset": {
-      "children": [
-        "🚀AIGC/ai-coding/asset/Pasted image 20260316202725.png",
-        "🚀AIGC/ai-coding/asset/Pasted image 20260316204218.png",
-        "🚀AIGC/ai-coding/asset/Pasted image 20260316213714.png",
-        "🚀AIGC/ai-coding/asset/Pasted image 20260316214057.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/blog": {
-      "children": [
-        "🚀AIGC/ai-coding/blog/asset",
-        "🚀AIGC/ai-coding/blog/🔍 AI CR 的理想与现实：别让 AI 帮你做 Lint 的苦力！.md",
-        "🚀AIGC/ai-coding/blog/🤖 Harness Engineering：在 Agent-First 时代利用 Codex.md",
-        "🚀AIGC/ai-coding/blog/🛠️ 构建 Claude Code 的经验：如何使用 Skills.md",
-        "🚀AIGC/ai-coding/blog/从Spec Coding到Harness：AI Coding的两次范式转变与实践总结.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/blog/asset": {
-      "children": [
-        "🚀AIGC/ai-coding/blog/asset/harness-engineering-cover.png",
-        "🚀AIGC/ai-coding/blog/asset/Pasted image 20260318113942.png",
-        "🚀AIGC/ai-coding/blog/asset/Pasted image 20260318163149.png",
-        "🚀AIGC/ai-coding/blog/asset/Pasted image 20260318170757.png",
-        "🚀AIGC/ai-coding/blog/asset/Pasted image 20260323180456.png",
-        "🚀AIGC/ai-coding/blog/asset/Pasted image 20260323191316.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/claude-code": {
-      "children": [
-        "🚀AIGC/ai-coding/claude-code/💡claude-tips.md",
-        "🚀AIGC/ai-coding/claude-code/🛠️claude-code-tools.md",
-        "🚀AIGC/ai-coding/claude-code/blog",
-        "🚀AIGC/ai-coding/claude-code/asset"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/claude-code/asset": {
-      "children": [
-        "🚀AIGC/ai-coding/claude-code/asset/Pasted image 20260316220024.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/claude-code/blog": {
-      "children": [
-        "🚀AIGC/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密.md",
-        "🚀AIGC/ai-coding/claude-code/blog/Claude Code 最佳实践.md",
-        "🚀AIGC/ai-coding/claude-code/blog/Claude Code Memory 机制详解.md",
-        "🚀AIGC/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/codex": {
-      "children": [
-        "🚀AIGC/ai-coding/codex/asset",
-        "🚀AIGC/ai-coding/codex/Codex Best Practices.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/codex/asset": {
-      "children": [
-        "🚀AIGC/ai-coding/codex/asset/Gemini_Generated_Image_ipuer8ipuer8ipue.png",
-        "🚀AIGC/ai-coding/codex/asset/Gemini_Generated_Image_mhc1akmhc1akmhc1.png",
-        "🚀AIGC/ai-coding/codex/asset/Gemini_Generated_Image_ql1yzbql1yzbql1y.png",
-        "🚀AIGC/ai-coding/codex/asset/Pasted image 20260325141342.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/tools": {
-      "children": [
-        "🚀AIGC/ai-coding/tools/asset",
-        "🚀AIGC/ai-coding/tools/some-skills.md",
-        "🚀AIGC/ai-coding/tools/Superpowers - AI 编码工作流框架.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/ai-coding/tools/asset": {
-      "children": [
-        "🚀AIGC/ai-coding/tools/asset/arch-diagram-aws-serverless.png",
-        "🚀AIGC/ai-coding/tools/asset/arch-diagram-microservices.png",
-        "🚀AIGC/ai-coding/tools/asset/arch-diagram-web-app.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/browser-use": {
-      "children": [
-        "🚀AIGC/browser-use/asset",
-        "🚀AIGC/browser-use/blog",
-        "🚀AIGC/browser-use/introduction.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/browser-use/asset": {
-      "children": [
-        "🚀AIGC/browser-use/asset/cdp-domain.png",
-        "🚀AIGC/browser-use/asset/cdp-session.png",
-        "🚀AIGC/browser-use/asset/Pasted image 20260323212707.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/browser-use/blog": {
-      "children": [
-        "🚀AIGC/browser-use/blog/OpenCLI：把任何网站变成 AI Agent 的命令行工具.md",
-        "🚀AIGC/browser-use/blog/asset",
-        "🚀AIGC/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI",
-        "🚀AIGC/browser-use/blog/CDP 视角下的 Browser 控制边界.md",
-        "🚀AIGC/browser-use/blog/了解 CDP：browser-use 背后的隐藏功臣.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/browser-use/blog/asset": {
-      "children": [
-        "🚀AIGC/browser-use/blog/asset/Pasted image 20260323215327.png",
-        "🚀AIGC/browser-use/blog/asset/Pasted image 20260323215345.png",
-        "🚀AIGC/browser-use/blog/asset/Pasted image 20260323215403.png",
-        "🚀AIGC/browser-use/blog/asset/Pasted image 20260323215429.png",
-        "🚀AIGC/browser-use/blog/asset/Pasted image 20260323215440.png",
-        "🚀AIGC/browser-use/blog/asset/Pasted image 20260323215935.png",
-        "🚀AIGC/browser-use/blog/asset/Pasted image 20260323220000.png",
-        "🚀AIGC/browser-use/blog/asset/Pasted image 20260323220007.png",
-        "🚀AIGC/browser-use/blog/asset/Pasted image 20260323220017.png",
-        "🚀AIGC/browser-use/blog/asset/Pasted image 20260323220029.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI": {
-      "children": [
-        "🚀AIGC/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/AI Agent 的三种浏览器控制流派：OpenCLI、agent-browser、browser-use CLI 深度对比.md",
-        "🚀AIGC/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/OpenCLI、Agent-Browser 与 Browser-Use 深度横向评测.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "🚀AIGC/rag": {
-      "children": [
-        "🚀AIGC/rag/intro.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "00_inbox": {
-      "children": [
-        "00_inbox/Agentic Coding 的边界.md",
-        "00_inbox/⁠‬⁠​​‬⁠​‍⁠​​​‬​‌​​​​​​⁠﻿​​﻿‬⁠﻿﻿​‬‌⁠​‬﻿⁠⁠​​﻿‌﻿‍‍Prefix Cache：Long Horizon Agent 的效率基石.md",
-        "00_inbox/使用 Claude Code：会话管理与 100 万 上下文【译】.md",
-        "00_inbox/为什么你的\"AI 优先\"战略可能大错特错？.md",
-        "00_inbox/搞懂缓存机制，从Gemma4到Claude Code省80%Token.md",
-        "00_inbox/我的 Vibe Coding 项目.md",
-        "00_inbox/告别复制粘贴：浏览器一键剪藏到 Obsidian.md",
-        "00_inbox/asset"
-      ],
-      "sortOrder": "custom"
-    },
-    "00_inbox/asset": {
-      "children": [
-        "00_inbox/asset/Pasted image 20260422154658.png",
-        "00_inbox/asset/Pasted image 20260422144612.png",
-        "00_inbox/asset/Pasted image 20260422143653.png",
-        "00_inbox/asset/web-clipper-config.jpg",
-        "00_inbox/asset/web-clipper-install.jpg",
-        "00_inbox/asset/web-clipper-pin.jpg",
-        "00_inbox/asset/web-clipper-preview.jpg",
-        "00_inbox/asset/web-clipper-result.jpg",
-        "00_inbox/asset/web-clipper-settings.jpg",
-        "00_inbox/asset/web-clipper-template.jpg"
       ],
       "sortOrder": "custom"
     },
     "Clippings": {
       "children": [
         "Clippings/Large Language Models explained briefly.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "docs": {
+      "children": [
+        "docs/superpowers"
+      ],
+      "sortOrder": "custom"
+    },
+    "docs/superpowers": {
+      "children": [
+        "docs/superpowers/specs",
+        "docs/superpowers/plans"
+      ],
+      "sortOrder": "custom"
+    },
+    "docs/superpowers/plans": {
+      "children": [
+        "docs/superpowers/plans/2026-04-22-llm-wiki-implementation.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "docs/superpowers/specs": {
+      "children": [
+        "docs/superpowers/specs/2026-04-22-llm-wiki-design.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources": {
+      "children": [
+        "sources/posts",
+        "sources/inbox",
+        "sources/clippings",
+        "sources/asset"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/asset": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "sources/clippings": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "sources/inbox": {
+      "children": [
+        "sources/inbox/搞懂缓存机制，从Gemma4到Claude Code省80%Token.md",
+        "sources/inbox/我的 Vibe Coding 项目.md",
+        "sources/inbox/告别复制粘贴：浏览器一键剪藏到 Obsidian.md",
+        "sources/inbox/使用 Claude Code：会话管理与 100 万 上下文【译】.md",
+        "sources/inbox/为什么你的\"AI 优先\"战略可能大错特错？.md",
+        "sources/inbox/⁠‬⁠​​‬⁠​‍⁠​​​‬​‌​​​​​​⁠﻿​​﻿‬⁠﻿﻿​‬‌⁠​‬﻿⁠⁠​​﻿‌﻿‍‍Prefix Cache：Long Horizon Agent 的效率基石.md",
+        "sources/inbox/asset",
+        "sources/inbox/Agentic Coding 的边界.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts": {
+      "children": [
+        "sources/posts/obsidian",
+        "sources/posts/frontend",
+        "sources/posts/aigc"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc": {
+      "children": [
+        "sources/posts/aigc/rag",
+        "sources/posts/aigc/browser-use",
+        "sources/posts/aigc/ai-coding"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/frontend": {
+      "children": [
+        "sources/posts/frontend/React",
+        "sources/posts/frontend/JavaScript"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/obsidian": {
+      "children": [
+        "sources/posts/obsidian/🧱Cross Walls.md",
+        "sources/posts/obsidian/obsidian",
+        "sources/posts/obsidian/HTTP3 入门指南.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki": {
+      "children": [
+        "wiki/obsidian",
+        "wiki/frontend",
+        "wiki/aigc",
+        "wiki/ai-coding",
+        "wiki/_orphans"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/_orphans": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "wiki/ai-coding": {
+      "children": [
+        "wiki/ai-coding/vibe-coding-对-saas-的通缩.md",
+        "wiki/ai-coding/隐性知识与上下文.md",
+        "wiki/ai-coding/稳定前缀-动态后缀.md",
+        "wiki/ai-coding/架构师-操作员二分.md",
+        "wiki/ai-coding/冻结快照模式.md",
+        "wiki/ai-coding/会话管理动作.md",
+        "wiki/ai-coding/yagni-与-dry-反论.md",
+        "wiki/ai-coding/worse-is-better.md",
+        "wiki/ai-coding/vibe-coding.md",
+        "wiki/ai-coding/vibe-coding-的代价.md",
+        "wiki/ai-coding/subagent-上下文隔离.md",
+        "wiki/ai-coding/self-healing-loop.md",
+        "wiki/ai-coding/rewind-胜过纠正.md",
+        "wiki/ai-coding/review-带宽瓶颈.md",
+        "wiki/ai-coding/prefix-cache.md",
+        "wiki/ai-coding/plausible-code.md",
+        "wiki/ai-coding/opc-一人公司.md",
+        "wiki/ai-coding/long-horizon-agent.md",
+        "wiki/ai-coding/kv-cache.md",
+        "wiki/ai-coding/harness-engineering.md",
+        "wiki/ai-coding/context-window.md",
+        "wiki/ai-coding/context-rot.md",
+        "wiki/ai-coding/compact-vs-clear.md",
+        "wiki/ai-coding/cache-失效陷阱.md",
+        "wiki/ai-coding/cache-命中率.md",
+        "wiki/ai-coding/cache-keep-alive.md",
+        "wiki/ai-coding/ai-first-适用边界.md",
+        "wiki/ai-coding/ai-first-工程前提.md",
+        "wiki/ai-coding/ai-first-vs-ai-assisted.md",
+        "wiki/ai-coding/agentic-coding.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/aigc": {
+      "children": [
+        "wiki/aigc/agent-skills.md",
+        "wiki/aigc/permission-modes.md",
+        "wiki/aigc/mcp.md",
+        "wiki/aigc/inline-edit.md",
+        "wiki/aigc/plan-mode.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/frontend": {
+      "children": [
+        "wiki/frontend/connection-migration.md",
+        "wiki/frontend/0-rtt-握手.md",
+        "wiki/frontend/head-of-line-blocking.md",
+        "wiki/frontend/quic.md",
+        "wiki/frontend/http-3.md",
+        "wiki/frontend/组件强制函数.md",
+        "wiki/frontend/派生状态.md",
+        "wiki/frontend/webcontainers.md",
+        "wiki/frontend/view-recycling.md",
+        "wiki/frontend/vercel.md",
+        "wiki/frontend/usemounteffect.md",
+        "wiki/frontend/shadcn-ui.md",
+        "wiki/frontend/react-native-core-components.md",
+        "wiki/frontend/pressable-vs-touchable.md",
+        "wiki/frontend/per-seat-licensing.md",
+        "wiki/frontend/no-useeffect-rule.md",
+        "wiki/frontend/key-重置组件.md",
+        "wiki/frontend/js-盈利模式分类.md",
+        "wiki/frontend/headless-ui.md",
+        "wiki/frontend/flash-list.md",
+        "wiki/frontend/bun.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/obsidian": {
+      "children": [
+        "wiki/obsidian/aliases.md",
+        "wiki/obsidian/embed-files.md",
+        "wiki/obsidian/wikilink.md",
+        "wiki/obsidian/block-reference-use-cases.md",
+        "wiki/obsidian/block-reference.md",
+        "wiki/obsidian/callouts.md",
+        "wiki/obsidian/obsidian-cli.md",
+        "wiki/obsidian/defuddle.md",
+        "wiki/obsidian/json-canvas.md",
+        "wiki/obsidian/obsidian-bases.md",
+        "wiki/obsidian/obsidian-skills.md",
+        "wiki/obsidian/claudian.md",
+        "wiki/obsidian/moc-索引笔记.md",
+        "wiki/obsidian/zettelkasten.md",
+        "wiki/obsidian/para-方法.md",
+        "wiki/obsidian/dataview.md",
+        "wiki/obsidian/templater.md",
+        "wiki/obsidian/knowledge-graph.md",
+        "wiki/obsidian/obsidian-web-clipper.md",
+        "wiki/obsidian/inbox-工作流.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/inbox/asset": {
+      "children": [
+        "sources/inbox/asset/web-clipper-template.jpg",
+        "sources/inbox/asset/web-clipper-settings.jpg",
+        "sources/inbox/asset/web-clipper-result.jpg",
+        "sources/inbox/asset/web-clipper-preview.jpg",
+        "sources/inbox/asset/web-clipper-pin.jpg",
+        "sources/inbox/asset/web-clipper-install.jpg",
+        "sources/inbox/asset/web-clipper-config.jpg",
+        "sources/inbox/asset/Pasted image 20260422154658.png",
+        "sources/inbox/asset/Pasted image 20260422144612.png",
+        "sources/inbox/asset/Pasted image 20260422143653.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/ai-coding": {
+      "children": [
+        "sources/posts/aigc/ai-coding/tools",
+        "sources/posts/aigc/ai-coding/codex",
+        "sources/posts/aigc/ai-coding/claude-code",
+        "sources/posts/aigc/ai-coding/blog",
+        "sources/posts/aigc/ai-coding/asset"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/ai-coding/asset": {
+      "children": [
+        "sources/posts/aigc/ai-coding/asset/Pasted image 20260316214057.png",
+        "sources/posts/aigc/ai-coding/asset/Pasted image 20260316213714.png",
+        "sources/posts/aigc/ai-coding/asset/Pasted image 20260316204218.png",
+        "sources/posts/aigc/ai-coding/asset/Pasted image 20260316202725.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/ai-coding/blog": {
+      "children": [
+        "sources/posts/aigc/ai-coding/blog/🤖 Harness Engineering：在 Agent-First 时代利用 Codex.md",
+        "sources/posts/aigc/ai-coding/blog/🛠️ 构建 Claude Code 的经验：如何使用 Skills.md",
+        "sources/posts/aigc/ai-coding/blog/🔍 AI CR 的理想与现实：别让 AI 帮你做 Lint 的苦力！.md",
+        "sources/posts/aigc/ai-coding/blog/从Spec Coding到Harness：AI Coding的两次范式转变与实践总结.md",
+        "sources/posts/aigc/ai-coding/blog/asset"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/ai-coding/claude-code": {
+      "children": [
+        "sources/posts/aigc/ai-coding/claude-code/🛠️claude-code-tools.md",
+        "sources/posts/aigc/ai-coding/claude-code/💡claude-tips.md",
+        "sources/posts/aigc/ai-coding/claude-code/blog",
+        "sources/posts/aigc/ai-coding/claude-code/asset"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/ai-coding/codex": {
+      "children": [
+        "sources/posts/aigc/ai-coding/codex/asset",
+        "sources/posts/aigc/ai-coding/codex/Codex Best Practices.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/ai-coding/tools": {
+      "children": [
+        "sources/posts/aigc/ai-coding/tools/some-skills.md",
+        "sources/posts/aigc/ai-coding/tools/asset",
+        "sources/posts/aigc/ai-coding/tools/Superpowers - AI 编码工作流框架.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/ai-coding/blog/asset": {
+      "children": [
+        "sources/posts/aigc/ai-coding/blog/asset/harness-engineering-cover.png",
+        "sources/posts/aigc/ai-coding/blog/asset/Pasted image 20260323191316.png",
+        "sources/posts/aigc/ai-coding/blog/asset/Pasted image 20260323180456.png",
+        "sources/posts/aigc/ai-coding/blog/asset/Pasted image 20260318170757.png",
+        "sources/posts/aigc/ai-coding/blog/asset/Pasted image 20260318163149.png",
+        "sources/posts/aigc/ai-coding/blog/asset/Pasted image 20260318113942.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/ai-coding/claude-code/asset": {
+      "children": [
+        "sources/posts/aigc/ai-coding/claude-code/asset/Pasted image 20260316220024.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/ai-coding/claude-code/blog": {
+      "children": [
+        "sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密.md",
+        "sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93.md",
+        "sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践.md",
+        "sources/posts/aigc/ai-coding/claude-code/blog/Claude Code Memory 机制详解.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/ai-coding/codex/asset": {
+      "children": [
+        "sources/posts/aigc/ai-coding/codex/asset/Pasted image 20260325141342.png",
+        "sources/posts/aigc/ai-coding/codex/asset/Gemini_Generated_Image_ql1yzbql1yzbql1y.png",
+        "sources/posts/aigc/ai-coding/codex/asset/Gemini_Generated_Image_mhc1akmhc1akmhc1.png",
+        "sources/posts/aigc/ai-coding/codex/asset/Gemini_Generated_Image_ipuer8ipuer8ipue.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/ai-coding/tools/asset": {
+      "children": [
+        "sources/posts/aigc/ai-coding/tools/asset/arch-diagram-web-app.png",
+        "sources/posts/aigc/ai-coding/tools/asset/arch-diagram-microservices.png",
+        "sources/posts/aigc/ai-coding/tools/asset/arch-diagram-aws-serverless.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/browser-use": {
+      "children": [
+        "sources/posts/aigc/browser-use/introduction.md",
+        "sources/posts/aigc/browser-use/blog",
+        "sources/posts/aigc/browser-use/asset"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/browser-use/asset": {
+      "children": [
+        "sources/posts/aigc/browser-use/asset/cdp-session.png",
+        "sources/posts/aigc/browser-use/asset/cdp-domain.png",
+        "sources/posts/aigc/browser-use/asset/Pasted image 20260323212707.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/browser-use/blog": {
+      "children": [
+        "sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI",
+        "sources/posts/aigc/browser-use/blog/了解 CDP：browser-use 背后的隐藏功臣.md",
+        "sources/posts/aigc/browser-use/blog/asset",
+        "sources/posts/aigc/browser-use/blog/OpenCLI：把任何网站变成 AI Agent 的命令行工具.md",
+        "sources/posts/aigc/browser-use/blog/CDP 视角下的 Browser 控制边界.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/browser-use/blog/asset": {
+      "children": [
+        "sources/posts/aigc/browser-use/blog/asset/Pasted image 20260323220029.png",
+        "sources/posts/aigc/browser-use/blog/asset/Pasted image 20260323220017.png",
+        "sources/posts/aigc/browser-use/blog/asset/Pasted image 20260323220007.png",
+        "sources/posts/aigc/browser-use/blog/asset/Pasted image 20260323220000.png",
+        "sources/posts/aigc/browser-use/blog/asset/Pasted image 20260323215935.png",
+        "sources/posts/aigc/browser-use/blog/asset/Pasted image 20260323215440.png",
+        "sources/posts/aigc/browser-use/blog/asset/Pasted image 20260323215429.png",
+        "sources/posts/aigc/browser-use/blog/asset/Pasted image 20260323215403.png",
+        "sources/posts/aigc/browser-use/blog/asset/Pasted image 20260323215345.png",
+        "sources/posts/aigc/browser-use/blog/asset/Pasted image 20260323215327.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI": {
+      "children": [
+        "sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/OpenCLI、Agent-Browser 与 Browser-Use 深度横向评测.md",
+        "sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/AI Agent 的三种浏览器控制流派：OpenCLI、agent-browser、browser-use CLI 深度对比.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/aigc/rag": {
+      "children": [
+        "sources/posts/aigc/rag/intro.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/frontend/JavaScript": {
+      "children": [
+        "sources/posts/frontend/JavaScript/Blog"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/frontend/JavaScript/Blog": {
+      "children": [
+        "sources/posts/frontend/JavaScript/Blog/JavaScript 市场分析.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/frontend/React": {
+      "children": [
+        "sources/posts/frontend/React/React Native",
+        "sources/posts/frontend/React/Blog"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/frontend/React/Blog": {
+      "children": [
+        "sources/posts/frontend/React/Blog/asset",
+        "sources/posts/frontend/React/Blog/Why we banned React's useEffect.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/frontend/React/React Native": {
+      "children": [
+        "sources/posts/frontend/React/React Native/react-native tips.md",
+        "sources/posts/frontend/React/React Native/learning"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/frontend/React/Blog/asset": {
+      "children": [
+        "sources/posts/frontend/React/Blog/asset/Pasted image 20260318190942.png",
+        "sources/posts/frontend/React/Blog/asset/Pasted image 20260318190815.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/frontend/React/React Native/learning": {
+      "children": [
+        "sources/posts/frontend/React/React Native/learning/react-native-core-components.md",
+        "sources/posts/frontend/React/React Native/learning/flash-list.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/obsidian/obsidian": {
+      "children": [
+        "sources/posts/obsidian/obsidian/🚀obsidian-quick-start.md",
+        "sources/posts/obsidian/obsidian/obsidian-tips",
+        "sources/posts/obsidian/obsidian/obsidian-claude",
+        "sources/posts/obsidian/obsidian/linking-notes-and-files"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/obsidian/obsidian/linking-notes-and-files": {
+      "children": [
+        "sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）.md",
+        "sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 block reference use cases.md",
+        "sources/posts/obsidian/obsidian/linking-notes-and-files/block-link-demo.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/obsidian/obsidian/obsidian-claude": {
+      "children": [
+        "sources/posts/obsidian/obsidian/obsidian-claude/skills.md",
+        "sources/posts/obsidian/obsidian/obsidian-claude/Claudian - Obsidian × Claude Code.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/obsidian/obsidian/obsidian-tips": {
+      "children": [
+        "sources/posts/obsidian/obsidian/obsidian-tips/obsidian-callouts.md"
       ],
       "sortOrder": "custom"
     }

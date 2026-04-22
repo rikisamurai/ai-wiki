@@ -1,11 +1,11 @@
 ---
 name: commit-doc
-description: Use when the user wants to commit changes - runs git diff, generates a commit message, and commits automatically. Trigger with /commit slash command.
+description: Use when the user wants to commit changes - runs git diff, generates a commit message, and commits automatically. Trigger with /commit-doc slash command.
 ---
 
 # Git Auto Commit（Obsidian 知识库专用）
 
-当用户触发 `/commit` 时，自动分析当前改动并生成 commit message，完成提交。
+当用户触发 `/commit-doc` 时，自动分析当前改动并生成 commit message，完成提交。
 
 ## Workflow
 
@@ -103,4 +103,4 @@ EOF
 
 **有冲突文件：** 停止提交，提示用户先解决冲突。
 
-**用户传入参数（如 `/commit docs: 新增笔记`）：** 将参数作为 commit message 直接使用，跳过自动生成步骤。
+**用户传入参数（如 `/commit-doc docs: 新增笔记`）：** 将参数作为 commit message 直接使用，跳过自动生成步骤。

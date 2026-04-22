@@ -112,3 +112,9 @@ title: ai-wiki Activity Log
 - 新建：[[wiki/obsidian/wikilink]]、[[wiki/obsidian/embed-files]]、[[wiki/obsidian/aliases]]
 - 备注：块引用部分已在 17/41、18/41 沉淀，此次不重复
 - source: sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）.md
+
+## [2026-04-22 21:57] migrate-next | 20/41 · 从 Spec Coding 到 Harness
+- 新建：[[wiki/ai-coding/spec-coding]]、[[wiki/ai-coding/约束悖论]]、[[wiki/ai-coding/ralph-loop]]、[[wiki/ai-coding/agent-等待时间]]、[[wiki/ai-coding/agents-md]]、[[wiki/ai-coding/行为正确性]]、[[wiki/ai-coding/harness-成熟度]]、[[wiki/ai-coding/任务三维划分]]
+- 更新：[[wiki/ai-coding/harness-engineering]]（追加约束悖论/反应式生长/三层成熟度等关联，frontmatter sources 追加）、[[wiki/ai-coding/vibe-coding]]（TL;DR 补 Karpathy 出处与"大号 demo"，frontmatter sources 追加）
+- 备注：开启 posts/aigc 第一条；OpenClaw / 自定义 Skills / Bytedcli 等留作后续 source 专题
+- source: sources/posts/aigc/ai-coding/blog/从Spec Coding到Harness：AI Coding的两次范式转变与实践总结.md
