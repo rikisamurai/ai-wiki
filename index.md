@@ -61,6 +61,9 @@ date: 2026-04-22
 ## AIGC
 
 - [[wiki/aigc/agent-skills|Agent Skills 规范]]
+- [[wiki/aigc/auto-memory|Auto Memory（自动记忆）]]
+- [[wiki/aigc/claude-code-memory|Claude Code Memory 体系]]
+- [[wiki/aigc/claude-rules|.claude/rules/ 规则系统]]
 - [[wiki/aigc/inline-edit|Inline Edit]]
 - [[wiki/aigc/mcp|MCP（Model Context Protocol）]]
 - [[wiki/aigc/permission-modes|权限模式（YOLO / Safe / Plan）]]

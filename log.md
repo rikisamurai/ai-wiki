@@ -113,6 +113,11 @@ title: ai-wiki Activity Log
 - 备注：块引用部分已在 17/41、18/41 沉淀，此次不重复
 - source: sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）.md
 
+## [2026-04-22 23:08] migrate-next | 24/41 · Claude Code Memory 机制详解
+- 新建：[[wiki/aigc/claude-code-memory]]、[[wiki/aigc/claude-rules]]、[[wiki/aigc/auto-memory]]
+- 更新：[[wiki/ai-coding/agents-md]]（指向 Claude Code 实现）
+- source: sources/posts/aigc/ai-coding/claude-code/blog/Claude Code Memory 机制详解.md
+
 ## [2026-04-22 22:58] migrate-next | 23/41 · Harness Engineering：Agent-First 时代利用 Codex
 - 新建：[[wiki/ai-coding/agent-可读性]]、[[wiki/ai-coding/enforce-invariants]]、[[wiki/ai-coding/doc-gardening]]、[[wiki/ai-coding/高吞吐合并哲学]]
 - 更新：[[wiki/ai-coding/harness-engineering]]（追加 Codex 案例 + 关联）、[[wiki/ai-coding/agents-md]]（追加 OpenAI 实证：目录而非百科）、[[wiki/aigc/渐进式披露]]（同原则映射到根目录）
