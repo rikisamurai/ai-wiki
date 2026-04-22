@@ -48,6 +48,4 @@ React 官方有一篇完整指南：[You Might Not Need an Effect](https://react
 - **批量修复**：用 Factory Missions 这类工具把存量违规改造成新模式
 - **设计层面**：把这条规则当成 [[wiki/frontend/组件强制函数|组件强制函数]]——它推着你写更干净的组件树
 
-## 不是反 React，是反"用错 React"
-
-useEffect 本身没问题，但**默认选它**会让团队从"显式的事件驱动逻辑"滑向"隐式的同步逻辑"。Factory 的禁用本质上是把这个默认值翻转：能不用就不用，必须用时显式包成 useMountEffect。
+**不是反 React，是反"用错 React"**：useEffect 本身没问题，但**默认选它**会让团队从"显式的事件驱动逻辑"滑向"隐式的同步逻辑"。Factory 的禁用本质上是把这个默认值翻转：能不用就不用，必须用时显式包成 useMountEffect。

@@ -38,9 +38,7 @@ status: stable
 
 要解决这些，靠的不是更聪明的 prompt，而是 [[harness-engineering|Harness Engineering]] 那套兜底基础设施：自动化测试、CI/CD、A/B 验证、监控告警、回滚机制。
 
-## 谁是它的合理用户
-
-参见 [[review-带宽瓶颈]] 的判断："如果你是 Vibe Coding 的目标用户（业务不严苛、用户即测试者），那'先 accept 再说'是合理策略"。具体场景：
+**谁是它的合理用户**：参见 [[review-带宽瓶颈]] 的判断——"如果你是 Vibe Coding 的目标用户（业务不严苛、用户即测试者），那'先 accept 再说'是合理策略"。具体场景：
 
 - 个人脚本、一次性数据处理
 - 早期想法验证（验证完不上线，或者上线后用户量极小）
@@ -58,9 +56,7 @@ status: stable
 
 很多团队混淆了 Vibe Coding 和 [[ai-first-vs-ai-assisted|AI First]]——以为"AI 能写出代码就是 AI First"，结果做出来的是**没有兜底的 Vibe Coding 流水线**。这种状态下功能越上越多、bug 也越积越多，[[ai-first-工程前提]] 里的五件事一项都没做。
 
-## 实战代价
-
-它能跑通不代表没成本。一个 OPC 创业者三个月用 Vibe Coding 做了 13 个产品，复盘出 4 个真实代价（注意力 / 验收带宽 / 护城河 / 意义感）——详见 [[vibe-coding-的代价]]。
+**实战代价**：它能跑通不代表没成本。一个 OPC 创业者三个月用 Vibe Coding 做了 13 个产品，复盘出 4 个真实代价（注意力 / 验收带宽 / 护城河 / 意义感）——详见 [[vibe-coding-的代价]]。
 
 ## 与其他概念的关联
 

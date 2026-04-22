@@ -44,9 +44,7 @@ React Native 内置的一组跨平台 UI 组件和系统 API——RN 不能用 H
 
 详见 [[wiki/frontend/pressable-vs-touchable|Pressable vs TouchableOpacity]]。
 
-## 布局与反馈
-
-`Modal` / `ActivityIndicator` / `KeyboardAvoidingView` / `RefreshControl` / `StatusBar` / `Alert`（API 非组件）。
+**布局与反馈**：`Modal` / `ActivityIndicator` / `KeyboardAvoidingView` / `RefreshControl` / `StatusBar` / `Alert`（API 非组件）。
 
 ## 工具 API
 

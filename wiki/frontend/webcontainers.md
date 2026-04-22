@@ -22,9 +22,7 @@ WebContainers 是 StackBlitz 开发的浏览器内 Node.js 运行时——把 No
 - **JS/TS 优先**：上层 AI 工具（Bolt.new 等）输出几乎全是 JS/TS，跟 WebContainers 天然适配
 - **沙箱安全**：用户输入的提示词生成的代码跑在浏览器沙箱内，不会污染服务端
 
-## 在 JS 生态版图中的位置
-
-WebContainers 是 JS 生态"完整链路"的浏览器端延伸——前端有 React/Vue、后端有 Node.js、部署有 [[wiki/frontend/vercel|Vercel]]/Cloudflare、现在浏览器内还有完整 Node.js。这是 JS 成为 AI 时代最大受益语言生态的结构性原因之一。
+**在 JS 生态版图中的位置**：WebContainers 是 JS 生态"完整链路"的浏览器端延伸——前端有 React/Vue、后端有 Node.js、部署有 [[wiki/frontend/vercel|Vercel]]/Cloudflare、现在浏览器内还有完整 Node.js。这是 JS 成为 AI 时代最大受益语言生态的结构性原因之一。
 
 > [!compare] 对比同赛道方案
 > - **WebContainers（StackBlitz）**：浏览器内运行，零服务端

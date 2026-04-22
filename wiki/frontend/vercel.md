@@ -37,7 +37,7 @@ Vercel（原名 ZEIT，2015）是把"前端框架→部署平台→AI 生成"打
 
 2021–2024 年 SaaS 市场对"AI 原生 vs AI 贴牌"打分极其严格。Twilio/Fastly 加 AI 功能但市场视为补丁，估值砍 75%；Vercel 因 v0 从零设计为 AI 产品，被算 AI 原生，E/F 轮估值翻番。Vercel 的飞轮是 [[wiki/ai-coding/ai-first-vs-ai-assisted|"AI 叙事 = 第二增长曲线"]] 的最佳实证。
 
-## 风险点
+**风险点**：
 
 - Next.js 在开发者中口碑下滑（频繁 breaking change、过度服务端化）
 - VoidZero 真把 Vite+ 跑通后，Vercel 的"必须用 Next.js 才能享受 DX"叙事会被解构

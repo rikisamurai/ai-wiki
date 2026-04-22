@@ -22,16 +22,14 @@ function useMountEffect(callback: () => void | (() => void)) {
 > - 看到 `useEffect(..., [])` 还得脑补依赖数组为空的含义
 > - lint 规则可以禁用裸 `useEffect` 而放行 `useMountEffect`，强制开发者走显式路径
 
-## 适用场景（必须是与外部世界同步）
+**适用场景**（必须是与外部世界同步）：
 
 - **DOM 集成**：focus、scroll、measure
 - **第三方 widget 生命周期**：jQuery 插件、地图 SDK
 - **Browser API 订阅**：`addEventListener`、`MutationObserver`、`IntersectionObserver`
 - **一次性外部资源加载**：WebGL context、Canvas 初始化
 
-## 配合条件挂载，比 Effect 内守卫更清晰
-
-> [!example] 把"是否执行"前置到组件树
+> [!example] 配合条件挂载——把"是否执行"前置到组件树
 > ```typescript
 > // ❌ BAD: Effect 内部守卫
 > function VideoPlayer({ isLoading }) {
@@ -53,9 +51,7 @@ function useMountEffect(callback: () => void | (() => void)) {
 >
 > 父组件负责"什么时候挂载"，子组件假设"前置条件已满足"。这是 [[wiki/frontend/组件强制函数|组件强制函数]] 的典型应用。
 
-## 失败模式更可预测
-
-> [!compare] useMountEffect vs 裸 useEffect
+> [!compare] 失败模式更可预测：useMountEffect vs 裸 useEffect
 > | | useMountEffect | 直接 useEffect |
 > | --- | --- | --- |
 > | 触发时机 | 仅一次（挂载时） | 依赖数组任一变化 |

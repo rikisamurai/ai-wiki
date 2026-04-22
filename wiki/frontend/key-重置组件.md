@@ -27,9 +27,7 @@ React 的 `key` prop 不只是 list rendering 用的——它还能强制组件*
 > }
 > ```
 
-## 工作原理
-
-React 用 `(组件位置, key)` 这对值识别组件实例。当 key 变化时：
+**工作原理**：React 用 `(组件位置, key)` 这对值识别组件实例。当 key 变化时：
 
 1. 旧实例完全卸载（state、ref 全部销毁）
 2. 新实例从零挂载（[[wiki/frontend/usemounteffect|useMountEffect]] 重新执行）

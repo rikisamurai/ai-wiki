@@ -25,7 +25,7 @@ status: stable
 > [!warning] 字节级精确匹配
 > 前缀匹配是字节级的。哪怕只有一个 token 不同，从该位置起的所有 KV 缓存均告失效——这条约束直接催生了[[稳定前缀-动态后缀|稳定前缀-动态后缀]]的 prompt 设计法则，也是大量 [[cache-失效陷阱|失效陷阱]]的根源。
 
-## 与 KV Cache 的关系
+**与 KV Cache 的关系**：
 
 | 维度 | [[kv-cache\|KV Cache]] | Prefix Cache |
 |---|---|---|
@@ -98,11 +98,7 @@ Claude Code 监控每次调用的 `cache_read_input_tokens`，如果比上次下
 
 跟 Ollama "缓存没了你自己猜"形成鲜明对比——Anthropic 在缓存可观测性上投入很重。详见 [[cache-失效陷阱]]。
 
-## 经济性：Break-even 分析
-
-Anthropic 缓存写入收费 1.25×（比标准输入贵 25%），但读取只要 0.10×。盈亏平衡只需 **1.4 次缓存读取**。Agent 场景下系统提示词会被读取数十上百次，ROI 极高。
-
-实测数据（论文《Don't Break the Cache》arXiv 2601.06007）：长链路 Agentic 任务在三大平台获得 **41%–80% 成本节省**，TTFT 改善 **13%–31%**。
+**经济性：Break-even 分析**：Anthropic 缓存写入收费 1.25×（比标准输入贵 25%），但读取只要 0.10×。盈亏平衡只需 **1.4 次缓存读取**。Agent 场景下系统提示词会被读取数十上百次，ROI 极高。实测数据（论文《Don't Break the Cache》arXiv 2601.06007）：长链路 Agentic 任务在三大平台获得 **41%–80% 成本节省**，TTFT 改善 **13%–31%**。
 
 ## 与其他主题的关联
 

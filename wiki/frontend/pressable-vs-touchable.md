@@ -39,7 +39,7 @@ React Native 里两种主流的可点击容器选型。`TouchableOpacity` 是老
 > ```
 > TouchableOpacity 只能用 `activeOpacity` 改透明度，无法换背景色。
 
-## 反例
+**反例**：
 
 - **滥用 Button**：内置 `Button` 样式固定，仅适合原型；生产代码几乎不用
 - **混用风格**：同一页面一会 TouchableOpacity 一会 Pressable，维护成本高于新 API 的收益

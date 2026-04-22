@@ -13,7 +13,7 @@ status: stable
 > [!note] TL;DR
 > [[prefix-cache|Prefix Cache]] 的 TTL 在**每次读取时刷新**——意味着只要在过期前匹配前缀发一次请求，缓存就能无限续命。这条机制衍生出一种省钱姿势：用脚本每 55 分钟（1 小时 TTL 内）往 Claude Code 发一句无关紧要的 ping，把缓存"拽住"，避免午饭/会议期间 ~20K 的系统提示词被冲。
 
-## 原理
+**原理**：
 
 ```
 TTL 1 小时
@@ -38,9 +38,7 @@ Pro/Max 用户的 TTL 默认 1 小时。常见冲缓存场景：
 
 冲一次缓存的代价 = ~20K tokens 全价 Prefill。每天冲 3-4 次，**一周净亏一份套餐额度**。
 
-## 实操方案
-
-> [!example] tmux / iTerm AppleScript 自动 ping
+> [!example] 实操方案：tmux / iTerm AppleScript 自动 ping
 > 每 55 分钟往 Claude Code 终端自动发一条 prompt：
 > 
 > ```markdown
@@ -49,9 +47,7 @@ Pro/Max 用户的 TTL 默认 1 小时。常见冲缓存场景：
 > 
 > Claude 会回个 "ok"。这条请求消耗极小（输入几十 token + 输出 1 token），但**让整个 20K+ 的系统前缀重新生效**。
 
-## 适用边界
-
-> [!warning] 这是 Pro/Max 套餐的玩法
+> [!warning] 适用边界：这是 Pro/Max 套餐的玩法
 > - **API 计费用户**：每次 ping 也要花钱，没必要
 > - **Free / 默认 5 分钟 TTL 用户**：每 4 分钟 ping 一次太频繁，节奏被打乱
 > - **本来就高频对话的人**：自然 keep-alive，不用脚本
