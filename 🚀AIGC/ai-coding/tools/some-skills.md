@@ -170,3 +170,82 @@ npx skills add jimliu/baoyu-skills
 
 > [!tip] 环境配置
 > 部分 skill（如 baoyu-image-gen）需要配置 API Key。可在 `~/.baoyu-skills/.env`（用户级）或 `<项目>/.baoyu-skills/.env`（项目级）中设置环境变量。支持 OpenAI、Google、DashScope、即梦、豆包等多个 provider 的 Key 配置。
+
+
+## architecture-diagram-generator
+
+> [!info] 基本信息
+> - **作者**：Cocoon AI
+> - **仓库**：[Cocoon-AI/architecture-diagram-generator](https://github.com/Cocoon-AI/architecture-diagram-generator)
+> - **协议**：MIT
+
+一个 Claude Skill，用自然语言描述系统架构，自动生成精美的暗色主题架构图。输出为自包含的 HTML 文件，可直接在浏览器打开，无需任何额外依赖。
+
+### 核心特性
+
+- **文字 → 架构图**：用自然语言描述组件和连接关系，自动生成 SVG 架构图
+- **自包含输出**：单个 HTML 文件，内嵌 CSS + 内联 SVG，任何浏览器直接打开
+- **语义化配色**：自动为不同组件类型分配颜色
+- **可迭代**：生成后可通过对话继续修改布局、组件、样式
+
+### 示例效果
+
+**Web Application (React + Node.js + PostgreSQL)**
+
+![[🚀AIGC/ai-coding/tools/asset/arch-diagram-web-app.png]]
+
+**AWS Serverless (Lambda + API Gateway + DynamoDB)**
+
+![[🚀AIGC/ai-coding/tools/asset/arch-diagram-aws-serverless.png]]
+
+**Microservices (Kubernetes + API Gateway)**
+
+![[🚀AIGC/ai-coding/tools/asset/arch-diagram-microservices.png]]
+
+### 配色方案
+
+| 组件类型 | 颜色 | 适用 |
+|---------|------|------|
+| Frontend | Cyan | 客户端、UI |
+| Backend | Emerald | 服务端、API |
+| Database | Violet | 数据库、存储、AI/ML |
+| Cloud/AWS | Amber | 云服务、基础设施 |
+| Security | Rose | 认证、安全 |
+
+### 使用方式
+
+1. 下载 `architecture-diagram.zip`，在 Claude.ai → Settings → Capabilities → Skills 中上传启用
+2. 描述你的架构（手写 / 让 AI 分析代码库 / 请求典型架构模板）
+3. 让 Claude 使用该 Skill 生成图表
+
+描述架构模板
+```
+Analyze this codebase and describe the architecture. Include all major
+components, how they connect, what technologies they use, and any cloud
+services or integrations. Format as a list for an architecture diagram.
+```
+
+
+```
+Use your architecture diagram skill to create an architecture diagram from this description:
+[你的架构描述]
+```
+
+### 安装
+
+```bash
+# Claude Code CLI
+unzip architecture-diagram.zip -d ~/.claude/skills/
+
+# 或项目级
+unzip architecture-diagram.zip -d ./.claude/skills/
+```
+
+> [!warning] 注意事项
+> - 需要 Claude Pro / Max / Team / Enterprise 订阅
+> - 输出为静态 HTML/SVG，不支持交互式编辑
+> - 字体依赖 Google Fonts（JetBrains Mono），离线环境可能降级
+
+
+
+
