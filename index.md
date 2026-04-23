@@ -44,6 +44,7 @@ date: 2026-04-22
 - [[wiki/ai-coding/shift-left|Shift Left]]
 - [[wiki/ai-coding/spec-coding|Spec Coding]]
 - [[wiki/ai-coding/subagent-上下文隔离|Subagent 上下文隔离]]
+- [[wiki/ai-coding/subagent-driven-development|Subagent-Driven Development（每任务一个 subagent）]]
 - [[wiki/ai-coding/vibe-coding|Vibe Coding]]
 - [[wiki/ai-coding/vibe-coding-的代价|Vibe Coding 的代价]]
 - [[wiki/ai-coding/vibe-coding-对-saas-的通缩|Vibe Coding 对 SaaS 的结构性通缩]]
@@ -91,6 +92,7 @@ date: 2026-04-22
 - [[wiki/aigc/skill-编写实践|Skill 编写实践]]
 - [[wiki/aigc/skills-9-分类|Skills 9 大分类]]
 - [[wiki/aigc/skills-vs-automations|Skills vs Automations（方法 vs 调度）]]
+- [[wiki/aigc/superpowers|Superpowers（AI 编码工作流框架）]]
 - [[wiki/aigc/渐进式披露|渐进式披露]]
 
 ## FrontEnd

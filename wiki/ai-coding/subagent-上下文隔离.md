@@ -6,8 +6,8 @@ sources:
   - "[[sources/inbox/使用 Claude Code：会话管理与 100 万 上下文【译】]]"
   - "[[sources/inbox/搞懂缓存机制，从Gemma4到Claude Code省80%Token]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
-  - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
-last-ingested: 2026-04-22
+  - "[[sources/posts/aigc/ai-coding/tools/Superpowers - AI 编码工作流框架]]"
+last-ingested: 2026-04-23
 status: stable
 ---
 
@@ -130,4 +130,4 @@ RULES (non-negotiable):
 - 替代方案：[[compact-vs-clear]] / [[rewind-胜过纠正]]
 - 缓存层细节：[[prefix-cache]] / [[cache-失效陷阱]]
 - 编排模式：[[wiki/aigc/coordinator-模式]]
-- 多 agent 编排模板：[[wiki/aigc/coordinator-模式|Coordinator 模式]]
+- 极致用法：[[subagent-driven-development]]（计划里每个 task 都派一个 subagent）

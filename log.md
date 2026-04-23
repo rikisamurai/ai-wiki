@@ -7,6 +7,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 02:15] migrate-next | 31/41 · Superpowers
+- 新建：[[wiki/aigc/superpowers]]、[[wiki/ai-coding/subagent-driven-development]]
+- 增补：[[wiki/ai-coding/subagent-上下文隔离]]（极致用法链接）、[[wiki/ai-coding/采访驱动-spec]]（Superpowers brainstorming Skill）
+- source: sources/posts/aigc/ai-coding/tools/Superpowers - AI 编码工作流框架.md
+
 ## [2026-04-23 01:50] migrate-next | 30/41 · Codex Best Practices
 - 新建：[[wiki/aigc/codex]]、[[wiki/aigc/codex-sandbox-approval]]、[[wiki/aigc/skills-vs-automations]]
 - 增补：[[wiki/ai-coding/agents-md]]（Codex 三层 + retrospective）、[[wiki/aigc/skill-编写实践]]、[[wiki/aigc/mcp]]

@@ -4,7 +4,8 @@ tags: [spec-coding, claude-code, technique]
 date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
-last-ingested: 2026-04-22
+  - "[[sources/posts/aigc/ai-coding/tools/Superpowers - AI 编码工作流框架]]"
+last-ingested: 2026-04-23
 status: draft
 ---
 
@@ -37,3 +38,6 @@ status: draft
 | **适用** | 团队有产品经理 | 个人项目 / 早期探索 |
 
 **与 [[约束悖论|约束悖论]] 的关系**：采访让你被迫提前回答"边界条件"，把约束写在 SPEC 里——这正是约束悖论的正向应用：**约束写得早，自由度反而高**，因为减少了 Claude 在实现期"猜你意图"的发挥空间。
+
+> [!example] [[wiki/aigc/superpowers|Superpowers]] 把它做成了 Skill
+> Superpowers 框架的第一步 `brainstorming` Skill 走的就是这套——苏格拉底式提问 + 把 Spec 切成可消化小块给你确认。差别是 Superpowers 不止采访，还接 `writing-plans` 把 SPEC 转成 2-5 分钟粒度的实施计划，再转 `subagent-driven-development` 串起来。也就是说，**采访驱动 SPEC 是入口，Superpowers 是把入口接到完整流水线**。
