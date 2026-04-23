@@ -7,6 +7,12 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 14:55] archive | migration-backlog → _orphans
+- migration-backlog.md → wiki/_orphans/migration-2026-04.md（git mv 保留历史）
+- 顶部加归档说明：41 总 / 38 ingest / 3 SKIP / 起 2026-04-22 完 2026-04-23
+- 同步更新 AGENT.md（顶层目录树 + /migrate-next 描述）、.claude/commands/migrate-next.md（无 backlog 时退出）、wiki/obsidian/inbox-工作流.md 引用
+- 后续如有新批次：根目录新建 migration-backlog.md 即可重新驱动 /migrate-next
+
 ## [2026-04-23 14:48] lint-fix | clean
 - 3 commits（ed7882d / 6550f92 / 348027d）共 12 文件修订
 - 复跑结果：orphans 0 / insufficient 0 / real broken 0

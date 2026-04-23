@@ -75,7 +75,7 @@ ai-wiki 的 `sources/inbox/` 就是 inbox 工作流的物理实现：
 
 - `sources/inbox/` ← Web Clipper / 手动写入的草稿堆
 - `wiki/**/*.md` ← 沉淀产物（status 等价于 done）
-- [[../../migration-backlog|migration-backlog.md]] ← 显式追踪 pending 队列
+- 根目录 `migration-backlog.md` ← 显式追踪 pending 队列（按需创建；2026-04 首批已归档至 [[wiki/_orphans/migration-2026-04|_orphans/migration-2026-04.md]]）
 
 `/migrate-next` 命令就是把 inbox `pending` 一个个变成 `done` 的驱动器。
 

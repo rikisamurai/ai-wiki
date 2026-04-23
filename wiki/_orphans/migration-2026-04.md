@@ -1,14 +1,22 @@
 ---
-title: Migration Backlog
+title: Migration Backlog（2026-04 已归档）
 date: 2026-04-22
+archived: 2026-04-23
+status: done
 ---
 
-# 存量 Source Ingest Backlog
+# 存量 Source Ingest Backlog · 已归档
 
-进度：39/41 _（用 `/migrate-next` 推进，每完成一条进度 +1）_
+> [!success] 已 drain（2026-04-23）
+> - 总条目：41
+> - `[x]` ingest：38
+> - `[SKIP]`：3（理由记录在条目末）
+> - 起始：2026-04-22 · 完成：2026-04-23
+>
+> 这是 ai-wiki 项目首次大规模存量迁移的全程进度卡。归档于此留念，**不再被 `/migrate-next` 读取**。
+> 后续如需新批次迁移，在仓库根目录新建 `migration-backlog.md` 重新驱动 `/migrate-next` 即可。
 
-> 用 `/migrate-next` 自动取下一条。完成的条目会被勾掉并附日期。
-> 失败的标记为 `- [SKIP]` 并附原因，不阻塞流水线。
+进度：41/41 _（已结案）_
 
 ## inbox（最高优先级）
 

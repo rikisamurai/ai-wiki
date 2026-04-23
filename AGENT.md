@@ -22,7 +22,7 @@
 - **`/ingest <source-path>`**：把 sources/ 下一份原料抽取成 wiki/ 多个互链页面。
 - **`/query <问题>`**：基于 wiki/ 回答问题；找不到才降级查 sources/；高价值答案 ingest 回 wiki/。
 - **`/lint`**：扫 wiki/ 检测孤儿、矛盾、过时、断链、缺交叉引用。**只报告，不自动修**。
-- **`/migrate-next`**：从 `migration-backlog.md` 取下一条做 ingest（存量迁移驱动器）。
+- **`/migrate-next`**：从根目录 `migration-backlog.md` 取下一条做 ingest（存量迁移驱动器）。**当前无活跃 backlog**，2026-04 首批 41 条已 drain，归档于 [[wiki/_orphans/migration-2026-04|wiki/_orphans/migration-2026-04.md]]。需新批次时重建根目录 `migration-backlog.md` 即可。
 
 ## 顶层目录
 
@@ -31,7 +31,7 @@ ai-wiki/
 ├── AGENTS.md / CLAUDE.md         # schema（本文件）
 ├── index.md                      # 内容目录（手写主框架 + Bases 嵌入）
 ├── log.md                        # append-only 时间线
-├── migration-backlog.md          # 存量 ingest 进度
+├── migration-backlog.md          # 存量 ingest 进度（按需创建；2026-04 首批已归档至 wiki/_orphans/）
 ├── index.base / log.base         # Bases 动态视图
 ├── sources/                      # 只读原料
 │   ├── clippings/                # 网页剪藏
