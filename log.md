@@ -7,6 +7,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 01:25] migrate-next | 29/41 · claude-code-tools
+- 新建：[[wiki/aigc/everything-claude-code]]、[[wiki/aigc/claude-hud]]、[[wiki/aigc/codex-plugin]]
+- 增补：[[wiki/ai-coding/writer-reviewer-模式]]（Codex 异系 reviewer）
+- source: sources/posts/aigc/ai-coding/claude-code/🛠️claude-code-tools.md
+
 ## [2026-04-23 01:05] migrate-next | 28/41 · claude-tips
 - 新建：[[wiki/aigc/settings-scopes]]
 - 增补：[[wiki/aigc/permission-modes]]（CLI 临时覆盖）、[[wiki/aigc/claude-code]]（frontmatter source）

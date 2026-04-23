@@ -4,7 +4,8 @@ tags: [multi-session, claude-code, workflow]
 date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
-last-ingested: 2026-04-22
+  - "[[sources/posts/aigc/ai-coding/claude-code/🛠️claude-code-tools]]"
+last-ingested: 2026-04-23
 status: draft
 ---
 
@@ -34,6 +35,9 @@ Writer/Reviewer 模式是**多会话并行**的一种典型用法：一个 Claud
 - **桌面应用**：可视化管理多会话，每个会话独立 [[wiki/superpowers/using-git-worktrees|worktree]]
 - **Web 版**：Anthropic 云基础设施的隔离 VM
 - **Agent Teams**：多会话自动协调，共享任务和消息队列
+
+> [!example] 异系模型 reviewer：[[wiki/aigc/codex-plugin|Codex Plugin]]
+> 进一步把 Reviewer 换成**另一家厂商**的模型——Claude 写代码、Codex review，撞出"模型选择本身的偏差"。`/codex:adversarial-review` 命令带强制对抗指令，比同系不同会话的 reviewer 更难陷入"模型族盲区"。代价是双倍 token，建议只在合并前或重大决策时触发。
 
 > [!tip] 文件级分发是更轻的并行
 > Writer/Reviewer 适合**质量门控**；如果只是想批量处理一批独立文件，用 `claude -p` + Bash for 循环更合适：
