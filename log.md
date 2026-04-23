@@ -7,6 +7,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 03:35] migrate-next | 35/41 · 了解 CDP：browser-use 背后的隐藏功臣
+- 增补：[[wiki/aigc/cdp]]（追加 JSON-RPC over WebSocket 协议格式 + Browser/JavaScript Protocol 二分 + Domain 三步式生命周期 + Target × Session 一对多 + AI 写 CDP 翻车 tip）
+- source: sources/posts/aigc/browser-use/blog/了解 CDP：browser-use 背后的隐藏功臣.md
+- 备注：纯追加补充模式，未新建页面；CDP 主页从"能力边界"维度延伸到"协议机制"维度
+
 ## [2026-04-23 03:20] migrate-next | 34/41 · OpenCLI：把网站变成 AI Agent 的 CLI
 - 新建：[[wiki/aigc/opencli]]、[[wiki/aigc/agent-browser]]（stub）
 - 增补：[[wiki/aigc/browser-use]]（frontmatter sources 追加）
