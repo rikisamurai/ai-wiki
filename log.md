@@ -7,6 +7,13 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 04:15] migrate-next | 37/41 · OpenCLI/Agent-Browser/Browser-Use 深度横向评测
+- 增补：[[wiki/aigc/agent-browser]]（量化基准 -82% Token + 95% 首试成功率 + Cloudflare 软肋）
+- 增补：[[wiki/aigc/browser-use]]（83.3% 可靠性 / 113s 平均耗时 / 配 Bright Data 98.44% + 间接 Prompt Injection 80% ASR + CVE）
+- 增补：[[wiki/aigc/opencli]]（CDP 端口暴露的安全警告：本地任意进程可绕过同源策略）
+- source: sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/OpenCLI、Agent-Browser 与 Browser-Use 深度横向评测.md
+- 备注：纯追加补充模式；横向评测主要补 1) 量化基准 2) 安全模型 两大缺角
+
 ## [2026-04-23 03:55] migrate-next | 36/41 · 三种浏览器控制流派对比
 - 增补：[[wiki/aigc/agent-browser]]（从 stub 扩到完整页：Rust Daemon + Accessibility Tree + Refs + 安全六件套 + 多 Provider + Electron 命名会话 + 反 MCP）
 - 增补：[[wiki/aigc/opencli]]（5-Command Pattern + 8 桌面应用 + AppleScript 降级 + 认证级联 PUBLIC→COOKIE→HEADER→BROWSER→CDP）

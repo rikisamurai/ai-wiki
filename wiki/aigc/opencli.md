@@ -5,6 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/browser-use/blog/OpenCLI：把任何网站变成 AI Agent 的命令行工具]]"
   - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/AI Agent 的三种浏览器控制流派：OpenCLI、agent-browser、browser-use CLI 深度对比]]"
+  - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/OpenCLI、Agent-Browser 与 Browser-Use 深度横向评测]]"
 last-ingested: 2026-04-23
 status: draft
 ---
@@ -125,5 +126,19 @@ Connection: Browser Bridge | CDP 注入 | Passthrough
 > - **覆盖依赖适配器**：未知网站只能用 `operate` 兜底或回退 Browser-Use
 > - **适配器会失效**：网站改 DOM/API 后社区适配器可能滞后
 > - **不是通用工具**：把"通用性"换成了"确定性 + 零成本"，这是显式的设计权衡
+
+> [!warning] 安全警告：CDP 端口暴露 = 让出浏览器最高控制权
+> OpenCLI 的"生物寄生策略"——复用用户**日常使用的、存有大量敏感登录态的 Chrome 浏览器**——是它绕过反爬虫的核心优势，**也是它最大的安全软肋**。
+>
+> 一旦 Chrome 以 `--remote-debugging-port=9222` 启动：
+> - 任何本地进程都能连上端口、绕过同源策略、执行任意 JS、静默读取所有网站 Cookie
+> - 局域网内的攻击者也能连
+>
+> 实操规则：
+> - **只在受信任、隔离的机器上启用**
+> - 自动化结束后**立刻关掉那个 Chrome 实例**——不要让带着 CDP 端口的 Chrome 继续浏览
+> - 别在暴露 CDP 期间点陌生链接 / 装陌生扩展
+>
+> 对比 [[browser-use|Browser-Use]] 走 Cloud Browser、[[agent-browser|agent-browser]] 用独立 Chrome for Testing——OpenCLI 是三家里安全责任最重的。
 
 **关联**：[[browser-use|Browser-Use]] / [[agent-browser|agent-browser]] / [[cdp|CDP]] / [[cdp-能力边界|CDP 能力边界]] / [[claude-code|Claude Code]] / [[skills-marketplace|Skills 分发与市场]]

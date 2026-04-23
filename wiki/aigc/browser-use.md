@@ -6,6 +6,7 @@ sources:
   - "[[sources/posts/aigc/browser-use/blog/CDP 视角下的 Browser 控制边界]]"
   - "[[sources/posts/aigc/browser-use/blog/OpenCLI：把任何网站变成 AI Agent 的命令行工具]]"
   - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/AI Agent 的三种浏览器控制流派：OpenCLI、agent-browser、browser-use CLI 深度对比]]"
+  - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/OpenCLI、Agent-Browser 与 Browser-Use 深度横向评测]]"
 last-ingested: 2026-04-23
 status: draft
 ---
@@ -116,5 +117,26 @@ browser-use cloud v3 POST /sessions '{"model":"bu-max"}'
 
 > [!tip] `--mcp`：作为 MCP Server 的入口
 > `browser-use --mcp` 直接把整个 CLI 暴露为 [[mcp|MCP]] Server，是三家里唯一原生支持 MCP 的——agent-browser 和 OpenCLI 都倾向"反 MCP，走轻量 CLI / Skill"路线。
+
+> [!example] 量化基准：稳健换延迟
+> 标准化 Web Agent 基准（最多 20 步 / 6 分钟内完成"找特定食谱"等任务）：
+>
+> | 工具 | 自报告完成 | LLM 评估实际 | 整体可靠性 | 平均耗时 |
+> |---|---|---|---|---|
+> | Notte（高度定制） | — | 79.0% | 96.6% | 47s |
+> | **browser-use** | **77.3%** | **60.2%** | **83.3%** | **113s** |
+> | Convergence | — | 31.4% | 50.0% | 83s |
+>
+> 113 秒 vs 47 秒——这是"为了在动态网站上不失败"必须付出的深度解析 + 视觉校验代价。
+>
+> **配 Bright Data 等住宅代理时**：7 个防御最严域名平均 **98.44% 成功率**（Zillow / Indeed 等达 100%）——这是其他两家拍马都赶不上的"反爬天花板"，归功于 1.5 亿动态住宅 IP + 网络级 CAPTCHA 解决。
+
+> [!warning] AI 安全：间接 Prompt Injection 80% ASR
+> Browser-Use 类工具把抓到的网页文本注入 LLM 上下文——CIA triad 评估发现 **5 种主流 Web Agent（含 browser-use）面对恶意网页时攻击成功率高达 80%**。已有 CVE 记录与 PoC：
+>
+> - 激活摄像头 / 窃取本地文件 / 用户身份伪造
+> - 诱导 Agent 死循环刷新页面（DoS）
+>
+> 缓解：[[agent-browser|agent-browser]] 的 `--content-boundaries` 用 nonce 包裹外部内容；browser-use 本身**没有内置等价机制**——这是用 browser-use 跑生产 Agent 时必须自己加一层的安全空白点。参考 [[wiki/aigc/fail-closed-tool-defaults|Fail-Closed 工具默认]]。
 
 **关联**：[[cdp|CDP]] / [[cdp-能力边界|CDP 能力边界]] / [[opencli|OpenCLI]] / [[agent-browser|agent-browser]] / [[mcp|MCP]] / [[claude-code|Claude Code]]
