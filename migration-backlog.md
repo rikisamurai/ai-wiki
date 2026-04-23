@@ -5,7 +5,7 @@ date: 2026-04-22
 
 # 存量 Source Ingest Backlog
 
-进度：32/41 _（用 `/migrate-next` 推进，每完成一条进度 +1）_
+进度：33/41 _（用 `/migrate-next` 推进，每完成一条进度 +1）_
 
 > 用 `/migrate-next` 自动取下一条。完成的条目会被勾掉并附日期。
 > 失败的标记为 `- [SKIP]` 并附原因，不阻塞流水线。
@@ -35,7 +35,7 @@ date: 2026-04-22
 - [x] `sources/posts/aigc/ai-coding/codex/Codex Best Practices.md` ← 2026-04-23
 - [x] `sources/posts/aigc/ai-coding/tools/Superpowers - AI 编码工作流框架.md` ← 2026-04-23
 - [x] `sources/posts/aigc/ai-coding/tools/some-skills.md` ← 2026-04-23
-- [ ] `sources/posts/aigc/browser-use/blog/CDP 视角下的 Browser 控制边界.md`
+- [x] `sources/posts/aigc/browser-use/blog/CDP 视角下的 Browser 控制边界.md` ← 2026-04-23
 - [ ] `sources/posts/aigc/browser-use/blog/OpenCLI：把任何网站变成 AI Agent 的命令行工具.md`
 - [ ] `sources/posts/aigc/browser-use/blog/了解 CDP：browser-use 背后的隐藏功臣.md`
 - [ ] `sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/AI Agent 的三种浏览器控制流派：OpenCLI、agent-browser、browser-use CLI 深度对比.md`

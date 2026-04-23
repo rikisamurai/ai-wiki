@@ -69,6 +69,9 @@ date: 2026-04-22
 
 - [[wiki/aigc/agent-skills|Agent Skills 规范]]
 - [[wiki/aigc/auto-memory|Auto Memory（自动记忆）]]
+- [[wiki/aigc/browser-use|Browser-Use]]
+- [[wiki/aigc/cdp|CDP（Chrome DevTools Protocol）]]
+- [[wiki/aigc/cdp-能力边界|CDP 能力边界完整表]]
 - [[wiki/aigc/claude-code|Claude Code]]
 - [[wiki/aigc/claude-code-memory|Claude Code Memory 体系]]
 - [[wiki/aigc/claude-code-六层架构|Claude Code 六层架构]]

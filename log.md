@@ -7,6 +7,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 03:00] migrate-next | 33/41 · CDP 视角下的 Browser 控制边界
+- 新建：[[wiki/aigc/cdp]]、[[wiki/aigc/cdp-能力边界]]、[[wiki/aigc/browser-use]]
+- source: sources/posts/aigc/browser-use/blog/CDP 视角下的 Browser 控制边界.md
+- 备注：建立 CDP 主页 + 能力边界查表 + Browser-Use 主页；后续 35/41 走"追加补充"补 JSON-RPC/Domain/Target 协议细节
+
 ## [2026-04-23 02:35] migrate-next | 32/41 · some-skills
 - 新建：[[wiki/aigc/claude-health]]、[[wiki/aigc/skills-marketplace]]
 - 增补：[[wiki/aigc/claude-code-六层架构]]（claude-health 自动审计示例）
