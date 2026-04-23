@@ -4,6 +4,7 @@ tags: [opencli, browser-automation, ai-agent]
 date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/browser-use/blog/OpenCLI：把任何网站变成 AI Agent 的命令行工具]]"
+  - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/AI Agent 的三种浏览器控制流派：OpenCLI、agent-browser、browser-use CLI 深度对比]]"
 last-ingested: 2026-04-23
 status: draft
 ---
@@ -54,9 +55,24 @@ Connection: Browser Bridge | CDP 注入 | Passthrough
 > ```
 
 > [!example] 2. Electron 应用 CLI 化（独有能力）
-> 通过 CDP 注入控制桌面端：Cursor / Codex / ChatGPT / Notion / Discord / Antigravity。
+> 通过 CDP 注入控制桌面端：Cursor / Codex / ChatGPT / Notion / Discord / Antigravity / ChatWise / Doubao（豆包）共 8 个。
 >
 > **AI 控制 AI**：可以用 [[claude-code|Claude Code]] 通过 OpenCLI 操控 [[codex|Codex]]、Cursor。这是 [[browser-use|Browser-Use]] 类工具完全不能做的——只有 OpenCLI 同时打通了浏览器和桌面应用两条路径。
+>
+> **5-Command Pattern**：每个 Electron adapter 都遵循同一套命令骨架——
+>
+> | 命令 | 作用 | 技术要点 |
+> |---|---|---|
+> | `status` | 连接测试 | 确认 CDP 通路 |
+> | `dump` | 逆向工程 | dump DOM + Accessibility Snapshot，提取 selector |
+> | `send` | 文本注入 | `document.execCommand('insertText')` 穿透 React 状态管理 |
+> | `read` | 内容提取 | 找语义化 selector，输出 Markdown |
+> | `new` | 新建操作 | 触发原生快捷键（`Meta+N`） |
+>
+> 这套骨架是适配 Electron 应用的**模板**——加新应用照填即可。
+
+> [!note] 非 Electron 应用的降级方案
+> 微信/飞书等原生应用没有 CDP 端口——OpenCLI 用 **AppleScript + 剪贴板**：`Cmd+A → Cmd+C → pbpaste`。精度低但兜得住。
 
 > [!example] 3. CLI Hub（外部工具枢纽）
 > ```bash
@@ -81,6 +97,12 @@ Connection: Browser Bridge | CDP 注入 | Passthrough
 > 2. **自动发现**：在 `AGENT.md` 配 `opencli list`，AI 自动列出所有可用命令
 > 3. **适配器生成**：`opencli explore + synthesize + generate` 让 AI 自己写适配器
 > 4. **确定性输出**：`--format table|json|yaml|md|csv`——给 AI 的不是 HTML，是 JSON
+
+> [!compare] 认证策略级联（探索期自动降级）
+> ```
+> PUBLIC → COOKIE → HEADER → BROWSER → CDP
+> ```
+> `opencli explore` 时按这个顺序探测：先试无认证、再试 Cookie、再试 Header、最后回退到 Browser Bridge / CDP 注入。**让 LLM 在"探索期"做一次决策，运行期就 0 推理**——这是和 [[browser-use|Browser-Use]] 派的根本区别。
 
 **适用边界：场景 × 工具决策树**
 

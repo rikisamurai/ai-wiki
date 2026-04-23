@@ -5,6 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/browser-use/blog/CDP 视角下的 Browser 控制边界]]"
   - "[[sources/posts/aigc/browser-use/blog/OpenCLI：把任何网站变成 AI Agent 的命令行工具]]"
+  - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/AI Agent 的三种浏览器控制流派：OpenCLI、agent-browser、browser-use CLI 深度对比]]"
 last-ingested: 2026-04-23
 status: draft
 ---
@@ -60,4 +61,60 @@ CDP `Input.dispatchMouseEvent(...)`
 >
 > AI 场景的设计原则：**敢于不做**。把这些功能从 Agent 的 action 集合里拿掉，整体可靠性反而上升。
 
-**关联**：[[cdp|CDP]] / [[cdp-能力边界|CDP 能力边界]] / [[opencli|OpenCLI]] / [[wiki/aigc/agent-browser|agent-browser]]
+**browser-use CLI：Element Index + 多模态**
+
+[browser-use CLI](https://docs.browser-use.com/open-source/browser-use-cli)（Python，多会话 Daemon，~50ms 命令延迟）是 browser-use 派最成熟的实现：
+
+```
+[0] input "Name"
+[1] input "Email"
+[2] button "Submit"
+```
+
+```bash
+browser-use input 0 "John Doe"
+browser-use click 2
+```
+
+> [!compare] Element Index vs Refs vs 适配器
+> | 工具 | 状态表征 | LLM 角色 |
+> |---|---|---|
+> | browser-use | DOM + 数字索引 + 视觉 Bounding Box | 运行时理解+操作 |
+> | [[agent-browser\|agent-browser]] | Accessibility Tree + `@e1` Refs | 运行时理解+操作（Token 更省） |
+> | [[opencli\|OpenCLI]] | 完全隐藏 DOM | 仅在"探索期"理解，运行期 0 推理 |
+>
+> browser-use 独有：**视觉边界框**——把数字索引以 BBox 形式叠在截图上，配合 GPT-4o / Claude Sonnet 4 这类 VLM 能解决"DOM 存在但被遮挡"的问题。代价是更高的 Token 与延迟。
+
+**三种浏览器模式**
+
+```bash
+browser-use open https://example.com                          # Headless Chromium（默认）
+browser-use --profile "Default" open https://gmail.com         # 真实 Chrome Profile（复用登录态）
+browser-use cloud connect --proxy-country US                   # Cloud（反指纹 + CAPTCHA + 代理）
+```
+
+**Cloud 平台深度集成**
+
+CLI 内置 Browser Use Cloud 完整 REST passthrough：
+
+```bash
+browser-use cloud v2 POST /tasks '{"task":"Search for AI news"}'
+browser-use cloud v3 POST /sessions '{"model":"bu-max"}'
+```
+
+**v3 API 特有**：Workspaces（跨 session 持久化）、结构化输出（Pydantic schema）、文件上传/下载、`max_cost_usd` 成本控制。
+
+> [!example] Skill 系统：把网站交互变成可复用 API
+> ```python
+> skill = await client.skills.create(
+>     goal="Extract top X posts from HackerNews...",
+>     agent_prompt="Go to https://news.ycombinator.com..."
+> )
+> result = await client.skills.execute(skill.id, parameters={"X": 10})
+> ```
+> 探索期 ~30 秒生成 Skill，之后调用就走结构化参数——和 [[opencli|OpenCLI]] 的"适配器"思路殊途同归，区别在 Skill 是 LLM 自动生成、OpenCLI 适配器需要人写或半人工。
+
+> [!tip] `--mcp`：作为 MCP Server 的入口
+> `browser-use --mcp` 直接把整个 CLI 暴露为 [[mcp|MCP]] Server，是三家里唯一原生支持 MCP 的——agent-browser 和 OpenCLI 都倾向"反 MCP，走轻量 CLI / Skill"路线。
+
+**关联**：[[cdp|CDP]] / [[cdp-能力边界|CDP 能力边界]] / [[opencli|OpenCLI]] / [[agent-browser|agent-browser]] / [[mcp|MCP]] / [[claude-code|Claude Code]]

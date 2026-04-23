@@ -7,6 +7,13 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 03:55] migrate-next | 36/41 · 三种浏览器控制流派对比
+- 增补：[[wiki/aigc/agent-browser]]（从 stub 扩到完整页：Rust Daemon + Accessibility Tree + Refs + 安全六件套 + 多 Provider + Electron 命名会话 + 反 MCP）
+- 增补：[[wiki/aigc/opencli]]（5-Command Pattern + 8 桌面应用 + AppleScript 降级 + 认证级联 PUBLIC→COOKIE→HEADER→BROWSER→CDP）
+- 增补：[[wiki/aigc/browser-use]]（Element Index + 视觉 BBox + 三种模式 + Cloud v2/v3 + Skill 系统 + --mcp）
+- source: sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/AI Agent 的三种浏览器控制流派.md
+- 备注：纯追加补充模式；按计划"不再建对比专页"，三流派对比直接落到三页里
+
 ## [2026-04-23 03:35] migrate-next | 35/41 · 了解 CDP：browser-use 背后的隐藏功臣
 - 增补：[[wiki/aigc/cdp]]（追加 JSON-RPC over WebSocket 协议格式 + Browser/JavaScript Protocol 二分 + Domain 三步式生命周期 + Target × Session 一对多 + AI 写 CDP 翻车 tip）
 - source: sources/posts/aigc/browser-use/blog/了解 CDP：browser-use 背后的隐藏功臣.md
