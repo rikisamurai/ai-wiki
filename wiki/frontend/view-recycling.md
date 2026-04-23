@@ -34,3 +34,5 @@ status: draft
 - **状态要外置**：item 内部 useState 在回收后状态可能错位，应当把状态提升到 data 里
 
 **哪些场景适合**：长列表（千条以上）滚动卡顿、item 渲染成本高（含图片、动画）、需要 60 FPS 滚动体验。短列表（< 100 条）用 FlatList 就够了，回收带来的复杂度不值得。
+
+**关联**：[[wiki/frontend/flash-list|FlashList]]（实现） / [[wiki/frontend/react-native-core-components|RN 核心组件]]（list 选型上下文） / [[wiki/frontend/pressable-vs-touchable|Pressable vs TouchableOpacity]]（item 内可点击容器）

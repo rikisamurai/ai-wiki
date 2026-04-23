@@ -43,3 +43,5 @@ React Native 里两种主流的可点击容器选型。`TouchableOpacity` 是老
 
 - **滥用 Button**：内置 `Button` 样式固定，仅适合原型；生产代码几乎不用
 - **混用风格**：同一页面一会 TouchableOpacity 一会 Pressable，维护成本高于新 API 的收益
+
+**关联**：[[wiki/frontend/react-native-core-components|RN 核心组件]] / [[wiki/frontend/flash-list|FlashList]]（长列表里 Pressable 是事实标准）

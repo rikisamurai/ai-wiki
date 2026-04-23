@@ -7,6 +7,19 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 14:48] lint-fix | clean
+- 3 commits（ed7882d / 6550f92 / 348027d）共 12 文件修订
+- 复跑结果：orphans 0 / insufficient 0 / real broken 0
+- 剩 1 项假阳性（index.base 在 vault 根，工具盲区，不需修）
+
+## [2026-04-23 14:31] lint | weekly check
+- 总文件：131；orphans：0；stale：0；status 异常：0
+- 出链不足（<2）：4（pressable-vs-touchable / view-recycling / webcontainers / json-canvas）
+- 真正需修的断链：5 类（big-ball-of-mud-语料 ×2、radix-attention、wiki/superpowers/using-git-worktrees ×3、wiki/ai-coding/lint、two-agent-编程）
+- index.md 假阳性 2（AGENT/index.base 在 vault 根，stem 解析正常）
+- 概念重复：无真正候选（共 19 组高相关页面，均为同主题集群非 dupe）
+- 详见对话内分项报告
+
 ## [2026-04-23 04:45] migrate-next | 39/41 · rag/intro
 - 新建：[[wiki/aigc/rag]]、[[wiki/aigc/agentic-rag]]、[[wiki/aigc/graph-rag]]、[[wiki/aigc/hybrid-retrieval]]
 - 备注：开 RAG 子域；rag.md 主页 + 三个增强方向页（Agentic / Graph / Hybrid）；多模态 + 模块化 RAG 暂作 rag.md 内的 inline 概念；Agentic RAG cross-link 到 long-horizon-agent / subagent-上下文隔离；GraphRAG cross-link 到 obsidian knowledge-graph

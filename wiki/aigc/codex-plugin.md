@@ -11,7 +11,7 @@ status: draft
 OpenAI 官方发布的插件，把 Codex 接入 Claude Code 作为**第二审阅者和后台执行器**。它不是"用 Codex 替代 Claude"，而是 [[wiki/ai-coding/writer-reviewer-模式|Writer/Reviewer 模式]]的产品化——主写者用 Claude，关键节点请异系模型来挑刺，是一种廉价的"对抗性 review"。
 
 > [!important] 为什么用"另一家的模型"做 reviewer
-> 同一个模型给自己 review 等于"你自己检查自己的作文"——已知盲区会被一并继承。换 Codex 来 review，至少能撞出**模型选择本身的偏差**：Claude 写代码偏哪些假设、Codex 倾向哪些质疑。这是 Writer/Reviewer 模式比 [[two-agent-编程|双 Agent 编程]]更进一步的地方——异系模型 > 同系不同会话 > 同会话自检。
+> 同一个模型给自己 review 等于"你自己检查自己的作文"——已知盲区会被一并继承。换 Codex 来 review，至少能撞出**模型选择本身的偏差**：Claude 写代码偏哪些假设、Codex 倾向哪些质疑。这是 Writer/Reviewer 模式比"同系双 Agent 编程"更进一步的地方——异系模型 > 同系不同会话 > 同会话自检。
 
 > [!compare] 三个核心命令
 > | 命令 | 用途 | 适合场景 |

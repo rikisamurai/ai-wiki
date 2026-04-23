@@ -32,7 +32,7 @@ Writer/Reviewer 模式是**多会话并行**的一种典型用法：一个 Claud
 
 **多会话工具栈**
 
-- **桌面应用**：可视化管理多会话，每个会话独立 [[wiki/superpowers/using-git-worktrees|worktree]]
+- **桌面应用**：可视化管理多会话，每个会话独立 [[wiki/aigc/superpowers|worktree]]
 - **Web 版**：Anthropic 云基础设施的隔离 VM
 - **Agent Teams**：多会话自动协调，共享任务和消息队列
 

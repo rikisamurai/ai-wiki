@@ -11,7 +11,7 @@ status: draft
 claude-health 是 tw93 做的开源 Skill，把 [[claude-code-六层架构|六层架构]]（CLAUDE.md → rules → skills → hooks → subagents → verifiers）变成一个**可自动运行的诊断工具**。运行 `/health` 后并行跑 2 个诊断 agent，输出按优先级排序的修复报告。这是少数把"审计自己的 Claude Code 配置"工程化的工具。
 
 > [!important] 它解决了什么问题
-> Claude Code 配置随时间会**累积熵**：CLAUDE.md 越写越长、skills 越装越多、hooks 配了忘了改、规则同一件事在 3 个地方都说一遍。靠人工很难发现这些问题。claude-health 把六层架构每一层的**反模式清单**做成自动检查——本质是把 [[wiki/ai-coding/lint|AI 写 Lint]] 的思路用在 Claude Code 配置上。
+> Claude Code 配置随时间会**累积熵**：CLAUDE.md 越写越长、skills 越装越多、hooks 配了忘了改、规则同一件事在 3 个地方都说一遍。靠人工很难发现这些问题。claude-health 把六层架构每一层的**反模式清单**做成自动检查——本质是把 [[wiki/ai-coding/ai-写-lint|AI 写 Lint]] 的思路用在 Claude Code 配置上。
 
 > [!compare] 6 层 + 横切关注的检查项
 > | 层级 | 检查项 |

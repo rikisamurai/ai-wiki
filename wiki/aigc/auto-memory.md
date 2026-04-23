@@ -15,7 +15,7 @@ Auto Memory 是 [[claude-code-memory|Claude Code Memory 体系]]里**唯一由 C
 **关键特性**
 
 - 存储路径：`~/.claude/projects/<project>/memory/`——**机器本地，不跨机器或云环境共享**
-- 同一 git 仓库的所有 [[wiki/superpowers/using-git-worktrees|worktree]] 和子目录**共享同一个** auto memory 目录
+- 同一 git 仓库的所有 [[wiki/aigc/superpowers|worktree]] 和子目录**共享同一个** auto memory 目录
 - `MEMORY.md` 是索引文件，**每次会话加载前 200 行**；详细内容由 Claude 按需读取 topic 文件
 
 > [!example] 典型存储结构

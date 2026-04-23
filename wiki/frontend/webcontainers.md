@@ -31,3 +31,5 @@ WebContainers 是 StackBlitz 开发的浏览器内 Node.js 运行时——把 No
 > - **GitPod**：远端容器化开发环境
 >
 > 各家在 AI 生成赛道都有结构性壁垒，WebContainers 的独特点是"用户那侧零基础设施成本"。
+
+**关联**：[[wiki/frontend/vercel|Vercel]]（部署侧） / [[wiki/frontend/bun|Bun]]（同样押注"all-in-one JS 运行时"） / [[wiki/frontend/js-盈利模式分类|JS 盈利模式分类]]（StackBlitz 走的是 per-seat）

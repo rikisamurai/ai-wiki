@@ -42,7 +42,7 @@ status: stable
 > - **Anthropic**：显式 `cache_control` 断点，最高 90% 折扣，每请求 4 个断点，TTL 5 分钟（可升到 1 小时）。最小可缓存前缀：Claude 4.6 系列要 4,096 tokens。
 > - **OpenAI**：全自动，零代码改动，1024+ tokens 自动以 128 token 增量缓存。命中节省约 50%。
 > - **vLLM**（APC）：哈希链式块池（16 token/块，SHA256 哈希），LRU 淘汰。
-> - **SGLang**（[[radix-attention|RadixAttention]]）：基数树存储，token 级匹配，天然支持对话树分支，最高 6.4× 吞吐提升。
+> - **SGLang**（RadixAttention）：基数树存储，token 级匹配，天然支持对话树分支，最高 6.4× 吞吐提升。
 
 设计哲学差异：Anthropic 把控制权给开发者（精确但繁琐），OpenAI 把决策埋进 API（省心但粗放）。这个权衡贯穿了所有 LLM 平台 API 设计——参见 [[worse-is-better]] 里"接口简单 vs 实现完美"的同款张力。
 
