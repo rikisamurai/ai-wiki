@@ -13,12 +13,14 @@ Claude Code 是 Anthropic 出品的**代理式编码环境**（agentic coding en
 > [!important] 一切最佳实践都在解一个问题
 > Claude Code 的所有实践（验证驱动 / Plan Mode / Hooks / Subagent / Skills / 会话管理）本质上都在回答同一个问题：**如何在有限的上下文窗口里塞进高密度信息、避免噪声、让 Claude 自我闭环**。理解这一点，就能从一堆功能列表里看出主线。
 
+**先看一遍 [[claude-code-六层架构|六层架构]]**——CLAUDE.md/rules/memory + Tools/MCP + Skills + Hooks + Subagents + Verifiers——是治理 Claude Code 的整体心智模型；下面的七大主题是这六层在不同任务场景下的展开。
+
 **七大主题**
 
 | 主题 | 关键页面 | 核心思想 |
 |---|---|---|
 | **验证闭环** | [[wiki/ai-coding/验证驱动\|验证驱动]] / [[wiki/ai-coding/探索-规划-编码-验证\|四阶段工作流]] | 提供测试/截图/预期输出，Claude 才能自我闭环 |
-| **上下文管理** | [[wiki/ai-coding/会话管理动作\|五个会话动作]] / [[wiki/ai-coding/两次纠正规则\|两次纠正规则]] | Continue/Rewind/Clear/Compact/Subagent 的决策矩阵 |
+| **上下文管理** | [[wiki/ai-coding/会话管理动作\|五个会话动作]] / [[wiki/ai-coding/两次纠正规则\|两次纠正规则]] / [[handoff-md\|HANDOFF.md]] | Continue/Rewind/Clear/Compact/Subagent 的决策矩阵 |
 | **Memory 体系** | [[claude-code-memory\|CLAUDE.md+rules+auto]] | 跨会话持久化的三层结构 |
 | **扩展机制** | [[agent-skills\|Skills]] / [[hooks\|Hooks]] / [[mcp\|MCP]] / Subagents / Plugins | 把工具能力按需注入 Claude |
 | **权限与安全** | [[permission-modes\|权限模式]] / [[plan-mode\|Plan Mode]] | YOLO / Safe / Plan 三档收紧 |

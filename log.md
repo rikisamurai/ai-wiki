@@ -113,6 +113,12 @@ title: ai-wiki Activity Log
 - 备注：块引用部分已在 17/41、18/41 沉淀，此次不重复
 - source: sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）.md
 
+## [2026-04-23 00:10] migrate-next | 26/41 · Claude Code 深度使用指南 - HiTw93
+- 新建：[[wiki/aigc/claude-code-六层架构]]、[[wiki/aigc/handoff-md]]
+- 更新：[[wiki/aigc/mcp]]（追加 MCP 隐形成本 + defer_loading）、[[wiki/aigc/skill-编写实践]]（追加三种类型 + 描述符 token 优化 + auto-invoke 频率分级）、[[wiki/ai-coding/compact-vs-clear]]（追加 Compact Instructions）、[[wiki/aigc/hooks]]（追加三层叠加：CLAUDE.md+Skill+Hook）、[[wiki/aigc/claude-code]]（链接六层架构 + HANDOFF.md）、[[wiki/aigc/claude-code-memory]]（NEVER/ALWAYS 模板 + #追加技巧）、[[wiki/aigc/agent-skills]]（frontmatter sources 追加）
+- source: sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93.md
+- 备注：本条主要走"追加补充"模式，深度指南扩展 25/41 建立的 CC 主框架
+
 ## [2026-04-22 23:35] migrate-next | 25/41 · Claude Code 最佳实践
 - 新建：[[wiki/aigc/claude-code]]、[[wiki/ai-coding/验证驱动]]、[[wiki/ai-coding/探索-规划-编码-验证]]、[[wiki/aigc/hooks]]、[[wiki/ai-coding/两次纠正规则]]、[[wiki/ai-coding/writer-reviewer-模式]]、[[wiki/ai-coding/采访驱动-spec]]
 - 更新：[[wiki/aigc/claude-code-memory]]、[[wiki/ai-coding/compact-vs-clear]]、[[wiki/ai-coding/rewind-胜过纠正]]、[[wiki/aigc/plan-mode]]（frontmatter sources 追加）

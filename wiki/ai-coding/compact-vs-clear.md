@@ -5,6 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/inbox/使用 Claude Code：会话管理与 100 万 上下文【译】]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
+  - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
 last-ingested: 2026-04-22
 status: stable
 ---
@@ -73,6 +74,18 @@ Claude："请问是哪个 warning？我没看到。"
 费劲，但产生的新上下文**百分百是你认为相关的精华**。没有 Claude 自作主张的取舍。
 
 **"从这里开始总结"——介于两者之间**：`summarize from here` 功能让 Claude 自己生成一段交接说明，让"刚踩了坑的未来版 Claude，给过去那个还没开始的自己留张字条"。然后你拿这段总结去 [[会话管理动作|/clear]] 开新会话。这是 compact 的精确性 + clear 的干净性的组合。
+
+> [!tip] 在 CLAUDE.md 里写 Compact Instructions
+> 默认压缩算法会把早期 Tool Output 和文件内容优先删掉，连带丢失架构决策。在 [[wiki/aigc/claude-code-memory|CLAUDE.md]] 中写明压缩优先级，强制保留关键信息：
+> ```markdown
+> ## Compact Instructions
+> When compressing, preserve in priority order:
+> 1. Architecture decisions (NEVER summarize)
+> 2. Modified files and their key changes
+> 3. Current verification status (pass/fail)
+> 4. Open TODOs and rollback notes
+> ```
+> 这是 compact 自动机制的"配置层"。手动机制是 [[wiki/aigc/handoff-md|HANDOFF.md]]——任务进入新阶段时，让 Claude 把进度写进文件再 `/clear`。
 
 ## 关联
 

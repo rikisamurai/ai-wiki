@@ -4,6 +4,7 @@ tags: [agent-skills, best-practice, claude-code]
 date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/blog/🛠️ 构建 Claude Code 的经验：如何使用 Skills]]"
+  - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
 last-ingested: 2026-04-22
 status: draft
 ---
@@ -30,3 +31,19 @@ status: draft
 - `/freeze` — 阻止对特定目录之外的任何写操作，调试时防止误改
 
 **衡量 Skill 效果**。用 PreToolUse hook 在内部记录 Skill 使用情况，能看到哪些 Skills 受欢迎、哪些触发率低于预期。这是 [[harness-engineering|Harness Engineering]] 在 Skill 维度的应用——把"Skill 是否有效"也变成可观测信号。
+
+> [!compare] Skill 三种典型类型
+> Tw93 的实践把 Skills 进一步归为三种工程化模式（与 [[skills-9-分类|9 大分类]] 是不同维度的切法）：
+> | 类型 | 用途 | 关键字段 | 例 |
+> |---|---|---|---|
+> | **检查清单型** | 质量门禁 | 列表 + Pass/Fail | `release-check`：build / clippy / version 全过才放行 |
+> | **工作流型** | 标准化操作 | 步骤 + Rollback | `config-migration`：dry-run → apply → verify → rollback |
+> | **领域专家型** | 决策框架 | Decision Matrix | `runtime-diagnosis`：症状 → 首要排查项 → 根因分类 |
+>
+> 工作流型和领域专家型常带 `disable-model-invocation: true`——副作用大、必须显式触发。
+
+**描述符 token 优化是高 ROI 操作**。每个启用的 Skill，描述符常驻上下文。把"This skill helps you review code changes in Rust projects, checks for common issues like unsafe code..."（~45 tokens）压成 `Use for PR reviews with focus on correctness.`（~9 tokens），跨 20 个 Skills 就是几百 token。Tw93 的 auto-invoke 频率分级：
+
+- **高频（>1 次/会话）**：保持 auto-invoke，优化描述符
+- **低频（<1 次/会话）**：`disable-auto-invoke`，手动触发省描述符
+- **极低频（<1 次/月）**：移除 Skill，改成文档

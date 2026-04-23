@@ -5,6 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/obsidian/obsidian-claude/skills]]"
   - "[[sources/posts/aigc/ai-coding/blog/🛠️ 构建 Claude Code 的经验：如何使用 Skills]]"
+  - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
 last-ingested: 2026-04-22
 status: draft
 ---

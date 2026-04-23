@@ -4,6 +4,7 @@ tags: [claude-code, hooks, deterministic]
 date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
+  - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
 last-ingested: 2026-04-22
 status: draft
 ---
@@ -32,3 +33,11 @@ Hooks 是 Claude Code 的**确定性扩展点**：在 PreToolUse / PostToolUse /
 
 > [!tip] Hooks 不要承担太多
 > Hooks 跑在每次工具调用后，慢的 hook 会拖累整个会话节奏。把 lint 限定到改动文件而非全仓、把测试推到 commit 阶段而非 edit 阶段。重活留给 [[wiki/ai-coding/subagent-上下文隔离|subagent]]。
+
+> [!important] CLAUDE.md / Skill / Hook 三层叠加
+> 同一条规则三处布防，少任何一层都有漏洞：
+> - **[[claude-code-memory|CLAUDE.md]]**：声明规则（"提交前必须通过测试"）——告诉 Claude 这条规则存在
+> - **[[agent-skills|Skill]]**：告诉 Claude 操作顺序和修复方法（怎么跑测试、报错怎么读）
+> - **Hook**：关键路径硬性校验，必要时阻断（commit 前自动跑测试，挂了不让 commit）
+>
+> 只写 CLAUDE.md 规则，Claude 经常当没看见——因为它有"别的优先事项要赶"。Hook 把"建议性"升级为"确定性"。这是 [[wiki/ai-coding/enforce-invariants|Enforce Invariants]] 在 Claude Code 这一层的具体落地。

@@ -5,6 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code Memory 机制详解]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
+  - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
 last-ingested: 2026-04-22
 status: draft
 ---
@@ -40,3 +41,20 @@ CLAUDE.md 是 [[agents-md|AGENTS.md]]（跨 Agent 的项目级备忘录）在 Cl
 
 > [!warning] CLAUDE.md 是上下文，不是强制配置
 > Claude 会读取并尝试遵循，但**无法保证严格执行**，尤其对模糊或冲突的指令。如果发现不遵循：① 用 `/memory` 确认是否被加载 ② 让指令更具体 ③ 检查文件冲突 ④ 用 `InstructionsLoaded` hook 记录加载细节。/compact 后保留 CLAUDE.md，但只在对话里提过、没写进文件的指令会丢。
+
+> [!example] NEVER / ALWAYS 模板
+> Tw93 的 CLAUDE.md 模板里把"安全栏杆"显式列出来——比写散文式的注意事项更稳定触发：
+> ```markdown
+> ## NEVER
+> - Modify `.env`, lockfiles, or CI secrets without explicit approval
+> - Remove feature flags without searching all call sites
+> - Commit without running tests
+>
+> ## ALWAYS
+> - Show diff before committing
+> - Update CHANGELOG for user-facing changes
+> ```
+> 真正"必须不能违反"的事项考虑升级到 [[hooks|Hooks]]——CLAUDE.md 是声明，Hook 是执行。
+
+> [!tip] 让 Claude 维护自己的 CLAUDE.md
+> 每次纠正错误后说一句："Update your CLAUDE.md so you don't make that mistake again."。或者输入 `#` 把当前对话内容直接追加进 CLAUDE.md。一开始可以什么都不写，**用着用着自然知道该补什么**——这与 [[wiki/ai-coding/harness-engineering|Harness Engineering]] 的"反应式生长"是同构的。
