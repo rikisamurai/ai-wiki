@@ -7,6 +7,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 19:21] doc | 新增 README.md（人类视角操作手册）
+- 此前根目录只有 AGENT.md（LLM 视角 schema），缺一份给协作者 / 未来自己看的入口
+- 场景驱动结构：4 个场景（剪藏 / 自己写 / 查 / 批量迁移）+ 日常维护 + 命令速查 + 边界
+- 跟 AGENT.md 互补：README 讲"怎么用"，AGENT.md 讲"怎么改"，互相 wikilink
+
 ## [2026-04-23 18:20] lint-fix | 6 处真断链清零
 - inbox-工作流.md：3 处 `[[../../.claude/commands/*]]` 改为标准 markdown link `[/cmd](../../.claude/commands/cmd.md)`（Obsidian wikilink 不支持跳出 vault 子树到 dot-folder）
 - obsidian-web-clipper.md：`[[../../sources/inbox/]]`（指向目录）改为反引号 `sources/inbox/`；`[[ai-wiki-架构]]`（不存在）改为 `[[AGENT|三层架构]]`；`[[../../.claude/commands/ingest|/ingest]]` 同样改 markdown link
