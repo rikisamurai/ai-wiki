@@ -7,6 +7,10 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 04:25] migrate-next | SKIP 38/41 · browser-use/introduction
+- SKIP 原因：仅 26 行外链目录，2 段链接均指向已 ingest 的源（33/41 + 35/41），其余是三个工具官网，无新概念
+- source: sources/posts/aigc/browser-use/introduction.md
+
 ## [2026-04-23 04:15] migrate-next | 37/41 · OpenCLI/Agent-Browser/Browser-Use 深度横向评测
 - 增补：[[wiki/aigc/agent-browser]]（量化基准 -82% Token + 95% 首试成功率 + Cloudflare 软肋）
 - 增补：[[wiki/aigc/browser-use]]（83.3% 可靠性 / 113s 平均耗时 / 配 Bright Data 98.44% + 间接 Prompt Injection 80% ASR + CVE）
