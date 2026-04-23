@@ -7,6 +7,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 01:05] migrate-next | 28/41 · claude-tips
+- 新建：[[wiki/aigc/settings-scopes]]
+- 增补：[[wiki/aigc/permission-modes]]（CLI 临时覆盖）、[[wiki/aigc/claude-code]]（frontmatter source）
+- source: sources/posts/aigc/ai-coding/claude-code/💡claude-tips.md
+
 ## [2026-04-23 00:45] migrate-next | 27/41 · Claude Code 源码深度解析
 - 新建：[[wiki/aigc/fail-closed-tool-defaults]]、[[wiki/aigc/read-before-edit]]、[[wiki/aigc/kairos-记忆蒸馏]]、[[wiki/aigc/coordinator-模式]]、[[wiki/ai-coding/agent-工作量分布]]
 - 增补：[[wiki/ai-coding/稳定前缀-动态后缀]]（getSystemPrompt 7 段）、[[wiki/ai-coding/subagent-上下文隔离]]（Worker-not-Manager + Fork 占位符）、[[wiki/ai-coding/compact-vs-clear]]（三层压缩 87%）、[[wiki/aigc/auto-memory]]（Sonnet top-5 检索 + KAIROS）、[[wiki/aigc/claude-code]]（OS 类比）

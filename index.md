@@ -82,6 +82,7 @@ date: 2026-04-22
 - [[wiki/aigc/permission-modes|权限模式（YOLO / Safe / Plan）]]
 - [[wiki/aigc/plan-mode|Plan Mode]]
 - [[wiki/aigc/read-before-edit|Read-Before-Edit 铁律]]
+- [[wiki/aigc/settings-scopes|Settings Scopes（5 层作用域）]]
 - [[wiki/aigc/skill-编写实践|Skill 编写实践]]
 - [[wiki/aigc/skills-9-分类|Skills 9 大分类]]
 - [[wiki/aigc/渐进式披露|渐进式披露]]

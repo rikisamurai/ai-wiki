@@ -4,7 +4,8 @@ tags: [claude-code, agentic-coding, tool]
 date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
-last-ingested: 2026-04-22
+  - "[[sources/posts/aigc/ai-coding/claude-code/💡claude-tips]]"
+last-ingested: 2026-04-23
 status: draft
 ---
 
