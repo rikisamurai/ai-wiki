@@ -7,6 +7,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 04:45] migrate-next | 39/41 · rag/intro
+- 新建：[[wiki/aigc/rag]]、[[wiki/aigc/agentic-rag]]、[[wiki/aigc/graph-rag]]、[[wiki/aigc/hybrid-retrieval]]
+- 备注：开 RAG 子域；rag.md 主页 + 三个增强方向页（Agentic / Graph / Hybrid）；多模态 + 模块化 RAG 暂作 rag.md 内的 inline 概念；Agentic RAG cross-link 到 long-horizon-agent / subagent-上下文隔离；GraphRAG cross-link 到 obsidian knowledge-graph
+- source: sources/posts/aigc/rag/intro.md
+
 ## [2026-04-23 04:25] migrate-next | SKIP 38/41 · browser-use/introduction
 - SKIP 原因：仅 26 行外链目录，2 段链接均指向已 ingest 的源（33/41 + 35/41），其余是三个工具官网，无新概念
 - source: sources/posts/aigc/browser-use/introduction.md
