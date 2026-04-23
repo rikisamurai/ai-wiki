@@ -67,6 +67,7 @@ date: 2026-04-22
 
 ## AIGC
 
+- [[wiki/aigc/agent-browser|agent-browser]]
 - [[wiki/aigc/agent-skills|Agent Skills 规范]]
 - [[wiki/aigc/auto-memory|Auto Memory（自动记忆）]]
 - [[wiki/aigc/browser-use|Browser-Use]]
@@ -89,6 +90,7 @@ date: 2026-04-22
 - [[wiki/aigc/inline-edit|Inline Edit]]
 - [[wiki/aigc/kairos-记忆蒸馏|KAIROS 模式与记忆蒸馏]]
 - [[wiki/aigc/mcp|MCP（Model Context Protocol）]]
+- [[wiki/aigc/opencli|OpenCLI]]
 - [[wiki/aigc/permission-modes|权限模式（YOLO / Safe / Plan）]]
 - [[wiki/aigc/plan-mode|Plan Mode]]
 - [[wiki/aigc/read-before-edit|Read-Before-Edit 铁律]]

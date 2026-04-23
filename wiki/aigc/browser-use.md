@@ -4,6 +4,7 @@ tags: [browser-use, browser-automation, agent]
 date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/browser-use/blog/CDP 视角下的 Browser 控制边界]]"
+  - "[[sources/posts/aigc/browser-use/blog/OpenCLI：把任何网站变成 AI Agent 的命令行工具]]"
 last-ingested: 2026-04-23
 status: draft
 ---
