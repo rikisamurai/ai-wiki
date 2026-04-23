@@ -5,7 +5,8 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/obsidian/obsidian-claude/Claudian - Obsidian × Claude Code]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
-last-ingested: 2026-04-22
+  - "[[sources/posts/aigc/ai-coding/codex/Codex Best Practices]]"
+last-ingested: 2026-04-23
 status: draft
 ---
 

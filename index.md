@@ -73,7 +73,9 @@ date: 2026-04-22
 - [[wiki/aigc/claude-code-六层架构|Claude Code 六层架构]]
 - [[wiki/aigc/claude-hud|Claude HUD（Statusline 仪表盘）]]
 - [[wiki/aigc/claude-rules|.claude/rules/ 规则系统]]
+- [[wiki/aigc/codex|Codex]]
 - [[wiki/aigc/codex-plugin|Codex Plugin for Claude Code]]
+- [[wiki/aigc/codex-sandbox-approval|Codex Sandbox + Approval（双维度权限）]]
 - [[wiki/aigc/coordinator-模式|Coordinator 模式（经理模式）]]
 - [[wiki/aigc/everything-claude-code|Everything Claude Code]]
 - [[wiki/aigc/fail-closed-tool-defaults|Fail-Closed 工具默认]]
@@ -88,6 +90,7 @@ date: 2026-04-22
 - [[wiki/aigc/settings-scopes|Settings Scopes（5 层作用域）]]
 - [[wiki/aigc/skill-编写实践|Skill 编写实践]]
 - [[wiki/aigc/skills-9-分类|Skills 9 大分类]]
+- [[wiki/aigc/skills-vs-automations|Skills vs Automations（方法 vs 调度）]]
 - [[wiki/aigc/渐进式披露|渐进式披露]]
 
 ## FrontEnd

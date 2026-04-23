@@ -7,6 +7,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 01:50] migrate-next | 30/41 · Codex Best Practices
+- 新建：[[wiki/aigc/codex]]、[[wiki/aigc/codex-sandbox-approval]]、[[wiki/aigc/skills-vs-automations]]
+- 增补：[[wiki/ai-coding/agents-md]]（Codex 三层 + retrospective）、[[wiki/aigc/skill-编写实践]]、[[wiki/aigc/mcp]]
+- source: sources/posts/aigc/ai-coding/codex/Codex Best Practices.md
+
 ## [2026-04-23 01:25] migrate-next | 29/41 · claude-code-tools
 - 新建：[[wiki/aigc/everything-claude-code]]、[[wiki/aigc/claude-hud]]、[[wiki/aigc/codex-plugin]]
 - 增补：[[wiki/ai-coding/writer-reviewer-模式]]（Codex 异系 reviewer）
