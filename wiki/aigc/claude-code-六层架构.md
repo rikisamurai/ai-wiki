@@ -4,6 +4,7 @@ tags: [claude-code, architecture, mental-model]
 date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
+  - "[[sources/posts/aigc/ai-coding/tools/some-skills]]"
 last-ingested: 2026-04-23
 status: draft
 ---
@@ -40,3 +41,6 @@ status: draft
 > 3. 它**做对了**吗？→ 查 Verifier 层（有没有验证手段）
 >
 > 三层都过了还出问题，往往是上下文被噪声污染——参考 [[wiki/ai-coding/会话管理动作|会话管理动作]]。
+
+> [!example] 把六层架构变成自动审计：[[claude-health|claude-health]]
+> tw93 写的 `/health` Skill 把六层每一层的反模式做成自动检查项——CLAUDE.md 信噪比、skill 描述清晰度、hook pattern 覆盖、MCP 开销、Prompt Cache 破坏行为。本质是把这套"故障定位查表"工程化，输出按 Critical/Structural/Incremental 排序的修复清单。配合 [[hooks|Stop hook]] 接成"会话结束自动审计"。
