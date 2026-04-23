@@ -8,7 +8,7 @@ sources:
   - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/AI Agent 的三种浏览器控制流派：OpenCLI、agent-browser、browser-use CLI 深度对比]]"
   - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/OpenCLI、Agent-Browser 与 Browser-Use 深度横向评测]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Browser-Use 是 AI Agent 操作真实浏览器的总称——既指开源库 [browser-use](https://github.com/browser-use/browser-use)（Python），也指更广义的"让 LLM 看着截图点按钮"的范式。它和 [[opencli|OpenCLI]]、[[wiki/aigc/agent-browser|agent-browser]] 同属 [[cdp|CDP]] 之上的应用层。

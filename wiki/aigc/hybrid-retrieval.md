@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/rag/intro]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 混合检索是 [[rag|RAG]] 里"花最少工程换最多召回质量"的招数——**语义搜索 + 词汇搜索（BM25）的组合永远比单独语义搜索好**。再叠加 cross-encoder 重排序，就能把检索质量推到接近天花板。

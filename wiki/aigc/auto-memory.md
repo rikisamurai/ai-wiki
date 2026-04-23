@@ -7,7 +7,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Auto Memory 是 [[claude-code-memory|Claude Code Memory 体系]]里**唯一由 Claude 自己写**的那一层——根据你的纠正和偏好自动积累跨会话知识：构建命令、调试心得、架构笔记、代码风格偏好。需要 Claude Code v2.1.59+，默认开启，通过 `/memory` 切换或在设置里 `"autoMemoryEnabled": false` 关闭。

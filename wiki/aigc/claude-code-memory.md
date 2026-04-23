@@ -7,7 +7,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Claude Code 每次会话从全新上下文开始，Memory 体系是让知识跨会话持久化的三层结构：**CLAUDE.md（你写）+ `.claude/rules/`（你写、模块化）+ Auto Memory（Claude 自写）**。三者互补，各有作用域和加载机制。

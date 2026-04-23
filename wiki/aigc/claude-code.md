@@ -6,7 +6,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/💡claude-tips]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Claude Code 是 Anthropic 出品的**代理式编码环境**（agentic coding environment）：不只回答问题，而是能主动读文件、跑命令、改代码、自我验证。它把 [[wiki/ai-coding/agentic-coding|Agentic Coding]] 范式做成了具体工具，核心约束只有一句话——**[[wiki/ai-coding/context-window|上下文窗口]] 是最稀缺的资源**。

@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Coordinator 模式是 [[claude-code|Claude Code]] 内部的多 Agent 编排模板：主 Agent 不直接干活，**变成纯任务编排者**，把工作分发给一群 [[wiki/ai-coding/subagent-上下文隔离|子 Agent]]。源码里这套模式有明确的四阶段结构。

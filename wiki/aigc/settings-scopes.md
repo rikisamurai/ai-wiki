@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/💡claude-tips]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Claude Code 的设置（settings、subagents、MCP server、plugins、[[claude-code-memory|CLAUDE.md]]）按**作用域分层**存储。理解这个层级才能想清楚一条规则该写在哪——团队共享还是个人本地，跨项目还是只对当前仓库生效。

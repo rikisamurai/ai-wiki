@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/JavaScript/Blog/JavaScript 市场分析]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 按开发者人数收费的商业化模式，常与 Open Core 策略捆绑：基础库 MIT 协议免费引流，企业级功能（数据网格、日期选择器、SSO、SLA）按 seat 收费。这是 JS 生态除[[wiki/frontend/vercel|部署收费]]之外第二大可规模化的[[wiki/frontend/js-盈利模式分类|盈利模式]]，但正被 [[wiki/ai-coding/vibe-coding-对-saas-的通缩|Vibe Coding 通缩]] 结构性挤压。

@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/obsidian/🚀obsidian-quick-start]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 知识图谱（Graph View）是 Obsidian 把笔记之间的 wikilink 关系可视化为节点和连线的功能，用来发现孤儿笔记、识别枢纽节点、感知知识网络的形状。`Cmd/Ctrl + G` 打开全局图谱，本地图谱则只显示当前笔记的关联子图。

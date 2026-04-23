@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/React/Blog/Why we banned React's useEffect]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 `useMountEffect` 是 `useEffect(callback, [])` 的命名包装，用来明确"这是一次挂载时执行的副作用"。它是 [[wiki/frontend/no-useeffect-rule|No useEffect 规则]] 体系下唯一允许的 Effect 用法。

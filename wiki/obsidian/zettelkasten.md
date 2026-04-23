@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/obsidian/🚀obsidian-quick-start]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Zettelkasten 是社会学家 Niklas Luhmann 实践的卡片盒笔记法，三条铁律：**一卡一念**（atomic）、**唯一 ID** 标识、**链接成网**。Obsidian 的 wikilink 模型几乎就是为它量身定做的——这也是本仓库 [[wiki/obsidian/knowledge-graph|知识图谱]] 能跑起来的基础。

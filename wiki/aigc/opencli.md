@@ -7,7 +7,7 @@ sources:
   - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/AI Agent 的三种浏览器控制流派：OpenCLI、agent-browser、browser-use CLI 深度对比]]"
   - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/OpenCLI、Agent-Browser 与 Browser-Use 深度横向评测]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 OpenCLI（[jackwener/opencli](https://github.com/jackwener/opencli)）是把"网站 / Electron 应用 / 本地 CLI"统一封装成命令行接口的万能遥控器。和 [[browser-use|Browser-Use]] 在 [[cdp|CDP]] 之上选了相反的策略——**不让 LLM 看截图，让 LLM 调命令**。同一命令永远返回同一 schema，可管道化、可脚本化、跑一万次零 token 成本。

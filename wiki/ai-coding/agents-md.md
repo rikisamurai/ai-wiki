@@ -7,7 +7,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/blog/🤖 Harness Engineering：在 Agent-First 时代利用 Codex]]"
   - "[[sources/posts/aigc/ai-coding/codex/Codex Best Practices]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 AGENTS.md（在 Claude Code 体系里也叫 CLAUDE.md）是项目级的"备忘录"，给 Agent 提供**只能从代码外部得到的关键信息**——部署架构、核心实体关系、团队约定。它的价值不在内容多寡，而在**信息密度**。

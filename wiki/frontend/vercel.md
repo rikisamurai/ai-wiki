@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/JavaScript/Blog/JavaScript 市场分析]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Vercel（原名 ZEIT，2015）是把"前端框架→部署平台→AI 生成"打成一条飞轮的代表公司。靠 Next.js 捕获开发者心智，再把流量导回部署变现，2025 年 ARR ~$2 亿，F 轮估值 $93 亿。

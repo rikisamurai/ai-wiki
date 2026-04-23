@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/obsidian/obsidian-claude/Claudian - Obsidian × Claude Code]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Claudian 是把 Claude Code 嵌入 Obsidian 的第三方插件，让整个 vault 成为 Claude 的工作目录。它复用了 Claude Code CLI 的全部 agentic 能力——文件读写、Bash、搜索、多步骤工作流——同时把 Obsidian 的 wikilink、frontmatter、笔记选区作为上下文喂给模型。

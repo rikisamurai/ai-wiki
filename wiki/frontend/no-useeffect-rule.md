@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/React/Blog/Why we banned React's useEffect]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Factory 团队前端代码库的一条简单规则：**禁止直接使用 useEffect**。听起来极端，但实践下来代码库更易理解、更难意外破坏。规则通过 lint 强制 + 在 `AGENTS.md` 写给 AI Agent，配合 [[wiki/frontend/usemounteffect|useMountEffect]] 做兜底。

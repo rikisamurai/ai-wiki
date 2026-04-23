@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/HTTP3 入门指南]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 连接迁移指 [[wiki/frontend/quic|QUIC]] 通过 Connection ID 标识连接、不依赖 IP 四元组的能力——网络从 Wi-Fi 切到 4G、IP 地址变化时，连接无需重建即可继续使用。这是 [[wiki/frontend/http-3|HTTP/3]] 对移动端体验的关键升级之一。

@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/blog/🔍 AI CR 的理想与现实：别让 AI 帮你做 Lint 的苦力！]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 AI Code Review（AI CR）是当下"工程效能标配"的热门方向，但很多团队的 AI CR 实际上在做 **Lint 已经能做好的事**——挑 `console.log`、纠 `let/const`、抓 React Hooks 误用。这违背了 [[shift-left|Shift Left]] 原则，把"应该编码时拦截"的问题推迟到了 PR 阶段。**核心原则：Lint 能做的事，不要交给 AI**；AI 的算力应该用在 Lint 表达不出来的私域业务逻辑上。

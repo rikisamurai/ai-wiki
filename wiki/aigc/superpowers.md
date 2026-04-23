@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/tools/Superpowers - AI 编码工作流框架]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Superpowers 是 Jesse Vincent（@obra）做的开源 [[wiki/ai-coding/agentic-coding|agentic coding]] 工作流框架——把"agent 该如何做软件开发"沉淀成一套可组合的 [[agent-skills|Skills]]。它不是一个工具，是一套**纪律**：动手前必须先 brainstorm、规划必须细到每个任务 2-5 分钟、执行用 subagent 串起来。让 Claude 能自主跑数小时不偏离计划。

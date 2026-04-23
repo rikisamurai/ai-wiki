@@ -1,14 +1,23 @@
 filters:
   and:
-    - file.name == "log.md"
+    - file.inFolder("wiki")
+    - file.ext == "md"
 properties:
-  file.name:
-    displayName: 文件
+  last-ingested:
+    displayName: 最近 ingest
+  status:
+    displayName: 状态
+  tags:
+    displayName: tags
 views:
   - type: table
-    name: ops-by-date
+    name: ingest-timeline
     order:
       - file.name
+      - last-ingested
+      - status
+      - tags
     sort:
-      - property: file.name
-        direction: ASC
+      - property: last-ingested
+        direction: DESC
+    limit: 100

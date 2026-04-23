@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 [[claude-code|Claude Code]] 内部 53+ 个工具在注册时统一应用一套**保守默认**——任何工具如果作者忘了显式声明安全属性，系统**假设它是不安全的**。这是 Fail-Closed（默认拒绝）原则在 Agent 工具系统里的具体落地。

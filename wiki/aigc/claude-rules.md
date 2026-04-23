@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code Memory 机制详解]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 `.claude/rules/` 是把 [[claude-code-memory|CLAUDE.md]] 拆成多个**模块化规则文件**的目录约定，便于团队维护。每条规则可以用 YAML frontmatter 的 `paths` 字段限定到特定文件 glob，只在相关文件被处理时按需加载，避免常驻上下文。

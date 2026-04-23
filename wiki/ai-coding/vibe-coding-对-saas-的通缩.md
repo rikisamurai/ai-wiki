@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/JavaScript/Blog/JavaScript 市场分析]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 [[wiki/ai-coding/vibe-coding|Vibe Coding]] 让一个开发者干原来三个人的活，对按"开发者人数"计费的 [[wiki/frontend/per-seat-licensing|per-seat SaaS]] 来说，面临的不是增长放缓，而是**结构性的收入萎缩**——同样的产出需要更少的席位。这是 [[wiki/ai-coding/vibe-coding-的代价|Vibe Coding 的代价]] 系列里"对外部生态的代价"的一面。

@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/JavaScript/Blog/JavaScript 市场分析]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 shadcn/ui（111.7k stars）不是传统意义上的 npm 组件库，而是一套**可复制粘贴**的 React 组件源码集合，底层依赖 Radix UI Primitives + TailwindCSS。它是 [[wiki/frontend/vercel|Vercel]] 生态的核心拼图，也是 AI 代码生成时代默认输出的 UI 层。

@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/JavaScript/Blog/JavaScript 市场分析]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 JavaScript 开源库的商业化路径在 himself65 的市场分析里被归纳为 5 类。只有"部署收费"和"人头收费"两种具备规模化潜力，其余三种本质上是**生存模式**，不是**增长模式**。

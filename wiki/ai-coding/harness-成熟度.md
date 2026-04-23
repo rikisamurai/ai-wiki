@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/blog/从Spec Coding到Harness：AI Coding的两次范式转变与实践总结]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Martin Fowler 把 [[harness-engineering|Harness Engineering]] 的完整体系归纳为三层，可用来评估当前团队的成熟度。**大多数团队处于第一、二层的初级阶段**——第三层 Entropy Management 才是 Harness 能否持续运转的关键，也是最容易被忽视的一层。

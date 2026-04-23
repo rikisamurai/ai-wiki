@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/blog/从Spec Coding到Harness：AI Coding的两次范式转变与实践总结]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Spec Coding（规约编程）是对 [[vibe-coding|Vibe Coding]] 的反思——先把需求写成详尽的 Spec，再让 AI 按 Spec 生成代码。它解决了 Vibe Coding 的"许愿编程"问题，但引入了新的痛点：**Spec 自身的维护成本与生命周期问题**——代码会演进，作为快照的 Spec 几乎注定腐烂成技术负债。这一困境催生了下一阶段的 [[harness-engineering|Harness Engineering]]。

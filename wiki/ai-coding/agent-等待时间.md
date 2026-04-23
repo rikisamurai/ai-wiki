@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/blog/从Spec Coding到Harness：AI Coding的两次范式转变与实践总结]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 衡量 AI Coding 效率的真正指标，不是 Token 消耗量、也不是 AI 代码生成占比，而是 **Agent 因等待人类反馈而浪费了多少时间**（`human wait`）。目标是把它降为 0——让 Agent 24 小时不间断地在"开发-测试-修复"的闭环里自主工作。

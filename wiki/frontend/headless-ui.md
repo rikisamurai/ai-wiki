@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/JavaScript/Blog/JavaScript 市场分析]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Headless UI 指**只提供逻辑、不绑定样式**的组件库范式。代表是 TanStack Table（27.9k stars，MIT 协议）、Radix UI Primitives、cmdk 等。这种范式天然适配 AI 代码生成时代——AI 写一个 styled wrapper 比配置一个商业 [[wiki/frontend/per-seat-licensing|按席位授权]] 组件库简单太多。

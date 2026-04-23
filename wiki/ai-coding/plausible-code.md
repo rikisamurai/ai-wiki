@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/inbox/Agentic Coding 的边界]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Plausible Code 指 LLM 针对任意通用任务都能生成"看起来正确"的方案/代码——能编译、能跑、命名合理、注释通顺，但常在性能、并发、边界条件上隐藏问题。它是 [[wiki/ai-coding/agentic-coding|Agentic Coding]] 的默认产出形态，也是其能力上限的体现。

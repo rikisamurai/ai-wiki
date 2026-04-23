@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/HTTP3 入门指南]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 QUIC（Quick UDP Internet Connections）是基于 UDP 的可靠传输协议，[[wiki/frontend/http-3|HTTP/3]] 的传输层基础。它在 UDP 之上自行实现了流控、拥塞控制、重传，并把 TLS 1.3 内嵌进握手，避免了 TCP+TLS 分层带来的多次往返。

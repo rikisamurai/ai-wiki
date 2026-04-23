@@ -7,7 +7,7 @@ sources:
   - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/AI Agent 的三种浏览器控制流派：OpenCLI、agent-browser、browser-use CLI 深度对比]]"
   - "[[sources/posts/aigc/browser-use/blog/对比OpenCLI、agent-browser、browser-use CLI/OpenCLI、Agent-Browser 与 Browser-Use 深度横向评测]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 agent-browser（[vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)）是 Vercel Labs 开源的"为 AI Agent 设计的浏览器自动化原语"——不像 [[browser-use|Browser-Use]] 把原始截图喂给 LLM，也不像 [[opencli|OpenCLI]] 把每个网站封成专用命令，而是**在浏览器层做针对 Agent 的优化**：纯 Rust 守护进程、Accessibility Tree 抽象、Token 高效的元素引用机制。

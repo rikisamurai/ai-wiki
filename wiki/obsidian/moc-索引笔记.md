@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/obsidian/🚀obsidian-quick-start]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 MOC（Maps of Content，内容地图）是 Nick Milo 在 Linking Your Thinking 里推广的概念：一种**人工编排的索引笔记**，专门作为某个主题的入口，把零散卡片用 wikilink 串成一张"主题地图"。它解决了 [[wiki/obsidian/zettelkasten|Zettelkasten]] 纯网络结构在规模化后难以导航的痛点。

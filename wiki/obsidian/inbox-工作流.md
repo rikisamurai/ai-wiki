@@ -64,7 +64,7 @@ created: {{date}}
 ## AI 介入的两种姿势
 
 > [!example] 让 LLM 处理 inbox
-> - **`/research <inbox-file>`**：把单篇文章拆成多个知识笔记（这就是本仓库 [[../../.claude/commands/ingest|/ingest]] 命令做的事）
+> - **`/research <inbox-file>`**：把单篇文章拆成多个知识笔记（这就是本仓库 [/ingest](../../.claude/commands/ingest.md) 命令做的事）
 > - **`/kickoff <想法>`**：把"想法型" inbox 转成可执行的项目计划
 
 LLM 的优势是**批量+不挑剔**——一次处理 20 篇，不会嫌烦不会漏。
@@ -92,5 +92,5 @@ ai-wiki 的 `sources/inbox/` 就是 inbox 工作流的物理实现：
 ## 关联
 
 - 入口工具：[[obsidian-web-clipper]]
-- 处理引擎（本仓库实现）：[[../../.claude/commands/ingest|/ingest]] / [[../../.claude/commands/migrate-next|/migrate-next]]
+- 处理引擎（本仓库实现）：[/ingest](../../.claude/commands/ingest.md) / [/migrate-next](../../.claude/commands/migrate-next.md)
 - 类似理念：GTD 的 Inbox / Tiago Forte 的 PARA Capture / Zettelkasten 的 Fleeting Notes

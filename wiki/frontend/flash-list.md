@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/React/React Native/learning/flash-list]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Shopify 开源的 React Native 高性能列表组件，用 [[wiki/frontend/view-recycling|View 回收]] 替代 FlatList 的销毁/重建机制，解决长列表快速滚动时出现的"白屏闪烁"。API 几乎和 FlatList 一致，迁移只需要改 import 加一个 `estimatedItemSize`。

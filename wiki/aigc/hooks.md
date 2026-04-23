@@ -6,7 +6,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Hooks 是 Claude Code 的**确定性扩展点**：在 PreToolUse / PostToolUse / SessionStart 等事件触发时执行你定义的脚本。它和 [[claude-code-memory|CLAUDE.md]] 的根本差别——**Hooks 是"必须每次都执行、零例外"，CLAUDE.md 是"建议性的提醒"**。

@@ -6,7 +6,7 @@ sources:
   - "[[sources/posts/obsidian/obsidian/obsidian-claude/Claudian - Obsidian × Claude Code]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Plan Mode 是 Claude Code 的一种工作模式：Agent 先用只读工具探索代码库、设计实施方案，把计划呈给用户审批后再动手执行。在 Claude Code CLI 和 [[wiki/obsidian/claudian|Claudian]] 里通过 `Shift+Tab` 切换。

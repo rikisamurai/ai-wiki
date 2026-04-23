@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/inbox/Agentic Coding 的边界]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 DRY（Don't Repeat Yourself）原则在 Coding Agent 时代容易被滥用：Claude Code 和 Codex 都倾向于一遇相似就抽方法/模块、自己发散出"未来可能用到"的可复用设计，结果是过度抽象。YAGNI（You Aren't Gonna Need It）是对此的反论——只为当前真实需求写代码。

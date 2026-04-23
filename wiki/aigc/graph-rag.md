@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/rag/intro]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 GraphRAG 用知识图谱补 [[rag|RAG]] 的最大短板——**关系型查询**。向量搜索擅长"找语义相似的文本"，但回答不了"CEO 上一家创业公司如何影响了当前产品架构"这种需要追踪实体关系的问题。GraphRAG 把实体和关系作为一等公民。

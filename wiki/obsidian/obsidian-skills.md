@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/obsidian/obsidian-claude/skills]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Obsidian Skills 是 Obsidian CEO Kepano 维护的官方 [[wiki/aigc/agent-skills|Agent Skills]] 集合（github.com/kepano/obsidian-skills），让任何兼容 Skills 规范的 Agent（[[wiki/obsidian/claudian|Claudian]]、Claude Code、Codex CLI、OpenCode）都能正确处理 Obsidian 特有的文件格式。

@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/HTTP3 入门指南]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 0-RTT 是 [[wiki/frontend/quic|QUIC]] 在重连场景下的一种能力：客户端可以在握手的同时发送应用数据，无需等待任何往返。配合首次连接的 1-RTT 握手，[[wiki/frontend/http-3|HTTP/3]] 把传输建立延迟压到了协议物理下限。

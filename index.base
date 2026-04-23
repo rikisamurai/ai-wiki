@@ -1,7 +1,3 @@
-filters:
-  and:
-    - file.folder.startsWith("wiki")
-    - file.ext == "md"
 properties:
   title:
     displayName: 标题
@@ -14,6 +10,10 @@ properties:
 views:
   - type: table
     name: recent-wiki
+    filters:
+      and:
+        - file.inFolder("wiki")
+        - file.ext == "md"
     order:
       - file.name
       - status
@@ -25,7 +25,13 @@ views:
     limit: 30
   - type: table
     name: by-domain
-    groupBy: file.folder
+    filters:
+      and:
+        - file.inFolder("wiki")
+        - file.ext == "md"
+    groupBy:
+      property: file.folder
+      direction: ASC
     order:
       - file.name
       - status
@@ -34,7 +40,7 @@ views:
     name: pending-sources
     filters:
       and:
-        - file.folder.startsWith("sources")
+        - file.inFolder("sources")
         - file.ext == "md"
     order:
       - file.name

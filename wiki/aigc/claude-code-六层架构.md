@@ -6,7 +6,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
   - "[[sources/posts/aigc/ai-coding/tools/some-skills]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 把 [[claude-code|Claude Code]] 拆成六层来理解，是治理它的前提：**只强化其中一层就会失衡**。这套模型的价值不是"知识图谱"，而是**故障定位的查表**——结果不稳定查上下文层，自动化失控查控制层，长会话质量下降查会话层。

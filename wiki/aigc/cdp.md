@@ -6,7 +6,7 @@ sources:
   - "[[sources/posts/aigc/browser-use/blog/CDP 视角下的 Browser 控制边界]]"
   - "[[sources/posts/aigc/browser-use/blog/了解 CDP：browser-use 背后的隐藏功臣]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 CDP（Chrome DevTools Protocol）是 Chromium 提供的远程调试协议——本意是给 DevTools 用，但被 Puppeteer / Playwright / Browser Agent 拿来当**浏览器控制 API**。AI Agent 操作浏览器（[[browser-use|browser-use]]、[[opencli|OpenCLI]]、agent-browser）几乎都跑在 CDP 上。理解它的能力边界，决定了你的 Agent 能做什么、不能做什么。

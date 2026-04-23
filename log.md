@@ -7,6 +7,42 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 18:20] lint-fix | 6 处真断链清零
+- inbox-工作流.md：3 处 `[[../../.claude/commands/*]]` 改为标准 markdown link `[/cmd](../../.claude/commands/cmd.md)`（Obsidian wikilink 不支持跳出 vault 子树到 dot-folder）
+- obsidian-web-clipper.md：`[[../../sources/inbox/]]`（指向目录）改为反引号 `sources/inbox/`；`[[ai-wiki-架构]]`（不存在）改为 `[[AGENT|三层架构]]`；`[[../../.claude/commands/ingest|/ingest]]` 同样改 markdown link
+- 复检结果：真断链 0
+- 顺手发现脚本两个误报源：①frontmatter 的 sources 字段 wikilink 不应纳入断链扫描（已剥 frontmatter）②`_orphans/` 文件作为目标合法（应纳入 stem_index）
+
+## [2026-04-23 18:10] lint | weekly check + status 自动流转
+- 总文件 131；orphans 0；出链不足 0；status 异常 0；stale 候选 0
+- **3a 自动升级 67 个 draft → stable**（入度 ≥3）；分布：ai-coding 18 + aigc 27 + frontend 16 + obsidian 6
+- 升级后 status 分布：stable 92 / draft 39 / stale 0
+- 高入度 top 5：review-带宽瓶颈(17)、agentic-coding(14)、agent-skills(14)、plausible-code(13)、mcp(13)
+- 概念重复：17 组高相关关键词全部为同主题集群（cache 系列、vibe-coding 系列、ai-first 系列等），无真重复候选
+- 真断链 6 处：obsidian/inbox-工作流 + obsidian-web-clipper 里的 `[[../../.claude/commands/*]]`（Obsidian 解析不了相对 vault 外的路径）+ `[[ai-wiki-架构]]`（不存在）+ `[[../../sources/inbox/]]`（指向目录）
+
+## [2026-04-23 17:55] schema | status 流转改自动切换
+- 反悔：上一条定的"人工拍板"改成 /lint 自动改 frontmatter，无需 review
+- lint.md 第 3a / 3b 由"报告候选"改为"自动写 frontmatter + 报告变更"；3c 字段非法仍只报告
+- lint.md 顶部宣言 + 禁止段：明确 status 字段为唯一自动改的例外
+- AGENT.md status 三态描述同步改为"自动切换"
+- 影响：下次 /lint 会直接把符合条件的 draft → stable、过期页 → stale，不再问
+
+## [2026-04-23 17:45] schema | status 三态流转规则
+- 现状：131 页中 draft 106（80%）/ stable 25 / stale 0；stable 全是早期手工产出，2026-04 批量 migration 后无升级机制
+- 根因：ingest 默认写 status: draft，但 schema 没定义如何升级到 stable / 降级到 stale
+- 改动：
+  - lint.md 第 3 节合并原"过时页面 + status 异常"为"status 流转"，分 3a stable 候选（draft + 入度 ≥3）/ 3b stale 候选（last-ingested > 180d）/ 3c 字段异常
+  - AGENT.md wiki 页面规范追加三态流转说明：人工拍板，lint 提候选
+  - stale 阈值从原 90d 调整为 180d（90d 对长尾知识太激进）
+- 影响：下次 /lint 会输出升级/降级建议清单；status 字段重新有意义
+
+## [2026-04-23 17:30] fix | log.base / index.base 修复
+- 病因：①filter 比较表达式没用单引号包裹（YAML 解析后是字面量，过滤失效）②index.base 的 pending-sources view-filter 与全局 filter AND 合并导致空集
+- log.base 重构：从"看 log.md 单文件"（无意义）改成跨 wiki/ 的 ingest 时间线（按 last-ingested DESC，limit 100）
+- index.base 修法：删全局 filter，三个 view 各自带 filter；统一改用 file.inFolder() 函数取代 startsWith() 字符串匹配
+- 影响：两个 .base 现在 Obsidian 里能正常渲染
+
 ## [2026-04-23 16:38] fix | CLAUDE.md 符号链接修复
 - CLAUDE.md → AGENTS.md（不存在）改为 → AGENT.md
 - AGENT.md 内残留 "AGENTS.md / CLAUDE.md" 字样同步更新（line 12 + line 31）

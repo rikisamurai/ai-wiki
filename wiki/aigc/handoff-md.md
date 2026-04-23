@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 HANDOFF.md 是开新会话前**让 Claude 自己写的"交接信"**——记录进度、尝试过什么、什么有效、下一步该做什么。它解决的是 [[wiki/ai-coding/compact-vs-clear|/compact 的有损本质]]带来的信息丢失问题：默认压缩算法会把架构决策和约束理由当无关内容删掉。

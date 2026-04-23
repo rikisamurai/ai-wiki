@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/codex/Codex Best Practices]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Codex 是 OpenAI 的代理式编码环境，与 [[claude-code|Claude Code]] 同属 [[wiki/ai-coding/agentic-coding|Agentic Coding]] 范式——能读文件、跑命令、改代码、做验证。OpenAI 自己用 Codex review 100% 的 PR，是把代码 agent 跑成生产基础设施的少数案例之一。

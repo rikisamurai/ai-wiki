@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/blog/🤖 Harness Engineering：在 Agent-First 时代利用 Codex]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 OpenAI Codex 团队的核心架构原则：**强制不变量，不微观管理实现**。Agent 在边界严格、结构可预测的环境中最有效——你深切关注**边界、正确性、可复现性**，但在边界之内给 Agent 充分的表达自由。产出的代码不一定符合人类的风格偏好，**没关系**——只要输出正确、可维护、对未来 Agent 运行可读，就达标。

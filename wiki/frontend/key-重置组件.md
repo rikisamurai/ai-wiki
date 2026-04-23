@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/React/Blog/Why we banned React's useEffect]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 React 的 `key` prop 不只是 list rendering 用的——它还能强制组件**完全卸载并重新挂载**。这是替代"用 Effect 编排重置逻辑"的干净模式，也是 [[wiki/frontend/no-useeffect-rule|No useEffect 规则]] 的第五条。

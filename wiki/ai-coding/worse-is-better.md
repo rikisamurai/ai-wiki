@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/inbox/Agentic Coding 的边界]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Worse is Better 是 Richard Gabriel 提出的编程哲学：在"明显地没有缺陷"（Obviously Bug-Free，MIT 路线）和"没有明显的缺陷"（No Obvious Bugs，New Jersey 路线）之间，后者往往胜出——因为它先跑起来、先占领生态，再慢慢补质量。

@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/rag/intro]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 RAG（Retrieval-Augmented Generation）的本质是把"记住事实"和"推理事实"分离——文档存进向量库，查询时把相关片段连同问题一起喂给 LLM。**更新文档后 AI 立刻能用新信息，无需重训**。这一句话解释了为什么所有企业都把 RAG 列为 LLM 落地的第一站。

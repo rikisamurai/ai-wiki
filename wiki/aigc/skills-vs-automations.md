@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/codex/Codex Best Practices]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Codex Best Practices 用一句话切清了 [[agent-skills|Skills]] 和自动化的边界：**Skills 定义方法（how to do it），Automations 定义调度（when to do it）**。这条原则同样适用于 Claude Code 的 Skills + [[hooks|Hooks]]——hooks 就是 Claude 的 automations。

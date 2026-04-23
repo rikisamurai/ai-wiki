@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/browser-use/blog/CDP 视角下的 Browser 控制边界]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 [[cdp|CDP]] 对浏览器各功能的支持度可以做成一张查表——构建 Browser Agent 之前先对照表过一遍，省得做到一半发现"协议根本不支持"再返工。已能覆盖 ~95% 的 Browser-Use 业务功能。

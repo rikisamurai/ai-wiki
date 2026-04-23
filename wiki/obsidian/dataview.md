@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/obsidian/🚀obsidian-quick-start]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Dataview 是把 Obsidian 库变成可查询数据库的插件——以 frontmatter、tag、文件元数据为字段，用类 SQL 的 DQL 写出 LIST / TABLE / TASK / CALENDAR 视图。是动态聚合笔记最常用的工具。

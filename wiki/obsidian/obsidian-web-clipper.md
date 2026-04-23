@@ -56,7 +56,7 @@ status: stable
 
 ## 与 ai-wiki 三层架构的关系
 
-剪藏进来的内容直接落进 [[../../sources/inbox/]]——也就是本仓库的 `sources/inbox/`，是 [[ai-wiki-架构|三层架构]] 中的"原料层"。LLM 只读不改，由 [[../../.claude/commands/ingest|/ingest]] 命令负责把它沉淀进 `wiki/`。
+剪藏进来的内容直接落进 `sources/inbox/`——本仓库的"收件箱"目录，是 [[AGENT|三层架构]] 中的"原料层"。LLM 只读不改，由 [/ingest](../../.claude/commands/ingest.md) 命令负责把它沉淀进 `wiki/`。
 
 > [!tip] 不必追求剪藏当下的整理
 > 收件箱是中转站，东西不能一直放那儿——但**进的时候越无脑越好**。整理交给后续工作流。

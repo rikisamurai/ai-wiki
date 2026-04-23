@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/inbox/Agentic Coding 的边界]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Agentic Coding 是让 LLM 驱动的 Agent 端到端完成编程任务的范式：人提供需求和上下文，AI 生成方案、代码与测试。它的能力上限不取决于"AI 能不能写代码"，而取决于人是否能持续提供高密度上下文并消化 AI 产出。

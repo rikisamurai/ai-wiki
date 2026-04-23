@@ -7,7 +7,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
   - "[[sources/posts/aigc/ai-coding/codex/Codex Best Practices]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 MCP（Model Context Protocol）是 Anthropic 推出的开放协议，让 LLM 客户端通过统一接口接入外部工具、数据源、服务。相当于 Agent 世界的"USB-C"——一次实现 server，所有支持 MCP 的客户端（Claude Code、[[wiki/obsidian/claudian|Claudian]]、Cursor、Zed 等）都能用。

@@ -6,7 +6,7 @@ sources:
   - "[[sources/posts/obsidian/obsidian/obsidian-claude/Claudian - Obsidian × Claude Code]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/💡claude-tips]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Claude Code 的三档权限模式（[[wiki/obsidian/claudian|Claudian]] 也继承）控制 Agent 工具调用前是否需要用户确认，是 Agent 安全的第一道闸门。

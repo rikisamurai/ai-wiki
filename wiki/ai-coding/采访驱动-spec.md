@@ -6,7 +6,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
   - "[[sources/posts/aigc/ai-coding/tools/Superpowers - AI 编码工作流框架]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 对于较大的功能，**让 Claude 反过来采访你**——用 `AskUserQuestion` 工具深挖你可能没考虑的边界情况、UI/UX 细节、技术权衡，最后把完整规格写进 `SPEC.md`。然后**开新会话**用 SPEC.md 执行实现。这是 [[spec-coding|Spec Coding]] 在 Claude Code 里最自然的落地方式。

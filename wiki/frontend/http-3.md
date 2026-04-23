@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/HTTP3 入门指南]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 HTTP/3 是基于 [[wiki/frontend/quic|QUIC]] 协议的下一代 HTTP 标准，把传输层从 TCP 换成 UDP，从根本上解决了 HTTP/2 的 [[wiki/frontend/head-of-line-blocking|队头阻塞]] 问题，同时带来更快的握手和 [[wiki/frontend/connection-migration|连接迁移]] 能力。

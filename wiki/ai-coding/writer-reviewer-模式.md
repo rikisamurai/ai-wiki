@@ -6,7 +6,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/🛠️claude-code-tools]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Writer/Reviewer 模式是**多会话并行**的一种典型用法：一个 Claude 会话负责实现，另一个负责审查，二者通过你（或 Agent Teams 自动协调）来回传递。它不只是"两个会话"，而是利用**[[wiki/ai-coding/subagent-上下文隔离|独立上下文]]**避免"自己审自己"的盲点。

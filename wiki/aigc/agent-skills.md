@@ -7,7 +7,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/blog/🛠️ 构建 Claude Code 的经验：如何使用 Skills]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Agent Skills 是一种跨 Agent 通用的能力包格式（规范见 agentskills.io），让 Claude Code、Codex CLI、OpenCode 等不同客户端都能消费同一份"技能"。它把 prompt、工具描述、调用约束打包成一个 `skill.md` 文件，按上下文自动触发，不需要写在 system prompt 里也能让 Agent 用上。

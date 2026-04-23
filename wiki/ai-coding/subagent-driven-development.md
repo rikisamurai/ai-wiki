@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/tools/Superpowers - AI 编码工作流框架]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Subagent-Driven Development 是 [[wiki/aigc/superpowers|Superpowers]] 框架里的核心模式：**实施计划的每一个任务都派一个独立 subagent 执行，主线程 Claude 只负责 review 和决策**。这是把 [[wiki/ai-coding/subagent-上下文隔离|subagent 上下文隔离]]从"偶尔派一个"升级成"默认每任务派一个"。

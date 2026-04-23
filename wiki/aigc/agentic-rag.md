@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/rag/intro]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Agentic RAG 是 [[rag|RAG]] 在 2025-2026 最大的范式转变——把"线性管道"换成"循环结构"，**LLM 不是消费检索结果的下游，而是决定检索策略的推理引擎**。如果首轮检索不够，智能体重新构造查询再检索；不够好就再循环。

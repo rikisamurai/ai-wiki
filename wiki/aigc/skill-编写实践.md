@@ -7,7 +7,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
   - "[[sources/posts/aigc/ai-coding/codex/Codex Best Practices]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 写 [[agent-skills|Skill]] 的核心心智：Skill 是**文件夹 + 配置**，不是 markdown 文件。Anthropic 内部几百个 Skills 沉淀出的实践，可以归为下面几条钢律。它们和 [[skills-9-分类]]、[[渐进式披露]] 一起构成完整的 Skill 工程化方法。

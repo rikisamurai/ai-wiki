@@ -69,6 +69,12 @@ status: draft | stable | stale
 - 至少 2 个 wikilink 出链到其他 wiki 页面
 - 用 Obsidian callouts（`> [!note] / > [!example] / > [!compare]`）组织内容
 
+**status 三态流转**（`/lint` 自动切换，无需人工 review）：
+- `draft`：ingest 出生默认值，所有新页一律 draft
+- `stable`：被 ≥3 个 wiki 页 wikilink 引用 → `/lint` 自动从 draft 升 stable
+- `stale`：`last-ingested` 早于 180 天 → `/lint` 自动改成 stale；如要"续期"重跑 `/ingest <对应 source>` 即可重置
+- 字段值非法（不在三态内）→ `/lint` 仅报告，由用户决定怎么改
+
 ## index.md / log.md 维护
 
 - **每次 ingest 完成后**必须更新 `index.md`（在对应 `## <domain>` 分类下追加 wikilink）
