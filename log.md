@@ -7,6 +7,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 16:38] fix | CLAUDE.md 符号链接修复
+- CLAUDE.md → AGENTS.md（不存在）改为 → AGENT.md
+- AGENT.md 内残留 "AGENTS.md / CLAUDE.md" 字样同步更新（line 12 + line 31）
+- 影响：Claude Code 现在能正确读到 schema（之前是空文件）
+
 ## [2026-04-23 14:55] archive | migration-backlog → _orphans
 - migration-backlog.md → wiki/_orphans/migration-2026-04.md（git mv 保留历史）
 - 顶部加归档说明：41 总 / 38 ingest / 3 SKIP / 起 2026-04-22 完 2026-04-23

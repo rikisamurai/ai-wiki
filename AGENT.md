@@ -9,7 +9,7 @@
 **三层架构**（严格隔离，不串味）：
 - `sources/`：原料层，LLM **只读不改**。包含 clippings（剪藏）、posts（用户原创/译文）、inbox（草稿）、asset（图片）。
 - `wiki/`：精华层，LLM **拥有可改**。从 sources 抽取的概念页面，按 ai-coding / aigc / frontend / obsidian 分类。
-- `AGENTS.md`（即 CLAUDE.md）：schema 层，定义工作流和约定。
+- `AGENT.md`（CLAUDE.md 是其符号链接）：schema 层，定义工作流和约定。
 
 **LLM 角色**：sources 只读、wiki 只写、log/index 自动维护。
 
@@ -28,7 +28,7 @@
 
 ```
 ai-wiki/
-├── AGENTS.md / CLAUDE.md         # schema（本文件）
+├── AGENT.md                      # schema（本文件）；CLAUDE.md → AGENT.md 符号链接
 ├── index.md                      # 内容目录（手写主框架 + Bases 嵌入）
 ├── log.md                        # append-only 时间线
 ├── migration-backlog.md          # 存量 ingest 进度（按需创建；2026-04 首批已归档至 wiki/_orphans/）
