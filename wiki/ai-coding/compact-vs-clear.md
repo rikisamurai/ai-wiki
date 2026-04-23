@@ -6,6 +6,8 @@ sources:
   - "[[sources/inbox/使用 Claude Code：会话管理与 100 万 上下文【译】]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
+  - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
+  - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
 last-ingested: 2026-04-22
 status: stable
 ---
@@ -74,6 +76,23 @@ Claude："请问是哪个 warning？我没看到。"
 费劲，但产生的新上下文**百分百是你认为相关的精华**。没有 Claude 自作主张的取舍。
 
 **"从这里开始总结"——介于两者之间**：`summarize from here` 功能让 Claude 自己生成一段交接说明，让"刚踩了坑的未来版 Claude，给过去那个还没开始的自己留张字条"。然后你拿这段总结去 [[会话管理动作|/clear]] 开新会话。这是 compact 的精确性 + clear 的干净性的组合。
+
+## 源码层的三层压缩实现
+
+`/compact` 不是单一动作，而是 Claude Code 内部的**三层压缩流水线**——按代价从低到高依次尝试：
+
+| 层 | 触发 | 做了什么 | 代价 |
+|---|---|---|---|
+| **微压缩** | 旧工具结果失效 | 把"10 分钟前读的文件"替换成 `[Old tool result content cleared]`；提示词和对话主线完全保留 | 几乎为零 |
+| **自动压缩** | token 达到窗口的 **87%**（窗口大小 - 13K buffer） | 主动收缩历史 | 中等 |
+| **完全压缩** | 自动压缩仍不够 | LLM 对整段对话生成摘要替换历史 | 一次完整 LLM 调用 |
+
+完全压缩有**熔断器**：连续 3 次失败后停止尝试，避免死循环。生成时还有严厉前置指令 `CRITICAL: Respond with TEXT ONLY. Do NOT call any tools.`——确保压缩这一步不会"顺手"再触发工具调用浪费 turn。
+
+压缩后的 token 预算（写死在源码里的 budget）：
+- 文件恢复：50,000 tokens
+- 单文件上限：5,000 tokens  
+- 技能内容：25,000 tokens
 
 > [!tip] 在 CLAUDE.md 里写 Compact Instructions
 > 默认压缩算法会把早期 Tool Output 和文件内容优先删掉，连带丢失架构决策。在 [[wiki/aigc/claude-code-memory|CLAUDE.md]] 中写明压缩优先级，强制保留关键信息：

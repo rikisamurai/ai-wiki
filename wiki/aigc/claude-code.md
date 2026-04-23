@@ -41,3 +41,6 @@ Claude Code 是 Anthropic 出品的**代理式编码环境**（agentic coding en
 > 文档列了 5 个高频反模式：**大杂烩会话**（任务间不 `/clear`）、**反复纠正**（→ [[wiki/ai-coding/两次纠正规则|两次纠正规则]]）、**臃肿的 CLAUDE.md**（→ [[claude-code-memory|200 行经验法则]]）、**信任-验证缺口**（→ [[wiki/ai-coding/验证驱动|验证驱动]]）、**无限探索**（→ [[wiki/ai-coding/subagent-上下文隔离|用 subagent]]）。每条反模式都对应一个最佳实践页面，不是孤立现象。
 
 **与 [[wiki/ai-coding/harness-engineering|Harness Engineering]] 的关系**：Claude Code 是 [[wiki/ai-coding/harness-成熟度|Harness 三层成熟度]]里 **L2 Context Engineering** + **L3 Workflow Automation** 的具体实现——CLAUDE.md/rules 管上下文、Hooks/Skills/Subagents 管工作流。
+
+> [!example] 把 Claude Code 当 OS 看
+> 51 万行源码不是"AI 编程助手"，是"agent 时代的操作系统"。传统 OS 的每个核心概念都在 Claude Code 里有对应物——详见 [[wiki/ai-coding/agent-工作量分布|Agent 工作量分布]]。源码层的具体技巧：[[fail-closed-tool-defaults|Fail-Closed 默认]] / [[read-before-edit|Read-Before-Edit 铁律]] / [[coordinator-模式|Coordinator 模式]] / [[kairos-记忆蒸馏|KAIROS 记忆蒸馏]]。
