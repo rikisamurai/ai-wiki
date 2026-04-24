@@ -2,7 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
-        "migration-backlog.md",
+        "README.md",
         "log.base",
         "index.base",
         "log.md",
@@ -61,7 +61,10 @@
       "sortOrder": "custom"
     },
     "sources/clippings": {
-      "children": [],
+      "children": [
+        "sources/clippings/mac-computer-use-axmanualaccessibility.md",
+        "sources/clippings/bgclick-rev-skillbgclick-rev-skill.md at main.md"
+      ],
       "sortOrder": "custom"
     },
     "sources/inbox": {
@@ -119,11 +122,35 @@
       "sortOrder": "custom"
     },
     "wiki/_orphans": {
-      "children": [],
+      "children": [
+        "wiki/_orphans/migration-2026-04.md"
+      ],
       "sortOrder": "custom"
     },
     "wiki/ai-coding": {
       "children": [
+        "wiki/ai-coding/subagent-driven-development.md",
+        "wiki/ai-coding/agent-工作量分布.md",
+        "wiki/ai-coding/采访驱动-spec.md",
+        "wiki/ai-coding/writer-reviewer-模式.md",
+        "wiki/ai-coding/两次纠正规则.md",
+        "wiki/ai-coding/探索-规划-编码-验证.md",
+        "wiki/ai-coding/验证驱动.md",
+        "wiki/ai-coding/高吞吐合并哲学.md",
+        "wiki/ai-coding/doc-gardening.md",
+        "wiki/ai-coding/enforce-invariants.md",
+        "wiki/ai-coding/agent-可读性.md",
+        "wiki/ai-coding/ai-写-lint.md",
+        "wiki/ai-coding/shift-left.md",
+        "wiki/ai-coding/ai-code-review.md",
+        "wiki/ai-coding/任务三维划分.md",
+        "wiki/ai-coding/harness-成熟度.md",
+        "wiki/ai-coding/行为正确性.md",
+        "wiki/ai-coding/agents-md.md",
+        "wiki/ai-coding/agent-等待时间.md",
+        "wiki/ai-coding/ralph-loop.md",
+        "wiki/ai-coding/约束悖论.md",
+        "wiki/ai-coding/spec-coding.md",
         "wiki/ai-coding/vibe-coding-对-saas-的通缩.md",
         "wiki/ai-coding/隐性知识与上下文.md",
         "wiki/ai-coding/稳定前缀-动态后缀.md",
@@ -159,6 +186,39 @@
     },
     "wiki/aigc": {
       "children": [
+        "wiki/aigc/hybrid-retrieval.md",
+        "wiki/aigc/graph-rag.md",
+        "wiki/aigc/agentic-rag.md",
+        "wiki/aigc/rag.md",
+        "wiki/aigc/agent-browser.md",
+        "wiki/aigc/opencli.md",
+        "wiki/aigc/browser-use.md",
+        "wiki/aigc/cdp-能力边界.md",
+        "wiki/aigc/cdp.md",
+        "wiki/aigc/skills-marketplace.md",
+        "wiki/aigc/claude-health.md",
+        "wiki/aigc/superpowers.md",
+        "wiki/aigc/skills-vs-automations.md",
+        "wiki/aigc/codex-sandbox-approval.md",
+        "wiki/aigc/codex.md",
+        "wiki/aigc/codex-plugin.md",
+        "wiki/aigc/claude-hud.md",
+        "wiki/aigc/everything-claude-code.md",
+        "wiki/aigc/settings-scopes.md",
+        "wiki/aigc/coordinator-模式.md",
+        "wiki/aigc/kairos-记忆蒸馏.md",
+        "wiki/aigc/read-before-edit.md",
+        "wiki/aigc/fail-closed-tool-defaults.md",
+        "wiki/aigc/handoff-md.md",
+        "wiki/aigc/claude-code-六层架构.md",
+        "wiki/aigc/hooks.md",
+        "wiki/aigc/claude-code.md",
+        "wiki/aigc/auto-memory.md",
+        "wiki/aigc/claude-rules.md",
+        "wiki/aigc/claude-code-memory.md",
+        "wiki/aigc/skill-编写实践.md",
+        "wiki/aigc/渐进式披露.md",
+        "wiki/aigc/skills-9-分类.md",
         "wiki/aigc/agent-skills.md",
         "wiki/aigc/permission-modes.md",
         "wiki/aigc/mcp.md",
@@ -264,6 +324,7 @@
     },
     "sources/posts/aigc/ai-coding/claude-code": {
       "children": [
+        "sources/posts/aigc/ai-coding/claude-code/个人偏好settings.md",
         "sources/posts/aigc/ai-coding/claude-code/🛠️claude-code-tools.md",
         "sources/posts/aigc/ai-coding/claude-code/💡claude-tips.md",
         "sources/posts/aigc/ai-coding/claude-code/blog",
@@ -425,6 +486,8 @@
     },
     "sources/posts/frontend/React/React Native/learning": {
       "children": [
+        "sources/posts/frontend/React/React Native/learning/rn-keyboard-pitfalls.md",
+        "sources/posts/frontend/React/React Native/learning/rn-ios-cjk-input-issue.md",
         "sources/posts/frontend/React/React Native/learning/react-native-core-components.md",
         "sources/posts/frontend/React/React Native/learning/flash-list.md"
       ],

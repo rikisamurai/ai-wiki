@@ -7,6 +7,10 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-23 20:25] query | rsc 是什么？
+- 来源：none（wiki/ 和 sources/ 均无实质内容，仅 Vercel DX 段落里一句带过）
+- 是否 ingest：no（无原料可抽取；待用户提供 RSC 专题 source 后再 /ingest）
+
 ## [2026-04-23 19:21] doc | 新增 README.md（人类视角操作手册）
 - 此前根目录只有 AGENT.md（LLM 视角 schema），缺一份给协作者 / 未来自己看的入口
 - 场景驱动结构：4 个场景（剪藏 / 自己写 / 查 / 批量迁移）+ 日常维护 + 命令速查 + 边界
