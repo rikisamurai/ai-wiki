@@ -7,6 +7,25 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-04-27 13:50] lint-fix | 4 处真问题清零
+- 真断链 2 → 0：handoff-md.md 把 `[[wiki/aigc/compact-vs-clear]]` 改正为 `[[wiki/ai-coding/compact-vs-clear]]`；obsidian-skills.md 把演示用的 `[[file]]` 改成 `[[wikilink]]`（依然是教学语义但不再被解析为真链接）
+- 出链不足 2 → 1（剩 _orphans 归档不算）：bun.md 加链 → [[wiki/frontend/webcontainers]]；flash-list.md 加链 → [[wiki/frontend/react-native-core-components]]
+- 复检：真断链 0，出链不足仅剩 _orphans/migration-2026-04（归档文件，不参与日常 lint）
+
+## [2026-04-27 13:42] lint | weekly check
+- 总文件 138；orphans 0；出链不足 3（含 1 个 _orphans 归档）；status 异常 1（_orphans 归档约定 status: done）；stale 候选 0
+- **3a 自动升级 8 个 draft → stable**（入度 ≥3）：frontend 5 + obsidian 3
+  - frontend: overlayscrollbars (入度 5)、view-recycling (4)、mutation-observer (3)、overlay-scrollbar-pattern (3)、resize-observer (3)
+  - obsidian: wikilink (3)、block-reference (3)、obsidian-bases (3)
+- §5 真断链 2 处：handoff-md.md → wiki/aigc/compact-vs-clear（应改成 wiki/ai-coding/compact-vs-clear）；obsidian-skills.md → file（疑似演示残留）
+- §2 真出链不足 2 处：bun.md、flash-list.md 都只有 1 个 wiki 出链
+
+## [2026-04-27 13:35] ingest | OverlayScrollbars · 隐藏原生滚动条的覆盖层方案
+- 新建 6 页：[[wiki/frontend/overlayscrollbars]]（项目本体）、[[wiki/frontend/overlay-scrollbar-pattern]]（范式）、[[wiki/frontend/scrollbar-mock-vs-overlay]]（两派对比）、[[wiki/frontend/css-scrollbar-styling]]（CSS 原生能力）、[[wiki/frontend/resize-observer]] + [[wiki/frontend/mutation-observer]]（两个 Web 平台 API）
+- 概念抽取思路：项目页 + 范式页 + 选型对比 + CSS 兜底页 + 两个 Web API 基础设施页，覆盖"为什么用 / 怎么用 / 不用什么 / 底层依赖"四个维度
+- 互链密度：6 页之间形成密集 wikilink 网，并外链到既有 [[wiki/frontend/headless-ui]]、[[wiki/frontend/view-recycling]]、[[wiki/frontend/flash-list]]
+- source: [[sources/posts/frontend/libraries/overlayscrollbars]]
+
 ## [2026-04-23 20:25] query | rsc 是什么？
 - 来源：none（wiki/ 和 sources/ 均无实质内容，仅 Vercel DX 段落里一句带过）
 - 是否 ingest：no（无原料可抽取；待用户提供 RSC 专题 source 后再 /ingest）

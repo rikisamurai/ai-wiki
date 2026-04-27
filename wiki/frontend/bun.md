@@ -8,7 +8,7 @@ last-ingested: 2026-04-22
 status: draft
 ---
 
-Bun（88.8k stars）是 Jarred Sumner 2021 年发起的 Node.js 全栈替代品，把 JS 运行时、打包工具、测试框架、包管理器合成一个单体。底层用 JavaScriptCore（不是 V8），Zig 写的，启动速度和执行性能大幅领先 Node.js。2025 年 12 月被 Anthropic 收购，价格未公开，承诺继续以 MIT 协议开源运营。
+Bun（88.8k stars）是 Jarred Sumner 2021 年发起的 Node.js 全栈替代品，把 JS 运行时、打包工具、测试框架、包管理器合成一个单体。底层用 JavaScriptCore（不是 V8），Zig 写的，启动速度和执行性能大幅领先 Node.js。2025 年 12 月被 Anthropic 收购，价格未公开，承诺继续以 MIT 协议开源运营。跟同样定位"JS 运行时新形态"的 [[wiki/frontend/webcontainers|WebContainers]] 路线互补——bun 是 native 端的高性能基座，WebContainers 是浏览器内沙箱基座。
 
 > [!note] 技术选型的反共识
 > | 维度 | Node.js | Bun |

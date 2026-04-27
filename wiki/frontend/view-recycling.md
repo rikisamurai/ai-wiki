@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/React/React Native/learning/flash-list]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 长列表性能优化的核心思路：**滚出屏幕的 View 不销毁，放进回收池；新数据滚入时直接复用旧 View，只更新数据**。Android RecyclerView 的设计哲学，被 [[wiki/frontend/flash-list|FlashList]] 移植到 React Native，用来取代 FlatList 的"销毁重建"模式。
