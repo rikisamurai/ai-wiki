@@ -8,7 +8,7 @@ last-ingested: 2026-04-22
 status: stable
 ---
 
-Obsidian Skills 是 Obsidian CEO Kepano 维护的官方 [[wiki/aigc/agent-skills|Agent Skills]] 集合（github.com/kepano/obsidian-skills），让任何兼容 Skills 规范的 Agent（[[wiki/obsidian/claudian|Claudian]]、Claude Code、Codex CLI、OpenCode）都能正确处理 Obsidian 特有的文件格式。
+Obsidian Skills 是 Obsidian CEO Kepano 维护的官方 [[wiki/skills/agent-skills|Agent Skills]] 集合（github.com/kepano/obsidian-skills），让任何兼容 Skills 规范的 Agent（[[wiki/obsidian/claudian|Claudian]]、Claude Code、Codex CLI、OpenCode）都能正确处理 Obsidian 特有的文件格式。
 
 > [!example] 包含 5 个 skill
 > | Skill | 作用 |
@@ -29,4 +29,4 @@ Obsidian Skills 是 Obsidian CEO Kepano 维护的官方 [[wiki/aigc/agent-skills
 > 也可以用 `/plugin marketplace add kepano/obsidian-skills` 走 marketplace 一键装。
 
 > [!note] 为什么需要这套
-> 不装的话 LLM 经常生成"语法上是 Markdown 但 Obsidian 不认"的内容——用 `[link](file.md)` 而不是 `[[file]]`，YAML frontmatter 字段写错位，Bases 公式语法出错。Skills 把这些约束以官方文档形式喂给 Agent，等效于给 Agent 装了"Obsidian 母语模式"。
+> 不装的话 LLM 经常生成"语法上是 Markdown 但 Obsidian 不认"的内容——用 `[link](file.md)` 而不是 `[[wikilink]]`，YAML frontmatter 字段写错位，Bases 公式语法出错。Skills 把这些约束以官方文档形式喂给 Agent，等效于给 Agent 装了"Obsidian 母语模式"。

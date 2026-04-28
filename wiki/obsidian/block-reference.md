@@ -6,7 +6,7 @@ sources:
   - "[[sources/posts/obsidian/obsidian/linking-notes-and-files/block-link-demo]]"
   - "[[sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 block reference use cases]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 块引用是 Obsidian wikilink 的细粒度变种：在任意"块"（段落、列表项、引用、表格行等）末尾加 `^id` 创建块 ID，然后通过 `[[file#^id]]` 跳转或 `![[file#^id]]` 嵌入。它把"链接到笔记"细化到"链接到笔记里的某一段"。

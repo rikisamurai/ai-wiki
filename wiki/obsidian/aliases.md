@@ -30,4 +30,4 @@ Aliases 是在笔记 frontmatter 里声明的"备用名"，让 [[wiki/obsidian/w
 > Obsidian 反向链接面板有"未链接提及"区，列出全文里出现别名但还没创建链接的位置。日常清理 [[wiki/obsidian/inbox-工作流|inbox]] 时扫一眼就能补上漏掉的链接，是维持 [[wiki/obsidian/knowledge-graph|知识图谱]] 完整性的低成本动作。
 
 > [!example] 本仓库的潜在用法
-> 给 [[wiki/aigc/mcp|MCP]] 页面加 `aliases: [Model Context Protocol]`，给 [[wiki/aigc/plan-mode|Plan Mode]] 加 `aliases: [规划模式]`——后续中英文混写都能被自动识别为同一概念。
+> 给 [[wiki/claude-code/mcp|MCP]] 页面加 `aliases: [Model Context Protocol]`，给 [[wiki/claude-code/plan-mode|Plan Mode]] 加 `aliases: [规划模式]`——后续中英文混写都能被自动识别为同一概念。

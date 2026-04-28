@@ -21,5 +21,5 @@ Defuddle 是 Kepano 维护的命令行工具（github.com/kepano/defuddle-cli）
 > [!example] Agent 用法
 > [[wiki/obsidian/obsidian-skills|defuddle skill]] 让 Claude Code 在收到"读这个网页"指令时自动调 Defuddle 而不是直接 fetch HTML——LLM 看到的是干净正文，省下 70%+ 的 token，提取也更准。
 
-> [!tip] 与 [[wiki/aigc/agent-skills|Agent Skills]] 的设计哲学一致
+> [!tip] 与 [[wiki/skills/agent-skills|Agent Skills]] 的设计哲学一致
 > Defuddle 本身只是个 CLI，但它通过 obsidian-skills 包装成 skill 后，被任何 Agent 客户端都能"自动调"。这是"工具 + skill 描述"的标准化打包模式——比直接让 Agent 学会调命令行更可靠。

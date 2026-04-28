@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/obsidian/linking-notes-and-files/🔗 内部链接（Internal Links）]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Wikilink 是 Obsidian 默认的内部链接语法 `[[文件名]]`，比标准 Markdown 链接 `[文本](path)` 更短、不必 URL 编码、自动跟随重命名。它是 [[wiki/obsidian/zettelkasten|Zettelkasten]] 网络化思维在 Obsidian 里能跑起来的语法基础。

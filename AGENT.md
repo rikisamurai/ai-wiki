@@ -8,7 +8,7 @@
 
 **三层架构**（严格隔离，不串味）：
 - `sources/`：原料层，LLM **只读不改**。包含 clippings（剪藏）、posts（用户原创/译文）、inbox（草稿）、asset（图片）。
-- `wiki/`：精华层，LLM **拥有可改**。从 sources 抽取的概念页面，按 ai-coding / aigc / frontend / obsidian 分类。
+- `wiki/`：精华层，LLM **拥有可改**。从 sources 抽取的概念页面，按 agent-engineering / claude-code / skills / retrieval / frontend / business / obsidian 分类（部分一级下有二级子目录，详见目录树）。
 - `AGENT.md`（CLAUDE.md 是其符号链接）：schema 层，定义工作流和约定。
 
 **LLM 角色**：sources 只读、wiki 只写、log/index 自动维护。
@@ -39,7 +39,13 @@ ai-wiki/
 │   ├── inbox/                    # 草稿
 │   └── asset/                    # 图片
 ├── wiki/                         # 可改精华
-│   ├── ai-coding/ aigc/ frontend/ obsidian/
+│   ├── agent-engineering/        # philosophy / context / workflow / code-review
+│   ├── claude-code/              # Claude Code & 同类 CLI 工具系
+│   ├── skills/                   # Agent Skills 生态（跨工具资产）
+│   ├── retrieval/                # rag / browser
+│   ├── frontend/                 # web-platform / network / react-patterns / react-native / ui-libraries
+│   ├── business/                 # 商业模式
+│   ├── obsidian/                 # Obsidian 语法/工具/方法论
 │   └── _orphans/                 # lint 检测出的孤儿暂存
 ├── .claude/commands/             # 4 个 slash commands
 └── docs/superpowers/             # specs 与 plans

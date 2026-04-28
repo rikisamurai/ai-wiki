@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/obsidian/obsidian/obsidian-claude/skills]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Obsidian Bases 是 Obsidian 1.7+ 内置的"数据库视图"功能，把 vault 里所有有 frontmatter 的笔记当数据行，用 YAML 配置定义视图、过滤器、公式、汇总。`.base` 文件可以用 `![[xxx.base#view-id]]` 嵌入到任意笔记。

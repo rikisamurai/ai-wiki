@@ -21,7 +21,14 @@ argument-hint: <source-path>
    - 没有 → 走"新建"分支
 
 4. **写页面**（每页都满足）：
-   - 路径：`wiki/<domain>/<kebab-case-标题>.md`，domain 在 ai-coding / aigc / frontend / obsidian 里选
+   - 路径：`wiki/<domain>/[<sub>/]<kebab-case-标题>.md`。一级 domain 与（如有）二级 sub 选择如下：
+     - `agent-engineering/`（4 个二级必选）：`philosophy/`（哲学/范式/思想）、`context/`（上下文与缓存工程）、`workflow/`（工作流与 agent 行为模式）、`code-review/`（CR 与 lint）
+     - `claude-code/`（平铺）：Claude Code & 同类 CLI 工具系（hooks、settings、handoff、coordinator-类落地等）
+     - `skills/`（平铺）：Agent Skills 规范、编写实践、Skills 集（superpowers/baoyu 等）
+     - `retrieval/`（2 个二级必选）：`rag/`（rag/agentic-rag/graph-rag/hybrid-retrieval）、`browser/`（agent-browser/browser-use/cdp）
+     - `frontend/`（5 个二级必选）：`web-platform/`（运行时/DOM API）、`network/`（HTTP/QUIC 等协议）、`react-patterns/`（React 状态/effect 模式）、`react-native/`（RN 组件与虚拟列表）、`ui-libraries/`（shadcn/headless-ui/scrollbar 等）
+     - `business/`（平铺）：商业模式/盈利模式
+     - `obsidian/`（平铺）：Obsidian 语法/工具/方法论
    - frontmatter 含：title / tags（≤3 kebab-case）/ date / sources（**全路径 wikilink 列表**，形如 `"[[sources/clippings/xxx]]"`）/ last-ingested / status: draft
    - 首段是 TL;DR（1-3 句，不带 "TL;DR:" 前缀）
    - 至少 2 个 wikilink 出链到其他 wiki 页面

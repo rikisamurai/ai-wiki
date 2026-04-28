@@ -6,7 +6,8 @@
   "permissions": {
     "allow": [
       "Bash",
-      "WebFetch"
+      "WebFetch",
+      "WebSearch"
     ],
     "deny": [
       "Bash(rm -rf *)",
