@@ -11,7 +11,7 @@ status: stable
 Claudian 是把 Claude Code 嵌入 Obsidian 的第三方插件，让整个 vault 成为 Claude 的工作目录。它复用了 Claude Code CLI 的全部 agentic 能力——文件读写、Bash、搜索、多步骤工作流——同时把 Obsidian 的 wikilink、frontmatter、笔记选区作为上下文喂给模型。
 
 > [!note] 与"在 Obsidian 里调 ChatGPT"的根本区别
-> 普通 AI 插件是"输入框 + API 调用"。Claudian 是把 Obsidian 当 Claude Code 的工作目录——`@filename` 引用文件、Inline Edit 原地改写、[[wiki/aigc/plan-mode|Plan Mode]] 先设计后执行、[[wiki/aigc/permission-modes|YOLO/Safe/Plan 权限分级]] 都直接继承自 CLI。
+> 普通 AI 插件是"输入框 + API 调用"。Claudian 是把 Obsidian 当 Claude Code 的工作目录——`@filename` 引用文件、Inline Edit 原地改写、[[wiki/claude-code/plan-mode|Plan Mode]] 先设计后执行、[[wiki/claude-code/permission-modes|YOLO/Safe/Plan 权限分级]] 都直接继承自 CLI。
 
 > [!example] 上下文管理是核心卖点
 > | 操作 | 效果 |
@@ -19,7 +19,7 @@ Claudian 是把 Claude Code 嵌入 Obsidian 的第三方插件，让整个 vault
 > | 自动附加当前笔记 | 打开笔记直接聊，无需复制粘贴 |
 > | `@filename` | 引用 vault 内任意文件 |
 > | `@Agents/` | 调用自定义子 agent |
-> | `@mcp-server` | 激活 [[wiki/aigc/mcp\|MCP]] 工具 |
+> | `@mcp-server` | 激活 [[wiki/claude-code/mcp\|MCP]] 工具 |
 > | Excluded tags | 防 `#sensitive` 笔记被自动加载 |
 
 > [!tip] 复用 Claude Code 生态

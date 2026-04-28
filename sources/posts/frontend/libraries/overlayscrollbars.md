@@ -144,7 +144,7 @@ function ChatList() {
 
 - **SSR 兼容但要谨慎**：库支持 Node / Deno / Bun 渲染，但首屏 hydration 前的瞬时显示会是原生 scrollbar，hydration 后切换到自定义版会有视觉跳动——React 适配的 `defer: true` 是缓解手段
 - **不适合海量瞬时实例**：每个实例都挂了 `ResizeObserver` + `MutationObserver`，频繁创建销毁（比如虚拟列表里每行包一个 scroll 容器）会有内存压力。需要这种场景请优先复用单例
-- **跟虚拟列表的关系**：OverlayScrollbars 解决"滚动条样式"，**不解决"列表性能"**。长列表性能问题该用 [[wiki/frontend/view-recycling|view-recycling]] / [[wiki/frontend/flash-list|FlashList]] 这类虚拟化方案处理，两者完全正交可以叠加
+- **跟虚拟列表的关系**：OverlayScrollbars 解决"滚动条样式"，**不解决"列表性能"**。长列表性能问题该用 [[wiki/frontend/react-native/view-recycling|view-recycling]] / [[wiki/frontend/react-native/flash-list|FlashList]] 这类虚拟化方案处理，两者完全正交可以叠加
 
 > [!tip] 判断口诀
 > **跨浏览器视觉一致 + thumb 上要做花活 + 内容会高频动态变更** → 用 OverlayScrollbars；
@@ -152,9 +152,9 @@ function ChatList() {
 
 ## 相关 wiki 页面
 
-- [[wiki/frontend/headless-ui]] —— OverlayScrollbars 也是典型的 headless 库（核心逻辑无样式，主题靠 CSS 类切换）
-- [[wiki/frontend/view-recycling]] —— 虚拟列表跟自定义 scrollbar 的正交关系参考
-- [[wiki/frontend/flash-list]] —— RN 侧的 view-recycling 落地
+- [[wiki/frontend/ui-libraries/headless-ui]] —— OverlayScrollbars 也是典型的 headless 库（核心逻辑无样式，主题靠 CSS 类切换）
+- [[wiki/frontend/react-native/view-recycling]] —— 虚拟列表跟自定义 scrollbar 的正交关系参考
+- [[wiki/frontend/react-native/flash-list]] —— RN 侧的 view-recycling 落地
 
 ## 参考链接
 
