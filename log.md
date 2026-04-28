@@ -307,3 +307,7 @@ title: ai-wiki Activity Log
 - 更新：[[wiki/ai-coding/harness-engineering]]（追加约束悖论/反应式生长/三层成熟度等关联，frontmatter sources 追加）、[[wiki/ai-coding/vibe-coding]]（TL;DR 补 Karpathy 出处与"大号 demo"，frontmatter sources 追加）
 - 备注：开启 posts/aigc 第一条；OpenClaw / 自定义 Skills / Bytedcli 等留作后续 source 专题
 - source: sources/posts/aigc/ai-coding/blog/从Spec Coding到Harness：AI Coding的两次范式转变与实践总结.md
+
+## [2026-04-28 15:16] query | 目前收录了哪些 skill
+- 来源：wiki
+- 是否 ingest：no（仅为盘点，结论：可在 index.md 补 Skills 全景小节）
