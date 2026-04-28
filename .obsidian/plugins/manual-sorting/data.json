@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "scripts",
         "README.md",
         "log.base",
         "index.base",
@@ -30,13 +31,21 @@
     },
     "docs/superpowers/plans": {
       "children": [
+        "docs/superpowers/plans/2026-04-28-wiki-reorganization.md",
         "docs/superpowers/plans/2026-04-22-llm-wiki-implementation.md"
       ],
       "sortOrder": "custom"
     },
     "docs/superpowers/specs": {
       "children": [
+        "docs/superpowers/specs/2026-04-28-wiki-reorganization-design.md",
         "docs/superpowers/specs/2026-04-22-llm-wiki-design.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "scripts": {
+      "children": [
+        "scripts/reorg-wiki.py"
       ],
       "sortOrder": "custom"
     },
@@ -55,6 +64,8 @@
     },
     "sources/clippings": {
       "children": [
+        "sources/clippings/youzingwasc-search-skill.md",
+        "sources/clippings/对话曦智科技沈亦晨：一个 MIT 博士与光计算穿越死亡谷的十年.md",
         "sources/clippings/mac-computer-use-axmanualaccessibility.md",
         "sources/clippings/bgclick-rev-skillbgclick-rev-skill.md at main.md"
       ],
@@ -257,6 +268,7 @@
     },
     "sources/posts/frontend": {
       "children": [
+        "sources/posts/frontend/libraries",
         "sources/posts/frontend/React",
         "sources/posts/frontend/JavaScript"
       ],
@@ -271,6 +283,12 @@
     "sources/posts/frontend/JavaScript/Blog": {
       "children": [
         "sources/posts/frontend/JavaScript/Blog/JavaScript 市场分析.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/frontend/libraries": {
+      "children": [
+        "sources/posts/frontend/libraries/overlayscrollbars.md"
       ],
       "sortOrder": "custom"
     },
@@ -351,10 +369,13 @@
     },
     "wiki": {
       "children": [
+        "wiki/agent-engineering",
+        "wiki/business",
+        "wiki/claude-code",
+        "wiki/retrieval",
+        "wiki/skills",
         "wiki/obsidian",
         "wiki/frontend",
-        "wiki/aigc",
-        "wiki/ai-coding",
         "wiki/_orphans"
       ],
       "sortOrder": "custom"
@@ -365,129 +386,179 @@
       ],
       "sortOrder": "custom"
     },
-    "wiki/ai-coding": {
+    "wiki/agent-engineering": {
       "children": [
-        "wiki/ai-coding/subagent-driven-development.md",
-        "wiki/ai-coding/agent-工作量分布.md",
-        "wiki/ai-coding/采访驱动-spec.md",
-        "wiki/ai-coding/writer-reviewer-模式.md",
-        "wiki/ai-coding/两次纠正规则.md",
-        "wiki/ai-coding/探索-规划-编码-验证.md",
-        "wiki/ai-coding/验证驱动.md",
-        "wiki/ai-coding/高吞吐合并哲学.md",
-        "wiki/ai-coding/doc-gardening.md",
-        "wiki/ai-coding/enforce-invariants.md",
-        "wiki/ai-coding/agent-可读性.md",
-        "wiki/ai-coding/ai-写-lint.md",
-        "wiki/ai-coding/shift-left.md",
-        "wiki/ai-coding/ai-code-review.md",
-        "wiki/ai-coding/任务三维划分.md",
-        "wiki/ai-coding/harness-成熟度.md",
-        "wiki/ai-coding/行为正确性.md",
-        "wiki/ai-coding/agents-md.md",
-        "wiki/ai-coding/agent-等待时间.md",
-        "wiki/ai-coding/ralph-loop.md",
-        "wiki/ai-coding/约束悖论.md",
-        "wiki/ai-coding/spec-coding.md",
-        "wiki/ai-coding/vibe-coding-对-saas-的通缩.md",
-        "wiki/ai-coding/隐性知识与上下文.md",
-        "wiki/ai-coding/稳定前缀-动态后缀.md",
-        "wiki/ai-coding/架构师-操作员二分.md",
-        "wiki/ai-coding/冻结快照模式.md",
-        "wiki/ai-coding/会话管理动作.md",
-        "wiki/ai-coding/yagni-与-dry-反论.md",
-        "wiki/ai-coding/worse-is-better.md",
-        "wiki/ai-coding/vibe-coding.md",
-        "wiki/ai-coding/vibe-coding-的代价.md",
-        "wiki/ai-coding/subagent-上下文隔离.md",
-        "wiki/ai-coding/self-healing-loop.md",
-        "wiki/ai-coding/rewind-胜过纠正.md",
-        "wiki/ai-coding/review-带宽瓶颈.md",
-        "wiki/ai-coding/prefix-cache.md",
-        "wiki/ai-coding/plausible-code.md",
-        "wiki/ai-coding/opc-一人公司.md",
-        "wiki/ai-coding/long-horizon-agent.md",
-        "wiki/ai-coding/kv-cache.md",
-        "wiki/ai-coding/harness-engineering.md",
-        "wiki/ai-coding/context-window.md",
-        "wiki/ai-coding/context-rot.md",
-        "wiki/ai-coding/compact-vs-clear.md",
-        "wiki/ai-coding/cache-失效陷阱.md",
-        "wiki/ai-coding/cache-命中率.md",
-        "wiki/ai-coding/cache-keep-alive.md",
-        "wiki/ai-coding/ai-first-适用边界.md",
-        "wiki/ai-coding/ai-first-工程前提.md",
-        "wiki/ai-coding/ai-first-vs-ai-assisted.md",
-        "wiki/ai-coding/agentic-coding.md"
+        "wiki/agent-engineering/code-review",
+        "wiki/agent-engineering/context",
+        "wiki/agent-engineering/philosophy",
+        "wiki/agent-engineering/workflow"
       ],
       "sortOrder": "custom"
     },
-    "wiki/aigc": {
+    "wiki/agent-engineering/code-review": {
       "children": [
-        "wiki/aigc/hybrid-retrieval.md",
-        "wiki/aigc/graph-rag.md",
-        "wiki/aigc/agentic-rag.md",
-        "wiki/aigc/rag.md",
-        "wiki/aigc/agent-browser.md",
-        "wiki/aigc/opencli.md",
-        "wiki/aigc/browser-use.md",
-        "wiki/aigc/cdp-能力边界.md",
-        "wiki/aigc/cdp.md",
-        "wiki/aigc/skills-marketplace.md",
-        "wiki/aigc/claude-health.md",
-        "wiki/aigc/superpowers.md",
-        "wiki/aigc/skills-vs-automations.md",
-        "wiki/aigc/codex-sandbox-approval.md",
-        "wiki/aigc/codex.md",
-        "wiki/aigc/codex-plugin.md",
-        "wiki/aigc/claude-hud.md",
-        "wiki/aigc/everything-claude-code.md",
-        "wiki/aigc/settings-scopes.md",
-        "wiki/aigc/coordinator-模式.md",
-        "wiki/aigc/kairos-记忆蒸馏.md",
-        "wiki/aigc/read-before-edit.md",
-        "wiki/aigc/fail-closed-tool-defaults.md",
-        "wiki/aigc/handoff-md.md",
-        "wiki/aigc/claude-code-六层架构.md",
-        "wiki/aigc/hooks.md",
-        "wiki/aigc/claude-code.md",
-        "wiki/aigc/auto-memory.md",
-        "wiki/aigc/claude-rules.md",
-        "wiki/aigc/claude-code-memory.md",
-        "wiki/aigc/skill-编写实践.md",
-        "wiki/aigc/渐进式披露.md",
-        "wiki/aigc/skills-9-分类.md",
-        "wiki/aigc/agent-skills.md",
-        "wiki/aigc/permission-modes.md",
-        "wiki/aigc/mcp.md",
-        "wiki/aigc/inline-edit.md",
-        "wiki/aigc/plan-mode.md"
+        "wiki/agent-engineering/code-review/ai-code-review.md",
+        "wiki/agent-engineering/code-review/ai-写-lint.md",
+        "wiki/agent-engineering/code-review/review-带宽瓶颈.md",
+        "wiki/agent-engineering/code-review/shift-left.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/agent-engineering/context": {
+      "children": [
+        "wiki/agent-engineering/context/cache-keep-alive.md",
+        "wiki/agent-engineering/context/cache-命中率.md",
+        "wiki/agent-engineering/context/cache-失效陷阱.md",
+        "wiki/agent-engineering/context/compact-vs-clear.md",
+        "wiki/agent-engineering/context/context-rot.md",
+        "wiki/agent-engineering/context/context-window.md",
+        "wiki/agent-engineering/context/kv-cache.md",
+        "wiki/agent-engineering/context/prefix-cache.md",
+        "wiki/agent-engineering/context/会话管理动作.md",
+        "wiki/agent-engineering/context/冻结快照模式.md",
+        "wiki/agent-engineering/context/稳定前缀-动态后缀.md",
+        "wiki/agent-engineering/context/隐性知识与上下文.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/agent-engineering/philosophy": {
+      "children": [
+        "wiki/agent-engineering/philosophy/agent-工作量分布.md",
+        "wiki/agent-engineering/philosophy/agentic-coding.md",
+        "wiki/agent-engineering/philosophy/ai-first-vs-ai-assisted.md",
+        "wiki/agent-engineering/philosophy/ai-first-工程前提.md",
+        "wiki/agent-engineering/philosophy/ai-first-适用边界.md",
+        "wiki/agent-engineering/philosophy/harness-engineering.md",
+        "wiki/agent-engineering/philosophy/harness-成熟度.md",
+        "wiki/agent-engineering/philosophy/opc-一人公司.md",
+        "wiki/agent-engineering/philosophy/plausible-code.md",
+        "wiki/agent-engineering/philosophy/spec-coding.md",
+        "wiki/agent-engineering/philosophy/vibe-coding.md",
+        "wiki/agent-engineering/philosophy/vibe-coding-对-saas-的通缩.md",
+        "wiki/agent-engineering/philosophy/vibe-coding-的代价.md",
+        "wiki/agent-engineering/philosophy/worse-is-better.md",
+        "wiki/agent-engineering/philosophy/yagni-与-dry-反论.md",
+        "wiki/agent-engineering/philosophy/架构师-操作员二分.md",
+        "wiki/agent-engineering/philosophy/约束悖论.md",
+        "wiki/agent-engineering/philosophy/行为正确性.md",
+        "wiki/agent-engineering/philosophy/高吞吐合并哲学.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/agent-engineering/workflow": {
+      "children": [
+        "wiki/agent-engineering/workflow/agent-可读性.md",
+        "wiki/agent-engineering/workflow/agent-等待时间.md",
+        "wiki/agent-engineering/workflow/agents-md.md",
+        "wiki/agent-engineering/workflow/coordinator-模式.md",
+        "wiki/agent-engineering/workflow/doc-gardening.md",
+        "wiki/agent-engineering/workflow/enforce-invariants.md",
+        "wiki/agent-engineering/workflow/long-horizon-agent.md",
+        "wiki/agent-engineering/workflow/ralph-loop.md",
+        "wiki/agent-engineering/workflow/rewind-胜过纠正.md",
+        "wiki/agent-engineering/workflow/self-healing-loop.md",
+        "wiki/agent-engineering/workflow/subagent-driven-development.md",
+        "wiki/agent-engineering/workflow/subagent-上下文隔离.md",
+        "wiki/agent-engineering/workflow/writer-reviewer-模式.md",
+        "wiki/agent-engineering/workflow/两次纠正规则.md",
+        "wiki/agent-engineering/workflow/任务三维划分.md",
+        "wiki/agent-engineering/workflow/探索-规划-编码-验证.md",
+        "wiki/agent-engineering/workflow/采访驱动-spec.md",
+        "wiki/agent-engineering/workflow/验证驱动.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/business": {
+      "children": [
+        "wiki/business/js-盈利模式分类.md",
+        "wiki/business/per-seat-licensing.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/claude-code": {
+      "children": [
+        "wiki/claude-code/auto-memory.md",
+        "wiki/claude-code/claude-code.md",
+        "wiki/claude-code/claude-code-memory.md",
+        "wiki/claude-code/claude-code-六层架构.md",
+        "wiki/claude-code/claude-health.md",
+        "wiki/claude-code/claude-hud.md",
+        "wiki/claude-code/claude-rules.md",
+        "wiki/claude-code/codex.md",
+        "wiki/claude-code/codex-plugin.md",
+        "wiki/claude-code/codex-sandbox-approval.md",
+        "wiki/claude-code/everything-claude-code.md",
+        "wiki/claude-code/fail-closed-tool-defaults.md",
+        "wiki/claude-code/handoff-md.md",
+        "wiki/claude-code/hooks.md",
+        "wiki/claude-code/inline-edit.md",
+        "wiki/claude-code/kairos-记忆蒸馏.md",
+        "wiki/claude-code/mcp.md",
+        "wiki/claude-code/opencli.md",
+        "wiki/claude-code/permission-modes.md",
+        "wiki/claude-code/plan-mode.md",
+        "wiki/claude-code/read-before-edit.md",
+        "wiki/claude-code/settings-scopes.md"
       ],
       "sortOrder": "custom"
     },
     "wiki/frontend": {
       "children": [
-        "wiki/frontend/connection-migration.md",
-        "wiki/frontend/0-rtt-握手.md",
-        "wiki/frontend/head-of-line-blocking.md",
-        "wiki/frontend/quic.md",
-        "wiki/frontend/http-3.md",
-        "wiki/frontend/组件强制函数.md",
-        "wiki/frontend/派生状态.md",
-        "wiki/frontend/webcontainers.md",
-        "wiki/frontend/view-recycling.md",
-        "wiki/frontend/vercel.md",
-        "wiki/frontend/usemounteffect.md",
-        "wiki/frontend/shadcn-ui.md",
-        "wiki/frontend/react-native-core-components.md",
-        "wiki/frontend/pressable-vs-touchable.md",
-        "wiki/frontend/per-seat-licensing.md",
-        "wiki/frontend/no-useeffect-rule.md",
-        "wiki/frontend/key-重置组件.md",
-        "wiki/frontend/js-盈利模式分类.md",
-        "wiki/frontend/headless-ui.md",
-        "wiki/frontend/flash-list.md",
-        "wiki/frontend/bun.md"
+        "wiki/frontend/network",
+        "wiki/frontend/react-native",
+        "wiki/frontend/react-patterns",
+        "wiki/frontend/ui-libraries",
+        "wiki/frontend/web-platform"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/frontend/network": {
+      "children": [
+        "wiki/frontend/network/0-rtt-握手.md",
+        "wiki/frontend/network/connection-migration.md",
+        "wiki/frontend/network/head-of-line-blocking.md",
+        "wiki/frontend/network/http-3.md",
+        "wiki/frontend/network/quic.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/frontend/react-native": {
+      "children": [
+        "wiki/frontend/react-native/flash-list.md",
+        "wiki/frontend/react-native/pressable-vs-touchable.md",
+        "wiki/frontend/react-native/react-native-core-components.md",
+        "wiki/frontend/react-native/view-recycling.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/frontend/react-patterns": {
+      "children": [
+        "wiki/frontend/react-patterns/key-重置组件.md",
+        "wiki/frontend/react-patterns/no-useeffect-rule.md",
+        "wiki/frontend/react-patterns/usemounteffect.md",
+        "wiki/frontend/react-patterns/派生状态.md",
+        "wiki/frontend/react-patterns/组件强制函数.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/frontend/ui-libraries": {
+      "children": [
+        "wiki/frontend/ui-libraries/css-scrollbar-styling.md",
+        "wiki/frontend/ui-libraries/headless-ui.md",
+        "wiki/frontend/ui-libraries/overlay-scrollbar-pattern.md",
+        "wiki/frontend/ui-libraries/overlayscrollbars.md",
+        "wiki/frontend/ui-libraries/scrollbar-mock-vs-overlay.md",
+        "wiki/frontend/ui-libraries/shadcn-ui.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/frontend/web-platform": {
+      "children": [
+        "wiki/frontend/web-platform/bun.md",
+        "wiki/frontend/web-platform/mutation-observer.md",
+        "wiki/frontend/web-platform/resize-observer.md",
+        "wiki/frontend/web-platform/vercel.md",
+        "wiki/frontend/web-platform/webcontainers.md"
       ],
       "sortOrder": "custom"
     },
@@ -513,6 +584,43 @@
         "wiki/obsidian/knowledge-graph.md",
         "wiki/obsidian/obsidian-web-clipper.md",
         "wiki/obsidian/inbox-工作流.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/retrieval": {
+      "children": [
+        "wiki/retrieval/browser",
+        "wiki/retrieval/rag"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/retrieval/browser": {
+      "children": [
+        "wiki/retrieval/browser/agent-browser.md",
+        "wiki/retrieval/browser/browser-use.md",
+        "wiki/retrieval/browser/cdp.md",
+        "wiki/retrieval/browser/cdp-能力边界.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/retrieval/rag": {
+      "children": [
+        "wiki/retrieval/rag/agentic-rag.md",
+        "wiki/retrieval/rag/graph-rag.md",
+        "wiki/retrieval/rag/hybrid-retrieval.md",
+        "wiki/retrieval/rag/rag.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "wiki/skills": {
+      "children": [
+        "wiki/skills/agent-skills.md",
+        "wiki/skills/skill-编写实践.md",
+        "wiki/skills/skills-9-分类.md",
+        "wiki/skills/skills-marketplace.md",
+        "wiki/skills/skills-vs-automations.md",
+        "wiki/skills/superpowers.md",
+        "wiki/skills/渐进式披露.md"
       ],
       "sortOrder": "custom"
     }
