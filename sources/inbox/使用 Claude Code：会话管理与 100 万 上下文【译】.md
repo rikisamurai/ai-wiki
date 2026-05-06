@@ -8,6 +8,7 @@ created: 2026-04-16
 description: "Thariq@trq212·10h ArticleUsing Claude Code: Session Management & 1M ContextIn my recent calls with Claude Code users, one theme keeps coming..."
 tags:
   - "clippings"
+ingested-at: 2026-04-23
 ---
 ![Image](https://pbs.twimg.com/media/HF-_JDXXsAIk1QU?format=jpg&name=large)
 

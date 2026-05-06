@@ -8,8 +8,8 @@ tags:
   - skills
   - agent
 date: 2026-03-13
+ingested-at: 2026-04-23
 ---
-
 # Superpowers — AI 编码工作流框架
 
 > [!abstract] 概览

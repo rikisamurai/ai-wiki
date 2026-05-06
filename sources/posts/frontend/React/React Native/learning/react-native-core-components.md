@@ -4,8 +4,8 @@ tags:
   - learning
   - react-native
 date: 2026-04-09
+ingested-at: 2026-04-22
 ---
-
 **一句话**：React Native 内置了一组跨平台 UI 组件和系统 API，它们是构建所有 RN 界面的基础积木——就像 Web 中的 `<div>`、`<span>`、`<img>` 一样。
 
 **为什么需要了解它们**：RN 不能直接使用 HTML 标签，所有 UI 都由这些核心组件组合而成。掌握它们才知道"拿什么来搭界面"，以及什么时候该用第三方组件（比如 [[flash-list|FlashList]]）替代。

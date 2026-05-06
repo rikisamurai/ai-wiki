@@ -4,11 +4,8 @@ tags:
   - obsidian
   - markdown
 date: 2026-03-16
+ingested-at: 2026-04-22
 ---
-
-
-
-
 # Obsidian Callout 使用指南
 
 Callout 是 Obsidian 提供的高亮信息块，用于在笔记中突出显示重要内容。它基于 Markdown 引用语法扩展而来。

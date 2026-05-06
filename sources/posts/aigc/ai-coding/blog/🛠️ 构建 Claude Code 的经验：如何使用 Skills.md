@@ -6,8 +6,8 @@ tags:
   - skills
   - agent
 date: 2026-03-18
+ingested-at: 2026-04-23
 ---
-
 # 🚀 构建 Claude Code 的经验：如何使用 Skills
 
 > [!info] 文章来源

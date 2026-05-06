@@ -1,3 +1,7 @@
+---
+ingested-at: 2026-04-23
+---
+
 
 # 智能体网络交互范式的演进：OpenCLI、Agent-Browser 与 Browser-Use 深度横向评测
 

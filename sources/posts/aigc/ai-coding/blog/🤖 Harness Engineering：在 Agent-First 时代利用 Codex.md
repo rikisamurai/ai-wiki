@@ -9,8 +9,8 @@ tags:
 date: 2026-03-11
 source: https://openai.com/index/harness-engineering/
 author: Ryan Lopopolo
+ingested-at: 2026-04-23
 ---
-
 ![[harness-engineering-cover.png]]
 
 > [!info] 文章信息

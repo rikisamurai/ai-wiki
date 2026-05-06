@@ -4,6 +4,7 @@ status: "pending"
 source: "web-clipper"
 url: "https://x.com/minlibuilds/status/2041178722230030384?s=46"
 created: 2026-04-08
+ingested-at: 2026-04-23
 ---
 > 早上打开 Claude Code，敲第一句话，2%～10% 的套餐额度没了。午休回来继续干活，又一句话，10% 的额度蒸发。你有没有想过，这 token 到底花在哪了？我带着这个疑问，在本地用 Gemma4 跑小模型做实验——发现同一段对话，有些轮次要等 30 秒，有些只要 0.2 秒。为了搞清楚为什么，我会从 Transformer 的注意力机制开始讲，再到 Claude Code 的代码实现， Anthropic 在缓存上做了一整套精密工程。**理解了这套机制，你就知道怎么让同样的套餐多撑 3-5 倍。**
 

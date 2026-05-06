@@ -7,6 +7,7 @@ created: 2026-04-29
 description: "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA - garrytan/gstack"
 tags:
   - "clippings"
+ingested-at: 2026-05-06
 ---
 ## gstack
 

@@ -4,8 +4,8 @@ tags:
   - browser-use
   - cdp
 date: 2026-03-23
+ingested-at: 2026-04-23
 ---
-
 # CDP 视角下的 Browser 控制边界
 
 > [!info] 文章来源

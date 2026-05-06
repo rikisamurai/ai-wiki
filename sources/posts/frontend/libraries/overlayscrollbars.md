@@ -5,8 +5,8 @@ date: 2026-04-27
 source: https://github.com/KingSora/OverlayScrollbars
 type: post
 status: draft
+ingested-at: 2026-04-27
 ---
-
 > [!tip] TL;DR
 > [OverlayScrollbars](https://github.com/KingSora/OverlayScrollbars) 是一个 15 KB 的 vanilla JS 库，用"隐藏原生滚动条 + 浮层覆盖一根自定义 scrollbar"的方式给 Web 应用加跨浏览器一致的滚动条样式。它的核心区别于 react-custom-scrollbars / perfect-scrollbar 这类"全 mock"方案——不接管滚动行为，只换皮，原生滚动引擎、键盘、触屏、a11y 全免费继承。**适合**那些 CSS 原生 `scrollbar-gutter` / `scrollbar-color` 兜不住、需要在 thumb 上做花活、又不想自己实现一个滚动引擎的场景。
 

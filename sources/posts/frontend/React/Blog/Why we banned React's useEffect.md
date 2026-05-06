@@ -5,8 +5,8 @@ tags:
   - useEffect
   - best-practices
 date: 2026-03-18
+ingested-at: 2026-04-22
 ---
-
 # No useEffect
 
 > [!info] 原文

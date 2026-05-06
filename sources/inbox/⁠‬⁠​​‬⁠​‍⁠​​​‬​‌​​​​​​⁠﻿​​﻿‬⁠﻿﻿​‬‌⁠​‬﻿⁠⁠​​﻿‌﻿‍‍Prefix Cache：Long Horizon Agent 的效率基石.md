@@ -7,6 +7,7 @@ created: 2026-04-21
 description:
 tags:
   - "clippings"
+ingested-at: 2026-04-22
 ---
 Prefix Cache 失效通常不会报错。它只会让你的 Agent 悄悄变慢、变贵，直到某天账单提醒你：缓存早就没了。
 

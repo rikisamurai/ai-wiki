@@ -6,8 +6,8 @@ tags:
 date: 2026-03-25
 source: web-clipper
 url: "https://x.com/alin_zone/status/2027692558944768444"
+ingested-at: 2026-04-22
 ---
-
 前几篇教程教大家装好了 Obsidian，接上了 AI，笔记终于有了个家。
 
 但用着用着你会发现一个问题：刷 Twitter 或者网站看到一篇好文章，想存到 Obsidian 里——怎么弄？

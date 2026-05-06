@@ -5,6 +5,8 @@ properties:
     displayName: 状态
   last-ingested:
     displayName: 最近 ingest
+  ingested-at:
+    displayName: source 已 ingest
   tags:
     displayName: tags
 views:
@@ -42,11 +44,26 @@ views:
       and:
         - file.inFolder("sources")
         - file.ext == "md"
+        - '!file.hasProperty("ingested-at")'
     order:
       - file.name
       - file.folder
       - file.mtime
     sort:
       - property: file.mtime
+        direction: ASC
+  - type: table
+    name: ingested-sources
+    filters:
+      and:
+        - file.inFolder("sources")
+        - file.ext == "md"
+        - file.hasProperty("ingested-at")
+    order:
+      - file.name
+      - file.folder
+      - ingested-at
+    sort:
+      - property: ingested-at
         direction: DESC
     limit: 30

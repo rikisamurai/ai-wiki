@@ -6,8 +6,8 @@ tags:
   - Agent
   - 工程效能
 date: 2026-03-23
+ingested-at: 2026-04-23
 ---
-
 AI 编程正从”聊天试错”的 Vibe Coding，进化到以”自动化约束”为核心的 Harness Engineering 范式。
 AI 编程在过去一年经历了从 Vibe Coding（氛围编程）到 Spec Coding（规约编程），再到 Harness Engineering（约束工程）的两次关键范式转变。Vibe Coding 依赖直觉与 AI 对话，产出成果常止于“大型 Demo”；Spec Coding 试图通过详尽的规约（Spec）指导 AI，却面临规约本身维护困难、易于腐烂的困境，并分化出“规即源码”、“以规为锚”、“先规后码”三种形态。
 

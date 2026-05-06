@@ -4,8 +4,8 @@ tags:
   - claude
 source: https://github.com/YishenTu/claudian
 created: 2026-03-12
+ingested-at: 2026-04-23
 ---
-
 # Claudian — 在 Obsidian 中嵌入 Claude Code
 
 Claudian 是一个 Obsidian 插件，将 **Claude Code** 作为 AI 协作者直接嵌入你的笔记库。它把整个 vault 变成 Claude 的工作目录，拥有完整的 agentic 能力：文件读写、搜索、Bash 执行、多步骤工作流，一切都在 Obsidian 内完成。

@@ -7,6 +7,7 @@ created: 2026-04-30
 description: "Demystifying evals for AI agents"
 tags:
   - "clippings"
+ingested-at: 2026-05-06
 ---
 ## Introduction
 

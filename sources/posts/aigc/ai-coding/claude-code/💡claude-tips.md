@@ -5,9 +5,8 @@ tags:
   - claude-code
   - cheatsheet
 date: 2026-03-16
+ingested-at: 2026-04-23
 ---
-
-
 ![[Pasted image 20260316220024.png]]
 
 # Claude Code 常用命令

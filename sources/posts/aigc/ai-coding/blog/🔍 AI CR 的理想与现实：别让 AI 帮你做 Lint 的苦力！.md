@@ -5,8 +5,8 @@ tags:
   - lint
   - 工程效能
 date: 2026-03-16
+ingested-at: 2026-04-22
 ---
-
 # 🚀 AI CR 的理想与现实：别让 AI 帮你做 Lint 的苦力！
 
 你的团队刚刚接入了 AI Code Review。第一个 PR/MR 提交后，AI 留下了 15 条评论。

@@ -10,6 +10,19 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-06 22:01] fix | index.base 过滤器修正
+- 现象：pending-sources 显示已 ingest 的文件，ingested-sources 全空
+- 根因：`ingested-at == null` 表达式里 Bases 把字段名 `ingested-at` 解析成了 `ingested - at`（减法），导致比较恒为 null/空
+- 修法：两个 view 改用 `file.hasProperty("ingested-at")`，避开表达式解析（带引号的字符串名是函数参数，不再被当成减法）
+- 教训：Bases filter 表达式里凡含 `-` 的字段名都要用 `file.hasProperty()` / 引号绕开；推及未来 schema：新加 frontmatter 字段优先用 underscore 而不是 dash 可一劳永逸（但 last-ingested / ingested-at 已用 dash，存量不动）
+
+## [2026-05-06 21:38] schema | sources 加 ingested-at 字段
+- AGENT.md（CLAUDE.md）：在"三层架构"+ 新增"sources frontmatter"小节，开放 sources/ 唯一可写字段 `ingested-at`
+- .claude/commands/ingest.md：新增第 7 步"回写 source ingested-at"，退出条件与禁止条款同步更新
+- index.base：`pending-sources` view 加 filter `ingested-at == null`（真正"待办"清单），新增 `ingested-sources` view 列已消费 sources，properties 加 `ingested-at` 显示
+- 存量回填：扫 wiki/**/*.md frontmatter 的 sources 反查映射，给 44 个已被引用的 source 写入 `ingested-at`（取所有引用方 last-ingested 的最大值）；剩余 10 个 source 真未 ingest，自动归入 pending-sources 视图
+- 动机：原 pending-sources view 是"所有 sources"误导命名，无法区分待 ingest；现为可直接 filter 的精准视图，无需写反查命令
+
 ## [2026-05-06 21:12] ingest | 基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践（得物技术）
 - 新建 9 页：[[wiki/agent-engineering/philosophy/mimic-first-harness]]（找模仿对象）、[[wiki/agent-engineering/philosophy/alien-code]]（AI 外星代码反例）、[[wiki/agent-engineering/workflow/codebase-indexing]]（Cursor 代码库语义索引）、[[wiki/agent-engineering/workflow/全栈工作区]]（多仓单 workspace）、[[wiki/agent-engineering/workflow/openspec]]（SDD 指令工作流）、[[wiki/agent-engineering/workflow/sdd-隐性功能陷阱]]（AI 模仿时复刻隐性行为）、[[wiki/agent-engineering/workflow/三阶段联调]]（Mock → 编译 → 联调）、[[wiki/agent-engineering/workflow/subagent-vs-team-模式]]（Claude Code 多 Agent 两种范式）、[[wiki/agent-engineering/workflow/采纳率]]（Acceptance Rate 度量）
 - 概念抽取思路：2 哲学（mimic-first / 外星代码）+ 7 workflow（codebase-indexing / 全栈工作区 / openspec / sdd 隐性陷阱 / 三阶段联调 / subagent-vs-team / 采纳率）；mimic-first 是 [[wiki/agent-engineering/philosophy/harness-engineering]] 在战术层的具体形态、外星代码与 [[wiki/agent-engineering/philosophy/plausible-code]] 同族但侧重不同；采纳率与之前的 keep-rate / 语义满意度信号 形成 in-product 度量三件套

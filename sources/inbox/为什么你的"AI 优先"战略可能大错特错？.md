@@ -8,6 +8,7 @@ created: 2026-04-14
 description: "今天刷到《Why Your”AI-First”Strategy Is Probably Wrong》这篇文章（原文翻译我放到下面）几次，说点不一样的。与其说 AI First，不如说软件工程 First。这篇文章看着在讲 AI，底下全是软件工程。抛开后面讲组织和人的部分，原文前半..."
 tags:
   - "clippings"
+ingested-at: 2026-04-22
 ---
 ![Image](https://pbs.twimg.com/media/HF2UW41XsAAVeu1?format=jpg&name=large)
 

@@ -5,8 +5,8 @@ tags:
   - ai-coding
   - source-analysis
 date: 2026-04-08
+ingested-at: 2026-04-23
 ---
-
 # Claude Code 源码深度解析：51万行代码背后的秘密
 
 > 2026年3月31日，安全研究者 Chaofan Shou 发现 Anthropic 发布到 npm 的 Claude Code 包中，source map 文件没有被剥离。这意味着 Claude Code 完整的 TypeScript 源码——**519,000 行、1,900+ 个文件**——就这样暴露在了公网上。

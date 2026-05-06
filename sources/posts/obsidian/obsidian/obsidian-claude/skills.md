@@ -5,8 +5,8 @@ tags:
   - obsidian
   - claude
   - agent-skills
+ingested-at: 2026-04-22
 ---
-
 # Obsidian Skills
 
 > [!info] 来源

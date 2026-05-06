@@ -4,8 +4,8 @@ tags:
   - browser-use
   - ai-agent
 date: 2026-03-24
+ingested-at: 2026-04-23
 ---
-
 # AI Agent 的三种浏览器控制流派：OpenCLI、agent-browser、browser-use CLI 深度对比
 
 > [!abstract] 概要

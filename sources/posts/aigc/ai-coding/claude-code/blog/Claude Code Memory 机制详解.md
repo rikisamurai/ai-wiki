@@ -6,8 +6,8 @@ tags:
   - ai-coding
   - memory
 date: 2026-03-13
+ingested-at: 2026-04-22
 ---
-
 # Claude Code Memory 机制详解
 
 | 维度 | CLAUDE.md | `.claude/rules/` | Auto Memory |

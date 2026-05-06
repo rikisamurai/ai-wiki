@@ -6,8 +6,8 @@ tags:
   - openai
 date: 2026-03-16
 source: https://developers.openai.com/codex/learn/best-practices
+ingested-at: 2026-04-23
 ---
-
 # Codex Best Practices
 
 > [!abstract] 概述

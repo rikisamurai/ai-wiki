@@ -4,8 +4,8 @@ tags:
   - learning
   - react-native
 date: 2026-04-09
+ingested-at: 2026-04-22
 ---
-
 **一句话**：FlashList 是 Shopify 开源的高性能 React Native 列表组件，通过 View 回收机制替代 FlatList，解决长列表滚动时出现白屏/空白单元格的问题。
 
 **为什么需要它**：React Native 自带的 FlatList 在渲染大量数据时，快速滚动会出现"白屏闪烁"——因为 FlatList 在滚动时销毁屏幕外的 View 再重新创建，来不及渲染就看到空白。FlashList 借鉴了 Android RecyclerView 的思路，不销毁 View 而是**回收复用**，已经渲染过的 View 直接拿来填充新数据，所以滚动更快、更流畅。

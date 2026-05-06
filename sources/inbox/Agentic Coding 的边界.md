@@ -8,6 +8,7 @@ created: 2026-04-22
 description: "（原文首发于微信公众号【夜天之书】：https://mp.weixin.qq.com/s/x_FUUG4wBUqYs1H5DUtpgQ）本文结合我近期 Agentic Coding 的经验，讨论这一范式在实践当中可能遇到的问题。首先说明，以目前 LLM AI 的能力，能够针对任意..."
 tags:
   - "clippings"
+ingested-at: 2026-04-22
 ---
 （原文首发于微信公众号【夜天之书】：[https://mp.weixin.qq.com/s/x\_FUUG4wBUqYs1H5DUtpgQ](https://mp.weixin.qq.com/s/x_FUUG4wBUqYs1H5DUtpgQ)）
 

@@ -38,7 +38,18 @@ argument-hint: <source-path>
 
 6. **更新 index.md**：在对应 `## <domain>` 标题下追加 wikilink 行（按字母序插入，不重复）。
 
-7. **append 到 log.md**：
+7. **回写 source `ingested-at`**：在 source 文件的 frontmatter 里追加或更新一个字段：
+
+   ```yaml
+   ingested-at: YYYY-MM-DD     # 当天日期；已存在则覆盖为最新
+   ```
+
+   - source 没有 frontmatter（裸 markdown）→ 新加一段 `---` 包裹的 frontmatter，仅含 `ingested-at`
+   - source 已有 frontmatter 但无 `ingested-at` → 在末尾追加该字段
+   - source 已有 `ingested-at` → 覆盖为今天日期
+   - **不许动 source 的其它字段或正文**
+
+8. **append 到 log.md**：
 
    ```
    ## [YYYY-MM-DD HH:MM] ingest | <source 标题>
@@ -52,11 +63,12 @@ argument-hint: <source-path>
 完成时必须满足：
 - 所有新建/更新的 wiki 页面都有 ≥2 个 wikilink 出链
 - 这条 source 至少在 1 个 wiki 页面的 frontmatter `sources:` 里出现
+- source 文件的 frontmatter 已写入今天日期的 `ingested-at`
 - index.md 和 log.md 都已更新
-- **不修改 source 本身**
+- **未修改 source 的正文与其它 frontmatter 字段**
 
 ## 禁止
 
-- 不修改 `sources/` 下任何文件
+- 不修改 `sources/` 下文件的正文或除 `ingested-at` 外的 frontmatter 字段
 - 不写超过 15 个概念页（控制单次 ingest 规模）
 - 不在 wiki 页面里放原 source 的大段引用（精华提炼，不是搬运）

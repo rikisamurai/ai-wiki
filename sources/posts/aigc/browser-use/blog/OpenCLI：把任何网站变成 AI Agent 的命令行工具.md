@@ -4,8 +4,8 @@ tags:
   - browser-use
   - ai-agent
 date: 2026-04-07
+ingested-at: 2026-04-23
 ---
-
 # OpenCLI：把任何网站变成 AI Agent 的命令行工具
 
 > [!info] 项目信息

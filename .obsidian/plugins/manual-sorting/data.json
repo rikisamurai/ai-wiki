@@ -64,6 +64,7 @@
     },
     "sources/clippings": {
       "children": [
+        "sources/clippings/基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践｜得物技术.md",
         "sources/clippings/Demystifying evals for AI agents.md",
         "sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.md",
         "sources/clippings/持续改进我们的智能体框架.md",
@@ -318,6 +319,7 @@
     },
     "sources/posts/frontend/React/React Native": {
       "children": [
+        "sources/posts/frontend/React/React Native/react-native-doc-site-stack-research.md",
         "sources/posts/frontend/React/React Native/react-native tips.md",
         "sources/posts/frontend/React/React Native/learning"
       ],
@@ -400,6 +402,7 @@
     },
     "wiki/agent-engineering/code-review": {
       "children": [
+        "wiki/agent-engineering/code-review/cross-model-second-opinion.md",
         "wiki/agent-engineering/code-review/ai-code-review.md",
         "wiki/agent-engineering/code-review/ai-写-lint.md",
         "wiki/agent-engineering/code-review/review-带宽瓶颈.md",
@@ -409,6 +412,8 @@
     },
     "wiki/agent-engineering/context": {
       "children": [
+        "wiki/agent-engineering/context/context-anxiety.md",
+        "wiki/agent-engineering/context/dynamic-context.md",
         "wiki/agent-engineering/context/cache-keep-alive.md",
         "wiki/agent-engineering/context/cache-命中率.md",
         "wiki/agent-engineering/context/cache-失效陷阱.md",
@@ -426,6 +431,11 @@
     },
     "wiki/agent-engineering/philosophy": {
       "children": [
+        "wiki/agent-engineering/philosophy/alien-code.md",
+        "wiki/agent-engineering/philosophy/eval-driven-development.md",
+        "wiki/agent-engineering/philosophy/karpathy-四种失败模式.md",
+        "wiki/agent-engineering/philosophy/mimic-first-harness.md",
+        "wiki/agent-engineering/philosophy/per-model-harness.md",
         "wiki/agent-engineering/philosophy/agent-工作量分布.md",
         "wiki/agent-engineering/philosophy/agentic-coding.md",
         "wiki/agent-engineering/philosophy/ai-first-vs-ai-assisted.md",
@@ -450,6 +460,33 @@
     },
     "wiki/agent-engineering/workflow": {
       "children": [
+        "wiki/agent-engineering/workflow/agent-evals.md",
+        "wiki/agent-engineering/workflow/capability-vs-regression-eval.md",
+        "wiki/agent-engineering/workflow/codebase-indexing.md",
+        "wiki/agent-engineering/workflow/coding-agent-eval.md",
+        "wiki/agent-engineering/workflow/computer-use-agent-eval.md",
+        "wiki/agent-engineering/workflow/continuous-checkpoint.md",
+        "wiki/agent-engineering/workflow/conversational-agent-eval.md",
+        "wiki/agent-engineering/workflow/cursorbench.md",
+        "wiki/agent-engineering/workflow/design-shotgun.md",
+        "wiki/agent-engineering/workflow/eval-grader-三类.md",
+        "wiki/agent-engineering/workflow/eval-方法矩阵.md",
+        "wiki/agent-engineering/workflow/keep-rate.md",
+        "wiki/agent-engineering/workflow/mid-chat-model-switch.md",
+        "wiki/agent-engineering/workflow/openspec.md",
+        "wiki/agent-engineering/workflow/parallel-sprints.md",
+        "wiki/agent-engineering/workflow/pass-at-k-vs-pass-power-k.md",
+        "wiki/agent-engineering/workflow/research-agent-eval.md",
+        "wiki/agent-engineering/workflow/sdd-隐性功能陷阱.md",
+        "wiki/agent-engineering/workflow/specialist-roles-模型.md",
+        "wiki/agent-engineering/workflow/sprint-七阶段范式.md",
+        "wiki/agent-engineering/workflow/subagent-vs-team-模式.md",
+        "wiki/agent-engineering/workflow/三阶段联调.md",
+        "wiki/agent-engineering/workflow/全栈工作区.md",
+        "wiki/agent-engineering/workflow/工具错误分类法.md",
+        "wiki/agent-engineering/workflow/语义满意度信号.md",
+        "wiki/agent-engineering/workflow/读-transcript.md",
+        "wiki/agent-engineering/workflow/采纳率.md",
         "wiki/agent-engineering/workflow/agent-可读性.md",
         "wiki/agent-engineering/workflow/agent-等待时间.md",
         "wiki/agent-engineering/workflow/agents-md.md",
@@ -480,6 +517,9 @@
     },
     "wiki/claude-code": {
       "children": [
+        "wiki/claude-code/cursor.md",
+        "wiki/claude-code/gbrain.md",
+        "wiki/claude-code/gstack.md",
         "wiki/claude-code/auto-memory.md",
         "wiki/claude-code/claude-code.md",
         "wiki/claude-code/claude-code-memory.md",
@@ -527,6 +567,10 @@
     },
     "wiki/frontend/react-native": {
       "children": [
+        "wiki/frontend/react-native/csf-story-format.md",
+        "wiki/frontend/react-native/expo-snack.md",
+        "wiki/frontend/react-native/react-native-component-docs-stack.md",
+        "wiki/frontend/react-native/storybook-react-native.md",
         "wiki/frontend/react-native/flash-list.md",
         "wiki/frontend/react-native/pressable-vs-touchable.md",
         "wiki/frontend/react-native/react-native-core-components.md",
@@ -599,6 +643,8 @@
     },
     "wiki/retrieval/browser": {
       "children": [
+        "wiki/retrieval/browser/domain-skills.md",
+        "wiki/retrieval/browser/sidebar-agent-prompt-injection-defense.md",
         "wiki/retrieval/browser/agent-browser.md",
         "wiki/retrieval/browser/browser-use.md",
         "wiki/retrieval/browser/cdp.md",

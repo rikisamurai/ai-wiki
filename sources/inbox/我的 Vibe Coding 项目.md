@@ -4,6 +4,7 @@ status: "pending"
 source: "web-clipper"
 url: "https://x.com/idoubicc/status/2040821048577565144"
 created: 2026-04-07
+ingested-at: 2026-04-22
 ---
 最近三个月，我用 Claude Code Vibe Coding 了几个项目，非常有意思，写篇文章记录一下。
 

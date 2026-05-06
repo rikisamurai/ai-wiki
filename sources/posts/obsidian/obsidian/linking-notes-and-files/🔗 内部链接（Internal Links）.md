@@ -1,3 +1,7 @@
+---
+ingested-at: 2026-04-22
+---
+
 # Obsidian 内部链接（Internal Links）
 
 > 官方文档：[Internal links](https://help.obsidian.md/links)

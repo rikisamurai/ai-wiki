@@ -3,9 +3,8 @@ tags:
   - ai-coding
   - claude-code
   - skills
+ingested-at: 2026-04-23
 ---
-
-
 https://agentskills.io/home
 A simple, open format for giving agents new capabilities and expertise.
 Agent Skills are folders of instructions, scripts, and resources that agents can discover and use to do things more accurately and efficiently.

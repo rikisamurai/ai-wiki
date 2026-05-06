@@ -7,11 +7,11 @@
 ## 核心理念
 
 **三层架构**（严格隔离，不串味）：
-- `sources/`：原料层，LLM **只读不改**。包含 clippings（剪藏）、posts（用户原创/译文）、inbox（草稿）、asset（图片）。
+- `sources/`：原料层，LLM **正文只读**。包含 clippings（剪藏）、posts（用户原创/译文）、inbox（草稿）、asset（图片）。**唯一例外**：`/ingest` 完成后允许在 source frontmatter 追加/更新 `ingested-at: YYYY-MM-DD` 字段，作为已消费标记（详见下方"sources frontmatter"）。
 - `wiki/`：精华层，LLM **拥有可改**。从 sources 抽取的概念页面，按 agent-engineering / claude-code / skills / retrieval / frontend / business / obsidian 分类（部分一级下有二级子目录，详见目录树）。
 - `AGENT.md`（CLAUDE.md 是其符号链接）：schema 层，定义工作流和约定。
 
-**LLM 角色**：sources 只读、wiki 只写、log/index 自动维护。
+**LLM 角色**：sources 正文只读 + ingested-at 标记可写、wiki 全可写、log/index 自动维护。
 
 **目标**：让维护成本接近零——用户专注产生原料和提问，LLM 负责沉淀和编织。
 
@@ -52,6 +52,20 @@ ai-wiki/
 ```
 
 **source 路径与 wiki 路径不要求一一对应**：sources/ 按"内容来源"组织，wiki/ 按"概念域"组织。一个 source 可能产出跨多个 wiki 子域的页面。
+
+## sources frontmatter
+
+source 文件的正文与原始 frontmatter 字段（title / clipped 等剪藏来源字段）**LLM 不得修改**。但 `/ingest` 完成后**必须**在 frontmatter 追加或更新一个字段：
+
+```yaml
+ingested-at: YYYY-MM-DD     # 最近一次被 /ingest 消费的日期
+```
+
+- 首次 ingest：写入当天日期
+- 重复 ingest（"续期"）：更新为最新日期
+- 没有 `ingested-at` 字段 = 未 ingest，会出现在 `index.base` 的 `pending-sources` 视图里
+
+这是 sources 唯一允许 LLM 写入的字段，目的是让"待 ingest"清单可被 Bases 直接 filter，无需反查。
 
 ## wiki 页面规范
 
@@ -94,6 +108,13 @@ status: draft | stable | stale
   `<op>` 取值：`ingest` / `lint` / `query` / `migrate-next`
 
 - index.md 嵌入 `index.base` 的动态视图（最近更新、按 status 过滤）
+
+> [!warning] Bases filter 里含 `-` 的字段名要用函数包
+> 现存 dash 字段（`last-ingested` / `ingested-at`）在 Bases filter 表达式里**不能**直接写 `last-ingested == null` 之类——`-` 会被解析成减法（`last - ingested`），导致比较恒为 null/空。两种 workaround：
+> - 存在性检查：`'file.hasProperty("last-ingested")'`（带引号字符串名走函数参数，不再走表达式解析）
+> - 在 `order:` / `sort:` / `properties:` 里**可以**直接写裸字段名（那里是属性引用，不是表达式），无需变通
+>
+> **未来新加 frontmatter 字段优先用 underscore（`ingested_at`）而不是 dash**，可一劳永逸。存量字段保留不动。
 
 ## 文档编写规范
 

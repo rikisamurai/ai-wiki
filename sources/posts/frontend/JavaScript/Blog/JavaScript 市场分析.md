@@ -9,6 +9,7 @@ type: "inbox"
 status: "pending"
 source: "web-clipper"
 url: "https://www.himself65.com/blog/js-market-analysis/zh-cn"
+ingested-at: 2026-04-22
 ---
 # 从投资视角分析 JS 开发者市场
 
