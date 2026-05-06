@@ -10,6 +10,36 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-06 21:12] ingest | 基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践（得物技术）
+- 新建 9 页：[[wiki/agent-engineering/philosophy/mimic-first-harness]]（找模仿对象）、[[wiki/agent-engineering/philosophy/alien-code]]（AI 外星代码反例）、[[wiki/agent-engineering/workflow/codebase-indexing]]（Cursor 代码库语义索引）、[[wiki/agent-engineering/workflow/全栈工作区]]（多仓单 workspace）、[[wiki/agent-engineering/workflow/openspec]]（SDD 指令工作流）、[[wiki/agent-engineering/workflow/sdd-隐性功能陷阱]]（AI 模仿时复刻隐性行为）、[[wiki/agent-engineering/workflow/三阶段联调]]（Mock → 编译 → 联调）、[[wiki/agent-engineering/workflow/subagent-vs-team-模式]]（Claude Code 多 Agent 两种范式）、[[wiki/agent-engineering/workflow/采纳率]]（Acceptance Rate 度量）
+- 概念抽取思路：2 哲学（mimic-first / 外星代码）+ 7 workflow（codebase-indexing / 全栈工作区 / openspec / sdd 隐性陷阱 / 三阶段联调 / subagent-vs-team / 采纳率）；mimic-first 是 [[wiki/agent-engineering/philosophy/harness-engineering]] 在战术层的具体形态、外星代码与 [[wiki/agent-engineering/philosophy/plausible-code]] 同族但侧重不同；采纳率与之前的 keep-rate / 语义满意度信号 形成 in-product 度量三件套
+- 互链密度：9 页内部成密集网，并外链 [[wiki/agent-engineering/philosophy/harness-engineering]]、[[wiki/claude-code/cursor]]、[[wiki/claude-code/claude-code]]、[[wiki/agent-engineering/workflow/subagent-driven-development]]、[[wiki/agent-engineering/workflow/keep-rate]]、[[wiki/agent-engineering/workflow/agent-evals]]、[[wiki/agent-engineering/workflow/eval-方法矩阵]]、[[wiki/agent-engineering/philosophy/karpathy-四种失败模式]]、[[wiki/retrieval/rag/rag]] 等
+- source: [[sources/clippings/基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践｜得物技术]]
+
+## [2026-05-06 21:12] ingest | React Native 组件文档站技术栈调研
+- 新建 4 页：[[wiki/frontend/react-native/react-native-component-docs-stack]]（决策矩阵与推荐架构）、[[wiki/frontend/react-native/storybook-react-native]]（Web Vite + on-device 双形态）、[[wiki/frontend/react-native/expo-snack]]（reactnative.dev 同款 + 私有包卡点）、[[wiki/frontend/react-native/csf-story-format]]（CSF 3 + TS 写法）
+- 概念抽取思路：1 主决策页（选型矩阵 + Expo+Storybook 推荐架构）+ 3 工具/规范页（Storybook RN 双形态、Expo Snack 工具与限制、CSF 写法）；首批 react-native 域从纯组件性能（FlashList / View 回收）扩展到工具链（文档站 + 测试）方向
+- 互链密度：4 页内部成网，并外链已有 [[wiki/claude-code/mcp]]（Storybook MCP server）
+- source: [[sources/posts/frontend/React/React Native/react-native-doc-site-stack-research]]
+
+## [2026-05-06 20:56] ingest | 持续改进我们的智能体框架（Cursor）
+- 新建 9 页：[[wiki/claude-code/cursor]]（项目本体）、[[wiki/agent-engineering/context/dynamic-context]]（动态上下文 vs 静态护栏）、[[wiki/agent-engineering/context/context-anxiety]]（上下文焦虑）、[[wiki/agent-engineering/philosophy/per-model-harness]]（每模型定制框架）、[[wiki/agent-engineering/workflow/cursorbench]]（Cursor 公开 benchmark）、[[wiki/agent-engineering/workflow/keep-rate]]（保留率度量）、[[wiki/agent-engineering/workflow/语义满意度信号]]（LLM 读用户回复推断满意度）、[[wiki/agent-engineering/workflow/工具错误分类法]]（5 类预期错误 + unknown）、[[wiki/agent-engineering/workflow/mid-chat-model-switch]]（聊天中途切模型的工程挑战）
+- 概念抽取思路：1 项目页 + 1 哲学（per-model）+ 2 context（dynamic / anxiety）+ 5 workflow（benchmark / 度量 / 错误分类 / 模型切换）；其中度量族（cursorbench / keep-rate / 语义满意度）补强 4-30 那次 ingest 的 [[wiki/agent-engineering/workflow/agent-evals]] 体系
+- 互链密度：9 页内部成网，并外链 [[wiki/agent-engineering/philosophy/harness-engineering]]、[[wiki/claude-code/claude-code]]、[[wiki/claude-code/codex]]、[[wiki/claude-code/gstack]]、[[wiki/claude-code/everything-claude-code]]、[[wiki/agent-engineering/workflow/self-healing-loop]]、[[wiki/agent-engineering/context/context-rot]]、[[wiki/agent-engineering/context/compact-vs-clear]]、[[wiki/agent-engineering/context/prefix-cache]]、[[wiki/agent-engineering/workflow/agent-evals]]、[[wiki/agent-engineering/workflow/coding-agent-eval]]、[[wiki/agent-engineering/workflow/eval-grader-三类]]、[[wiki/agent-engineering/workflow/subagent-driven-development]] 等
+- source: [[sources/clippings/持续改进我们的智能体框架]]
+
+## [2026-05-06 20:31] ingest | gstack（Garry Tan 的 Claude Code Setup）
+- 新建 11 页：[[wiki/claude-code/gstack]]（项目本体）、[[wiki/agent-engineering/workflow/sprint-七阶段范式]]（Think→Plan→Build→Review→Test→Ship→Reflect）、[[wiki/agent-engineering/workflow/specialist-roles-模型]]（多角色专家化）、[[wiki/agent-engineering/workflow/parallel-sprints]]（10–15 并行 sprint + Conductor）、[[wiki/agent-engineering/code-review/cross-model-second-opinion]]（/codex 跨模型复审）、[[wiki/agent-engineering/workflow/design-shotgun]]（mockup→HTML 流水线）、[[wiki/agent-engineering/workflow/continuous-checkpoint]]（WIP commit + 上下文恢复）、[[wiki/retrieval/browser/domain-skills]]（per-site 浏览器记忆）、[[wiki/retrieval/browser/sidebar-agent-prompt-injection-defense]]（多分类器集成防护）、[[wiki/claude-code/gbrain]]（agent 持久知识库）、[[wiki/agent-engineering/philosophy/karpathy-四种失败模式]]（AI coding 四类失败的工作流应对）
+- 概念抽取思路：项目页 + 范式（七阶段 / 专家角色 / 并行）+ 工作流（review / build / 持久化 / 浏览器记忆 / 安全）+ 哲学（Karpathy 失败模式）；与已有 [[wiki/claude-code/everything-claude-code]] 形成"Claude Code 完整 setup 双代表"
+- 互链密度：11 页内部成密集网，并外链 [[wiki/claude-code/everything-claude-code]]、[[wiki/skills/superpowers]]、[[wiki/agent-engineering/philosophy/harness-engineering]]、[[wiki/agent-engineering/philosophy/plausible-code]]、[[wiki/agent-engineering/workflow/探索-规划-编码-验证]]、[[wiki/agent-engineering/workflow/采访驱动-spec]]、[[wiki/agent-engineering/workflow/writer-reviewer-模式]]、[[wiki/agent-engineering/workflow/long-horizon-agent]]、[[wiki/claude-code/auto-memory]]、[[wiki/claude-code/handoff-md]]、[[wiki/claude-code/mcp]]、[[wiki/retrieval/browser/agent-browser]]、[[wiki/retrieval/browser/cdp]] 等
+- source: [[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]
+
+## [2026-05-06 15:58] ingest | Demystifying evals for AI agents
+- 新建 11 页：[[wiki/agent-engineering/workflow/agent-evals]]（总览+术语）、[[wiki/agent-engineering/workflow/eval-grader-三类]]、[[wiki/agent-engineering/workflow/capability-vs-regression-eval]]（含 saturation）、[[wiki/agent-engineering/workflow/pass-at-k-vs-pass-power-k]]、[[wiki/agent-engineering/philosophy/eval-driven-development]]、[[wiki/agent-engineering/workflow/读-transcript]]、[[wiki/agent-engineering/workflow/coding-agent-eval]]、[[wiki/agent-engineering/workflow/conversational-agent-eval]]、[[wiki/agent-engineering/workflow/research-agent-eval]]、[[wiki/agent-engineering/workflow/computer-use-agent-eval]]、[[wiki/agent-engineering/workflow/eval-方法矩阵]]
+- 概念抽取思路：1 个总览页（术语 + 四类 agent 索引）+ 1 个范式页 EDD（哲学层、与 spec-coding/harness-engineering 同源）+ 4 个核心机制（grader 分类 / capability-vs-regression / pass@k vs pass^k / 读 transcript）+ 4 个 agent-type 专用 eval 范式 + 1 个 Swiss Cheese 方法矩阵
+- 互链密度：11 页内部形成密集网，并外链到 [[wiki/agent-engineering/philosophy/harness-engineering]]、[[wiki/agent-engineering/philosophy/spec-coding]]、[[wiki/agent-engineering/philosophy/plausible-code]]、[[wiki/agent-engineering/workflow/agent-可读性]]、[[wiki/agent-engineering/workflow/self-healing-loop]]、[[wiki/retrieval/rag/agentic-rag]]、[[wiki/retrieval/browser/cdp]] 等
+- source: [[sources/clippings/Demystifying evals for AI agents]]
+
 ## [2026-04-27 13:50] lint-fix | 4 处真问题清零
 - 真断链 2 → 0：handoff-md.md 把 `[[wiki/aigc/compact-vs-clear]]` 改正为 `[[wiki/ai-coding/compact-vs-clear]]`；obsidian-skills.md 把演示用的 `[[file]]` 改成 `[[wikilink]]`（依然是教学语义但不再被解析为真链接）
 - 出链不足 2 → 1（剩 _orphans 归档不算）：bun.md 加链 → [[wiki/frontend/webcontainers]]；flash-list.md 加链 → [[wiki/frontend/react-native-core-components]]

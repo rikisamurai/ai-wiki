@@ -2,7 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
-        "scripts",
+        "asset",
         "README.md",
         "log.base",
         "index.base",
@@ -13,6 +13,12 @@
         "docs",
         "AGENT.md",
         "skills-lock.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "asset": {
+      "children": [
+        "asset/llm-wiki-structure.png"
       ],
       "sortOrder": "custom"
     },
@@ -43,12 +49,6 @@
       ],
       "sortOrder": "custom"
     },
-    "scripts": {
-      "children": [
-        "scripts/reorg-wiki.py"
-      ],
-      "sortOrder": "custom"
-    },
     "sources": {
       "children": [
         "sources/posts",
@@ -64,6 +64,9 @@
     },
     "sources/clippings": {
       "children": [
+        "sources/clippings/Demystifying evals for AI agents.md",
+        "sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.md",
+        "sources/clippings/持续改进我们的智能体框架.md",
         "sources/clippings/youzingwasc-search-skill.md",
         "sources/clippings/对话曦智科技沈亦晨：一个 MIT 博士与光计算穿越死亡谷的十年.md",
         "sources/clippings/mac-computer-use-axmanualaccessibility.md",

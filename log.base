@@ -12,6 +12,9 @@ properties:
 views:
   - type: table
     name: ingest-timeline
+    groupBy:
+      property: status
+      direction: ASC
     order:
       - file.name
       - last-ingested
@@ -20,4 +23,5 @@ views:
     sort:
       - property: last-ingested
         direction: DESC
-    limit: 100
+      - property: status
+        direction: ASC

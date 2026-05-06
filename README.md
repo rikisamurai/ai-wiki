@@ -16,6 +16,9 @@ sources/  ──/ingest──▶  wiki/   ◀──/query──  你
    └── 你只写这里           └── LLM 写 + 自动维护 index.md / log.md
 ```
 
+![[llm-wiki-structure.png]]
+
+
 ## 它跟普通 Obsidian vault 有什么不同
 
 > [!note] 三个角色固定
