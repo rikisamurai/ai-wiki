@@ -10,6 +10,12 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-08 12:38] ingest | Git AI - 追踪 AI 生成代码的 Git 扩展
+- 新建 4 页：[[wiki/claude-code/git-ai]]（工具本身）、[[wiki/agent-engineering/workflow/ai-代码-attribution]]（自报 vs 检测的范式判断）、[[wiki/agent-engineering/workflow/git-notes-ai-元数据]]（git notes 作为 AI 工程基础设施）、[[wiki/agent-engineering/philosophy/跨厂商共识协议]]（MCP / Skills / Git AI standard 同源观察）
+- 更新 3 页：[[wiki/agent-engineering/workflow/采纳率]]（追加 commit 级 attribution 互补章节）、[[wiki/agent-engineering/workflow/keep-rate]]（追加 attribution 下钻能力章节）、[[wiki/agent-engineering/workflow/continuous-checkpoint]]（追加 commit body vs git notes 的同源对比）
+- 概念抽取思路：1 工具页（Git AI）+ 1 度量范式（attribution 自报 vs 检测，与 keep-rate / 采纳率 形成 commit 级 vs in-product 的两个维度）+ 1 基础设施（git notes 作为 AI 元数据载体，跟 continuous-checkpoint 的 commit body 是同源思路）+ 1 哲学层抽象（跨厂商共识协议，把 MCP / Skills / Git AI standard 串成一类东西）
+- source: [[sources/posts/aigc/ai-coding/tools/Git AI - 追踪 AI 生成代码的 Git 扩展]]
+
 ## [2026-05-08 12:14] ingest | 用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践
 - 新建 8 页：[[wiki/agent-engineering/philosophy/人人对齐-人机对齐]]（核心方法论：评测对齐复用到 AI Coding）、[[wiki/agent-engineering/philosophy/ai-加速腐化]]（AI 不会自动收敛复杂度）、[[wiki/agent-engineering/philosophy/经验价值边界]]（从能看全到能判断）、[[wiki/agent-engineering/workflow/专家定向-ai-穷举]]（技术债梳理人机分工）、[[wiki/agent-engineering/workflow/渐进式重构]]（顺带消化技术债）、[[wiki/agent-engineering/workflow/主r打样-sop分发]]（团队规模化 AI Coding 范式）、[[wiki/agent-engineering/workflow/ai-辅助测试-sop]]（5 步 Human-in-the-loop）、[[wiki/agent-engineering/code-review/pre-pr]]（提交前 AI 自审）
 - 更新 4 页：[[wiki/agent-engineering/code-review/review-带宽瓶颈]]（追加木桶效应原话 + Pre-PR 出链）、[[wiki/agent-engineering/code-review/cross-model-second-opinion]]（追加美团高阶 judge 低阶 + 多厂商对抗实践）、[[wiki/agent-engineering/code-review/shift-left]]（在左移时机表里插入 Pre-PR 一档）、[[wiki/agent-engineering/philosophy/harness-engineering]]（追加 source 引用，"工程师角色变化"主题对应页）

@@ -4,7 +4,8 @@ tags: [evals, metric, in-product]
 date: 2026-05-06
 sources:
   - "[[sources/clippings/持续改进我们的智能体框架]]"
-last-ingested: 2026-05-06
+  - "[[sources/posts/aigc/ai-coding/tools/Git AI - 追踪 AI 生成代码的 Git 扩展]]"
+last-ingested: 2026-05-08
 status: draft
 ---
 
@@ -61,9 +62,15 @@ status: draft
 
 Keep Rate 适合做**生产侧 regression 信号**——一旦它在某个 cohort 上突然下跌，几乎一定是某次 harness/模型更新出了问题。比 [[wiki/agent-engineering/workflow/eval-方法矩阵|production monitoring]] 单看 latency/error rate 更接近"agent 真实质量"。
 
+## 与 commit 级 Attribution 的关系
+
+> [!tip] Keep Rate 跌了，用 attribution 找凶手
+> Keep Rate 是聚合数字——告诉你"AI 改动的留存率掉了"。要查具体是什么原因，需要把行级 attribution 接上来：[[wiki/claude-code/git-ai|Git AI]] 在 commit 上记录"哪行是哪个 agent / model / prompt 写的"，反查丢失的那部分留存属于谁。这是 Keep Rate 的下钻能力。详见 [[wiki/agent-engineering/workflow/ai-代码-attribution|Attribution 自报 vs 检测]]。
+
 ## 关联
 
 - 工具栈：[[cursor]]
 - 评估上游：[[agent-evals]]、[[eval-方法矩阵]]
-- 同族度量：[[语义满意度信号]]、[[cursorbench]]
+- 同族度量：[[语义满意度信号]]、[[cursorbench]]、[[采纳率]]
+- 事后归因互补：[[wiki/agent-engineering/workflow/ai-代码-attribution|AI 代码 Attribution]]、[[wiki/claude-code/git-ai|Git AI]]
 - 与 regression：[[capability-vs-regression-eval]]

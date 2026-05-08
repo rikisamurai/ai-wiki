@@ -4,7 +4,8 @@ tags: [workflow, checkpoint, git]
 date: 2026-05-06
 sources:
   - "[[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]"
-last-ingested: 2026-05-06
+  - "[[sources/posts/aigc/ai-coding/tools/Git AI - 追踪 AI 生成代码的 Git 扩展]]"
+last-ingested: 2026-05-08
 status: draft
 ---
 
@@ -87,9 +88,17 @@ WIP commit 给 rewind 提供细粒度回退点。Agent 走错方向时，可以 
 >
 > 关闭：`gstack-config set checkpoint_mode off`。
 
+## 同源思路：用 git 元数据装 AI 副产品
+
+> [!compare] commit body vs git notes
+> Continuous Checkpoint 把 AI 状态塞进 commit message body；[[wiki/claude-code/git-ai|Git AI]] 把 AI attribution 塞进 git notes。两者都是"用 git 既有元数据机制存 AI 工作的副产品"，避免发明新基础设施。
+>
+> 关键差异：commit body 一旦修改就换 hash，notes 不会——所以 attribution 这种"必须跟着 commit 走但不能影响 hash"的元数据更适合 notes。详见 [[wiki/agent-engineering/workflow/git-notes-ai-元数据|git notes 作为 AI 元数据载体]]。
+
 ## 关联
 
 - 工具栈：[[gstack]]
 - 同类持久化：[[handoff-md]]、[[wiki/claude-code/auto-memory|Auto Memory]]、[[kairos-记忆蒸馏]]
 - 长任务保护：[[long-horizon-agent]]
 - 回退场景：[[rewind-胜过纠正]]
+- 同源元数据机制：[[wiki/agent-engineering/workflow/git-notes-ai-元数据|git notes 作为 AI 元数据载体]]、[[wiki/claude-code/git-ai|Git AI]]
