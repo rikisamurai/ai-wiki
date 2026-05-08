@@ -34,7 +34,10 @@ date: 2026-04-22
 - [[wiki/agent-engineering/philosophy/vibe-coding-的代价|Vibe Coding 的代价]]
 - [[wiki/agent-engineering/philosophy/worse-is-better|Worse is Better]]
 - [[wiki/agent-engineering/philosophy/yagni-与-dry-反论|YAGNI 与 DRY 反论]]
+- [[wiki/agent-engineering/philosophy/ai-加速腐化|AI 不会自动收敛复杂度]]
+- [[wiki/agent-engineering/philosophy/人人对齐-人机对齐|人人对齐 → 人机对齐]]
 - [[wiki/agent-engineering/philosophy/架构师-操作员二分|架构师-操作员二分]]
+- [[wiki/agent-engineering/philosophy/经验价值边界|经验价值边界的重定义]]
 - [[wiki/agent-engineering/philosophy/约束悖论|约束悖论（Constraint Paradox）]]
 - [[wiki/agent-engineering/philosophy/行为正确性|行为正确性（Behavioral Correctness）]]
 - [[wiki/agent-engineering/philosophy/高吞吐合并哲学|高吞吐合并哲学]]
@@ -103,12 +106,17 @@ date: 2026-04-22
 - [[wiki/agent-engineering/workflow/语义满意度信号|语义满意度信号]]
 - [[wiki/agent-engineering/workflow/验证驱动|验证驱动（Verification-Driven）]]
 - [[wiki/agent-engineering/workflow/读-transcript|读 Transcript（Read the Transcripts）]]
+- [[wiki/agent-engineering/workflow/ai-辅助测试-sop|AI 辅助测试用例生成 SOP]]
+- [[wiki/agent-engineering/workflow/专家定向-ai-穷举|专家定向 + AI 穷举（技术债梳理）]]
+- [[wiki/agent-engineering/workflow/主r打样-sop分发|主 R 打样 → SOP 分发 → 全组并行]]
+- [[wiki/agent-engineering/workflow/渐进式重构|渐进式重构（顺带消化技术债）]]
 
 ### code-review
 
 - [[wiki/agent-engineering/code-review/ai-code-review|AI Code Review]]
 - [[wiki/agent-engineering/code-review/ai-写-lint|AI 写 Lint]]
 - [[wiki/agent-engineering/code-review/cross-model-second-opinion|跨模型 Second Opinion]]
+- [[wiki/agent-engineering/code-review/pre-pr|Pre-PR（提交前 AI 自审）机制]]
 - [[wiki/agent-engineering/code-review/review-带宽瓶颈|Review 带宽瓶颈]]
 - [[wiki/agent-engineering/code-review/shift-left|Shift Left（左移）]]
 

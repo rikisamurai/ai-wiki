@@ -10,6 +10,12 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-08 12:14] ingest | 用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践
+- 新建 8 页：[[wiki/agent-engineering/philosophy/人人对齐-人机对齐]]（核心方法论：评测对齐复用到 AI Coding）、[[wiki/agent-engineering/philosophy/ai-加速腐化]]（AI 不会自动收敛复杂度）、[[wiki/agent-engineering/philosophy/经验价值边界]]（从能看全到能判断）、[[wiki/agent-engineering/workflow/专家定向-ai-穷举]]（技术债梳理人机分工）、[[wiki/agent-engineering/workflow/渐进式重构]]（顺带消化技术债）、[[wiki/agent-engineering/workflow/主r打样-sop分发]]（团队规模化 AI Coding 范式）、[[wiki/agent-engineering/workflow/ai-辅助测试-sop]]（5 步 Human-in-the-loop）、[[wiki/agent-engineering/code-review/pre-pr]]（提交前 AI 自审）
+- 更新 4 页：[[wiki/agent-engineering/code-review/review-带宽瓶颈]]（追加木桶效应原话 + Pre-PR 出链）、[[wiki/agent-engineering/code-review/cross-model-second-opinion]]（追加美团高阶 judge 低阶 + 多厂商对抗实践）、[[wiki/agent-engineering/code-review/shift-left]]（在左移时机表里插入 Pre-PR 一档）、[[wiki/agent-engineering/philosophy/harness-engineering]]（追加 source 引用，"工程师角色变化"主题对应页）
+- 概念抽取思路：3 哲学（人人对齐方法论 / 反直觉腐化 / 经验价值迁移）+ 4 workflow（技术债梳理 / 渐进式重构 / SOP 分发 / 测试 SOP）+ 1 code-review（Pre-PR）；核心命题"先人人对齐再人机对齐"是评测业务方法论复用到 AI Coding 治理；"渐进式重构 + 主 R 打样 SOP"是 31 万行不停业务交付完成重构的两条腿
+- source: [[sources/clippings/用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践]]
+
 ## [2026-05-06 22:01] fix | index.base 过滤器修正
 - 现象：pending-sources 显示已 ingest 的文件，ingested-sources 全空
 - 根因：`ingested-at == null` 表达式里 Bases 把字段名 `ingested-at` 解析成了 `ingested - at`（减法），导致比较恒为 null/空

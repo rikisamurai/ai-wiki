@@ -6,7 +6,8 @@ sources:
   - "[[sources/inbox/为什么你的\"AI 优先\"战略可能大错特错？]]"
   - "[[sources/posts/aigc/ai-coding/blog/从Spec Coding到Harness：AI Coding的两次范式转变与实践总结]]"
   - "[[sources/posts/aigc/ai-coding/blog/🤖 Harness Engineering：在 Agent-First 时代利用 Codex]]"
-last-ingested: 2026-04-22
+  - "[[sources/clippings/用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践]]"
+last-ingested: 2026-05-08
 status: stable
 ---
 

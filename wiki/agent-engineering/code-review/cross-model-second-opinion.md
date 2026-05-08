@@ -4,7 +4,8 @@ tags: [code-review, multi-model, codex]
 date: 2026-05-06
 sources:
   - "[[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]"
-last-ingested: 2026-05-06
+  - "[[sources/clippings/用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践]]"
+last-ingested: 2026-05-08
 status: draft
 ---
 
@@ -64,9 +65,17 @@ status: draft
 > - 已经被 deterministic 测试覆盖的纯逻辑改动
 > - 时间敏感的 hotfix（先合再补 second opinion）
 
+## 团队工程实践（不只是个人 dev 工具）
+
+> [!example] 美团 31 万行重构里的两条 CR 实操
+> - **高阶模型审查低阶模型**：使用高配模型作为 Judge Model，审查低阶模型产出的编码——同一族内的"高位 second opinion"
+> - **不同厂商对抗审核**：让不同厂商模型互相审查对方产出——通过差异化能力形成互补，实测 CR 覆盖面更全
+>
+> 这两条把跨模型 CR 从"个人开发者的 second opinion"扩展成了"团队 CR 流水线的常规一环"，配合 [[wiki/agent-engineering/code-review/pre-pr|Pre-PR 机制]] 一起前置。
+
 ## 关联
 
-- 上游：[[ai-code-review]]、[[writer-reviewer-模式]]
+- 上游：[[ai-code-review]]、[[writer-reviewer-模式]]、[[wiki/agent-engineering/code-review/pre-pr|Pre-PR 机制]]
 - 同族 review 范式：[[gstack|gstack 的 /review + /cso + /codex 三层]]、[[ai-写-lint]]
 - 多模型用作 eval：[[wiki/agent-engineering/workflow/agent-evals]]
 - 工具：[[codex|OpenAI Codex CLI]]、[[codex-plugin]]
