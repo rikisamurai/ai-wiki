@@ -1,0 +1,53 @@
+wiki/agent-engineering/philosophy/人人对齐-人机对齐.md
+  s_d5939e18e3e1c2::t_f6c09d278291ea 1-46
+wiki/agent-engineering/philosophy/ai-加速腐化.md
+  s_d5939e18e3e1c2::t_1af0f8561550c1 1-39
+wiki/agent-engineering/philosophy/经验价值边界.md
+  s_d5939e18e3e1c2::t_362247fa02b015 1-41,43-44
+  s_d5939e18e3e1c2::t_71bac7810e2ef4 42
+wiki/agent-engineering/workflow/ai-辅助测试-sop.md
+  s_d5939e18e3e1c2::t_4ecd0daefed1d6 1-72
+wiki/agent-engineering/code-review/pre-pr.md
+  s_d5939e18e3e1c2::t_0e5584b35c00ec 1-58
+wiki/agent-engineering/code-review/cross-model-second-opinion.md
+  s_d5939e18e3e1c2::t_42dfa670765aec 7-8
+  s_d5939e18e3e1c2::t_5ba5a5da3a3cfc 68-75,78
+wiki/agent-engineering/philosophy/harness-engineering.md
+  s_d5939e18e3e1c2::t_04ed297d984b43 9-10
+log.md
+  s_d5939e18e3e1c2::t_12d72254b0c2b8 13-18
+wiki/agent-engineering/workflow/主r打样-sop分发.md
+  s_d5939e18e3e1c2::t_38e02e796fcce7 1-44
+wiki/agent-engineering/workflow/专家定向-ai-穷举.md
+  s_d5939e18e3e1c2::t_1c68ffe2dd433d 1-43
+index.md
+  s_d5939e18e3e1c2::t_026089d0e276f5 109-112
+  s_d5939e18e3e1c2::t_d59925c027ea93 119
+  s_d5939e18e3e1c2::t_834fce1d3e3d8a 37-38,40
+wiki/agent-engineering/code-review/review-带宽瓶颈.md
+  s_d5939e18e3e1c2::t_35c8831b2653ec 41-43
+  s_d5939e18e3e1c2::t_d9b2a75819516d 8-9
+"sources/clippings/用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践.md"
+  s_d5939e18e3e1c2::t_601d737c19924b 11
+wiki/agent-engineering/workflow/渐进式重构.md
+  s_d5939e18e3e1c2::t_d7ab7cc6cc948a 1-48
+wiki/agent-engineering/code-review/shift-left.md
+  s_d5939e18e3e1c2::t_618b3adf5e7204 7-8
+  s_d5939e18e3e1c2::t_235361a2663894 26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.1",
+  "base_commit_sha": "d8d7fba8d615d1cb6df2b757892e56b1f7ef6036",
+  "prompts": {},
+  "sessions": {
+    "s_d5939e18e3e1c2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "23ca8423-6301-4e80-800a-83484a7d90a5",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
