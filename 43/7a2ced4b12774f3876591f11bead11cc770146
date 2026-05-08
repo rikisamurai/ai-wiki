@@ -1,0 +1,42 @@
+wiki/claude-code/git-ai.md
+  s_d5939e18e3e1c2::t_e33fb0770ddefd 1-101
+log.md
+  s_d5939e18e3e1c2::t_71da1234240c3a 13-18
+wiki/agent-engineering/workflow/keep-rate.md
+  s_d5939e18e3e1c2::t_e43a1ac164df4b 7-8
+  s_d5939e18e3e1c2::t_c7a91c0b625c54 65-69,74-75
+wiki/agent-engineering/philosophy/跨厂商共识协议.md
+  s_d5939e18e3e1c2::t_223d743babf5e0 1-61
+wiki/agent-engineering/workflow/git-notes-ai-元数据.md
+  s_d5939e18e3e1c2::t_8a6add985f39cd 1-69
+wiki/agent-engineering/workflow/ai-代码-attribution.md
+  s_d5939e18e3e1c2::t_ab467c71f0cffc 1-53
+wiki/agent-engineering/workflow/采纳率.md
+  s_d5939e18e3e1c2::t_eaea82b51008c5 7-8
+  s_d5939e18e3e1c2::t_5490991c6c92f3 79-87,91
+wiki/agent-engineering/workflow/continuous-checkpoint.md
+  s_d5939e18e3e1c2::t_64a20520d1e176 91-97,104
+  s_d5939e18e3e1c2::t_eb1c802b3634f5 7-8
+"sources/posts/aigc/ai-coding/tools/Git AI - 追踪 AI 生成代码的 Git 扩展.md"
+  s_d5939e18e3e1c2::t_99a05450a7d48a 9
+index.md
+  s_d5939e18e3e1c2::t_2f72214d989f51 41
+  s_d5939e18e3e1c2::t_25a9e0849b0ade 142
+  s_d5939e18e3e1c2::t_4a97bc769b0c78 111-112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.1",
+  "base_commit_sha": "437a2ced4b12774f3876591f11bead11cc770146",
+  "prompts": {},
+  "sessions": {
+    "s_d5939e18e3e1c2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "23ca8423-6301-4e80-800a-83484a7d90a5",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
