@@ -369,3 +369,15 @@ title: ai-wiki Activity Log
 ## [2026-04-28 15:16] query | 目前收录了哪些 skill
 - 来源：wiki
 - 是否 ingest：no（仅为盘点，结论：可在 index.md 补 Skills 全景小节）
+
+## [2026-05-09 12:13] ingest | bgclick-rev（深度逆向 Skill 范例）
+- 新建：[[wiki/skills/bgclick-rev-skill]]、[[wiki/agent-engineering/workflow/sub-agent-纪律]]
+- source: sources/clippings/bgclick-rev-skillbgclick-rev-skill.md at main.md
+
+## [2026-05-09 12:30] ingest | wasc-search-skill（低成本高精度 RAG Skill 范例）
+- 新建：[[wiki/skills/wasc-search-skill]]、[[wiki/retrieval/rag/rrf]]、[[wiki/retrieval/rag/rag-降级]]、[[wiki/retrieval/rag/citation-faithfulness]]
+- source: sources/clippings/youzingwasc-search-skill.md
+
+## [2026-05-09 12:50] ingest | Mac Computer Use 与 AXManualAccessibility
+- 新建：[[wiki/agent-engineering/workflow/mac-computer-use]]、[[wiki/agent-engineering/workflow/ax-manual-accessibility]]
+- source: sources/clippings/mac-computer-use-axmanualaccessibility.md（裸 md，新建仅含 ingested-at 的 frontmatter）

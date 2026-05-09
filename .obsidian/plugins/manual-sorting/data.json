@@ -202,6 +202,7 @@
     },
     "sources/posts/aigc/ai-coding/tools": {
       "children": [
+        "sources/posts/aigc/ai-coding/tools/Git AI - 追踪 AI 生成代码的 Git 扩展.md",
         "sources/posts/aigc/ai-coding/tools/some-skills.md",
         "sources/posts/aigc/ai-coding/tools/asset",
         "sources/posts/aigc/ai-coding/tools/Superpowers - AI 编码工作流框架.md"

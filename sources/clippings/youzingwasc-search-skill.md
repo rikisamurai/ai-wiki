@@ -7,6 +7,7 @@ created: 2026-04-28
 description: "Contribute to youzing/wasc-search-skill development by creating an account on GitHub."
 tags:
   - "clippings"
+ingested-at: 2026-05-09
 ---
 ## WASC 低成本高精度搜索 Skill
 

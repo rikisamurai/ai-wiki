@@ -66,6 +66,7 @@ date: 2026-04-22
 - [[wiki/agent-engineering/workflow/agent-可读性|Agent 可读性（Legibility）]]
 - [[wiki/agent-engineering/workflow/agent-等待时间|Agent 等待时间（Human Wait）]]
 - [[wiki/agent-engineering/workflow/agents-md|AGENTS.md]]
+- [[wiki/agent-engineering/workflow/ax-manual-accessibility|AXManualAccessibility（Electron 的 AX Tree 开关）]]
 - [[wiki/agent-engineering/workflow/capability-vs-regression-eval|能力 eval vs 回归 eval]]
 - [[wiki/agent-engineering/workflow/codebase-indexing|Codebase Indexing]]
 - [[wiki/agent-engineering/workflow/coding-agent-eval|Coding Agent Eval]]
@@ -81,6 +82,7 @@ date: 2026-04-22
 - [[wiki/agent-engineering/workflow/eval-方法矩阵|Eval 方法矩阵（Swiss Cheese 模型）]]
 - [[wiki/agent-engineering/workflow/keep-rate|Keep Rate（保留率）]]
 - [[wiki/agent-engineering/workflow/long-horizon-agent|Long Horizon Agent]]
+- [[wiki/agent-engineering/workflow/mac-computer-use|Mac Computer Use 架构（视觉 + AX + 事件 + 权限）]]
 - [[wiki/agent-engineering/workflow/mid-chat-model-switch|聊天中途切换模型]]
 - [[wiki/agent-engineering/workflow/openspec|OpenSpec（SDD 指令工作流）]]
 - [[wiki/agent-engineering/workflow/parallel-sprints|Parallel Sprints（10-15 并行 sprint）]]
@@ -92,6 +94,7 @@ date: 2026-04-22
 - [[wiki/agent-engineering/workflow/self-healing-loop|Self-Healing Loop]]
 - [[wiki/agent-engineering/workflow/specialist-roles-模型|Specialist Roles 模型（多角色专家化）]]
 - [[wiki/agent-engineering/workflow/sprint-七阶段范式|Sprint 七阶段范式]]
+- [[wiki/agent-engineering/workflow/sub-agent-纪律|Sub-agent 纪律（每问一文件 + verdict-first）]]
 - [[wiki/agent-engineering/workflow/subagent-driven-development|Subagent-Driven Development（每任务一个 subagent）]]
 - [[wiki/agent-engineering/workflow/subagent-vs-team-模式|Subagent 模式 vs Team 模式]]
 - [[wiki/agent-engineering/workflow/subagent-上下文隔离|Subagent 上下文隔离]]
@@ -155,11 +158,13 @@ date: 2026-04-22
 ## Skills（生态）
 
 - [[wiki/skills/agent-skills|Agent Skills 规范]]
+- [[wiki/skills/bgclick-rev-skill|bgclick-rev（深度逆向 Skill 范例）]]
 - [[wiki/skills/skill-编写实践|Skill 编写实践]]
 - [[wiki/skills/skills-9-分类|Skills 9 大分类]]
 - [[wiki/skills/skills-marketplace|Skills 分发与市场]]
 - [[wiki/skills/skills-vs-automations|Skills vs Automations（方法 vs 调度）]]
 - [[wiki/skills/superpowers|Superpowers（AI 编码工作流框架）]]
+- [[wiki/skills/wasc-search-skill|wasc-search-skill（低成本高精度 RAG Skill 范例）]]
 - [[wiki/skills/渐进式披露|渐进式披露（Progressive Disclosure）]]
 
 ## Retrieval
@@ -167,9 +172,12 @@ date: 2026-04-22
 ### rag
 
 - [[wiki/retrieval/rag/agentic-rag|Agentic RAG]]
+- [[wiki/retrieval/rag/citation-faithfulness|引用忠实度（Citation Faithfulness）]]
 - [[wiki/retrieval/rag/graph-rag|GraphRAG]]
 - [[wiki/retrieval/rag/hybrid-retrieval|混合检索（Hybrid Retrieval）]]
 - [[wiki/retrieval/rag/rag|RAG（检索增强生成）]]
+- [[wiki/retrieval/rag/rag-降级|RAG 5 级降级（永不返回空）]]
+- [[wiki/retrieval/rag/rrf|RRF（Reciprocal Rank Fusion）]]
 
 ### browser
 

@@ -1,3 +1,7 @@
+---
+ingested-at: 2026-05-09
+---
+
 # Mac Computer Use 是怎么做的？以及「特殊比特位」是什么
 
 > [!summary]
