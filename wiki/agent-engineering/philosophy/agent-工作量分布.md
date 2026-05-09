@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 [[claude-code|Claude Code]] 51 万行源码里，**真正调用 LLM API 的部分可能不到 5%**。其余 95% 是脚手架——安全检查、权限系统、上下文管理、错误恢复、多 Agent 协调、UI 交互、性能优化。这条统计揭示了一条工程定律：**做 AI Agent 产品，模型只是冰山一角**。

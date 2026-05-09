@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 [[gstack]] 提出的 7 阶段 sprint 模板：**Think → Plan → Build → Review → Test → Ship → Reflect**，每一步的产物自动喂给下一步。它是 [[探索-规划-编码-验证|探索-规划-编码-验证四阶段]] 的扩展——把 review、test、ship、reflect 从"实现"中拆出来分别配 [[specialist-roles-模型|专家角色]]。

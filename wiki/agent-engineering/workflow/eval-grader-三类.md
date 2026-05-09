@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/Demystifying evals for AI agents]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Agent eval 的 grader 按打分主体分三类：code-based（确定性代码）、model-based（LLM 当裁判）、human（人工）。**优先选确定性的、必要时上 LLM、人工只在校准 LLM 裁判时介入**——这是 Anthropic 给的默认顺序。

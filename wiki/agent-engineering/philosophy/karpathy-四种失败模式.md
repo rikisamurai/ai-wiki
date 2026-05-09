@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Andrej Karpathy 在他广为流传的 [AI coding rules](https://github.com/forrestchang/andrej-karpathy-skills)（17K stars 的 CLAUDE.md 风格规则集）里指出 AI 写代码的**四种典型失败**：**wrong assumptions / overcomplexity / orthogonal edits / imperative over declarative**。这四类失败不是 prompt 写得好就能避免——它们需要工作流层面的强制约束。[[gstack]] 把这四类映射到具体 skill 上声称"已经覆盖"。

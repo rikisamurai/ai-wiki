@@ -5,7 +5,7 @@ date: 2026-05-08
 sources:
   - "[[sources/clippings/用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践]]"
 last-ingested: 2026-05-08
-status: draft
+status: stable
 ---
 
 一个反直觉的事实：当 90% 以上代码由 AI 生成、且系统没有统一规范的时候，AI Coding 不仅不会让代码变干净，反而会成倍放大风格差异、加速代码库腐化。决定系统走向的不是谁写得更快，而是约束 AI 的能力。

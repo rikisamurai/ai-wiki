@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/blog/🔍 AI CR 的理想与现实：别让 AI 帮你做 Lint 的苦力！]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 不要让 AI 在 PR 阶段反复检查"团队特殊规范是否被违反"，而是**让 AI 把规范一次性翻译成 ESLint 自定义规则**。AI 算力花一次，Lint 跑一辈子。这是把 [[ai-code-review|AI CR]] 的概率性、滞后反馈，转换成 Lint 的确定性、即时反馈的范式。

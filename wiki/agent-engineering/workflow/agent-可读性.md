@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/blog/🤖 Harness Engineering：在 Agent-First 时代利用 Codex]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 OpenAI Codex 团队的核心设计原则：**从 Agent 的视角看，运行时无法访问的上下文 = 不存在**。Google Docs、Slack 讨论、存在于人脑中的知识——对系统来说都是不可见的。**只有仓库内的、版本化的 artifact（代码、Markdown、Schema、执行计划）才是 Agent 能看到的全部**。把更多上下文推入仓库，就是在为 [[harness-engineering|Harness Engineering]] 扩容。

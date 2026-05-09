@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/Demystifying evals for AI agents]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 "Read the transcripts"是 Anthropic 在 [[agent-evals|agent eval]] 工作流里反复强调的最关键实践——**不读 transcript 你永远不知道 grader 在瞎打分还是真打分**。一次失败的 trial，transcript 告诉你 agent 是真错了、还是 grader 把一个有效解判错了。

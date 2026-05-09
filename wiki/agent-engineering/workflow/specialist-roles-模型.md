@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 把单个通用 agent 拆成多个 persona 化的"专家角色"——CEO / Designer / Eng Manager / QA Lead / Security Officer / Release Engineer——每个角色有独立的 prompt、独立的 forcing question 集、独立的输出格式。这是 [[gstack]]、[[everything-claude-code|ECC]]、[[wiki/skills/superpowers|Superpowers]] 共同采用的范式：**让 LLM 在同一对话里轮流扮演不同角色，比让它"全能"输出更稳**。

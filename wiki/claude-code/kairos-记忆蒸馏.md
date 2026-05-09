@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 KAIROS 是 [[claude-code|Claude Code]] 源码里的一个实验性 [[auto-memory|Auto Memory]] 模式：长会话中的记忆按日期写入**追加式日志**，由一个 `/dream` 技能在"夜间"（用户低活跃期）自动运行，把原始日志**蒸馏**成结构化的主题文件。

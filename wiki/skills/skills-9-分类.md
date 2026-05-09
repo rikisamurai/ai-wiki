@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/blog/🛠️ 构建 Claude Code 的经验：如何使用 Skills]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 Anthropic 内部活跃使用的 [[agent-skills|Skills]] 已达几百个。Claude Code 团队梳理后发现它们大致归为 9 个反复出现的类别。**好的 Skills 清晰地落在某一个类别里；让人困惑的 Skills 往往横跨了好几个**——这条经验法则可以用来反向自检自己写的 Skill 是否过于"什么都想干"。

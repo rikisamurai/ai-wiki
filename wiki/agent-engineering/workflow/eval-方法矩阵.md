@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/Demystifying evals for AI agents]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 理解 agent 性能不能只靠一种方法。Anthropic 推荐**多层叠加**——automated eval、production monitoring、A/B test、user feedback、manual transcript review、systematic human study 各补一层。这套思路类比安全工程的 **Swiss Cheese Model**：单层都有洞，但多层叠起来洞会被错开。

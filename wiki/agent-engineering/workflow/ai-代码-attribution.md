@@ -5,7 +5,7 @@ date: 2026-05-08
 sources:
   - "[[sources/posts/aigc/ai-coding/tools/Git AI - 追踪 AI 生成代码的 Git 扩展]]"
 last-ingested: 2026-05-08
-status: draft
+status: stable
 ---
 
 AI 生成代码的归因有两条路：让 agent 在写代码时自报家门（precise，需要 agent 协作），或者事后用 ML 模型基于代码风格猜（noisy，无需 agent 协作）。[[wiki/claude-code/git-ai|Git AI]] 的作者把"基于风格的 ML 检测"明确列为 anti-pattern——AI 代码风格越来越像人，靠"嗅探"区分注定不准。

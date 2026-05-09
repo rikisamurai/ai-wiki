@@ -5,7 +5,7 @@ date: 2026-05-08
 sources:
   - "[[sources/posts/aigc/ai-coding/tools/Git AI - 追踪 AI 生成代码的 Git 扩展]]"
 last-ingested: 2026-05-08
-status: draft
+status: stable
 ---
 
 git notes 是 git 早就内建、长期被忽视的机制：给 commit 挂额外的、可独立同步的注释，**不改 commit hash**。AI Coding 时代被重新启用——存放 attribution、prompt 摘要这类"由 AI 工作产生但不属于代码本身"的元数据。[[wiki/claude-code/git-ai|Git AI]] 的核心选型就是用 `refs/notes/ai` 存 Authorship Log。
