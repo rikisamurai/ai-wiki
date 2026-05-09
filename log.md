@@ -10,6 +10,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-09 12:59] ingest | iOS 中文输入法下 controlled TextInput 打断 composition
+- 新建 2 页：[[wiki/frontend/react-native/ios-cjk-ime-textinput]]（具体 bug 与现象/根因/解法）、[[wiki/frontend/react-native/textinput-controlled-vs-uncontrolled]]（controlled/uncontrolled 模式对比，可被未来 RN 输入相关 source 复用）
+- 概念抽取思路：source 短而聚焦，拆 2 页：1 个具体 bug 页（命中 source 标题），1 个上位概念页（controlled vs uncontrolled 是 RN 表单设计的高频选型，独立成页便于后续 ingest 接力）
+- source: [[sources/posts/frontend/React/React Native/learning/rn-ios-cjk-input-issue]]
+
 ## [2026-05-09 12:58] lint | weekly check
 - 扫描 202 个 wiki 页：孤儿 0、出链不足 0、stale 0、status 异常 0、断链 0
 - **自动升级 draft→stable：57 页**（入度 ≥3，最高入度 19 = `wiki/agent-engineering/workflow/agent-evals.md`）
