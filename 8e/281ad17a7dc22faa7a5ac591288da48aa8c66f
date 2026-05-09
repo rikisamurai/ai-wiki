@@ -1,0 +1,31 @@
+wiki/frontend/react-native/react-native-keyboard-controller.md
+  ai_agent 1-36
+index.md
+  s_f36073e53768f0::t_2d207c935f0472 223-224,228-229
+log.md
+  s_f36073e53768f0::t_699d1c035fd27c 13-18
+wiki/frontend/react-native/rn-keyboard-pitfalls.md
+  ai_agent 1-78
+wiki/frontend/react-native/keyboard-should-persist-taps.md
+  ai_agent 1-48
+wiki/frontend/react-native/keyboard-avoiding-view.md
+  ai_agent 1-47
+"sources/posts/frontend/React/React Native/learning/rn-keyboard-pitfalls.md"
+  ai_agent 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "8e281ad17a7dc22faa7a5ac591288da48aa8c66f",
+  "prompts": {},
+  "sessions": {
+    "s_f36073e53768f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5941fdbb-7f17-4919-a9f4-ebac3ce71992",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
