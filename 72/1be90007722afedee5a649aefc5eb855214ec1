@@ -1,0 +1,66 @@
+"sources/clippings/bgclick-rev-skillbgclick-rev-skill.md at main.md"
+  s_cfb1ee240f8cef::t_37958f7a007eae 10
+sources/clippings/mac-computer-use-axmanualaccessibility.md
+  s_cfb1ee240f8cef::t_b4b22529f2164d 1-4
+wiki/agent-engineering/workflow/ax-manual-accessibility.md
+  s_cfb1ee240f8cef::t_62df32a3be5e05 1-92
+wiki/skills/wasc-search-skill.md
+  s_c801942f407975::t_be6ef3964de9ec 8
+  s_cfb1ee240f8cef::t_378badc6640abf 1-7,9-70
+wiki/retrieval/rag/citation-faithfulness.md
+  s_cfb1ee240f8cef::t_1878552f6f7c15 1-94
+wiki/skills/bgclick-rev-skill.md
+  s_c801942f407975::t_be6ef3964de9ec 8
+  s_cfb1ee240f8cef::t_b79d13b297cdf4 1-7,9-68
+sources/clippings/youzingwasc-search-skill.md
+  s_cfb1ee240f8cef::t_60eff9696dc839 10
+wiki/agent-engineering/workflow/sub-agent-纪律.md
+  s_cfb1ee240f8cef::t_f83ea90fcb1687 1-61
+log.md
+  s_f36073e53768f0::t_576a4b25c6fba0 372-383
+index.md
+  s_f36073e53768f0::t_c1a96b507c2f62 85
+  s_f36073e53768f0::t_8f9cd5174bcd33 97
+  s_f36073e53768f0::t_a4bc5a682a7a12 167
+  s_f36073e53768f0::t_f1cd6ef307ab01 175,179-180
+  s_f36073e53768f0::t_e17aeec39748a5 69
+  s_f36073e53768f0::t_549009868546e5 161
+wiki/retrieval/rag/rag-降级.md
+  s_cfb1ee240f8cef::t_27ab1f83c138ba 1-66
+wiki/agent-engineering/workflow/mac-computer-use.md
+  s_cfb1ee240f8cef::t_67e092914e6b1a 1-72
+wiki/retrieval/rag/rrf.md
+  s_cfb1ee240f8cef::t_4b0632ebcd0bb9 1-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "721be90007722afedee5a649aefc5eb855214ec1",
+  "prompts": {},
+  "sessions": {
+    "s_c801942f407975": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "243e43fa-048f-496e-8fbc-fd6b4d30a794",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    },
+    "s_cfb1ee240f8cef": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "786747d8-c228-4684-91c4-edffc2a4da00",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    },
+    "s_f36073e53768f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5941fdbb-7f17-4919-a9f4-ebac3ce71992",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
