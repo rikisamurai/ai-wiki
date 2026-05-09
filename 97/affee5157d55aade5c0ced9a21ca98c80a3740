@@ -1,0 +1,23 @@
+index.base
+  ai_agent 48
+AGENT.md
+  ai_agent 10,40,71-86
+log.md
+  s_f36073e53768f0::t_6dc38ad195ba02 13-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "97affee5157d55aade5c0ced9a21ca98c80a3740",
+  "prompts": {},
+  "sessions": {
+    "s_f36073e53768f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5941fdbb-7f17-4919-a9f4-ebac3ce71992",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
