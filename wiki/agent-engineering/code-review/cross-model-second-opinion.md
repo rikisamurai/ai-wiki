@@ -6,7 +6,7 @@ sources:
   - "[[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]"
   - "[[sources/clippings/用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践]]"
 last-ingested: 2026-05-08
-status: draft
+status: stable
 ---
 
 让**另一个 vendor 的模型**独立 review 同一段 diff——典型如 Claude 写代码 → 调 OpenAI Codex CLI 复审。这是 [[ai-code-review|AI Code Review]] 的反偏置补丁：单模型 review 会有系统性盲点（同一族模型在某些反模式上有共同偏好），引入异源模型能照出这些盲点。[[gstack]] 的 `/codex` 是当前最完整的范式实现。

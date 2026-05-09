@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践｜得物技术]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 [[harness-engineering|Harness Engineering]] 在战术层最干脆的实操：**给 AI 一个已有的实现作为参照，让它照着复刻一份，而不是凭空创造**。得物团队的总结："就像给一个新入职的工程师说'你照着这个模块的风格，写一个类似的'，而不是'你自由发挥'——前者往往能更快产出符合团队规范的代码。"

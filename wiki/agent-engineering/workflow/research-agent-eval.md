@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/Demystifying evals for AI agents]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Research agent（市场扫描、尽职调查、科研综述）的评估特别难——**"comprehensive / well-sourced / correct" 都依赖上下文**：市场扫描、并购尽调、科学综述对"好"的标准完全不同。专家本身可能在"是否全面"上分歧，参考材料还在持续变化，开放式输出又给错误留了大空间。BrowseComp 是该方向的代表 benchmark。

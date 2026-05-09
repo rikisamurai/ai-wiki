@@ -5,7 +5,7 @@ date: 2026-05-08
 sources:
   - "[[sources/posts/aigc/ai-coding/tools/Git AI - 追踪 AI 生成代码的 Git 扩展]]"
 last-ingested: 2026-05-08
-status: draft
+status: stable
 ---
 
 开源 git 扩展，给每个 commit 自动附加一条 git note（`refs/notes/ai`），记录"哪几行代码由哪个 agent / 哪个 model / 哪条 prompt 生成"。把"AI 写了多少代码"从模糊感觉变成 commit 级别的可查事实。Local-first、Git-native、跨 12 个主流 coding agent 工作。

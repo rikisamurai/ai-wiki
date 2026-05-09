@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 [GBrain](https://github.com/garrytan/gbrain) 是 Garry Tan 开源的 AI agent 持久知识库——可以理解为"agent 真正记住跨会话内容的地方"。注册成 [[mcp|MCP server]] 后，Claude Code 把 `gbrain search`、`gbrain put_page` 当成 first-class typed tool 调用。配套 [[gstack]] 的 `/setup-gbrain` skill 一条命令完成部署 + MCP 注册 + 信任策略。

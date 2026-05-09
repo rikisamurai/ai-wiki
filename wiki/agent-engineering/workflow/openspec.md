@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践｜得物技术]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 OpenSpec 是 [[spec-coding|Spec Coding]] 在 IDE 工具里的指令族落地——把"想 → 做 → 收"三步用 `openspec-propose` / `openspec-apply-change` / `openspec-archive-change` 三个 slash 命令固化下来，配套 explore / verify / archive 等辅助指令。得物文章给出了完整 4 类场景下的指令组合模板。

@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 gstack 是 [Garry Tan](https://x.com/garrytan)（YC President）开源的 Claude Code skills 包——**23 个专家角色 slash command + 8 个 power tool**，把 Claude Code 改造成"CEO + 设计师 + 工程经理 + QA + 安全官 + 发布工程师"的虚拟团队。MIT 协议，定位类似 [[everything-claude-code|Everything Claude Code]] 但更强调"sprint 流水线 + 多角色互审"。

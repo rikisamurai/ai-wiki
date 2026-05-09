@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践｜得物技术]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 [[cursor|Cursor]] 等 IDE 类 AI 工具的**项目级语义索引**：对工作区内所有代码做向量化嵌入，建立检索结构，让 AI 能用自然语言查询找到相关代码片段而不依赖精确路径。是 [[mimic-first-harness|Mimic-First Harness]] 在工程层的关键基础设施——没有索引，"找模仿对象"会退化成手工 grep。

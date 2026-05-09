@@ -6,7 +6,7 @@ sources:
   - "[[sources/clippings/持续改进我们的智能体框架]]"
   - "[[sources/posts/aigc/ai-coding/tools/Git AI - 追踪 AI 生成代码的 Git 扩展]]"
 last-ingested: 2026-05-08
-status: draft
+status: stable
 ---
 
 [[cursor|Cursor]] 用的 in-product 质量度量：**对 agent 提出的一组代码变更，跟踪固定时间间隔后还有多少比例留在用户代码库里**。比例高 = 用户接受了 AI 的改动；比例低 = 用户改回去了或 agent 自己反复修。它跟 [[agent-evals|automated eval]] 互补——后者评 synthetic task，Keep Rate 评真实用户的脚投票。

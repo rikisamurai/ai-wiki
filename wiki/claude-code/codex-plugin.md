@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/🛠️claude-code-tools]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 OpenAI 官方发布的插件，把 Codex 接入 Claude Code 作为**第二审阅者和后台执行器**。它不是"用 Codex 替代 Claude"，而是 [[wiki/agent-engineering/workflow/writer-reviewer-模式|Writer/Reviewer 模式]]的产品化——主写者用 Claude，关键节点请异系模型来挑刺，是一种廉价的"对抗性 review"。

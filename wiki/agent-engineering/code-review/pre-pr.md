@@ -5,7 +5,7 @@ date: 2026-05-08
 sources:
   - "[[sources/clippings/用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践]]"
 last-ingested: 2026-05-08
-status: draft
+status: stable
 ---
 
 提交 PR 之前要求 RD 先用 AI 多轮自查、修复所有 AI 能发现的问题，再走标准 PR 流程。Reviewer 拿到的是"已过滤掉基础规范错误"的高质量代码，只需聚焦核心业务语义。这是 AI Coding 提速后缓解 [[wiki/agent-engineering/code-review/review-带宽瓶颈|Review 带宽瓶颈]] 的关键左移手段。

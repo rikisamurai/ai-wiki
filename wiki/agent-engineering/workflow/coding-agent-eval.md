@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/Demystifying evals for AI agents]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Coding agent 评估的天然优势：**软件本身就有 deterministic 的对错判定**——代码能不能跑、单测过不过。SWE-bench Verified 和 Terminal-Bench 是两条主流路线：前者用 GitHub issue + 仓库自带测试套件、后者跑真实端到端技术任务。LLM 在 SWE-bench Verified 上一年内从 40% 涨到 >80%，已逼近 [[capability-vs-regression-eval|饱和]]。

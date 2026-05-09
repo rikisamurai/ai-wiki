@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/Demystifying evals for AI agents]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Eval suite 在生命周期里扮演两种角色：**capability eval**（能力评估，回答"能做到什么"）和 **regression eval**（回归评估，回答"还能做到原来的"）。两者的目标通过率正好相反——capability 要起点低留出爬坡空间，regression 要接近 100% 守住底线。

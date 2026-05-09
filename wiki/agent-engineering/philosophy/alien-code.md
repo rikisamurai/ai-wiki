@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践｜得物技术]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 得物团队给"AI 凭空生成的代码"起的形象名字：**外星代码**——能跑、看似实现了需求，但**和项目现有代码格格不入**。三个典型病征：风格不一致、复用率低、采纳率低。它跟 [[plausible-code|plausible code]] 是同族失败，但侧重点不同——前者是"写对了但不像本项目写的"，后者是"看着对其实不对"。

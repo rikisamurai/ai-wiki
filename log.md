@@ -10,6 +10,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-09 12:58] lint | weekly check
+- 扫描 202 个 wiki 页：孤儿 0、出链不足 0、stale 0、status 异常 0、断链 0
+- **自动升级 draft→stable：57 页**（入度 ≥3，最高入度 19 = `wiki/agent-engineering/workflow/agent-evals.md`）
+- 概念重复：32 个共享关键词组（绝大多数是健康的概念簇 cache/eval/harness/vibe-coding/skills，仅个别值得人工核验，详见对话报告）
+
 ## [2026-05-08 12:38] ingest | Git AI - 追踪 AI 生成代码的 Git 扩展
 - 新建 4 页：[[wiki/claude-code/git-ai]]（工具本身）、[[wiki/agent-engineering/workflow/ai-代码-attribution]]（自报 vs 检测的范式判断）、[[wiki/agent-engineering/workflow/git-notes-ai-元数据]]（git notes 作为 AI 工程基础设施）、[[wiki/agent-engineering/philosophy/跨厂商共识协议]]（MCP / Skills / Git AI standard 同源观察）
 - 更新 3 页：[[wiki/agent-engineering/workflow/采纳率]]（追加 commit 级 attribution 互补章节）、[[wiki/agent-engineering/workflow/keep-rate]]（追加 attribution 下钻能力章节）、[[wiki/agent-engineering/workflow/continuous-checkpoint]]（追加 commit body vs git notes 的同源对比）

@@ -5,7 +5,7 @@ date: 2026-04-23
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/🛠️claude-code-tools]]"
 last-ingested: 2026-04-23
-status: draft
+status: stable
 ---
 
 Everything Claude Code（简称 ECC）是 Anthropic Hackathon 获奖者发布的"完整 [[wiki/agent-engineering/philosophy/harness-engineering|Harness]]"——不是一堆配置的拼盘，而是把 [[claude-code-六层架构|六层架构]]里每一层都填满的开源参考实现：28 个 subagents、125+ skills、60 个 slash commands、多语言 rules、PM2 编排、AgentShield 安全扫描。50K+ stars 说明这套思路被认可。

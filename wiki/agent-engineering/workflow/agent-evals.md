@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/Demystifying evals for AI agents]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Agent eval 是给 AI 智能体写的"自动化测试"：给定输入、跑完一个 agent loop、用 grader 给输出和最终环境状态打分。它和单轮 LLM eval 的区别在于必须评估**多轮工具调用 + 环境状态变化**——错误会沿轨迹传播放大，模型也常在轨迹中找出设计者没想到的有效解。没有 evals 的团队会陷在"用户说变差了 → 复现 → 修 → 祈祷没坏别的"的反应式循环里。

@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/持续改进我们的智能体框架]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 [[harness-engineering|Harness Engineering]] 的精细化范式：**同一个 framework 抽象，在工具格式、提示词、错误处理上对每个模型/版本独立定制**。[[cursor|Cursor]] 的实践：OpenAI 模型用 patch 编辑、Anthropic 模型用 string-replace；prompt 也按 provider 甚至 model version 分别写。"框架抽象不依赖具体模型，但每个模型可深度定制"。

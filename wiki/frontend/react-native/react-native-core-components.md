@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/frontend/React/React Native/learning/react-native-core-components]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 React Native 内置的一组跨平台 UI 组件和系统 API——RN 不能用 HTML 标签，所有界面都靠这些"基础积木"组合。本页是一份分类速查；性能/选型类的细节单独成页（如 [[wiki/frontend/react-native/flash-list|FlashList]]、[[wiki/frontend/react-native/pressable-vs-touchable|Pressable vs TouchableOpacity]]）。

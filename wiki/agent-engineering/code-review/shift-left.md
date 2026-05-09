@@ -6,7 +6,7 @@ sources:
   - "[[sources/posts/aigc/ai-coding/blog/🔍 AI CR 的理想与现实：别让 AI 帮你做 Lint 的苦力！]]"
   - "[[sources/clippings/用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践]]"
 last-ingested: 2026-05-08
-status: draft
+status: stable
 ---
 
 Shift Left 是工程效能的核心理念之一：**让问题在尽可能早的阶段被发现和解决**。代码质量的反馈链路通常是 `IDE → 保存 → pre-commit → CI → PR Review → QA → 生产`，越早发现修复成本越低；越晚发现，开发者切换上下文、重新理解、反复提交的开销越大。

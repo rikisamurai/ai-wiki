@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/持续改进我们的智能体框架]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 [CursorBench](https://cursor.com/blog/cursorbench) 是 [[cursor|Cursor]] 公开的 agent 质量 benchmark，用于跨时间对比 [[harness-engineering|harness]] + 模型组合的表现。Cursor 把它定位为**快速、标准化的近似信号**，配合内部 eval 套件 + 在线 A/B 实验形成"多层衡量体系"。

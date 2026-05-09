@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 [[gstack]] 实测能跑 **10–15 个并行 sprint**——每个 sprint 是一个独立 Claude Code 会话、跑独立的 [[sprint-七阶段范式|7 阶段流水线]]、在独立 worktree 里。这是个体开发者最大化吞吐的当前实践上限：再多就管不过来；再少就浪费了 [[gstack|多角色专家化 + 流水线]] 带来的并行潜力。

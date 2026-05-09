@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/持续改进我们的智能体框架]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Cursor 是 Anysphere 出品的 AI 代码编辑器，2024 年末开始走 [[harness-engineering|harness-engineering]] 路线——把 IDE 包成一个完整的 agent 框架。它的思路跟 [[claude-code|Claude Code]]、[[codex|OpenAI Codex CLI]]、[[gstack|gstack]] 同源（都是把模型 + 工具 + 上下文管理打包），但形态不同：Cursor 是 GUI-first、内嵌编辑器；Claude Code/Codex 是 CLI-first；gstack 是 Skill 包。

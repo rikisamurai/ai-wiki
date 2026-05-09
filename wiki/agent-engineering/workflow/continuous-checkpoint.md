@@ -6,7 +6,7 @@ sources:
   - "[[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]"
   - "[[sources/posts/aigc/ai-coding/tools/Git AI - 追踪 AI 生成代码的 Git 扩展]]"
 last-ingested: 2026-05-08
-status: draft
+status: stable
 ---
 
 [[gstack]] 的可选模式：agent 在干活过程中**自动 git commit** 中间状态——commit message 用 `WIP:` 前缀 + 结构化的 `[gstack-context]` body（含决策、剩余工作、失败过的方案）。会话崩溃 / context 切换后用 `/context-restore` 读回这些 commit 重建状态。`/ship` 在 PR 前自动 filter-squash 掉 WIP commit，保留正式 commit 让 bisect 干净。

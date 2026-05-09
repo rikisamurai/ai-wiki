@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/Demystifying evals for AI agents]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Conversational agent（客服、销售、coaching）评估的特殊难点：**对话本身就是被评估的产物**——不仅要看任务有没有做成，还要看交互过程是否得体。这类 eval 通常需要**第二个 LLM 模拟用户**，再用多维 rubric 同时评 outcome 和 transcript。代表 benchmark 是 τ-Bench 和 τ2-Bench。

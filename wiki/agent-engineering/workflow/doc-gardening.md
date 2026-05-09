@@ -5,7 +5,7 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/blog/🤖 Harness Engineering：在 Agent-First 时代利用 Codex]]"
 last-ingested: 2026-04-22
-status: draft
+status: stable
 ---
 
 文档腐烂（doc rot）是所有大型代码库的宿命，在 Agent-First 仓库里更糟——Agent 会基于过期文档继续生产代码，错误以复利速度扩散。**Doc Gardening Agent** 是 OpenAI Codex 团队的解法：定期运行的后台 Agent，**扫描不再反映真实代码行为的过期/废弃文档，自动开 fix-up PR**。

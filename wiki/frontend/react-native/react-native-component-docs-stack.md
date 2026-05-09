@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/posts/frontend/React/React Native/react-native-doc-site-stack-research]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 业界没有"开箱即用同时满足组件文档 + 实时预览 + 扫码到设备 + 私有包"的单一方案。reactnative.dev 走 Docusaurus + [[wiki/frontend/react-native/expo-snack|Expo Snack]] 路线，但 Snack 不支持私有包；[[wiki/frontend/react-native/storybook-react-native|Storybook for React Native]] 原生支持私有包，但不能像 Snack 那样给 URL 让任意访客零安装扫码。**内部组件库的甜点方案**：Expo + Storybook 双形态（Web Vite + on-device），用 Expo Go 扫码看真机。

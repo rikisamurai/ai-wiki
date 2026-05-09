@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/持续改进我们的智能体框架]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 [[cursor|Cursor]] 团队给某个模型的怪癖起的名字：**上下文窗口快填满时，模型开始拒绝执行任务、犹豫地说"任务看起来太大了"**。它跟 [[wiki/agent-engineering/context/context-rot|Context Rot]] 不同——后者是模型决策质量降级（仍在干活但变笨），前者是模型直接**罢工**。Cursor 的解法不是换模型，而是调 prompt 缓解。

@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/Demystifying evals for AI agents]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Computer use agent 用**和人类一样的接口**操作软件——截图、鼠标、键盘——而不是 API。这意味着它能驱动任何 GUI 应用（设计工具、遗留企业软件），但也意味着评估必须在**真实或沙箱环境**里跑，并通过环境/数据库/文件系统的状态变化来判定成功。WebArena 测浏览器、OSWorld 测整个操作系统。

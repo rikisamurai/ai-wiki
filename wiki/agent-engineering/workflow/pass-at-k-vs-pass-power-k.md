@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/Demystifying evals for AI agents]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Agent 行为在 trial 间会变，所以同一 task 要跑 k 次后用统计量描述。最常用的两个度量正好相反：**pass@k** 度量"k 次里至少有 1 次成功的概率"，**pass^k** 度量"k 次全部成功的概率"。前者随 k 上升，后者随 k 下降。

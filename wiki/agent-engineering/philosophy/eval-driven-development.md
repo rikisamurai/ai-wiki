@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/Demystifying evals for AI agents]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Eval-Driven Development（EDD）是 Anthropic 给"AI 产品 / agent 开发"提的范式：**先把 capability eval 写出来定义未来要做到的能力，然后让 agent 去爬这座山，最后用 regression eval 把成果钉死**。它是 [[spec-coding]] 在 AI 产品时代的精神继承——eval 比 Spec 更"刚"、更可执行，能避免 Spec 几个月就过时的问题。

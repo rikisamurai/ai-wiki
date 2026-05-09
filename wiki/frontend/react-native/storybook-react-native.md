@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/posts/frontend/React/React Native/react-native-doc-site-stack-research]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 Storybook 在 React Native 圈 2026 年分两条可并存的路：**Storybook for React Native Web (Vite)** 把组件转 DOM 在浏览器跑（适合做文档站），**On-device Storybook** 作为 Component 渲染在 RN App 内（适合真机验证、跑原生模块）。这两条路通常在同一工程里同时启用，共享同一份 [[wiki/frontend/react-native/csf-story-format|CSF stories]]，**是内部 [[wiki/frontend/react-native/react-native-component-docs-stack|RN 组件文档站]] 的事实首选**。

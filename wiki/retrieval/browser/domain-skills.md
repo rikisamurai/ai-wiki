@@ -5,7 +5,7 @@ date: 2026-05-06
 sources:
   - "[[sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA]]"
 last-ingested: 2026-05-06
-status: draft
+status: stable
 ---
 
 [[gstack]] 浏览器（[[wiki/retrieval/browser/agent-browser|browser agent]] 形态）的 per-hostname 记忆机制：agent 在某个站点学到一条经验（"LinkedIn 的 Apply 按钮在 iframe 里"），保存为 domain skill，**下次访问同 hostname 时自动加载**。是 [[wiki/skills/agent-skills|Agent Skills 规范]] 在浏览器自动化领域的微缩对应物。
