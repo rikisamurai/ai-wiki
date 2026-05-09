@@ -7,7 +7,7 @@
 ## 核心理念
 
 **三层架构**（严格隔离，不串味）：
-- `sources/`：原料层，LLM **正文只读**。包含 clippings（剪藏）、posts（用户原创/译文）、inbox（草稿）、asset（图片）。**唯一例外**：`/ingest` 完成后允许在 source frontmatter 追加/更新 `ingested-at: YYYY-MM-DD` 字段，作为已消费标记（详见下方"sources frontmatter"）。
+- `sources/`：原料层，LLM **正文只读**。包含 clippings（剪藏）、posts（用户原创/译文）、inbox（草稿）、no-ingest（已判定不抽取的存档，见 §no-ingest 约定）、asset（图片）。**唯一例外**：`/ingest` 完成后允许在 source frontmatter 追加/更新 `ingested-at: YYYY-MM-DD` 字段，作为已消费标记（详见下方"sources frontmatter"）。
 - `wiki/`：精华层，LLM **拥有可改**。从 sources 抽取的概念页面，按 agent-engineering / claude-code / skills / retrieval / frontend / business / obsidian 分类（部分一级下有二级子目录，详见目录树）。
 - `AGENT.md`（CLAUDE.md 是其符号链接）：schema 层，定义工作流和约定。
 
@@ -37,6 +37,7 @@ ai-wiki/
 │   ├── clippings/                # 网页剪藏
 │   ├── posts/{aigc,frontend,obsidian}/  # 用户原创/译文
 │   ├── inbox/                    # 草稿
+│   ├── no-ingest/                # 已判定不抽取的存档（见 §no-ingest 约定）
 │   └── asset/                    # 图片
 ├── wiki/                         # 可改精华
 │   ├── agent-engineering/        # philosophy / context / workflow / code-review
@@ -66,6 +67,23 @@ ingested-at: YYYY-MM-DD     # 最近一次被 /ingest 消费的日期
 - 没有 `ingested-at` 字段 = 未 ingest，会出现在 `index.base` 的 `pending-sources` 视图里
 
 这是 sources 唯一允许 LLM 写入的字段，目的是让"待 ingest"清单可被 Bases 直接 filter，无需反查。
+
+## no-ingest 约定
+
+`sources/no-ingest/` 是"已判定不抽取"存档区。判定规则：
+
+- 内容太短/只有外链 → 没有可抽取概念
+- 主题完全在 7 个 wiki domain 之外 → 抽出来也无法纳入现有结构
+- 用户明确指定的不要抽取
+
+放进 `no-ingest/` 后：
+
+- LLM 不再考虑给它做 `/ingest`
+- 不会出现在 `index.base` 的 `pending-sources` 视图（filter 通过 `!file.inFolder("sources/no-ingest")` 排除）
+- 也不需要 `ingested-at` 字段（folder 本身就是不抽取的标记）
+- 文件本身仍然可读、可被 wikilink 引用，只是不进 ingest 流水线
+
+判定可逆：如果未来内容补全或 wiki domain 扩展，从 `no-ingest/` 移回 `sources/<原分类>/` 即可恢复 ingest 候选身份。
 
 ## wiki 页面规范
 

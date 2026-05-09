@@ -10,6 +10,17 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-09 13:30] chore | 新增 sources/no-ingest/ 约定 + 归档 4 个 source
+- 新建文件夹 `sources/no-ingest/`，git mv 4 个判定不抽取的 source 进去：
+  - `个人偏好settings.md`（28 行，太短）
+  - `browser-use-introduction.md`（原 `browser-use/introduction.md`，仅外链目录）
+  - `cross-walls.md`（原 `🧱Cross Walls.md`，仅机场/客户端链接收藏）
+  - `react-native-tips.md`（原 `react-native tips.md`，仅 1 条外链）
+- 移动时同步把文件名标准化为 kebab-case（去 emoji / 空格 / 加上下文前缀）。git mv 保留了历史
+- AGENT.md：sources/ 描述加 no-ingest 类别 + 顶层目录树补 no-ingest/ + 新增 §no-ingest 约定（判定规则 / Bases 排除 / 可逆性）
+- index.base：pending-sources 视图 filter 加 `!file.inFolder("sources/no-ingest")`，避免归档项再出现在待 ingest 清单
+- migration-2026-04 档案里 3 个文件路径会变成 stale 引用（纯文本路径，不影响功能）
+
 ## [2026-05-09 13:20] ingest | 对话曦智科技沈亦晨：一个 MIT 博士与光计算穿越死亡谷的十年
 - 新建 5 页（全部 business/）：[[wiki/business/技术死亡谷]]（硬科技通用范式）、[[wiki/business/现金储备纪律]]（≥2 年现金，避免对赌）、[[wiki/business/killer-app-策略]]（新范式商业化先找一个）、[[wiki/business/红黑队内部辩论]]（重大决策对抗式论证机制）、[[wiki/business/学界创业-导师股权]]（教授带学生创业的健康股权结构）
 - 概念抽取思路：source 是硬件/创业访谈，跟现 wiki 域偏离。我跳过光计算/光互连/CPO 等硬件特定术语（缺少未来复用场景），聚焦"跨域可复用的方法论概念"——5 个都是任何创业 / 决策类 source 都能反向引用的范式。红黑队页特别留了 [[writer-reviewer-模式]] 和 [[cross-model-second-opinion]] 出链，串到 agent 工程领域的同源机制

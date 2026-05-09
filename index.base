@@ -45,6 +45,7 @@ views:
         - file.inFolder("sources")
         - file.ext == "md"
         - '!file.hasProperty("ingested-at")'
+        - '!file.inFolder("sources/no-ingest")'
     order:
       - file.name
       - file.folder
