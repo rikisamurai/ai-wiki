@@ -1,0 +1,53 @@
+wiki/agent-engineering/code-review/ai-写-lint.md
+  ai_agent 8
+wiki/agent-engineering/workflow/git-notes-ai-元数据.md
+  ai_agent 8
+wiki/agent-engineering/workflow/工具错误分类法.md
+  ai_agent 8
+wiki/agent-engineering/philosophy/人人对齐-人机对齐.md
+  ai_agent 8
+wiki/agent-engineering/philosophy/karpathy-四种失败模式.md
+  ai_agent 8
+wiki/agent-engineering/workflow/agent-可读性.md
+  ai_agent 8
+wiki/agent-engineering/workflow/sprint-七阶段范式.md
+  ai_agent 8
+wiki/agent-engineering/workflow/eval-grader-三类.md
+  ai_agent 8
+wiki/agent-engineering/workflow/ai-代码-attribution.md
+  ai_agent 8
+wiki/agent-engineering/workflow/全栈工作区.md
+  ai_agent 8
+wiki/agent-engineering/philosophy/行为正确性.md
+  ai_agent 8
+wiki/agent-engineering/workflow/读-transcript.md
+  ai_agent 8
+wiki/agent-engineering/philosophy/ai-加速腐化.md
+  ai_agent 8
+wiki/agent-engineering/workflow/三阶段联调.md
+  ai_agent 8
+wiki/agent-engineering/workflow/渐进式重构.md
+  ai_agent 8
+wiki/agent-engineering/workflow/语义满意度信号.md
+  ai_agent 8
+wiki/agent-engineering/workflow/specialist-roles-模型.md
+  ai_agent 8
+wiki/agent-engineering/workflow/采纳率.md
+  ai_agent 9
+wiki/claude-code/kairos-记忆蒸馏.md
+  ai_agent 8
+wiki/skills/skills-9-分类.md
+  ai_agent 8
+wiki/agent-engineering/workflow/探索-规划-编码-验证.md
+  ai_agent 8
+wiki/agent-engineering/workflow/eval-方法矩阵.md
+  ai_agent 8
+wiki/agent-engineering/philosophy/agent-工作量分布.md
+  ai_agent 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "e922f99a2da2b4f23d4b8c8347885d4ee23c395c",
+  "prompts": {}
+}
