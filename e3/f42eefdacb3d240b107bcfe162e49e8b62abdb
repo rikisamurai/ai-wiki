@@ -1,0 +1,33 @@
+index.md
+  s_f36073e53768f0::t_1a933a58ae5438 246,248-251
+wiki/business/技术死亡谷.md
+  ai_agent 1-37
+wiki/business/现金储备纪律.md
+  ai_agent 1-42
+"sources/clippings/对话曦智科技沈亦晨：一个 MIT 博士与光计算穿越死亡谷的十年.md"
+  ai_agent 11
+log.md
+  s_f36073e53768f0::t_6052e779045e51 13-17
+wiki/business/学界创业-导师股权.md
+  ai_agent 1-37
+wiki/business/红黑队内部辩论.md
+  ai_agent 1-39
+wiki/business/killer-app-策略.md
+  ai_agent 1-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "e3f42eefdacb3d240b107bcfe162e49e8b62abdb",
+  "prompts": {},
+  "sessions": {
+    "s_f36073e53768f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5941fdbb-7f17-4919-a9f4-ebac3ce71992",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
