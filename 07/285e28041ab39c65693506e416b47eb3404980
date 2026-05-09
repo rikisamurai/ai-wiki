@@ -1,0 +1,28 @@
+"sources/posts/frontend/React/React Native/learning/rn-ios-cjk-input-issue.md"
+  ai_agent 8
+wiki/frontend/react-native/ios-cjk-ime-textinput.md
+  ai_agent 1-64
+index.md
+  s_f36073e53768f0::t_392e83fbdef5b9 227
+  s_f36073e53768f0::t_f5ec603c28be00 222
+log.md
+  s_f36073e53768f0::t_62df50306f15b8 13-17
+wiki/frontend/react-native/textinput-controlled-vs-uncontrolled.md
+  ai_agent 1-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "07285e28041ab39c65693506e416b47eb3404980",
+  "prompts": {},
+  "sessions": {
+    "s_f36073e53768f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5941fdbb-7f17-4919-a9f4-ebac3ce71992",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
