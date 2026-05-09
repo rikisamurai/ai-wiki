@@ -10,6 +10,12 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-09 13:08] ingest | React Native 键盘相关坑点总览
+- 新建 4 页：[[wiki/frontend/react-native/rn-keyboard-pitfalls]]（速查总览，纳入 TextInput 杂项 quirks + Android softInputMode + Keyboard API 跨平台差异 + 标配代码）、[[wiki/frontend/react-native/keyboard-should-persist-taps]]（列表+键盘的两个核心 prop）、[[wiki/frontend/react-native/keyboard-avoiding-view]]（内置半成品）、[[wiki/frontend/react-native/react-native-keyboard-controller]]（社区推荐第三方库）
+- 概念抽取思路：source 是个总览/速查类，主页对应 source 标题，把不够独立的 quirks 收在主页里；3 个细化页都是会被未来 RN ingest 反复引用的高频概念（持点 prop / 内置组件 / 第三方推荐）。Android softInputMode、Keyboard API 跨平台差异 fold 进总览页（独立性不够强）
+- 内部互链：keyboard-should-persist-taps 出链 [[flash-list]]、[[view-recycling]]、[[pressable-vs-touchable]]；rn-keyboard-pitfalls 出链 [[ios-cjk-ime-textinput]]（接力上一次 ingest）和 [[key-重置组件]]
+- source: [[sources/posts/frontend/React/React Native/learning/rn-keyboard-pitfalls]]
+
 ## [2026-05-09 12:59] ingest | iOS 中文输入法下 controlled TextInput 打断 composition
 - 新建 2 页：[[wiki/frontend/react-native/ios-cjk-ime-textinput]]（具体 bug 与现象/根因/解法）、[[wiki/frontend/react-native/textinput-controlled-vs-uncontrolled]]（controlled/uncontrolled 模式对比，可被未来 RN 输入相关 source 复用）
 - 概念抽取思路：source 短而聚焦，拆 2 页：1 个具体 bug 页（命中 source 标题），1 个上位概念页（controlled vs uncontrolled 是 RN 表单设计的高频选型，独立成页便于后续 ingest 接力）
