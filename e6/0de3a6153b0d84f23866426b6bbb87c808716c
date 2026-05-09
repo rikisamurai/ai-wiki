@@ -1,0 +1,83 @@
+wiki/agent-engineering/code-review/pre-pr.md
+  ai_agent 8
+wiki/agent-engineering/workflow/coding-agent-eval.md
+  ai_agent 8
+wiki/agent-engineering/workflow/codebase-indexing.md
+  ai_agent 8
+wiki/claude-code/git-ai.md
+  ai_agent 8
+wiki/agent-engineering/workflow/continuous-checkpoint.md
+  ai_agent 9
+wiki/agent-engineering/workflow/computer-use-agent-eval.md
+  ai_agent 8
+wiki/agent-engineering/workflow/conversational-agent-eval.md
+  ai_agent 8
+wiki/agent-engineering/workflow/agent-evals.md
+  ai_agent 8
+wiki/agent-engineering/context/context-anxiety.md
+  ai_agent 8
+wiki/claude-code/everything-claude-code.md
+  ai_agent 8
+wiki/claude-code/gbrain.md
+  ai_agent 8
+wiki/agent-engineering/workflow/cursorbench.md
+  ai_agent 8
+wiki/agent-engineering/philosophy/per-model-harness.md
+  ai_agent 8
+log.md
+  s_f36073e53768f0::t_877b8a6d2fa755 13-17
+wiki/agent-engineering/workflow/keep-rate.md
+  ai_agent 9
+wiki/agent-engineering/workflow/doc-gardening.md
+  ai_agent 8
+wiki/agent-engineering/workflow/capability-vs-regression-eval.md
+  ai_agent 8
+wiki/agent-engineering/code-review/shift-left.md
+  ai_agent 9
+wiki/frontend/react-native/storybook-react-native.md
+  ai_agent 8
+wiki/agent-engineering/workflow/openspec.md
+  ai_agent 8
+wiki/agent-engineering/workflow/research-agent-eval.md
+  ai_agent 8
+wiki/frontend/react-native/react-native-core-components.md
+  ai_agent 8
+wiki/agent-engineering/philosophy/mimic-first-harness.md
+  ai_agent 8
+wiki/retrieval/browser/domain-skills.md
+  ai_agent 8
+wiki/agent-engineering/code-review/cross-model-second-opinion.md
+  ai_agent 9
+wiki/agent-engineering/workflow/pass-at-k-vs-pass-power-k.md
+  ai_agent 8
+wiki/agent-engineering/workflow/parallel-sprints.md
+  ai_agent 8
+wiki/claude-code/codex-plugin.md
+  ai_agent 8
+wiki/claude-code/cursor.md
+  ai_agent 8
+wiki/agent-engineering/philosophy/alien-code.md
+  ai_agent 8
+wiki/claude-code/gstack.md
+  ai_agent 8
+wiki/agent-engineering/philosophy/eval-driven-development.md
+  ai_agent 8
+wiki/frontend/react-native/react-native-component-docs-stack.md
+  ai_agent 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "e60de3a6153b0d84f23866426b6bbb87c808716c",
+  "prompts": {},
+  "sessions": {
+    "s_f36073e53768f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5941fdbb-7f17-4919-a9f4-ebac3ce71992",
+        "model": "unknown"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
