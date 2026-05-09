@@ -10,6 +10,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-09 13:20] ingest | 对话曦智科技沈亦晨：一个 MIT 博士与光计算穿越死亡谷的十年
+- 新建 5 页（全部 business/）：[[wiki/business/技术死亡谷]]（硬科技通用范式）、[[wiki/business/现金储备纪律]]（≥2 年现金，避免对赌）、[[wiki/business/killer-app-策略]]（新范式商业化先找一个）、[[wiki/business/红黑队内部辩论]]（重大决策对抗式论证机制）、[[wiki/business/学界创业-导师股权]]（教授带学生创业的健康股权结构）
+- 概念抽取思路：source 是硬件/创业访谈，跟现 wiki 域偏离。我跳过光计算/光互连/CPO 等硬件特定术语（缺少未来复用场景），聚焦"跨域可复用的方法论概念"——5 个都是任何创业 / 决策类 source 都能反向引用的范式。红黑队页特别留了 [[writer-reviewer-模式]] 和 [[cross-model-second-opinion]] 出链，串到 agent 工程领域的同源机制
+- source: [[sources/clippings/对话曦智科技沈亦晨：一个 MIT 博士与光计算穿越死亡谷的十年]]
+
 ## [2026-05-09 13:08] ingest | React Native 键盘相关坑点总览
 - 新建 4 页：[[wiki/frontend/react-native/rn-keyboard-pitfalls]]（速查总览，纳入 TextInput 杂项 quirks + Android softInputMode + Keyboard API 跨平台差异 + 标配代码）、[[wiki/frontend/react-native/keyboard-should-persist-taps]]（列表+键盘的两个核心 prop）、[[wiki/frontend/react-native/keyboard-avoiding-view]]（内置半成品）、[[wiki/frontend/react-native/react-native-keyboard-controller]]（社区推荐第三方库）
 - 概念抽取思路：source 是个总览/速查类，主页对应 source 标题，把不够独立的 quirks 收在主页里；3 个细化页都是会被未来 RN ingest 反复引用的高频概念（持点 prop / 内置组件 / 第三方推荐）。Android softInputMode、Keyboard API 跨平台差异 fold 进总览页（独立性不够强）

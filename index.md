@@ -243,7 +243,12 @@ date: 2026-04-22
 ## Business
 
 - [[wiki/business/js-盈利模式分类|JS 库的 5 种盈利模式]]
+- [[wiki/business/killer-app-策略|Killer App 策略]]
 - [[wiki/business/per-seat-licensing|Per-Seat Licensing（按席位授权）]]
+- [[wiki/business/红黑队内部辩论|红黑队内部辩论]]
+- [[wiki/business/技术死亡谷|技术死亡谷（Technology Valley of Death）]]
+- [[wiki/business/现金储备纪律|现金储备纪律（最少 2 年）]]
+- [[wiki/business/学界创业-导师股权|学界创业的导师股权反共识]]
 
 ## Obsidian
 

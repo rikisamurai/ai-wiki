@@ -8,6 +8,7 @@ created: 2026-04-28
 description: "“有些方向，本来就需要有人提前去探路。”"
 tags:
   - "clippings"
+ingested-at: 2026-05-09
 ---
 晚点团队 *2026年4月28日 11:14*
 
