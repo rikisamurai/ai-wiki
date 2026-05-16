@@ -1,0 +1,45 @@
+sources/posts/frontend/React/Blog/imgs/outline.md
+  s_329b8a801ad80e::t_c755a11672bf7d 1-19,21-28
+  s_329b8a801ad80e::t_77485c994d5c68 20
+log.md
+  s_959f33af79ce13::t_2669e8a44e16b9 13-16
+.baoyu-skills/baoyu-article-illustrator/EXTEND.md
+  s_329b8a801ad80e::t_775b7d04ee855d 1-14
+wiki/claude-code/computer-use-lock.md
+  s_959f33af79ce13::t_1c0c64478ed3ff 1-69
+wiki/claude-code/computer-use-架构.md
+  s_959f33af79ce13::t_6f458e86318c35 1-50,52,54,56,58-63,65-85,87-90
+index.md
+  s_959f33af79ce13::t_5c630c88ba597a 141-143
+  s_959f33af79ce13::t_9fd9fd229f0ee8 89
+"sources/posts/frontend/React/Blog/API DTO、Adapter、UI Model 的分层思想.md"
+  s_329b8a801ad80e::t_b81c82a50816fc 37-38,98-99,229
+wiki/agent-engineering/workflow/freeze-on-first-read.md
+  s_959f33af79ce13::t_b8b8aa4dc5ec9d 1-50
+sources/posts/aigc/ai-coding/claude-code/cc-haha-computer-use.md
+  s_959f33af79ce13::t_f45b69e102999b 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "0e2af1258c1921fe0cc2a2911a23f45a556f25d1",
+  "prompts": {},
+  "sessions": {
+    "s_329b8a801ad80e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e2ed9-afeb-7d52-9b28-438388e2bb40",
+        "model": "gpt-5.5"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    },
+    "s_959f33af79ce13": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "70d9ee05-3469-40eb-86ec-f980deb5ab0c",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
