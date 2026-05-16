@@ -10,6 +10,15 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-16 10:30] ingest | 深度拆解：AI Agent Harness 的构造【译】
+- 新建：[[wiki/agent-engineering/philosophy/llm-as-cpu]]、[[wiki/agent-engineering/philosophy/harness-协同进化]]
+- 更新：[[wiki/agent-engineering/philosophy/harness-engineering]]（补 source 引用）
+- source: [[sources/clippings/深度拆解：AI Agent Harness 的构造【译】]]
+
+## [2026-05-16 10:00] ingest | 你不知道的 Agent：原理、架构与工程实践
+- 新建：[[wiki/agent-engineering/workflow/agent-loop]]、[[wiki/agent-engineering/workflow/control-flow-patterns]]、[[wiki/agent-engineering/workflow/aci-工具设计]]、[[wiki/agent-engineering/context/agent-memory-分层]]、[[wiki/agent-engineering/workflow/agent-trace]]、[[wiki/agent-engineering/workflow/prompt-injection-通用]]
+- source: [[sources/clippings/你不知道的 Agent：原理、架构与工程实践]]
+
 ## [2026-05-09 13:30] chore | 新增 sources/no-ingest/ 约定 + 归档 4 个 source
 - 新建文件夹 `sources/no-ingest/`，git mv 4 个判定不抽取的 source 进去：
   - `个人偏好settings.md`（28 行，太短）

@@ -21,9 +21,11 @@ date: 2026-04-22
 - [[wiki/agent-engineering/philosophy/ai-first-适用边界|AI First 适用边界]]
 - [[wiki/agent-engineering/philosophy/alien-code|AI 外星代码（Alien Code）]]
 - [[wiki/agent-engineering/philosophy/eval-driven-development|Eval-Driven Development]]
+- [[wiki/agent-engineering/philosophy/harness-协同进化|Harness 协同进化原则]]
 - [[wiki/agent-engineering/philosophy/harness-engineering|Harness Engineering]]
 - [[wiki/agent-engineering/philosophy/harness-成熟度|Harness 三层成熟度]]
 - [[wiki/agent-engineering/philosophy/karpathy-四种失败模式|Karpathy 的四种 AI Coding 失败模式]]
+- [[wiki/agent-engineering/philosophy/llm-as-cpu|LLM = CPU 类比（冯·诺依曼架构与 Harness）]]
 - [[wiki/agent-engineering/philosophy/mimic-first-harness|Mimic-First Harness（找模仿对象）]]
 - [[wiki/agent-engineering/philosophy/opc-一人公司|OPC（One Person Company）]]
 - [[wiki/agent-engineering/philosophy/per-model-harness|Per-Model Harness（每模型定制框架）]]
@@ -45,6 +47,7 @@ date: 2026-04-22
 
 ### context
 
+- [[wiki/agent-engineering/context/agent-memory-分层|Agent 记忆四分层（工作/程序/情景/语义）]]
 - [[wiki/agent-engineering/context/cache-keep-alive|Cache Keep-Alive]]
 - [[wiki/agent-engineering/context/cache-命中率|Cache 命中率]]
 - [[wiki/agent-engineering/context/cache-失效陷阱|Cache 失效陷阱]]
@@ -62,7 +65,10 @@ date: 2026-04-22
 
 ### workflow
 
+- [[wiki/agent-engineering/workflow/aci-工具设计|ACI 工具设计（Agent-Computer Interface）]]
 - [[wiki/agent-engineering/workflow/agent-evals|Agent Evals（智能体评估）]]
+- [[wiki/agent-engineering/workflow/agent-loop|Agent Loop（ReAct 主循环）]]
+- [[wiki/agent-engineering/workflow/agent-trace|Agent Trace 与可观测性]]
 - [[wiki/agent-engineering/workflow/agent-可读性|Agent 可读性（Legibility）]]
 - [[wiki/agent-engineering/workflow/agent-等待时间|Agent 等待时间（Human Wait）]]
 - [[wiki/agent-engineering/workflow/agents-md|AGENTS.md]]
@@ -73,6 +79,7 @@ date: 2026-04-22
 - [[wiki/agent-engineering/workflow/computer-use-agent-eval|Computer Use Agent Eval]]
 - [[wiki/agent-engineering/workflow/continuous-checkpoint|Continuous Checkpoint Mode（WIP commit + 上下文恢复）]]
 - [[wiki/agent-engineering/workflow/conversational-agent-eval|Conversational Agent Eval]]
+- [[wiki/agent-engineering/workflow/control-flow-patterns|五种控制流模式（提示链/路由/并行/编排器-工作者/评估器-优化器）]]
 - [[wiki/agent-engineering/workflow/coordinator-模式|Coordinator 模式（经理模式）]]
 - [[wiki/agent-engineering/workflow/cursorbench|CursorBench]]
 - [[wiki/agent-engineering/workflow/design-shotgun|Design Shotgun（mockup → HTML 流水线）]]
@@ -87,6 +94,7 @@ date: 2026-04-22
 - [[wiki/agent-engineering/workflow/openspec|OpenSpec（SDD 指令工作流）]]
 - [[wiki/agent-engineering/workflow/parallel-sprints|Parallel Sprints（10-15 并行 sprint）]]
 - [[wiki/agent-engineering/workflow/pass-at-k-vs-pass-power-k|pass@k vs pass^k]]
+- [[wiki/agent-engineering/workflow/prompt-injection-通用|Prompt Injection 通用防御（Agent 层）]]
 - [[wiki/agent-engineering/workflow/ralph-loop|Ralph Loop]]
 - [[wiki/agent-engineering/workflow/research-agent-eval|Research Agent Eval]]
 - [[wiki/agent-engineering/workflow/rewind-胜过纠正|Rewind 胜过纠正]]

@@ -51,6 +51,7 @@
     },
     "sources": {
       "children": [
+        "sources/no-ingest",
         "sources/posts",
         "sources/inbox",
         "sources/clippings",
@@ -64,6 +65,7 @@
     },
     "sources/clippings": {
       "children": [
+        "sources/clippings/用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践.md",
         "sources/clippings/基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践｜得物技术.md",
         "sources/clippings/Demystifying evals for AI agents.md",
         "sources/clippings/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.md",
@@ -100,6 +102,15 @@
         "sources/inbox/asset/Pasted image 20260422154658.png",
         "sources/inbox/asset/Pasted image 20260422144612.png",
         "sources/inbox/asset/Pasted image 20260422143653.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/no-ingest": {
+      "children": [
+        "sources/no-ingest/browser-use-introduction.md",
+        "sources/no-ingest/cross-walls.md",
+        "sources/no-ingest/react-native-tips.md",
+        "sources/no-ingest/个人偏好settings.md"
       ],
       "sortOrder": "custom"
     },
@@ -161,7 +172,6 @@
     },
     "sources/posts/aigc/ai-coding/claude-code": {
       "children": [
-        "sources/posts/aigc/ai-coding/claude-code/个人偏好settings.md",
         "sources/posts/aigc/ai-coding/claude-code/🛠️claude-code-tools.md",
         "sources/posts/aigc/ai-coding/claude-code/💡claude-tips.md",
         "sources/posts/aigc/ai-coding/claude-code/blog",
@@ -219,7 +229,6 @@
     },
     "sources/posts/aigc/browser-use": {
       "children": [
-        "sources/posts/aigc/browser-use/introduction.md",
         "sources/posts/aigc/browser-use/blog",
         "sources/posts/aigc/browser-use/asset"
       ],
@@ -321,7 +330,6 @@
     "sources/posts/frontend/React/React Native": {
       "children": [
         "sources/posts/frontend/React/React Native/react-native-doc-site-stack-research.md",
-        "sources/posts/frontend/React/React Native/react-native tips.md",
         "sources/posts/frontend/React/React Native/learning"
       ],
       "sortOrder": "custom"
@@ -337,7 +345,6 @@
     },
     "sources/posts/obsidian": {
       "children": [
-        "sources/posts/obsidian/🧱Cross Walls.md",
         "sources/posts/obsidian/obsidian",
         "sources/posts/obsidian/HTTP3 入门指南.md"
       ],
@@ -403,6 +410,7 @@
     },
     "wiki/agent-engineering/code-review": {
       "children": [
+        "wiki/agent-engineering/code-review/pre-pr.md",
         "wiki/agent-engineering/code-review/cross-model-second-opinion.md",
         "wiki/agent-engineering/code-review/ai-code-review.md",
         "wiki/agent-engineering/code-review/ai-写-lint.md",
@@ -432,6 +440,10 @@
     },
     "wiki/agent-engineering/philosophy": {
       "children": [
+        "wiki/agent-engineering/philosophy/ai-加速腐化.md",
+        "wiki/agent-engineering/philosophy/人人对齐-人机对齐.md",
+        "wiki/agent-engineering/philosophy/经验价值边界.md",
+        "wiki/agent-engineering/philosophy/跨厂商共识协议.md",
         "wiki/agent-engineering/philosophy/alien-code.md",
         "wiki/agent-engineering/philosophy/eval-driven-development.md",
         "wiki/agent-engineering/philosophy/karpathy-四种失败模式.md",
@@ -461,6 +473,15 @@
     },
     "wiki/agent-engineering/workflow": {
       "children": [
+        "wiki/agent-engineering/workflow/ai-代码-attribution.md",
+        "wiki/agent-engineering/workflow/ai-辅助测试-sop.md",
+        "wiki/agent-engineering/workflow/ax-manual-accessibility.md",
+        "wiki/agent-engineering/workflow/git-notes-ai-元数据.md",
+        "wiki/agent-engineering/workflow/mac-computer-use.md",
+        "wiki/agent-engineering/workflow/sub-agent-纪律.md",
+        "wiki/agent-engineering/workflow/专家定向-ai-穷举.md",
+        "wiki/agent-engineering/workflow/主r打样-sop分发.md",
+        "wiki/agent-engineering/workflow/渐进式重构.md",
         "wiki/agent-engineering/workflow/agent-evals.md",
         "wiki/agent-engineering/workflow/capability-vs-regression-eval.md",
         "wiki/agent-engineering/workflow/codebase-indexing.md",
@@ -511,6 +532,11 @@
     },
     "wiki/business": {
       "children": [
+        "wiki/business/killer-app-策略.md",
+        "wiki/business/学界创业-导师股权.md",
+        "wiki/business/技术死亡谷.md",
+        "wiki/business/现金储备纪律.md",
+        "wiki/business/红黑队内部辩论.md",
         "wiki/business/js-盈利模式分类.md",
         "wiki/business/per-seat-licensing.md"
       ],
@@ -518,6 +544,7 @@
     },
     "wiki/claude-code": {
       "children": [
+        "wiki/claude-code/git-ai.md",
         "wiki/claude-code/cursor.md",
         "wiki/claude-code/gbrain.md",
         "wiki/claude-code/gstack.md",
@@ -568,6 +595,12 @@
     },
     "wiki/frontend/react-native": {
       "children": [
+        "wiki/frontend/react-native/ios-cjk-ime-textinput.md",
+        "wiki/frontend/react-native/keyboard-avoiding-view.md",
+        "wiki/frontend/react-native/keyboard-should-persist-taps.md",
+        "wiki/frontend/react-native/react-native-keyboard-controller.md",
+        "wiki/frontend/react-native/rn-keyboard-pitfalls.md",
+        "wiki/frontend/react-native/textinput-controlled-vs-uncontrolled.md",
         "wiki/frontend/react-native/csf-story-format.md",
         "wiki/frontend/react-native/expo-snack.md",
         "wiki/frontend/react-native/react-native-component-docs-stack.md",
@@ -655,6 +688,9 @@
     },
     "wiki/retrieval/rag": {
       "children": [
+        "wiki/retrieval/rag/citation-faithfulness.md",
+        "wiki/retrieval/rag/rag-降级.md",
+        "wiki/retrieval/rag/rrf.md",
         "wiki/retrieval/rag/agentic-rag.md",
         "wiki/retrieval/rag/graph-rag.md",
         "wiki/retrieval/rag/hybrid-retrieval.md",
@@ -664,6 +700,8 @@
     },
     "wiki/skills": {
       "children": [
+        "wiki/skills/bgclick-rev-skill.md",
+        "wiki/skills/wasc-search-skill.md",
         "wiki/skills/agent-skills.md",
         "wiki/skills/skill-编写实践.md",
         "wiki/skills/skills-9-分类.md",
