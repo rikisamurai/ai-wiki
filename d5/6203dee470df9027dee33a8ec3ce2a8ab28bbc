@@ -1,0 +1,73 @@
+"sources/clippings/深度拆解：AI Agent Harness 的构造【译】.md"
+  s_959f33af79ce13::t_1785622fbb2e92 11
+wiki/agent-engineering/philosophy/llm-as-cpu.md
+  s_959f33af79ce13::t_980530f5b7bc88 1-45
+wiki/agent-engineering/context/agent-memory-分层.md
+  s_959f33af79ce13::t_a66fdee959a58f 1-51
+wiki/agent-engineering/workflow/prompt-injection-通用.md
+  s_959f33af79ce13::t_b9dea2345dbe31 1-47
+log.md
+  s_959f33af79ce13::t_ac1a6a5dd36a2e 13-17
+  s_959f33af79ce13::t_480d711136ec5b 18-21
+wiki/agent-engineering/workflow/control-flow-patterns.md
+  s_959f33af79ce13::t_8e601359691f59 1-51
+wiki/agent-engineering/workflow/agent-trace.md
+  s_959f33af79ce13::t_ba64072caec0e3 1-70
+sources/posts/aigc/ai-coding/claude-code/cc-haha-computer-use.md
+  s_48b812d9d44e78::t_adb4f60e57e879 1-315
+wiki/agent-engineering/workflow/aci-工具设计.md
+  s_959f33af79ce13::t_67648f9fb9fe70 1-67
+wiki/claude-code/cc-haha.md
+  s_959f33af79ce13::t_204bb076ae1d73 1-45
+wiki/agent-engineering/workflow/agent-loop.md
+  s_959f33af79ce13::t_476fd71d1d0b5a 1-59
+wiki/agent-engineering/philosophy/harness-engineering.md
+  s_959f33af79ce13::t_083040b1722cc2 10-11
+.obsidian/plugins/manual-sorting/data.json
+  ai_agent 54,68,108-116,413,443-446,476-484,535-539,547,598-603,691-693,703-704
+"sources/clippings/你不知道的 Agent：原理、架构与工程实践.md"
+  s_959f33af79ce13::t_10d517cb38a660 11
+wiki/agent-engineering/philosophy/harness-协同进化.md
+  s_959f33af79ce13::t_6d05fc18051a82 1-43
+index.md
+  s_959f33af79ce13::t_ca17477a8e203e 28
+  s_959f33af79ce13::t_311df5ea16d527 68,70-71
+  s_959f33af79ce13::t_9573abd8288c7d 82
+  s_959f33af79ce13::t_5d40c17bc1109a 24
+  s_959f33af79ce13::t_06847a586d6114 97
+  s_959f33af79ce13::t_5b92411e7c27e9 50
+"sources/posts/frontend/React/Blog/API DTO、Adapter、UI Model 的分层思想.md"
+  s_6a23f34e706311::t_817c1513bb62db 1-240
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "d56203dee470df9027dee33a8ec3ce2a8ab28bbc",
+  "prompts": {},
+  "sessions": {
+    "s_48b812d9d44e78": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2dde15fd-f987-4bba-b9e1-21a92deb150a",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    },
+    "s_6a23f34e706311": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "da4a16a0-407e-4f34-b9b6-e7aa5f5d1563",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    },
+    "s_959f33af79ce13": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "70d9ee05-3469-40eb-86ec-f980deb5ab0c",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
