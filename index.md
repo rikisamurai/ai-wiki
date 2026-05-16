@@ -86,6 +86,7 @@ date: 2026-04-22
 - [[wiki/agent-engineering/workflow/doc-gardening|Doc Gardening Agent]]
 - [[wiki/agent-engineering/workflow/enforce-invariants|Enforce Invariants, Not Implementations]]
 - [[wiki/agent-engineering/workflow/eval-grader-三类|Eval Grader 三类（code / model / human）]]
+- [[wiki/agent-engineering/workflow/freeze-on-first-read|Freeze-on-First-Read（首读冻结）]]
 - [[wiki/agent-engineering/workflow/eval-方法矩阵|Eval 方法矩阵（Swiss Cheese 模型）]]
 - [[wiki/agent-engineering/workflow/keep-rate|Keep Rate（保留率）]]
 - [[wiki/agent-engineering/workflow/long-horizon-agent|Long Horizon Agent]]
@@ -137,6 +138,9 @@ date: 2026-04-22
 ## Claude Code（CLI 工具系）
 
 - [[wiki/claude-code/auto-memory|Auto Memory（自动记忆）]]
+- [[wiki/claude-code/cc-haha|cc-haha（Claude Code 桌面端工作台）]]
+- [[wiki/claude-code/computer-use-架构|Computer Use 架构与 MCP 借壳模式]]
+- [[wiki/claude-code/computer-use-lock|Computer Use 跨进程文件锁（O_EXCL）]]
 - [[wiki/claude-code/claude-code|Claude Code]]
 - [[wiki/claude-code/claude-code-memory|Claude Code Memory 体系]]
 - [[wiki/claude-code/claude-code-六层架构|Claude Code 六层架构]]

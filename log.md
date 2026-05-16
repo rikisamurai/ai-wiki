@@ -10,6 +10,10 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-16 11:00] ingest | cc-haha 的 Computer Use 实现拆解
+- 新建：[[wiki/claude-code/cc-haha]]、[[wiki/claude-code/computer-use-架构]]、[[wiki/claude-code/computer-use-lock]]、[[wiki/agent-engineering/workflow/freeze-on-first-read]]
+- source: [[sources/posts/aigc/ai-coding/claude-code/cc-haha-computer-use]]
+
 ## [2026-05-16 10:30] ingest | 深度拆解：AI Agent Harness 的构造【译】
 - 新建：[[wiki/agent-engineering/philosophy/llm-as-cpu]]、[[wiki/agent-engineering/philosophy/harness-协同进化]]
 - 更新：[[wiki/agent-engineering/philosophy/harness-engineering]]（补 source 引用）

@@ -4,7 +4,8 @@
     "baoyu-article-illustrator": {
       "source": "jimliu/baoyu-skills",
       "sourceType": "github",
-      "computedHash": "034ac92d24b2b7c92293fa6dbfe6fda803306dc0bf29ec56c88f64e9e01e66b8"
+      "skillPath": "skills/baoyu-article-illustrator/SKILL.md",
+      "computedHash": "f4821d1f0ab9cb8dacbfc394adec2cb59e246d4592db52f96fbd3cdf9d828a0e"
     },
     "defuddle": {
       "source": "kepano/obsidian-skills",

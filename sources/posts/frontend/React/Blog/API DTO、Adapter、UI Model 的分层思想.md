@@ -8,8 +8,14 @@ date: 2026-05-16
 ---
 
 > [!info] 原文
-> 本地 HTML 教学稿（WebStorm 内置预览）：`monetization/wakanda-comp-rn/api-dto-ui-model-adapter.html`
 > 主题是接口类型分层在 React/RN 项目里的落地方式。本笔记 = 原文整理 + 相关模式扩展研究。
+
+
+![[Pasted image 20260516115125.png]]
+
+![[Pasted image 20260516115147.png]]
+
+
 
 ## 核心论点
 
@@ -27,6 +33,8 @@ API DTO  →  Adapter  →  UI Model
 | **API DTO** | 后端返回了什么 | 字段保持 `snake_case`，可选字段按 IDL 标注，service / adapter 使用 |
 | **Adapter** | 后端数据如何变成页面数据 | 字段改名、空值兜底、多字段合并、结构调整全部集中在这里 |
 | **UI Model** | 组件需要什么 | 字段 `camelCase`，结构贴近组件，减少页面里的空值判断 |
+
+![API DTO 到 Adapter 再到 UI Model 的数据链路](imgs/01-framework-dto-adapter-ui-model.png)
 
 ## 三层分别负责什么
 
@@ -86,6 +94,8 @@ export type TDistributionAreaView = {
 1. **重命名**（`status_desc` → `statusDesc`，`empty_text` → `emptyText`）
 2. **兜底**（`?? 0`、`|| ''`，让 UI Model 的字段可以是非 nullable）
 3. **派生计算**（`canShowGoods: Boolean(dto?.goods)`、`buttonText: dto?.button?.text || ''`，把"组件渲染时需要什么"前置到 adapter 里完成，组件直接消费布尔/字符串而不是 nested optional 对象）
+
+![Adapter 集中处理重命名、兜底和派生计算](imgs/02-infographic-adapter-responsibilities.png)
 
 ## 推荐目录结构
 
@@ -215,6 +225,8 @@ const { data } = useQuery({
 > - Prototype / POC → 直接用 DTO 更快
 
 判断标准：==这个页面会不会经历 ≥3 次后端字段调整？会不会有 ≥2 个组件复用同一份数据？== 如果都不会，可能不需要 adapter 这一层。
+
+![什么时候应该引入 Adapter，什么时候可以跳过](imgs/03-comparison-when-to-use-adapter.png)
 
 ## 8. 与"Humble Object / Presentation Model"的关系
 

@@ -7,6 +7,7 @@ tags:
 date: 2026-05-15
 source-url: https://github.com/NanmiCoder/cc-haha/tree/fd1617522c15e3acc95db21f0d57516db014a45d/src/utils/computerUse
 source-commit: fd1617522c15e3acc95db21f0d57516db014a45d
+ingested-at: 2026-05-16
 ---
 
 # cc-haha 的 Computer Use 实现拆解
