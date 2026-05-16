@@ -1,0 +1,19 @@
+docs/superpowers/plans/2026-05-16-rn-storybook-demo.md
+  s_df69e1ec84f399::t_df2526d1dc2014 1-1241
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "ea772923d37f2135a8f113dfd4839e7378d696fd",
+  "prompts": {},
+  "sessions": {
+    "s_df69e1ec84f399": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a76177e3-cee4-4922-bc49-f56ddd4156fe",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
