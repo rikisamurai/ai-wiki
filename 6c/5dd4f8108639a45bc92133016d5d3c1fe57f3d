@@ -1,0 +1,44 @@
+wiki/agent-engineering/workflow/tdd-red-green-refactor.md
+  s_89e401dcea8872::t_06c44f023b3072 1-50
+"sources/posts/aigc/ai-coding/tools/Matt Pocock Skills - 人类满分工程师的自我蒸馏.md"
+  s_89e401dcea8872::t_edf202920ee1ea 9
+  s_89e401dcea8872::t_1c7f0953ec2027 1-8,10-178
+wiki/agent-engineering/workflow/diagnose-debug-循环.md
+  s_89e401dcea8872::t_40f0bd9203dcef 1-49
+wiki/agent-engineering/workflow/采访驱动-spec.md
+  s_89e401dcea8872::t_32908fb13e787c 8-9
+  s_89e401dcea8872::t_34c936a27d59b9 45-47
+index.md
+  s_89e401dcea8872::t_bec4b4d30ecc5b 178
+  s_89e401dcea8872::t_e244bc2aaf5075 113
+  s_89e401dcea8872::t_d70ae8d2f11268 54
+  s_89e401dcea8872::t_6f86a80b084a82 84,88
+wiki/agent-engineering/philosophy/ai-加速腐化.md
+  s_89e401dcea8872::t_28321474871ff1 40
+  s_89e401dcea8872::t_1b9b4244454cfd 36-39
+  s_89e401dcea8872::t_0b61b9481f0db9 7-8
+wiki/agent-engineering/workflow/context-md-词汇表.md
+  s_89e401dcea8872::t_ccf7354ed87068 1-49
+wiki/agent-engineering/context/caveman-超压缩通信.md
+  s_89e401dcea8872::t_9ca916806ff721 1-44
+wiki/skills/matt-pocock-skills.md
+  s_89e401dcea8872::t_5d077cb3a97aa8 1-76
+log.md
+  s_89e401dcea8872::t_d20a5ce1fde2d7 13-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "6c5dd4f8108639a45bc92133016d5d3c1fe57f3d",
+  "prompts": {},
+  "sessions": {
+    "s_89e401dcea8872": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ba89c4c-6cf5-44d9-9661-86b2120c492c",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
