@@ -5,7 +5,8 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
   - "[[sources/posts/aigc/ai-coding/tools/Superpowers - AI 编码工作流框架]]"
-last-ingested: 2026-04-23
+  - "[[sources/posts/aigc/ai-coding/tools/Matt Pocock Skills - 人类满分工程师的自我蒸馏]]"
+last-ingested: 2026-05-26
 status: stable
 ---
 
@@ -41,3 +42,6 @@ status: stable
 
 > [!example] [[wiki/skills/superpowers|Superpowers]] 把它做成了 Skill
 > Superpowers 框架的第一步 `brainstorming` Skill 走的就是这套——苏格拉底式提问 + 把 Spec 切成可消化小块给你确认。差别是 Superpowers 不止采访，还接 `writing-plans` 把 SPEC 转成 2-5 分钟粒度的实施计划，再转 `subagent-driven-development` 串起来。也就是说，**采访驱动 SPEC 是入口，Superpowers 是把入口接到完整流水线**。
+
+> [!example] [[wiki/skills/matt-pocock-skills|Matt Pocock Skills]] 的 `/grill-me` 与 `/grill-with-docs`
+> Matt Pocock 给这种反向追问起的名字是 **"Grilling Session"（烤问会话）**——`/grill-me` 用于纯需求澄清，`/grill-with-docs` 在追问之后把会话里新学到的概念回写到 [[wiki/agent-engineering/workflow/context-md-词汇表|CONTEXT.md]] 和 ADR，让"采访产出"不只活在一次对话里。这是采访驱动 SPEC 的**持久化变体**：SPEC 是一次性产物，词汇表是长期资产。

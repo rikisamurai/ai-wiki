@@ -10,6 +10,11 @@ title: ai-wiki Activity Log
 > append-only 时间线，记录所有 ingest / query / lint / migrate-next 操作。
 > 格式：`## [YYYY-MM-DD HH:MM] <op> | <subject>`，便于 `grep '## \[2026-'`。
 
+## [2026-05-26 18:44] ingest | Matt Pocock Skills——人类满分工程师的自我蒸馏
+- 新建：[[wiki/skills/matt-pocock-skills]]、[[wiki/agent-engineering/workflow/context-md-词汇表]]、[[wiki/agent-engineering/workflow/tdd-red-green-refactor]]、[[wiki/agent-engineering/workflow/diagnose-debug-循环]]、[[wiki/agent-engineering/context/caveman-超压缩通信]]
+- 更新：[[wiki/agent-engineering/philosophy/ai-加速腐化]]（增补 Matt Pocock 论述 + source）、[[wiki/agent-engineering/workflow/采访驱动-spec]]（增补 grill-me 同思路变体 + source）
+- source: [[sources/posts/aigc/ai-coding/tools/Matt Pocock Skills - 人类满分工程师的自我蒸馏]]
+
 ## [2026-05-16 11:00] ingest | cc-haha 的 Computer Use 实现拆解
 - 新建：[[wiki/claude-code/cc-haha]]、[[wiki/claude-code/computer-use-架构]]、[[wiki/claude-code/computer-use-lock]]、[[wiki/agent-engineering/workflow/freeze-on-first-read]]
 - source: [[sources/posts/aigc/ai-coding/claude-code/cc-haha-computer-use]]

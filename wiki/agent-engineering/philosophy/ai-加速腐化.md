@@ -4,7 +4,8 @@ tags: [ai-coding, tech-debt, ai-first]
 date: 2026-05-08
 sources:
   - "[[sources/clippings/用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践]]"
-last-ingested: 2026-05-08
+  - "[[sources/posts/aigc/ai-coding/tools/Matt Pocock Skills - 人类满分工程师的自我蒸馏]]"
+last-ingested: 2026-05-26
 status: stable
 ---
 
@@ -31,6 +32,11 @@ status: stable
 
 > [!compare] 写代码 vs 维护工程环境
 > 当 AI 承担 90% 的编码动作，团队成员的工作重心应从"写代码"转向"设计并维护一个能让 AI 可靠产出代码的工程环境"——见 [[wiki/agent-engineering/philosophy/harness-engineering|Harness Engineering]]。AI 加速腐化和 Harness 工程是同一个硬币的两面：没有 Harness，AI 只会加速腐化。
+
+## Matt Pocock 的同源论述
+
+> [!compare] 不同语境下的同一规律
+> Matt Pocock 在 [[wiki/skills/matt-pocock-skills|Skills 集]]里把"AI 加速代码熵增"列为四大根因之一，对应的 Skill 是 `/improve-codebase-architecture`（主动重构）、`/to-prd`（动手前先列影响面）、`/zoom-out`（局部正确但整体混乱时退回宏观）。和美团 31 万行经验互证——**抗熵的责任永远在人类侧**，差别只是用什么工具把这件事 routinized。
 
 ## 关联
 
