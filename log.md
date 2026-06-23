@@ -453,3 +453,9 @@ title: ai-wiki Activity Log
 ## [2026-06-17 14:30] ingest | 把 hydration 从 React UI 里解耦：一次 SPA 启动期边界纠正
 - 新建：[[wiki/frontend/react-patterns/spa-hydration-decoupling]]、[[wiki/frontend/react-patterns/app-bootstrap-layer]]、[[wiki/frontend/react-patterns/spa-cold-start-flash]]、[[wiki/frontend/react-patterns/import-side-effects-hazard]]、[[wiki/frontend/react-patterns/stable-fmp-metric]]
 - source: [[sources/clippings/把 hydration 从 React UI 里解耦：一次 SPA 启动期边界纠正  静かな森]]
+
+## [2026-06-23 22:39] ingest | 网警同款开盒思路，五个免费 OSINT 工具
+- 新增 domain：wiki/security/（schema 已在 AGENT.md 注册，index.md 加 ## Security 段）
+- 新建：[[wiki/security/osint]]、[[wiki/security/blackbird]]、[[wiki/security/maigret]]、[[wiki/security/spiderfoot]]、[[wiki/security/theharvester]]、[[wiki/security/shodan]]、[[wiki/security/osint-工具链工作流]]、[[wiki/security/数字痕迹自查]]
+- 抽取角度：5 个 OSINT 工具的能力分工 + 按输入类型路由的取证工作流；用途框定在自查/授权/防御侧，开盒类场景不沉淀
+- source: [[sources/clippings/网警同款开盒思路，查人查公司查设备，五个免费开源工具]]

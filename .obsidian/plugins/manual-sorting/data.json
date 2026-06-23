@@ -67,6 +67,7 @@
     },
     "sources/clippings": {
       "children": [
+        "sources/clippings/把 hydration 从 React UI 里解耦：一次 SPA 启动期边界纠正  静かな森.md",
         "sources/clippings/State of Memory in Agent Harness.md",
         "sources/clippings/你不知道的 Agent：原理、架构与工程实践.md",
         "sources/clippings/深度拆解：AI Agent Harness 的构造【译】.md",
@@ -665,6 +666,11 @@
     },
     "wiki/frontend/react-patterns": {
       "children": [
+        "wiki/frontend/react-patterns/app-bootstrap-layer.md",
+        "wiki/frontend/react-patterns/import-side-effects-hazard.md",
+        "wiki/frontend/react-patterns/spa-cold-start-flash.md",
+        "wiki/frontend/react-patterns/spa-hydration-decoupling.md",
+        "wiki/frontend/react-patterns/stable-fmp-metric.md",
         "wiki/frontend/react-patterns/key-重置组件.md",
         "wiki/frontend/react-patterns/no-useeffect-rule.md",
         "wiki/frontend/react-patterns/usemounteffect.md",

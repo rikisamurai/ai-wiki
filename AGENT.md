@@ -8,7 +8,7 @@
 
 **三层架构**（严格隔离，不串味）：
 - `sources/`：原料层，LLM **正文只读**。包含 clippings（剪藏）、posts（用户原创/译文）、inbox（草稿）、no-ingest（已判定不抽取的存档，见 §no-ingest 约定）、asset（图片）。**唯一例外**：`/ingest` 完成后允许在 source frontmatter 追加/更新 `ingested-at: YYYY-MM-DD` 字段，作为已消费标记（详见下方"sources frontmatter"）。
-- `wiki/`：精华层，LLM **拥有可改**。从 sources 抽取的概念页面，按 agent-engineering / claude-code / skills / retrieval / frontend / business / obsidian 分类（部分一级下有二级子目录，详见目录树）。
+- `wiki/`：精华层，LLM **拥有可改**。从 sources 抽取的概念页面，按 agent-engineering / claude-code / skills / retrieval / frontend / business / obsidian / security 分类（部分一级下有二级子目录，详见目录树）。
 - `AGENT.md`（CLAUDE.md 是其符号链接）：schema 层，定义工作流和约定。
 
 **LLM 角色**：sources 正文只读 + ingested-at 标记可写、wiki 全可写、log/index 自动维护。
@@ -47,6 +47,7 @@ ai-wiki/
 │   ├── frontend/                 # web-platform / network / react-patterns / react-native / ui-libraries
 │   ├── business/                 # 商业模式
 │   ├── obsidian/                 # Obsidian 语法/工具/方法论
+│   ├── security/                 # OSINT / 防御安全 / 攻击面
 │   └── _orphans/                 # lint 检测出的孤儿暂存
 ├── .claude/commands/             # 4 个 slash commands
 └── docs/superpowers/             # specs 与 plans
@@ -73,7 +74,7 @@ ingested-at: YYYY-MM-DD     # 最近一次被 /ingest 消费的日期
 `sources/no-ingest/` 是"已判定不抽取"存档区。判定规则：
 
 - 内容太短/只有外链 → 没有可抽取概念
-- 主题完全在 7 个 wiki domain 之外 → 抽出来也无法纳入现有结构
+- 主题完全在 8 个 wiki domain 之外 → 抽出来也无法纳入现有结构
 - 用户明确指定的不要抽取
 
 放进 `no-ingest/` 后：

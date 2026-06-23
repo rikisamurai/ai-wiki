@@ -304,6 +304,17 @@ date: 2026-04-22
 - [[wiki/obsidian/templater|Templater]]
 - [[wiki/obsidian/wikilink|Wikilink]]
 - [[wiki/obsidian/zettelkasten|Zettelkasten（卡片盒笔记法）]]
+
+## Security
+
+- [[wiki/security/blackbird|Blackbird]]
+- [[wiki/security/maigret|Maigret]]
+- [[wiki/security/osint|OSINT（开源情报）]]
+- [[wiki/security/osint-工具链工作流|OSINT 工具链工作流]]
+- [[wiki/security/shodan|Shodan]]
+- [[wiki/security/spiderfoot|SpiderFoot]]
+- [[wiki/security/theharvester|theHarvester]]
+- [[wiki/security/数字痕迹自查|数字痕迹自查与攻击面管理]]
 ---
 
 ## 动态视图
