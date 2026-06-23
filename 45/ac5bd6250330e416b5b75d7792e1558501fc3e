@@ -1,0 +1,109 @@
+wiki/frontend/react-patterns/import-side-effects-hazard.md
+  s_3f3fbd0fe812a5::t_e8a500f4809b33 1-67
+wiki/agent-engineering/context/mem0.md
+  s_7bacc8ca4020df::t_7c7abd198fabc5 1-61
+wiki/claude-code/managed-agents-memory.md
+  s_7bacc8ca4020df::t_e32307a6457df6 1-79
+wiki/claude-code/devin-knowledge.md
+  s_7bacc8ca4020df::t_236d14fff40358 1-61
+log.md
+  s_24a512c6dfbcf8::t_c4b0e5530648dc 448-451
+  s_24a512c6dfbcf8::t_0b45d8b97a47ef 440-443
+  s_24a512c6dfbcf8::t_d3ea7bb2e33c3e 444-447
+  s_7bacc8ca4020df::t_8e9f76186f4c15 434-439
+  s_3f3fbd0fe812a5::t_47d558ceb5470f 452-455
+wiki/agent-engineering/workflow/continuous-checkpoint.md
+  s_a797cb9d351716::t_fc7c755d775fa2 73
+wiki/frontend/react-patterns/spa-hydration-decoupling.md
+  s_3f3fbd0fe812a5::t_a48d281553d97d 1-83
+wiki/claude-code/hermes-agent.md
+  s_7bacc8ca4020df::t_cbd8b7bc8857ee 1-78
+wiki/claude-code/claude-code-memory.md
+  s_7bacc8ca4020df::t_9457cf50051145 9-10
+wiki/claude-code/openclaw-memory.md
+  s_7bacc8ca4020df::t_f61411632f706e 1-63
+wiki/frontend/react-patterns/spa-cold-start-flash.md
+  s_3f3fbd0fe812a5::t_6459552272a6d4 1-41
+wiki/agent-engineering/workflow/agents-md.md
+  s_a797cb9d351716::t_fc7c755d775fa2 47
+wiki/agent-engineering/context/memory-three-tiers.md
+  s_7bacc8ca4020df::t_08b10028601fb6 1-52
+wiki/claude-code/codex-sandbox-approval.md
+  s_a797cb9d351716::t_fc7c755d775fa2 42-52
+wiki/agent-engineering/context/jit-citation-verification.md
+  s_7bacc8ca4020df::t_89e49fd8af75e4 1-62
+index.md
+  s_3f3fbd0fe812a5::t_9d4844e37d244a 238-239,242-244
+  s_7bacc8ca4020df::t_d4208023aff005 60,62-65
+  s_7bacc8ca4020df::t_d0e0699b322e43 160,164,171,175,178
+  s_a797cb9d351716::t_fc7c755d775fa2 9
+wiki/agent-engineering/context/agent-memory-分层.md
+  s_7bacc8ca4020df::t_0d5e41e515988f 7-8,14-15
+wiki/claude-code/auto-memory.md
+  s_7bacc8ca4020df::t_7d9e4b8ee02440 8-9,13-15
+README.md
+  s_a797cb9d351716::t_fc7c755d775fa2 128-130,133-134
+"sources/clippings/把 hydration 从 React UI 里解耦：一次 SPA 启动期边界纠正  静かな森.md"
+  s_3f3fbd0fe812a5::t_055fc956c62ad4 11
+wiki/agent-engineering/context/memory-benchmarks.md
+  s_7bacc8ca4020df::t_85417188833c7c 1-58
+wiki/claude-code/codex-memory.md
+  s_7bacc8ca4020df::t_83f4c9ee106c97 1-85
+"sources/clippings/State of Memory in Agent Harness.md"
+  s_7bacc8ca4020df::t_5623da73c61941 11
+wiki/frontend/react-native/ios-cjk-ime-textinput.md
+  s_a797cb9d351716::t_fc7c755d775fa2 11,13,17
+  s_a797cb9d351716::t_568c9bef1ad24c 18,61-63
+wiki/agent-engineering/context/memory-harness-shortcomings.md
+  s_7bacc8ca4020df::t_307b5fc4e4092a 1-70
+wiki/frontend/react-native/textinput-controlled-vs-uncontrolled.md
+  s_a797cb9d351716::t_fc7c755d775fa2 45-46
+wiki/frontend/react-patterns/app-bootstrap-layer.md
+  s_3f3fbd0fe812a5::t_1fb30ae152e4dc 1-61
+wiki/frontend/react-native/flash-list.md
+  s_a797cb9d351716::t_fc7c755d775fa2 11,28,39,62
+wiki/frontend/react-patterns/stable-fmp-metric.md
+  s_3f3fbd0fe812a5::t_c7082a619c1b67 1-54
+wiki/agent-engineering/workflow/aci-工具设计.md
+  s_a797cb9d351716::t_fc7c755d775fa2 56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.10",
+  "base_commit_sha": "45ac5bd6250330e416b5b75d7792e1558501fc3e",
+  "prompts": {},
+  "sessions": {
+    "s_24a512c6dfbcf8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f6181ece-4943-418b-b747-e86f514a3978",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    },
+    "s_3f3fbd0fe812a5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "019f59b6-bdf8-45de-a8bc-3c40d90ffed4",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    },
+    "s_7bacc8ca4020df": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fcb95dc2-f6f2-4067-9865-03e722ad7b11",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    },
+    "s_a797cb9d351716": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ed04c-5d4a-75c0-8c13-1943ccd4b9ca",
+        "model": "gpt-5.5"
+      },
+      "human_author": "riki <shanyulong@xiaohongshu.com>"
+    }
+  }
+}
