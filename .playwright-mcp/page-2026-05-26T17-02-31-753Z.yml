@@ -1,0 +1,32 @@
+- generic [active] [ref=e1]:
+  - main [ref=e40]:
+    - link "← QR Codes" [ref=e41] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e42]:
+      - heading "Playwright MCP 测试" [level=1] [ref=e43]
+      - link "buyer-conversion" [ref=e45] [cursor=pointer]:
+        - /url: /c/JkWRX89h
+    - img [ref=e47]
+    - generic [ref=e50]:
+      - heading "URL" [level=2] [ref=e51]
+      - code [ref=e52]: https://example.com
+      - generic [ref=e53]:
+        - button "Copy URL" [ref=e54]
+        - link "Open link" [ref=e55] [cursor=pointer]:
+          - /url: https://example.com
+        - generic [ref=e56]:
+          - link "Download PNG" [ref=e57] [cursor=pointer]:
+            - /url: /api/qr/MjEFgh6z?format=png&filename=playwright-mcp-%E6%B5%8B%E8%AF%95.png
+          - link "Download SVG" [ref=e58] [cursor=pointer]:
+            - /url: /api/qr/MjEFgh6z?format=svg&filename=playwright-mcp-%E6%B5%8B%E8%AF%95.svg
+    - generic [ref=e59]:
+      - heading "Parsed" [level=2] [ref=e60]
+      - generic [ref=e62]:
+        - term [ref=e63]: scheme
+        - definition [ref=e64]: https
+        - term [ref=e65]: path
+        - definition [ref=e66]: example.com
+        - term [ref=e67]: query
+        - definition [ref=e68]: (none)
+  - region "Notifications alt+T"
+  - alert [ref=e32]: Playwright MCP 测试 — QR Codes

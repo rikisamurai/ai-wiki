@@ -125,10 +125,13 @@ ai-wiki/
 │   ├── inbox/          # 草稿
 │   └── asset/          # 图片
 ├── wiki/               # 可改精华区（按概念域分类）
-│   ├── ai-coding/
-│   ├── aigc/
+│   ├── agent-engineering/
+│   ├── business/
+│   ├── claude-code/
 │   ├── frontend/
 │   ├── obsidian/
+│   ├── retrieval/
+│   ├── skills/
 │   └── _orphans/       # lint 检测出的孤儿暂存
 └── .claude/commands/   # 4 个 slash command 的定义
 ```

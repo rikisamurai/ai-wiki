@@ -1,0 +1,499 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - img [ref=e10]
+        - generic [ref=e12]: 攻略模式：阅读了 181 篇笔记
+        - img [ref=e14]
+      - generic [ref=e16]: 徽州呈坎端午三日：为一场“一夜鱼龙舞”奔赴皖南
+      - paragraph [ref=e20]:
+        - text: 这份为你定制的3天2晚
+        - strong [ref=e21]: 徽州
+        - text: “寻隐”之旅，将以
+        - strong [ref=e22]: 呈坎
+        - text: 为核心，带你避开宏村汹涌的人潮，住进真正的徽州古村。行程的重头戏，是为端午节量身打造的“一夜鱼龙舞”鱼灯盛会，让你在水墨徽州，过一个有光有火的中式浪漫节日。
+      - generic [ref=e24]:
+        - generic [ref=e26]: 🌍 徽州古村落全貌速览
+        - generic [ref=e28]: 行程速览
+        - generic [ref=e30]: 住宿指南
+        - generic [ref=e32]: 每天怎么玩
+        - generic [ref=e34]: 预算参考
+        - generic [ref=e36]: 备选推荐
+        - generic [ref=e38]: Tips
+        - generic [ref=e40]: 徽州，一半是水墨，一半是烟火
+      - heading "🌍 徽州古村落全貌速览：不只宏村，更有真趣" [level=1] [ref=e43]
+      - generic [ref=e49]: "7"
+      - generic [ref=e51]:
+        - paragraph [ref=e52]: 在黄山脚下，散落着许多比宏村更安静、更原味的古村落。这次我们选择的路线，避开了过度商业化的景点，串联起三个气质各异的地方：
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - strong [ref=e55]: 呈坎
+            - text: ：行程的绝对核心。按《易经》八卦布局，是真正的“风水村”。这里不仅有保存完好的明清建筑，更有每日上演的非遗鱼灯会，是体验徽州文化和夜生活魅力的最佳地点。
+          - listitem [ref=e56]:
+            - strong [ref=e57]: 西溪南
+            - text: ：离高铁站最近的“绿野仙踪”。大片的枫杨林沿着溪水生长，是天然的避暑氧吧和绝佳的拍照地。这里免费，商业化程度低，适合放松和玩水。
+          - listitem [ref=e58]:
+            - strong [ref=e59]: 徽州古城
+            - text: ：一座活着的千年古城，是古徽州的府治所在地。相比宏村，这里没有拥挤的旅行团，只有本地人的真实生活气息和比比皆是的文物古迹。
+      - generic [ref=e65]:
+        - paragraph [ref=e66]: 这条路线从自然风光到人文精华，再到节庆民俗，让你在三天内完整体验徽州的精髓。
+        - heading "行程速览：呈坎为核心，串联徽州精华" [level=1] [ref=e67]
+      - table [ref=e70]:
+        - rowgroup [ref=e71]:
+          - row "天数 当日安排" [ref=e72]:
+            - columnheader "天数" [ref=e73]
+            - columnheader "当日安排" [ref=e74]
+        - rowgroup [ref=e75]:
+          - row "Day1 上午从上海乘高铁出发 → 抵达 呈坎 ，入住景区内民宿 → 午餐品尝 秋霞土菜馆 的徽菜 → 下午漫步八卦村，探访 罗东舒祠 → 晚餐后，静待18:58开始的“一夜鱼龙舞”鱼灯盛会" [ref=e76]:
+            - cell "Day1" [ref=e77]:
+              - strong [ref=e78]: Day1
+            - cell "上午从上海乘高铁出发 → 抵达 呈坎 ，入住景区内民宿 → 午餐品尝 秋霞土菜馆 的徽菜 → 下午漫步八卦村，探访 罗东舒祠 → 晚餐后，静待18:58开始的“一夜鱼龙舞”鱼灯盛会" [ref=e79]:
+              - text: 上午从上海乘高铁出发 → 抵达
+              - strong [ref=e80]: 呈坎
+              - 'button "引用: poi-IZp" [ref=e81] [cursor=pointer]':
+                - img [ref=e82]
+              - text: ，入住景区内民宿 → 午餐品尝
+              - strong [ref=e85]: 秋霞土菜馆
+              - 'button "引用: poi-vRp" [ref=e86] [cursor=pointer]':
+                - img [ref=e87]
+              - text: 的徽菜 → 下午漫步八卦村，探访
+              - strong [ref=e90]: 罗东舒祠
+              - 'button "引用: poi-ZhI" [ref=e91] [cursor=pointer]':
+                - img [ref=e92]
+              - text: → 晚餐后，静待18:58开始的“一夜鱼龙舞”鱼灯盛会
+          - row "Day2 睡到自然醒，清晨再逛无人古村 → 上午打车前往 西溪南古村落 ，在“绿野仙踪”里溯溪玩水 → 午餐在 外婆的菜 解决 → 下午返回呈坎，在村中咖啡馆消磨时光 → 晚餐后，再次沉浸式体验鱼灯会" [ref=e95]:
+            - cell "Day2" [ref=e96]:
+              - strong [ref=e97]: Day2
+            - cell "睡到自然醒，清晨再逛无人古村 → 上午打车前往 西溪南古村落 ，在“绿野仙踪”里溯溪玩水 → 午餐在 外婆的菜 解决 → 下午返回呈坎，在村中咖啡馆消磨时光 → 晚餐后，再次沉浸式体验鱼灯会" [ref=e98]:
+              - text: 睡到自然醒，清晨再逛无人古村 → 上午打车前往
+              - strong [ref=e99]: 西溪南古村落
+              - 'button "引用: poi-Ncd" [ref=e100] [cursor=pointer]':
+                - img [ref=e101]
+              - text: ，在“绿野仙踪”里溯溪玩水 → 午餐在
+              - strong [ref=e104]: 外婆的菜
+              - 'button "引用: poi-EbV" [ref=e105] [cursor=pointer]':
+                - img [ref=e106]
+              - text: 解决 → 下午返回呈坎，在村中咖啡馆消磨时光 → 晚餐后，再次沉浸式体验鱼灯会
+          - row "Day3 上午从呈坎出发，探访 徽州古城 ，登 许国石坊 ，逛 斗山街 → 午餐品尝地道小吃 → 下午从 徽州古城 或 黄山北站 返程" [ref=e109]:
+            - cell "Day3" [ref=e110]:
+              - strong [ref=e111]: Day3
+            - cell "上午从呈坎出发，探访 徽州古城 ，登 许国石坊 ，逛 斗山街 → 午餐品尝地道小吃 → 下午从 徽州古城 或 黄山北站 返程" [ref=e112]:
+              - text: 上午从呈坎出发，探访
+              - strong [ref=e113]: 徽州古城
+              - 'button "引用: poi-q0E" [ref=e114] [cursor=pointer]':
+                - img [ref=e115]
+              - text: ，登
+              - strong [ref=e118]: 许国石坊
+              - 'button "引用: poi-q0E" [ref=e119] [cursor=pointer]':
+                - img [ref=e120]
+              - text: ，逛
+              - strong [ref=e123]: 斗山街
+              - 'button "引用: poi-q0E" [ref=e124] [cursor=pointer]':
+                - img [ref=e125]
+              - text: → 午餐品尝地道小吃 → 下午从
+              - strong [ref=e128]: 徽州古城
+              - 'button "引用: poi-q0E" [ref=e129] [cursor=pointer]':
+                - img [ref=e130]
+              - text: 或
+              - strong [ref=e133]: 黄山北站
+              - 'button "引用: poi-PRj" [ref=e134] [cursor=pointer]':
+                - img [ref=e135]
+              - text: 返程
+      - generic [ref=e139]:
+        - heading "住宿指南：住在呈坎，才算来过徽州" [level=1] [ref=e140]
+        - paragraph [ref=e141]:
+          - text: 既然你想“沉浸式体验古村生活”，那住宿必须选在
+          - strong [ref=e142]: 呈坎
+          - 'button "引用: Fp28vWUaWc" [ref=e143] [cursor=pointer]':
+            - img [ref=e144]
+          - text: 景区内。虽然价格比外面稍高，但换来的体验是无与伦比的。
+        - list [ref=e147]:
+          - listitem [ref=e148]:
+            - strong [ref=e149]: 清晨的静谧
+            - text: ：当大批游客还未涌入，你可以独自漫步在湿漉漉的石板路上，看炊烟从马头墙间升起。
+          - listitem [ref=e150]:
+            - strong [ref=e151]: 夜晚的便利
+            - text: ：看完鱼灯会，别人在村外焦急打车时，你可以悠然散步回住处。
+          - listitem [ref=e152]:
+            - strong [ref=e153]: 门票的福利
+            - text: ：根据最新政策，只有住在景区内的民宿，由老板协助登记，才能激活门票的多日有效功能。
+        - paragraph [ref=e154]: 如果懒得自己挑，这里有几家口碑极好的选择：
+        - paragraph [ref=e155]:
+          - strong [ref=e156]: 澍德堂
+          - 'button "引用: daX9CixI3K" [ref=e157] [cursor=pointer]':
+            - img [ref=e158]
+      - generic [ref=e166]:
+        - paragraph [ref=e167]:
+          - text: 李现同款的顶级徽派度假酒店，坐拥
+          - strong [ref=e168]: 呈坎
+          - 'button "引用: 1blBUZKaXn" [ref=e169] [cursor=pointer]':
+            - img [ref=e170]
+          - text: 永兴湖一线湖景，是观看鱼灯会的王者位置。酒店本身就是一座需要细细品味的古建筑艺术品。价格高昂（2000-3000元/晚），适合追求极致体验的你。
+        - paragraph [ref=e173]:
+          - strong [ref=e174]: 隐此间
+          - 'button "引用: 99Lm4bGTwg" [ref=e175] [cursor=pointer]':
+            - img [ref=e176]
+      - generic [ref=e184]: "5"
+      - generic [ref=e186]:
+        - paragraph [ref=e187]: 这家是许多游客的心头好，以高品质的服务和现代设计细节著称。老板热情周到，房间设施高端（戴森吹风机、智能家居），庭院里还有可爱的猫咪。离鱼灯表演场地仅百米之遥，位置绝佳。
+        - paragraph [ref=e188]:
+          - strong [ref=e189]: 瓦居客栈
+          - 'button "引用: 13u4NvWMlP" [ref=e190] [cursor=pointer]':
+            - img [ref=e191]
+      - generic [ref=e198]:
+        - paragraph [ref=e199]: 如果你钟爱传统徽派建筑，这家不会让你失望。标志性的雕花木窗是每个住客必拍的风景。老板（tree老师）因帅气和热情服务备受好评，客栈的家常菜也值得一试。
+        - heading "每天怎么玩：从鱼灯会到绿野仙踪" [level=1] [ref=e200]
+        - heading "Day 1：抵达徽州，初探八卦村，静待鱼灯初上" [level=2] [ref=e201]
+        - paragraph [ref=e202]:
+          - mark [ref=e203]:
+            - text: 第一天的核心是“抵达”与“初见”。从上海的喧嚣切换到徽州的宁静，用一个下午的时间熟悉
+            - strong [ref=e204]: 呈坎
+            - 'button "引用: gJeZnp7ieu" [ref=e205] [cursor=pointer]':
+              - img [ref=e206]
+            - text: 的布局，然后在傍晚时分，迎接此行最不容错过的视觉盛宴。
+      - img "地图预览" [ref=e213]
+      - generic [ref=e215]:
+        - heading "上午：从上海到徽州" [level=3] [ref=e216]
+        - paragraph [ref=e217]:
+          - text: 从上海虹桥站乘坐高铁，约2.5-3小时即可抵达
+          - strong [ref=e218]: 黄山北站
+          - 'button "引用: 22f0FvjXWc" [ref=e219] [cursor=pointer]':
+            - img [ref=e220]
+          - text: 。出站后，可以乘坐公交“游9路”（约10元）或打车（约40-60元）前往
+          - strong [ref=e223]: 呈坎
+          - 'button "引用: ncaZypKrWh" [ref=e224] [cursor=pointer]':
+            - img [ref=e225]
+          - text: ，车程约30-40分钟。你预订的民宿老板通常会提供接送服务，省去拖着行李找路的烦恼。
+        - heading "午餐：品尝地道徽菜" [level=3] [ref=e228]
+        - paragraph [ref=e229]: 入住后，先用一顿地道的徽菜开启旅程。
+        - paragraph [ref=e230]:
+          - strong [ref=e231]: 秋霞土菜馆
+          - 'button "引用: 8zGAgDlpc3" [ref=e232] [cursor=pointer]':
+            - img [ref=e233]
+        - paragraph [ref=e236]: 这家在景区内口碑很好，以锅气十足的家常徽菜出名。老板娘很热情，饭点可能需要等位。人均70-80元，性价比不错。
+        - list [ref=e237]:
+          - listitem [ref=e238]:
+            - strong [ref=e239]: 必点招牌：锅气十足的下饭菜
+            - text: ：徽州炒粉丝是每桌必点，粉丝Q弹，配料丰富，非常入味。生炒黄牛肉用芹菜辣椒爆炒，牛肉嫩滑，咸辣适中，超级下饭。
+          - listitem [ref=e240]:
+            - strong [ref=e241]: 其他推荐
+            - text: ：铁板毛豆腐是徽菜代表，第一次尝试可以点这道，外皮焦香，内里软嫩。
+      - generic [ref=e247]:
+        - paragraph [ref=e248]:
+          - strong [ref=e249]: 懿德堂徽州土菜
+          - 'button "引用: 22lygGUKVZ" [ref=e250] [cursor=pointer]':
+            - img [ref=e251]
+        - paragraph [ref=e254]: 这家店同样在景区内，环境古朴，兼营住宿。菜品和秋霞土菜馆不相上下，臭鳜鱼和渣籽豆腐是特色。不过有用户反映饭点上菜速度偏慢。
+      - generic [ref=e259]:
+        - heading "下午：漫步八卦村" [level=3] [ref=e260]
+        - paragraph [ref=e261]:
+          - text: 午休后，开始探索
+          - strong [ref=e262]: 呈坎
+          - 'button "引用: fN1qOtgRhK" [ref=e263] [cursor=pointer]':
+            - img [ref=e264]
+          - text: 的奥秘。建议游玩2-3小时，不用刻意规划路线，迷失在99条巷弄构成的八卦阵中本身就是一种乐趣。
+        - list [ref=e267]:
+          - listitem [ref=e268]:
+            - strong [ref=e269]: 核心看点
+            - text: ：村中心的
+            - strong [ref=e270]: 永兴湖
+            - text: 是灵魂所在，夏日荷花盛开，也是晚上鱼灯会的举办地。湖边的
+            - strong [ref=e271]: 八卦门
+            - text: 和
+            - strong [ref=e272]: 无坎网红墙
+            - text: 都是必打卡的机位。
+          - listitem [ref=e273]:
+            - strong [ref=e274]: 特别提醒
+            - text: ：
+            - strong [ref=e275]: 罗东舒祠
+            - 'button "引用: 5yeqKTmjC6" [ref=e276] [cursor=pointer]':
+              - img [ref=e277]
+            - text: 是“江南第一祠”，非常值得一看。但请注意，其核心的后寝宝纶阁部分目前正在维修，预计将持续到2026年底。虽然部分区域关闭，但前厅依然开放，可以感受其宏伟的“冬瓜梁”木构架。
+      - generic [ref=e284]:
+        - heading "晚餐 & 晚上活动：盛宴开场，一夜鱼龙舞" [level=3] [ref=e285]
+        - paragraph [ref=e286]: 晚餐可以在景区内解决，也可以尝试一些小吃，然后就该为晚上的重头戏做准备了。
+        - paragraph [ref=e287]:
+          - strong [ref=e288]: 老三饭店
+          - 'button "引用: iDVZB1DlT4" [ref=e289] [cursor=pointer]':
+            - img [ref=e290]
+        - paragraph [ref=e293]: 这家店在景区北门附近，是深受本地人喜爱的家常菜馆，价格比景区内实惠。臭鳜鱼、干笋炒肉和毛豆腐都是招牌，味道地道。
+      - paragraph [ref=e299]:
+        - strong [ref=e300]: 呈坎鱼灯会
+      - generic [ref=e306]: "6"
+      - generic [ref=e308]:
+        - paragraph [ref=e309]: 这是你此行的核心目标！
+        - list [ref=e310]:
+          - listitem [ref=e311]:
+            - strong [ref=e312]: 时间
+            - text: ：自2026年5月起，为配合季节光影，表演开始时间已调整为
+            - strong [ref=e313]: 每晚18:58
+            - text: 。整个表演时长约1小时，雨天也可能照常举行。
+          - listitem [ref=e314]:
+            - strong [ref=e315]: 地点
+            - text: ：主要在
+            - strong [ref=e316]: 永兴湖
+            - text: 及
+            - strong [ref=e317]: 晒秋广场
+            - text: 区域。
+          - listitem [ref=e318]:
+            - strong [ref=e319]: 看点
+            - text: ：巨大的鱼灯在烟花和灯火中巡游，穿过古桥，绕湖而行，湖面倒影如梦似幻，是“现实版大鱼海棠”。开场、中场和结尾通常都会有烟花表演。
+          - listitem [ref=e320]:
+            - strong [ref=e321]: 最佳观赏点
+            - text: ：建议提前半小时到
+            - strong [ref=e322]: 永兴湖
+            - text: 边占位。
+            - strong [ref=e323]: 环秀桥
+            - text: 对面和
+            - strong [ref=e324]: 平安坎
+            - text: 前湖边是绝佳机位，可以拍到鱼灯、烟花和水面倒影的“三重幻境”。
+        - blockquote [ref=e325]:
+          - paragraph [ref=e326]:
+            - text: "\"虽然端午人有点多，但现场看真的很震撼，看到鱼灯游走的那一刻站一天的疲惫好像一下就消失了。\""
+            - 'button "引用: l9nwdHVoJE" [ref=e327] [cursor=pointer]':
+              - img [ref=e328]
+        - heading "Day 2：西溪南绿野仙踪，再会呈坎鱼灯" [level=2] [ref=e331]
+      - paragraph [ref=e335]: 第二天上午，我们去离呈坎不远的“绿野仙踪”换换心情。在清澈的溪流和浓密的树荫下彻底放松，下午再回到呈坎，继续感受古村的慢时光，为第二个鱼灯之夜做准备。
+      - img "地图预览" [ref=e340]
+      - generic [ref=e342]:
+        - heading "上午：漫游西溪南古村落" [level=3] [ref=e343]
+        - paragraph [ref=e344]:
+          - text: 睡到自然醒，在
+          - strong [ref=e345]: 呈坎
+          - 'button "引用: 8BRe7vL8cp" [ref=e346] [cursor=pointer]':
+            - img [ref=e347]
+          - text: 的清晨里悠闲漫步，感受游客散去后的静谧。约10点左右，打车前往
+          - strong [ref=e350]: 西溪南古村落
+          - 'button "引用: TKdhGiF8bM" [ref=e351] [cursor=pointer]':
+            - img [ref=e352]
+          - text: （车程约20分钟）。
+      - generic [ref=e360]: "4"
+      - generic [ref=e362]:
+        - paragraph [ref=e363]: 这里免费开放，被誉为“现实版绿野仙踪”。
+        - list [ref=e364]:
+          - listitem [ref=e365]:
+            - strong [ref=e366]: 核心体验
+            - text: ：在清澈的溪流中行走，体验被绿色包围的感觉。可以乘坐竹筏（约48元/人）顺流而下，享受片刻的宁静。
+          - listitem [ref=e367]:
+            - strong [ref=e368]: 游玩时长
+            - text: ：慢慢逛、玩玩水，大约需要3-4小时。
+          - listitem [ref=e369]:
+            - strong [ref=e370]: 拍照机位
+            - text: ：网红漫水桥、溪畔古街、枫杨林湿地的石墩步道都是绝佳的拍照点。
+          - listitem [ref=e371]:
+            - strong [ref=e372]: 注意事项
+            - text: ：夏季蚊虫较多，记得带驱蚊水；雨后溪水可能会变浑浊，影响观感。
+        - heading "午餐：西溪南风味" [level=3] [ref=e373]
+        - paragraph [ref=e374]:
+          - strong [ref=e375]: 外婆的菜
+          - 'button "引用: 64BU4TrFes" [ref=e376] [cursor=pointer]':
+            - img [ref=e377]
+        - paragraph [ref=e380]: 这家店在村里的口碑很好，老板娘非常热情。菜品是改良过的徽菜，适合大众口味。
+        - list [ref=e381]:
+          - listitem [ref=e382]:
+            - strong [ref=e383]: 必点招牌：软糯脱骨的鸡爪煲
+            - text: ：鸡爪煲是每桌必点，炖得软烂入味，入口即化。改良版的臭鳜鱼臭味较淡，更容易被接受。
+          - listitem [ref=e384]:
+            - strong [ref=e385]: 人均消费
+            - text: ：约70-80元。
+      - generic [ref=e390]:
+        - paragraph [ref=e391]:
+          - strong [ref=e392]: 余清斋私房菜
+          - 'button "引用: qkos4WUx62" [ref=e393] [cursor=pointer]':
+            - img [ref=e394]
+        - paragraph [ref=e397]: 这家店环境优雅，适合拍照，但口味和服务评价两极分化。有人觉得臭鳜鱼和笋干烧肉很惊艳，也有人认为价格偏高且服务跟不上。可以作为备选。
+        - heading "下午：呈坎慢时光" [level=3] [ref=e398]
+        - paragraph [ref=e399]:
+          - text: 午后返回
+          - strong [ref=e400]: 呈坎
+          - 'button "引用: 6nUK0pz5pO" [ref=e401] [cursor=pointer]':
+            - img [ref=e402]
+          - text: 。你可以在村里的咖啡馆找个靠窗的位置，喝杯下午茶，享受徽州的慢时光。
+        - list [ref=e405]:
+          - listitem [ref=e406]:
+            - strong [ref=e407]: 废墟咖啡
+            - text: ：环境很好，咖啡和甜品超出期待，是热门打卡地。
+          - listitem [ref=e408]:
+            - strong [ref=e409]: 罗记甜品铺
+            - text: ：推荐“绿野仙踪”，是绿茶冻底，配上红豆和猴魁冰淇淋，茶味浓郁，非常清爽。
+      - generic [ref=e415]:
+        - heading "晚餐 & 晚上活动：二刷鱼灯会" [level=3] [ref=e416]
+        - paragraph [ref=e417]:
+          - text: 晚餐可以继续探索村里的美食，比如尝尝本地人推荐的
+          - strong [ref=e418]: 老三饭店
+          - text: ，或者买一个刚出炉的
+          - strong [ref=e419]: 吴氏烧饼
+          - text: 。
+        - paragraph [ref=e420]:
+          - text: 之后，再次迎接
+          - strong [ref=e421]: 呈坎鱼灯会
+          - 'button "引用: ORjLIhE2JZ" [ref=e422] [cursor=pointer]':
+            - img [ref=e423]
+          - text: 的盛况。与前一晚不同，今晚的你更能沉浸其中，感受这份独特的民俗魅力。
+        - heading "Day 3：徽州古城寻踪，悠然返程" [level=2] [ref=e426]
+      - paragraph [ref=e430]: 行程的最后一天，我们不去游客扎堆的宏村，而是选择一座真正“活着的”古城。这里有更纯粹的徽州烟火气，也有更深厚的历史底蕴。
+      - img "地图预览" [ref=e435]
+      - generic [ref=e437]:
+        - heading "上午：探访徽州古城" [level=3] [ref=e438]
+        - paragraph [ref=e439]:
+          - text: 早餐后，从
+          - strong [ref=e440]: 呈坎
+          - 'button "引用: sToiSXa0sp" [ref=e441] [cursor=pointer]':
+            - img [ref=e442]
+          - text: 打车前往
+          - strong [ref=e445]: 徽州古城
+          - 'button "引用: tC7SDIB0Rp" [ref=e446] [cursor=pointer]':
+            - img [ref=e447]
+          - text: （车程约40-50分钟）。
+      - generic [ref=e454]:
+        - paragraph [ref=e455]: 相比宏村，这里没有过度的商业化，更原汁原味。
+        - list [ref=e456]:
+          - listitem [ref=e457]:
+            - strong [ref=e458]: 核心看点
+            - text: ：
+          - listitem [ref=e459]:
+            - strong [ref=e460]: 许国石坊
+            - text: ：全国唯一的八脚牌坊，雕刻精美绝伦，被誉为“东方凯旋门”。
+          - listitem [ref=e461]:
+            - strong [ref=e462]: 斗山街
+            - text: ：一定要去逛逛！这里是真正的徽商古宅聚集地，保留着大量原生态的明清民居，生活气息浓厚，非常值得花时间漫步。
+          - listitem [ref=e463]:
+            - strong [ref=e464]: 徽州府衙
+            - text: ：可以进去参观，了解古代官府的运作。
+          - listitem [ref=e465]:
+            - strong [ref=e466]: 游玩时长
+            - text: ：慢慢逛下来大约需要3-4小时。
+        - heading "午餐：古城小吃或地道徽菜" [level=3] [ref=e467]
+        - paragraph [ref=e468]:
+          - strong [ref=e469]: 明建徽州菜
+          - 'button "引用: XrNkuTRFB9" [ref=e470] [cursor=pointer]':
+            - img [ref=e471]
+        - paragraph [ref=e474]: 这家是古城内人气很高的餐厅，环境好，菜品丰富且平价。
+        - list [ref=e475]:
+          - listitem [ref=e476]:
+            - strong [ref=e477]: 必点招牌：浓郁入味的炭火牛蛙锅
+            - text: ：牛蛙先炸后烧，酱香浓郁，非常入味。地锅鸡和酸白菜炒红薯粉皮也很受欢迎。
+          - listitem [ref=e478]:
+            - strong [ref=e479]: 人均消费
+            - text: ：约45元，性价比很高。
+      - generic [ref=e485]: "4"
+      - generic [ref=e487]:
+        - paragraph [ref=e488]:
+          - strong [ref=e489]: 小吃选择
+          - text: 如果不想吃正餐，可以尝尝古城里的小吃：
+        - list [ref=e490]:
+          - listitem [ref=e491]:
+            - strong [ref=e492]: 汪一挑馄饨
+            - text: ：清汤馄饨入口爽滑，越吃越鲜。
+          - listitem [ref=e493]:
+            - strong [ref=e494]: 牌坊烧饼
+            - text: ：梅干菜馅，外壳酥脆，香气扑鼻。
+          - listitem [ref=e495]:
+            - strong [ref=e496]: 灵山酒酿
+            - text: ：清凉解暑，是夏日佳品。
+      - generic [ref=e500]:
+        - heading "下午：返程" [level=3] [ref=e501]
+        - paragraph [ref=e502]:
+          - text: 午餐后，从
+          - strong [ref=e503]: 徽州古城
+          - 'button "引用: YfiAMkEDC9" [ref=e504] [cursor=pointer]':
+            - img [ref=e505]
+          - text: 乘车前往
+          - strong [ref=e508]: 黄山北站
+          - 'button "引用: DndhVBLTnK" [ref=e509] [cursor=pointer]':
+            - img [ref=e510]
+          - text: ，乘坐高铁返回上海，结束愉快的徽州之旅。
+        - heading "预算参考：丰俭由人，性价比高" [level=1] [ref=e513]
+        - paragraph [ref=e514]: 这趟3天2晚的行程，不含往返大交通，人均花费主要集中在住宿和门票。
+      - table [ref=e517]:
+        - rowgroup [ref=e518]:
+          - row "项目 预估花费（元/人） 说明" [ref=e519]:
+            - columnheader "项目" [ref=e520]
+            - columnheader "预估花费（元/人）" [ref=e521]
+            - columnheader "说明" [ref=e522]
+        - rowgroup [ref=e523]:
+          - row "住宿 600 - 2000+ 按入住景区内民宿2晚计算，丰俭由人。" [ref=e524]:
+            - cell "住宿" [ref=e525]:
+              - strong [ref=e526]: 住宿
+            - cell "600 - 2000+" [ref=e527]
+            - cell "按入住景区内民宿2晚计算，丰俭由人。" [ref=e528]
+          - row "门票 约107 呈坎门票，住景区内可多次使用。" [ref=e529]:
+            - cell "门票" [ref=e530]:
+              - strong [ref=e531]: 门票
+            - cell "约107" [ref=e532]
+            - cell "呈坎门票，住景区内可多次使用。" [ref=e533]
+          - row "餐饮 300 - 600 徽菜正餐人均约70-100元，小吃丰俭由人。" [ref=e534]:
+            - cell "餐饮" [ref=e535]:
+              - strong [ref=e536]: 餐饮
+            - cell "300 - 600" [ref=e537]
+            - cell "徽菜正餐人均约70-100元，小吃丰俭由人。" [ref=e538]
+          - row "当地交通 约150 - 250 主要为打车和拼车费用。" [ref=e539]:
+            - cell "当地交通" [ref=e540]:
+              - strong [ref=e541]: 当地交通
+            - cell "约150 - 250" [ref=e542]
+            - cell "主要为打车和拼车费用。" [ref=e543]
+          - row "总计 1157-3000+ 不含上海往返黄山的高铁票（约400-500元）。" [ref=e544]:
+            - cell "总计" [ref=e545]:
+              - strong [ref=e546]: 总计
+            - cell "1157-3000+" [ref=e547]:
+              - strong [ref=e548]: 1157-3000+
+            - cell "不含上海往返黄山的高铁票（约400-500元）。" [ref=e549]
+      - generic [ref=e551]:
+        - heading "备选推荐：如果时间充裕，别错过这些" [level=1] [ref=e552]
+        - paragraph [ref=e553]: 如果你对徽州的文化精髓有更深的兴趣，可以考虑用半天时间体验以下项目：
+        - paragraph [ref=e554]:
+          - strong [ref=e555]: 亲手做一盏鱼灯
+      - generic [ref=e560]:
+        - paragraph [ref=e561]:
+          - text: 在
+          - strong [ref=e562]: 呈坎
+          - 'button "引用: FNsIQNbWJO" [ref=e563] [cursor=pointer]':
+            - img [ref=e564]
+          - text: 村内，有“艺善轩”和“落下街34号”等鱼灯DIY店。花上半天时间，从扎骨架、糊纸到绘画，亲手制作一盏属于自己的鱼灯，是非常有意义的文化体验。或者，也可以去离
+          - strong [ref=e567]: 呈坎
+          - 'button "引用: KfDufhZiAl" [ref=e568] [cursor=pointer]':
+            - img [ref=e569]
+          - text: 不远的
+          - strong [ref=e572]: 徽州古城渔梁鱼灯非遗馆
+          - 'button "引用: bOJLj5yhOU" [ref=e573] [cursor=pointer]':
+            - img [ref=e574]
+          - text: ，这里的老板是非遗传承人，可以体验制作小巧的鱼灯。
+        - paragraph [ref=e577]:
+          - strong [ref=e578]: 探寻文房四宝
+      - generic [ref=e584]:
+        - paragraph [ref=e585]:
+          - text: 徽墨和歙砚是文房四宝中的精品。可以去位于歙县的
+          - strong [ref=e586]: 安徽省歙县老胡开文墨厂
+          - 'button "引用: xew1tdozwS" [ref=e587] [cursor=pointer]':
+            - img [ref=e588]
+          - text: ，这是仍在生产的“活的工坊”，可以免费参观，付费体验描金或制墨。
+        - heading "Tips：端午出行，这些事要记牢" [level=1] [ref=e591]
+        - list [ref=e592]:
+          - listitem [ref=e593]:
+            - strong [ref=e594]: 关于交通
+            - text: ：从
+            - strong [ref=e595]: 呈坎
+            - 'button "引用: at8NFcJiem" [ref=e596] [cursor=pointer]':
+              - img [ref=e597]
+            - text: 看完鱼灯等晚间活动后，打车会非常困难，且容易遇到司机议价。建议提前规划好返程交通，或选择乘坐末班公交。
+          - listitem [ref=e600]:
+            - strong [ref=e601]: 关于天气
+            - text: ：端午期间（6月上旬）黄山地区天气多变，多为多云有雨，气温在16-29度之间。建议采用叠穿法，并务必携带雨具和一件薄外套。
+          - listitem [ref=e602]:
+            - strong [ref=e603]: 关于美食
+            - text: ：徽菜的代表臭鳜鱼和毛豆腐，口味比较独特，不是所有人都能接受。第一次尝试可以先少量点单，或者选择评价较好的餐厅。
+        - heading "徽州，一半是水墨，一半是烟火" [level=1] [ref=e604]
+        - paragraph [ref=e605]: 徽州的美，不仅在于白墙黛瓦的诗意，更在于那些藏在寻常巷陌里的生活气息。希望这份攻略能帮你找到属于你的那份“一生无坎”的徽州记忆。
+    - generic [ref=e609]:
+      - generic [ref=e611]: 和点点聊聊
+      - img [ref=e613]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
+      - generic [ref=e616]:
+        - link [ref=e617] [cursor=pointer]:
+          - /url: http://map.qq.com?ref=jsapi_v3
+          - img [ref=e618]
+        - generic [ref=e619]: ©2026 Tencent - GS(2026)1190号

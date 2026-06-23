@@ -70,7 +70,7 @@ status: stable
 >
 > 三者非互斥：
 > - HANDOFF.md 适合**会话边界明确**的交接（"我下班了，明天继续"）
-> - Auto Memory 适合**跨项目偏好**（"我喜欢 tabs 不喜欢 spaces"）
+> - Auto Memory 适合**同一项目内反复出现的偏好与事实**（"这个 repo 的测试命令是 X"）
 > - Continuous Checkpoint 适合**会话内崩溃保护 + 长任务暂停**
 
 ## 与 [[rewind-胜过纠正|Rewind 胜过纠正]] 的协同

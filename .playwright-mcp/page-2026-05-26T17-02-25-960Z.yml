@@ -1,0 +1,35 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Collections" [level=2] [ref=e5]
+        - link "+ New" [ref=e6] [cursor=pointer]:
+          - /url: /admin/collections/new
+      - navigation [ref=e7]:
+        - link "All QRs" [ref=e8] [cursor=pointer]:
+          - /url: /admin
+        - link "buyer-conversion" [ref=e9] [cursor=pointer]:
+          - /url: /admin?c=JkWRX89h
+      - link "+ New QR" [ref=e11] [cursor=pointer]:
+        - /url: /admin/qrs/new
+    - main [ref=e12]:
+      - generic [ref=e13]:
+        - heading "New QR" [level=1] [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - generic [ref=e17]: Title
+            - textbox "Title" [ref=e18]
+          - generic [ref=e19]:
+            - generic [ref=e20]: Description
+            - textbox "Description" [ref=e21]
+          - generic [ref=e22]:
+            - generic [ref=e23]: URL
+            - textbox "URL" [ref=e24]:
+              - /placeholder: xhsdiscover://rn/wakanda/buyer-conversion?sku_id=1
+            - paragraph [ref=e26]: Paste a URL to preview…
+          - generic [ref=e27]:
+            - generic [ref=e28]: Collections
+            - button "buyer-conversion" [active] [ref=e30]
+          - button "Create" [ref=e31]
+  - region "Notifications alt+T"
+  - alert [ref=e32]

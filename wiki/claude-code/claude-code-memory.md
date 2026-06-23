@@ -6,7 +6,8 @@ sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code Memory 机制详解]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 最佳实践]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 深度使用指南 - HiTw93]]"
-last-ingested: 2026-04-22
+  - "[[sources/clippings/State of Memory in Agent Harness]]"
+last-ingested: 2026-06-03
 status: stable
 ---
 

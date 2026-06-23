@@ -37,6 +37,7 @@
     },
     "docs/superpowers/plans": {
       "children": [
+        "docs/superpowers/plans/2026-05-16-rn-storybook-demo.md",
         "docs/superpowers/plans/2026-04-28-wiki-reorganization.md",
         "docs/superpowers/plans/2026-04-22-llm-wiki-implementation.md"
       ],
@@ -44,6 +45,7 @@
     },
     "docs/superpowers/specs": {
       "children": [
+        "docs/superpowers/specs/2026-05-16-rn-storybook-demo-design.md",
         "docs/superpowers/specs/2026-04-28-wiki-reorganization-design.md",
         "docs/superpowers/specs/2026-04-22-llm-wiki-design.md"
       ],
@@ -65,6 +67,9 @@
     },
     "sources/clippings": {
       "children": [
+        "sources/clippings/State of Memory in Agent Harness.md",
+        "sources/clippings/你不知道的 Agent：原理、架构与工程实践.md",
+        "sources/clippings/深度拆解：AI Agent Harness 的构造【译】.md",
         "sources/clippings/用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践.md",
         "sources/clippings/基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践｜得物技术.md",
         "sources/clippings/Demystifying evals for AI agents.md",
@@ -172,6 +177,7 @@
     },
     "sources/posts/aigc/ai-coding/claude-code": {
       "children": [
+        "sources/posts/aigc/ai-coding/claude-code/cc-haha-computer-use.md",
         "sources/posts/aigc/ai-coding/claude-code/🛠️claude-code-tools.md",
         "sources/posts/aigc/ai-coding/claude-code/💡claude-tips.md",
         "sources/posts/aigc/ai-coding/claude-code/blog",
@@ -212,6 +218,7 @@
     },
     "sources/posts/aigc/ai-coding/tools": {
       "children": [
+        "sources/posts/aigc/ai-coding/tools/Matt Pocock Skills - 人类满分工程师的自我蒸馏.md",
         "sources/posts/aigc/ai-coding/tools/Git AI - 追踪 AI 生成代码的 Git 扩展.md",
         "sources/posts/aigc/ai-coding/tools/some-skills.md",
         "sources/posts/aigc/ai-coding/tools/asset",
@@ -315,6 +322,8 @@
     },
     "sources/posts/frontend/React/Blog": {
       "children": [
+        "sources/posts/frontend/React/Blog/imgs",
+        "sources/posts/frontend/React/Blog/API DTO、Adapter、UI Model 的分层思想.md",
         "sources/posts/frontend/React/Blog/asset",
         "sources/posts/frontend/React/Blog/Why we banned React's useEffect.md"
       ],
@@ -322,9 +331,25 @@
     },
     "sources/posts/frontend/React/Blog/asset": {
       "children": [
+        "sources/posts/frontend/React/Blog/asset/Pasted image 20260516115125.png",
+        "sources/posts/frontend/React/Blog/asset/Pasted image 20260516115147.png",
         "sources/posts/frontend/React/Blog/asset/Pasted image 20260318190942.png",
         "sources/posts/frontend/React/Blog/asset/Pasted image 20260318190815.png"
       ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/frontend/React/Blog/imgs": {
+      "children": [
+        "sources/posts/frontend/React/Blog/imgs/prompts",
+        "sources/posts/frontend/React/Blog/imgs/01-framework-dto-adapter-ui-model.png",
+        "sources/posts/frontend/React/Blog/imgs/02-infographic-adapter-responsibilities.png",
+        "sources/posts/frontend/React/Blog/imgs/03-comparison-when-to-use-adapter.png",
+        "sources/posts/frontend/React/Blog/imgs/outline.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "sources/posts/frontend/React/Blog/imgs/prompts": {
+      "children": [],
       "sortOrder": "custom"
     },
     "sources/posts/frontend/React/React Native": {
@@ -421,6 +446,13 @@
     },
     "wiki/agent-engineering/context": {
       "children": [
+        "wiki/agent-engineering/context/jit-citation-verification.md",
+        "wiki/agent-engineering/context/mem0.md",
+        "wiki/agent-engineering/context/memory-benchmarks.md",
+        "wiki/agent-engineering/context/memory-harness-shortcomings.md",
+        "wiki/agent-engineering/context/memory-three-tiers.md",
+        "wiki/agent-engineering/context/caveman-超压缩通信.md",
+        "wiki/agent-engineering/context/agent-memory-分层.md",
         "wiki/agent-engineering/context/context-anxiety.md",
         "wiki/agent-engineering/context/dynamic-context.md",
         "wiki/agent-engineering/context/cache-keep-alive.md",
@@ -440,6 +472,8 @@
     },
     "wiki/agent-engineering/philosophy": {
       "children": [
+        "wiki/agent-engineering/philosophy/harness-协同进化.md",
+        "wiki/agent-engineering/philosophy/llm-as-cpu.md",
         "wiki/agent-engineering/philosophy/ai-加速腐化.md",
         "wiki/agent-engineering/philosophy/人人对齐-人机对齐.md",
         "wiki/agent-engineering/philosophy/经验价值边界.md",
@@ -473,6 +507,15 @@
     },
     "wiki/agent-engineering/workflow": {
       "children": [
+        "wiki/agent-engineering/workflow/context-md-词汇表.md",
+        "wiki/agent-engineering/workflow/diagnose-debug-循环.md",
+        "wiki/agent-engineering/workflow/tdd-red-green-refactor.md",
+        "wiki/agent-engineering/workflow/aci-工具设计.md",
+        "wiki/agent-engineering/workflow/agent-loop.md",
+        "wiki/agent-engineering/workflow/agent-trace.md",
+        "wiki/agent-engineering/workflow/control-flow-patterns.md",
+        "wiki/agent-engineering/workflow/freeze-on-first-read.md",
+        "wiki/agent-engineering/workflow/prompt-injection-通用.md",
         "wiki/agent-engineering/workflow/ai-代码-attribution.md",
         "wiki/agent-engineering/workflow/ai-辅助测试-sop.md",
         "wiki/agent-engineering/workflow/ax-manual-accessibility.md",
@@ -544,6 +587,14 @@
     },
     "wiki/claude-code": {
       "children": [
+        "wiki/claude-code/codex-memory.md",
+        "wiki/claude-code/devin-knowledge.md",
+        "wiki/claude-code/hermes-agent.md",
+        "wiki/claude-code/managed-agents-memory.md",
+        "wiki/claude-code/openclaw-memory.md",
+        "wiki/claude-code/cc-haha.md",
+        "wiki/claude-code/computer-use-lock.md",
+        "wiki/claude-code/computer-use-架构.md",
         "wiki/claude-code/git-ai.md",
         "wiki/claude-code/cursor.md",
         "wiki/claude-code/gbrain.md",
@@ -700,6 +751,7 @@
     },
     "wiki/skills": {
       "children": [
+        "wiki/skills/matt-pocock-skills.md",
         "wiki/skills/bgclick-rev-skill.md",
         "wiki/skills/wasc-search-skill.md",
         "wiki/skills/agent-skills.md",

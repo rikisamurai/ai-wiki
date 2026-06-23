@@ -16,6 +16,7 @@
   },
   "enabledPlugins": {
     "superpowers@claude-plugins-official": true,
-    "claude-hud@claude-hud": true
+    "claude-hud@claude-hud": true,
+    "playwright@claude-plugins-official": true
   }
 }

@@ -8,14 +8,14 @@ last-ingested: 2026-05-09
 status: draft
 ---
 
-React Native 在 iOS 上把 `TextInput` 写成 controlled（带 `value={value}`）时，每次 `onChangeText` 都会通过 native bridge 把 JS 侧 value 强制写回原生 `UITextField`，打断 IME 的 composition session，导致中文/日文/韩文选词无法完成。Workaround 是改成 [[wiki/frontend/react-native/textinput-controlled-vs-uncontrolled|uncontrolled]]，用 `ref` 命令式控制清空。
+React Native 在 iOS 上把 `TextInput` 写成 controlled（带 `value={value}`）时，每次 `onChangeText` 都会通过 native bridge 把 JS 侧 value 写回原生 `UITextField`，在一些版本和场景下会打断 IME 的 composition session，导致中文/日文/韩文选词异常。稳妥 workaround 是改成 [[wiki/frontend/react-native/textinput-controlled-vs-uncontrolled|uncontrolled]]，用 `ref` 命令式控制清空。
 
-**现象**：搜索框 `TextInput` 用 `value={value}` 写成受控组件，iOS 中文输入下用户敲拼音/选词的过程会被打断——每次按键触发 `onChangeText` 都会把 JS state 的最新值同步回 `UITextField`，IME 还没等用户选完候选词就被中断，结果中文根本打不进去。日文、韩文等其他 CJK IME 同理。
+**现象**：搜索框 `TextInput` 用 `value={value}` 写成受控组件，iOS 中文输入下用户敲拼音/选词的过程可能被打断——每次按键触发 `onChangeText` 都把 JS state 的最新值同步回 `UITextField`，IME 还没等用户选完候选词就被覆盖。日文、韩文等其他 CJK IME 同理。
 
 **根因**：iOS IME 的 composition 需要 native 端在选词期间保持 text buffer 不变。RN controlled TextInput 架构每次 `onChangeText` 都通过 native bridge 把 JS 侧 value 强制写回 `UITextField`，直接覆盖了 buffer，composition session 自然就断了。
 
-> [!warning] 这个问题官方修不了
-> 从 2016 年就有人报告（[#12599](https://github.com/facebook/react-native/issues/12599)），受限于 RN controlled input 的核心架构，至今没有彻底修复。业内通用方案就是改 uncontrolled。
+> [!warning] 仍然要规避 controlled 风险
+> 这个问题有长期历史（[#12599](https://github.com/react/react-native/issues/12599)）。其中 RN 0.54 的中文 controlled `TextInput` 回归（[#18403](https://github.com/react/react-native/issues/18403)）已被标记为 fixed，但 CJK IME + controlled input 仍容易受 RN 版本、平台实现和业务回写逻辑影响。生产搜索/聊天输入优先 uncontrolled。
 
 **解决方案**：把 `TextInput` 改成 [[wiki/frontend/react-native/textinput-controlled-vs-uncontrolled|uncontrolled]]——
 
@@ -58,7 +58,6 @@ const SearchBar = () => {
 ## 延伸阅读
 
 - 在 [[wiki/frontend/react-native/react-native-core-components|RN 核心组件]] 矩阵中，`TextInput` 是 `<input>` 的对应物
-- [#18403](https://github.com/facebook/react-native/issues/18403) — controlled TextInput broken for Chinese in v0.54 on iOS（最权威根因描述）
-- [#18455](https://github.com/facebook/react-native/issues/18455) — composition 被打断的核心 issue
-- [#18456 PR](https://github.com/facebook/react-native/pull/18456) — 官方未完全解决的修复尝试
-- [#19339](https://github.com/facebook/react-native/issues/19339) — uncontrolled workaround 讨论
+- [#18403](https://github.com/react/react-native/issues/18403) — controlled TextInput broken for Chinese in v0.54 on iOS（当前标记为 fixed）
+- [#18456 PR](https://github.com/react/react-native/pull/18456) — 相关修复尝试
+- [#19339](https://github.com/react/react-native/issues/19339) — uncontrolled workaround 讨论

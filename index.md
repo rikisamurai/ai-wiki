@@ -6,7 +6,7 @@ date: 2026-04-22
 # ai-wiki
 
 > [!note] 三层架构
-> `sources/`（原料，只读） · `wiki/`（精华，可改） · `AGENTS.md`（schema）
+> `sources/`（原料，只读） · `wiki/`（精华，可改） · `AGENT.md`（schema）
 >
 > 用 `/ingest` `/query` `/lint` `/migrate-next` 操作。详见 [[AGENT]]。
 
@@ -57,7 +57,12 @@ date: 2026-04-22
 - [[wiki/agent-engineering/context/context-rot|Context Rot（上下文衰减）]]
 - [[wiki/agent-engineering/context/context-window|Context Window]]
 - [[wiki/agent-engineering/context/dynamic-context|动态上下文（Dynamic Context）]]
+- [[wiki/agent-engineering/context/jit-citation-verification|JIT 引用验证（Copilot 的 staleness 机制）]]
 - [[wiki/agent-engineering/context/kv-cache|KV Cache]]
+- [[wiki/agent-engineering/context/mem0|Mem0（跨 harness 记忆基础设施）]]
+- [[wiki/agent-engineering/context/memory-benchmarks|Memory Benchmarks（LoCoMo / LongMemEval / MemoryArena / BEAM）]]
+- [[wiki/agent-engineering/context/memory-harness-shortcomings|Harness Memory 五大共同短板]]
+- [[wiki/agent-engineering/context/memory-three-tiers|Agent Memory 三层（working / external / parametric）]]
 - [[wiki/agent-engineering/context/prefix-cache|Prefix Cache]]
 - [[wiki/agent-engineering/context/会话管理动作|会话管理动作]]
 - [[wiki/agent-engineering/context/冻结快照模式|冻结快照模式]]
@@ -152,20 +157,25 @@ date: 2026-04-22
 - [[wiki/claude-code/claude-hud|Claude HUD（Statusline 仪表盘）]]
 - [[wiki/claude-code/claude-rules|.claude/rules/ 规则系统]]
 - [[wiki/claude-code/codex|Codex]]
+- [[wiki/claude-code/codex-memory|Codex Memories（两阶段写入 + grep 检索）]]
 - [[wiki/claude-code/codex-plugin|Codex Plugin for Claude Code]]
 - [[wiki/claude-code/codex-sandbox-approval|Codex Sandbox + Approval（双维度权限）]]
 - [[wiki/claude-code/cursor|Cursor]]
+- [[wiki/claude-code/devin-knowledge|Devin Knowledge / DeepWiki（人工审批的 memory）]]
 - [[wiki/claude-code/everything-claude-code|Everything Claude Code]]
 - [[wiki/claude-code/fail-closed-tool-defaults|Fail-Closed 工具默认]]
 - [[wiki/claude-code/gbrain|GBrain（agent 持久知识库）]]
 - [[wiki/claude-code/git-ai|Git AI（追踪 AI 生成代码的 Git 扩展）]]
 - [[wiki/claude-code/gstack|gstack（Garry Tan 的 Claude Code Setup）]]
 - [[wiki/claude-code/handoff-md|HANDOFF.md 跨会话交接]]
+- [[wiki/claude-code/hermes-agent|Hermes Agent（三层 memory + 8 providers）]]
 - [[wiki/claude-code/hooks|Hooks（钩子）]]
 - [[wiki/claude-code/inline-edit|Inline Edit]]
 - [[wiki/claude-code/kairos-记忆蒸馏|KAIROS 模式与记忆蒸馏]]
+- [[wiki/claude-code/managed-agents-memory|Anthropic Managed Agents Memory（append-only event log）]]
 - [[wiki/claude-code/mcp|MCP（Model Context Protocol）]]
 - [[wiki/claude-code/opencli|OpenCLI]]
+- [[wiki/claude-code/openclaw-memory|OpenClaw Memory（原生混合检索）]]
 - [[wiki/claude-code/permission-modes|权限模式（YOLO / Safe / Plan）]]
 - [[wiki/claude-code/plan-mode|Plan Mode]]
 - [[wiki/claude-code/read-before-edit|Read-Before-Edit 铁律]]
@@ -225,8 +235,13 @@ date: 2026-04-22
 
 ### react-patterns
 
+- [[wiki/frontend/react-patterns/app-bootstrap-layer|App Bootstrap 层]]
+- [[wiki/frontend/react-patterns/import-side-effects-hazard|Import 副作用隐患]]
 - [[wiki/frontend/react-patterns/key-重置组件|用 key 重置组件]]
 - [[wiki/frontend/react-patterns/no-useeffect-rule|No useEffect 规则]]
+- [[wiki/frontend/react-patterns/spa-cold-start-flash|SPA 冷启动闪现-回退]]
+- [[wiki/frontend/react-patterns/spa-hydration-decoupling|SPA Hydration 解耦]]
+- [[wiki/frontend/react-patterns/stable-fmp-metric|稳定业务首屏指标]]
 - [[wiki/frontend/react-patterns/usemounteffect|useMountEffect]]
 - [[wiki/frontend/react-patterns/派生状态|派生状态（Derived State）]]
 - [[wiki/frontend/react-patterns/组件强制函数|组件强制函数（Forcing Function）]]

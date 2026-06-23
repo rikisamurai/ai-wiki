@@ -42,4 +42,5 @@ inputRef.current?.blur();                           // 收键盘
 
 - [[wiki/frontend/react-native/react-native-core-components|RN 核心组件]] — `TextInput` 在组件矩阵中的位置
 - [TextInput 官方文档](https://reactnative.dev/docs/textinput)
-- [setNativeProps 官方文档](https://reactnative.dev/docs/direct-manipulation)
+- [setNativeProps / Direct Manipulation（Legacy）](https://reactnative.dev/docs/legacy/direct-manipulation)
+- [New Architecture Direct Manipulation](https://reactnative.dev/docs/the-new-architecture/direct-manipulation-new-architecture)

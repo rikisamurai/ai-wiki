@@ -431,3 +431,25 @@ title: ai-wiki Activity Log
 ## [2026-05-09 12:50] ingest | Mac Computer Use 与 AXManualAccessibility
 - 新建：[[wiki/agent-engineering/workflow/mac-computer-use]]、[[wiki/agent-engineering/workflow/ax-manual-accessibility]]
 - source: sources/clippings/mac-computer-use-axmanualaccessibility.md（裸 md，新建仅含 ingested-at 的 frontmatter）
+
+## [2026-06-03 22:19] ingest | State of Memory in Agent Harness
+- 新建：[[wiki/agent-engineering/context/memory-three-tiers]]、[[wiki/agent-engineering/context/memory-benchmarks]]、[[wiki/agent-engineering/context/mem0]]、[[wiki/agent-engineering/context/memory-harness-shortcomings]]、[[wiki/agent-engineering/context/jit-citation-verification]]、[[wiki/claude-code/codex-memory]]、[[wiki/claude-code/hermes-agent]]、[[wiki/claude-code/managed-agents-memory]]、[[wiki/claude-code/devin-knowledge]]、[[wiki/claude-code/openclaw-memory]]
+- 更新：[[wiki/agent-engineering/context/agent-memory-分层]]（追加三层框架 callout + source）、[[wiki/claude-code/auto-memory]]（追加 Mem0 横评位置 callout + source）、[[wiki/claude-code/claude-code-memory]]（frontmatter sources 追加）
+- 备注：Mem0 团队 2026-04 的 9 大 harness memory 横评——一次性补齐 Codex/Hermes/Managed Agents/Devin/OpenClaw 五家 memory 设计，并把 mem0 / 五大短板 / benchmark / staleness / 三层框架抽成 context 层共享概念
+- source: sources/clippings/State of Memory in Agent Harness.md
+
+## [2026-06-11 14:30] query | Vibe Coding 如何把组件做到 AI-Friendly
+- 来源：wiki（shadcn-ui / headless-ui / vibe-coding / vibe-coding-对-saas-的通缩）
+- 是否 ingest：待定（已提议新建 ai-friendly-组件总览页，等用户确认）
+
+## [2026-06-11 14:45] query | 如何理解 AI Native
+- 来源：wiki（ai-first-vs-ai-assisted / ai-first-工程前提 / ai-first-适用边界）
+- 是否 ingest：no（已用 AI First 体系覆盖；提议给 ai-first-vs-ai-assisted 加 AI Native 术语别名，等用户确认）
+
+## [2026-06-11 15:00] query | 1M 模型为何 200K 左右上下文表现更好（Context Rot）
+- 来源：wiki（context-rot / context-window / context-anxiety）
+- 是否 ingest：no（主题已完整沉淀，三页均 stable）
+
+## [2026-06-17 14:30] ingest | 把 hydration 从 React UI 里解耦：一次 SPA 启动期边界纠正
+- 新建：[[wiki/frontend/react-patterns/spa-hydration-decoupling]]、[[wiki/frontend/react-patterns/app-bootstrap-layer]]、[[wiki/frontend/react-patterns/spa-cold-start-flash]]、[[wiki/frontend/react-patterns/import-side-effects-hazard]]、[[wiki/frontend/react-patterns/stable-fmp-metric]]
+- source: [[sources/clippings/把 hydration 从 React UI 里解耦：一次 SPA 启动期边界纠正  静かな森]]

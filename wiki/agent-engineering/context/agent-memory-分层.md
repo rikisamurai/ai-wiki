@@ -4,11 +4,15 @@ tags: [memory, context, agent-engineering]
 date: 2026-05-16
 sources:
   - "[[sources/clippings/你不知道的 Agent：原理、架构与工程实践]]"
-last-ingested: 2026-05-16
+  - "[[sources/clippings/State of Memory in Agent Harness]]"
+last-ingested: 2026-06-03
 status: draft
 ---
 
 Agent 不具备原生的时间连续性——会话结束后上下文随之清空。跨会话一致性需要独立设计记忆层，这是基础设施，不是可以事后补上的能力。记忆的四种类型按"解决什么问题"而非"存储介质"来划分。
+
+> [!note] 与"三层（working / external / parametric）"框架的关系
+> 本页四分层（工作 / 程序 / 情景 / 语义）来自认知科学，描述**信息的类型**。另一个常见框架 [[memory-three-tiers|working / external / parametric]] 来自工程视角，描述**信息存在哪里**。两者正交：一个语义记忆事实可以存在 external 层的向量库里；一个程序性 [[skills/skill-编写实践|Skill]] 也可以存在 external 层的文件里。Mem0 团队在 2026-04 的综述里用的是三层框架。
 
 ## 四种记忆
 

@@ -27,6 +27,12 @@
       "sourceType": "git",
       "computedHash": "56cbac74a93e4fba97f4d44bccfdeaae89e545b223f47df392c7705e01e6c543"
     },
+    "lark-doc": {
+      "source": "larksuite/cli",
+      "sourceType": "github",
+      "skillPath": "skills/lark-doc/SKILL.md",
+      "computedHash": "d825d5773b693ebb724e994f1a959fc9e4149ee58623b7653e78f0d93bc9ca34"
+    },
     "obsidian-bases": {
       "source": "kepano/obsidian-skills",
       "sourceType": "git",

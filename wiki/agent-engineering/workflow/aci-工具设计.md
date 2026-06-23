@@ -53,7 +53,7 @@ ACI（Agent-Computer Interface）是一种工具设计哲学：**工具应对应
 
 **调试 Agent 时应先检查工具定义，而不是先怀疑模型能力**。大多数工具选择错误源于描述不准确，不在模型本身。
 
-工具数量也要克制——能用 Shell 处理的、只需静态知识的、更适合用 [[agent-engineering/skills/skill-编写实践|Skill]] 的，都不需要新增工具。5 个 MCP 服务器可能带来约 55,000 tokens 的定义开销。
+工具数量也要克制——能用 Shell 处理的、只需静态知识的、更适合用 [[skills/skill-编写实践|Skill]] 的，都不需要新增工具。5 个 MCP 服务器可能带来约 55,000 tokens 的定义开销。
 
 ## 工具消息隔离
 

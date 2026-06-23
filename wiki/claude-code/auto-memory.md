@@ -5,10 +5,14 @@ date: 2026-04-22
 sources:
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code Memory 机制详解]]"
   - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
-  - "[[sources/posts/aigc/ai-coding/claude-code/blog/Claude Code 源码深度解析：51万行代码背后的秘密]]"
-last-ingested: 2026-04-22
+  - "[[sources/clippings/State of Memory in Agent Harness]]"
+last-ingested: 2026-06-03
 status: stable
 ---
+
+> [!note] 跨 harness 对比里的位置
+> 在 Mem0 2026-04 的横评里，Claude Code Auto Memory 的 shortcoming 被概括为：**"selection is by filename, not semantic search"**——相关名字的文件会赢过相关内容的文件；并且 MEMORY.md 索引 200 行 / 25KB 之外会 silent truncation。横向对比见 [[memory-harness-shortcomings|harness memory 五大共同短板]]，对位实现见 [[codex-memory|Codex Memories]] / [[hermes-agent|Hermes Agent]] / [[openclaw-memory|OpenClaw Memory]]。
+
 
 Auto Memory 是 [[claude-code-memory|Claude Code Memory 体系]]里**唯一由 Claude 自己写**的那一层——根据你的纠正和偏好自动积累跨会话知识：构建命令、调试心得、架构笔记、代码风格偏好。需要 Claude Code v2.1.59+，默认开启，通过 `/memory` 切换或在设置里 `"autoMemoryEnabled": false` 关闭。
 

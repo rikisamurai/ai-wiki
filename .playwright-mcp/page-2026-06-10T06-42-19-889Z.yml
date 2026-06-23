@@ -1,0 +1,427 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e11]
+        - button [ref=e13] [cursor=pointer]:
+          - img [ref=e15]
+        - heading "Feishu Docs" [level=1] [ref=e17] [cursor=pointer]
+      - generic [ref=e19]:
+        - generic [ref=e20] [cursor=pointer]:
+          - img [ref=e23]
+          - generic [ref=e24]:
+            - generic [ref=e25]: Front End
+            - generic [ref=e26]: Org access
+        - generic [ref=e30]:
+          - img [ref=e33]
+          - generic [ref=e35] [cursor=pointer]: Search
+        - generic [ref=e39]:
+          - generic [ref=e41]:
+            - button "Table of contents" [ref=e42]:
+              - generic [ref=e43]: Table of contents
+              - img [ref=e45]
+            - generic [ref=e47]:
+              - button [ref=e48] [cursor=pointer]:
+                - img [ref=e50]
+              - img [ref=e54] [cursor=pointer]
+          - list [ref=e58]:
+            - generic [ref=e60] [cursor=pointer]:
+              - button [ref=e62]:
+                - img [ref=e63]
+              - generic [ref=e68]: 🤖
+              - button "AIGC" [ref=e69]:
+                - generic [ref=e70]: AIGC
+            - generic [ref=e72] [cursor=pointer]:
+              - button [ref=e74]:
+                - img [ref=e75]
+              - img [ref=e82]
+              - button "FE Basis" [ref=e85]:
+                - generic [ref=e86]: FE Basis
+            - generic [ref=e88] [cursor=pointer]:
+              - button [ref=e90]:
+                - img [ref=e91]
+              - generic [ref=e96]: ⚛️
+              - button "React" [ref=e97]:
+                - generic [ref=e98]: React
+            - generic [ref=e100] [cursor=pointer]:
+              - button [ref=e102]:
+                - img [ref=e103]
+              - generic [ref=e108]: 🚀
+              - button "Performance" [ref=e109]:
+                - generic [ref=e110]: Performance
+            - generic [ref=e112] [cursor=pointer]:
+              - button [ref=e114]:
+                - img [ref=e115]
+              - img [ref=e122]
+              - button "More" [ref=e125]:
+                - generic [ref=e126]: More
+            - generic [ref=e128] [cursor=pointer]:
+              - img [ref=e135]
+              - button "BFF" [ref=e138]:
+                - generic [ref=e139]: BFF
+            - generic [ref=e141] [cursor=pointer]:
+              - button [ref=e143]:
+                - img [ref=e144]
+              - img [ref=e149]
+              - button "TypeScript" [ref=e150]:
+                - generic [ref=e151]: TypeScript
+            - generic [ref=e153] [cursor=pointer]:
+              - button [ref=e155]:
+                - img [ref=e156]
+              - generic [ref=e161]: 🕶️
+              - button "前端工具链" [ref=e162]:
+                - generic [ref=e163]: 前端工具链
+            - generic [ref=e165] [cursor=pointer]:
+              - button [ref=e167]:
+                - img [ref=e168]
+              - generic [ref=e173]: 🌠
+              - button "Stroybook" [ref=e174]:
+                - generic [ref=e175]: Stroybook
+            - generic [ref=e177] [cursor=pointer]:
+              - generic [ref=e182]: 🎃
+              - button "SSR" [ref=e183]:
+                - generic [ref=e184]: SSR
+            - generic [ref=e186] [cursor=pointer]:
+              - img [ref=e193]
+              - button "Node" [ref=e196]:
+                - generic [ref=e197]: Node
+            - generic [ref=e199] [cursor=pointer]:
+              - img [ref=e206]
+              - button "代码调试" [ref=e209]:
+                - generic [ref=e210]: 代码调试
+            - generic [ref=e212] [cursor=pointer]:
+              - button [ref=e214]:
+                - img [ref=e215]
+              - img [ref=e222]
+              - button "Functional Programming" [ref=e225]:
+                - generic [ref=e226]: Functional Programming
+            - generic [ref=e228] [cursor=pointer]:
+              - img [ref=e233]
+              - button "Tools" [ref=e234]:
+                - generic [ref=e235]: Tools
+            - generic [ref=e237] [cursor=pointer]:
+              - img [ref=e244]
+              - button "⚖️研发规范" [ref=e247]:
+                - generic [ref=e248]: ⚖️研发规范
+            - generic [ref=e250] [cursor=pointer]:
+              - generic [ref=e255]: 📁
+              - button "Documentation" [ref=e256]:
+                - generic [ref=e257]: Documentation
+            - generic [ref=e259] [cursor=pointer]:
+              - button [ref=e261]:
+                - img [ref=e262]
+              - img [ref=e269]
+              - button "Linux" [ref=e272]:
+                - generic [ref=e273]: Linux
+            - generic [ref=e275] [cursor=pointer]:
+              - button [ref=e277]:
+                - img [ref=e278]
+              - generic [ref=e283]: 🖨️
+              - button "Data Science" [ref=e284]:
+                - generic [ref=e285]: Data Science
+            - generic [ref=e287] [cursor=pointer]:
+              - button [ref=e289]:
+                - img [ref=e290]
+              - generic [ref=e295]: 📦
+              - button "Bundle" [ref=e296]:
+                - generic [ref=e297]: Bundle
+            - generic [ref=e299] [cursor=pointer]:
+              - button [ref=e301]:
+                - img [ref=e302]
+              - img [ref=e307]
+              - button "Unit Test" [ref=e308]:
+                - generic [ref=e309]: Unit Test
+            - generic [ref=e311] [cursor=pointer]:
+              - button [ref=e313]:
+                - img [ref=e314]
+              - img [ref=e321]
+              - button "Git" [ref=e324]:
+                - generic [ref=e325]: Git
+            - generic [ref=e327] [cursor=pointer]:
+              - button [ref=e329]:
+                - img [ref=e330]
+              - img [ref=e337]
+              - button "IDE" [ref=e340]:
+                - generic [ref=e341]: IDE
+            - generic [ref=e343] [cursor=pointer]:
+              - img [ref=e350]
+              - button "开源协议怎么选 · 六大常用协议一表看懂" [ref=e353]:
+                - generic [ref=e354]: 开源协议怎么选 · 六大常用协议一表看懂
+            - generic [ref=e356] [cursor=pointer]:
+              - button [ref=e358]:
+                - img [ref=e359]
+              - generic [ref=e364]: 🌎
+              - button "Network" [ref=e365]:
+                - generic [ref=e366]: Network
+            - generic [ref=e368] [cursor=pointer]:
+              - button [ref=e370]:
+                - img [ref=e371]
+              - generic [ref=e376]: 🖥️
+              - button "Interview" [ref=e377]:
+                - generic [ref=e378]: Interview
+        - generic [ref=e379]:
+          - img [ref=e385]
+          - img [ref=e393]
+          - img [ref=e401]
+    - generic [ref=e403]:
+      - generic [ref=e406]:
+        - generic [ref=e407]:
+          - img [ref=e410] [cursor=pointer]
+          - button [ref=e414] [cursor=pointer]:
+            - img [ref=e416]
+        - generic [ref=e420]:
+          - generic [ref=e426]:
+            - generic [ref=e427]:
+              - generic [ref=e429] [cursor=pointer]: Front End
+              - img [ref=e430]
+            - generic [ref=e432]:
+              - generic [ref=e434] [cursor=pointer]: More
+              - button [ref=e435] [cursor=pointer]
+            - generic [ref=e437]:
+              - generic [ref=e439] [cursor=pointer]: 开源协议怎么选 · 六大常用协议一表看懂
+              - button [ref=e440] [cursor=pointer]:
+                - img [ref=e442]
+          - generic [ref=e447]:
+            - generic [ref=e448]:
+              - button "Share" [ref=e450] [cursor=pointer]:
+                - img [ref=e454]
+                - generic [ref=e456]: Share
+              - button "Editing" [ref=e460] [cursor=pointer]:
+                - generic [ref=e461]:
+                  - img [ref=e464]
+                  - generic [ref=e466]: Editing
+                - img [ref=e469]
+            - img [ref=e475] [cursor=pointer]
+            - button [ref=e478] [cursor=pointer]:
+              - img [ref=e480]
+            - button [ref=e484] [cursor=pointer]:
+              - img [ref=e486]
+            - button [ref=e488] [cursor=pointer]:
+              - img [ref=e490]
+      - generic [ref=e501]:
+        - list [ref=e509] [cursor=pointer]:
+          - listitem
+          - listitem [ref=e510]:
+            - link "开源协议怎么选 · 六大常用协议一表看懂" [ref=e511]:
+              - /url: "#XtomdmQdqoYJ0Ox3F9HcBBVPnlh"
+              - img [ref=e513]
+              - text: 开源协议怎么选 · 六大常用协议一表看懂
+          - listitem [ref=e515]:
+            - link "一、总览对比" [ref=e516]:
+              - /url: "#doxcn5lkPDpizpjGIOrvznaOD9c"
+              - img [ref=e518]
+              - text: 一、总览对比
+          - listitem [ref=e520]:
+            - link "二、逐项解释" [ref=e521]:
+              - /url: "#doxcn5Pk6LuosWNnVcSGZXc9yUe"
+              - img [ref=e523]
+              - text: 二、逐项解释
+          - listitem [ref=e525]:
+            - link "三、选型决策" [ref=e526]:
+              - /url: "#doxcngtFYgdQ8NIK1KXondJeVCc"
+              - img [ref=e528]
+              - text: 三、选型决策
+          - listitem [ref=e530]:
+            - link "四、三个坑" [ref=e531]:
+              - /url: "#doxcnSphyeIMSdn9DYOJNCj9U61"
+              - img [ref=e533]
+              - text: 四、三个坑
+          - listitem
+        - generic [ref=e544]:
+          - generic [ref=e545]:
+            - generic [ref=e549] [cursor=pointer]:
+              - img [ref=e550]
+              - generic [ref=e552]: Add Cover
+            - heading "开源协议怎么选 · 六大常用协议一表看懂" [level=1] [ref=e553]:
+              - generic [ref=e555]: 开源协议怎么选 · 六大常用协议一表看懂
+            - generic [ref=e558]:
+              - generic [ref=e565] [cursor=pointer]:
+                - img [ref=e567]
+                - generic [ref=e569]: Riki
+              - generic [ref=e571]: Modified Today
+          - generic [ref=e574]:
+            - generic [ref=e579]:
+              - generic [ref=e583] [cursor=pointer]: 💡
+              - generic [ref=e590]: 做开源项目却不知道选哪个协议？下面六个覆盖 95% 的场景。核心就一句：宽松型最大化传播（别人闭源赚钱你管不着），Copyleft 用了我的你也得开源。
+            - generic [ref=e595]:
+              - generic [ref=e599] [cursor=pointer]: ⚡
+              - generic [ref=e606]: 30 秒速记 · 不想看完直接抄
+            - generic [ref=e609]:
+              - generic [ref=e617]:
+                - generic [ref=e621] [cursor=pointer]: 👤
+                - generic [ref=e623]:
+                  - generic [ref=e628]: 个人 / 想火
+                  - generic [ref=e633]: → MIT
+              - generic [ref=e636] [cursor=pointer]:
+                - img [ref=e637]
+                - img
+              - generic [ref=e648]:
+                - generic [ref=e652] [cursor=pointer]: 🏢
+                - generic [ref=e654]:
+                  - generic [ref=e659]: 企业 / AI / 大数据
+                  - generic [ref=e664]: → Apache 2.0
+              - generic [ref=e667] [cursor=pointer]:
+                - img [ref=e668]
+                - img
+              - generic [ref=e679]:
+                - generic [ref=e683] [cursor=pointer]: 🌐
+                - generic [ref=e685]:
+                  - generic [ref=e690]: SaaS / 防白嫖
+                  - generic [ref=e695]: → AGPL v3
+              - generic [ref=e698] [cursor=pointer]:
+                - img [ref=e699]
+                - img
+            - generic [ref=e714]: 一、总览对比
+            - generic [ref=e719]: 前三行宽松型（绿），后三行Copyleft（橙）——颜色即阵营。
+            - generic [ref=e727]:
+              - table [ref=e728]:
+                - row "协议 宽松度 能否闭源 专利保护 Copyleft 强度 代表项目" [ref=e729]:
+                  - cell "协议" [ref=e730]:
+                    - generic [ref=e736]: 协议
+                  - cell "宽松度" [ref=e737]:
+                    - generic [ref=e743]: 宽松度
+                  - cell "能否闭源" [ref=e744]:
+                    - generic [ref=e750]: 能否闭源
+                  - cell "专利保护" [ref=e751]:
+                    - generic [ref=e757]: 专利保护
+                  - cell "Copyleft 强度" [ref=e758]:
+                    - generic [ref=e764]: Copyleft 强度
+                  - cell "代表项目" [ref=e765]:
+                    - generic [ref=e771]: 代表项目
+              - table [ref=e775]:
+                - rowgroup [ref=e783]:
+                  - row "MIT 极高 可以 无 无 React、Node.js、Vue.js" [ref=e784]:
+                    - cell "MIT" [ref=e785]:
+                      - generic [ref=e791]: MIT
+                    - cell "极高" [ref=e792]:
+                      - generic [ref=e798]: 极高
+                    - cell "可以" [ref=e799]:
+                      - generic [ref=e805]: 可以
+                    - cell "无" [ref=e806]:
+                      - generic [ref=e812]: 无
+                    - cell "无" [ref=e813]:
+                      - generic [ref=e819]: 无
+                    - cell "React、Node.js、Vue.js" [ref=e820]:
+                      - generic [ref=e826]: React、Node.js、Vue.js
+                  - row "Apache 2.0 极高 可以 有 无 Kubernetes、TensorFlow、Swift" [ref=e827]:
+                    - cell "Apache 2.0" [ref=e828]:
+                      - generic [ref=e834]: Apache 2.0
+                    - cell "极高" [ref=e835]:
+                      - generic [ref=e841]: 极高
+                    - cell "可以" [ref=e842]:
+                      - generic [ref=e848]: 可以
+                    - cell "有" [ref=e849]:
+                      - generic [ref=e855]: 有
+                    - cell "无" [ref=e856]:
+                      - generic [ref=e862]: 无
+                    - cell "Kubernetes、TensorFlow、Swift" [ref=e863]:
+                      - generic [ref=e869]: Kubernetes、TensorFlow、Swift
+                  - row "BSD 极高 可以 无 无 FreeBSD、OpenBSD" [ref=e870]:
+                    - cell "BSD" [ref=e871]:
+                      - generic [ref=e877]: BSD
+                    - cell "极高" [ref=e878]:
+                      - generic [ref=e884]: 极高
+                    - cell "可以" [ref=e885]:
+                      - generic [ref=e891]: 可以
+                    - cell "无" [ref=e892]:
+                      - generic [ref=e898]: 无
+                    - cell "无" [ref=e899]:
+                      - generic [ref=e905]: 无
+                    - cell "FreeBSD、OpenBSD" [ref=e906]:
+                      - generic [ref=e912]: FreeBSD、OpenBSD
+                  - row "MPL 2.0 中 部分可以 有 弱（按文件） Firefox、Thunderbird" [ref=e913]:
+                    - cell "MPL 2.0" [ref=e914]:
+                      - generic [ref=e920]: MPL 2.0
+                    - cell "中" [ref=e921]:
+                      - generic [ref=e927]: 中
+                    - cell "部分可以" [ref=e928]:
+                      - generic [ref=e934]: 部分可以
+                    - cell "有" [ref=e935]:
+                      - generic [ref=e941]: 有
+                    - cell "弱（按文件）" [ref=e942]:
+                      - generic [ref=e948]: 弱（按文件）
+                    - cell "Firefox、Thunderbird" [ref=e949]:
+                      - generic [ref=e955]: Firefox、Thunderbird
+                  - row "GPL 低 不可以 v3 有 强（整个项目） Linux、WordPress、GCC" [ref=e956]:
+                    - cell "GPL" [ref=e957]:
+                      - generic [ref=e963]: GPL
+                    - cell "低" [ref=e964]:
+                      - generic [ref=e970]: 低
+                    - cell "不可以" [ref=e971]:
+                      - generic [ref=e977]: 不可以
+                    - cell "v3 有" [ref=e978]:
+                      - generic [ref=e984]: v3 有
+                    - cell "强（整个项目）" [ref=e985]:
+                      - generic [ref=e991]: 强（整个项目）
+                    - cell "Linux、WordPress、GCC" [ref=e992]:
+                      - generic [ref=e998]: Linux、WordPress、GCC
+                  - row "AGPL v3 低 不可以（含云服务） 有 最强（含网络） Nextcloud、Bitwarden" [ref=e999]:
+                    - cell "AGPL v3" [ref=e1000]:
+                      - generic [ref=e1006]: AGPL v3
+                    - cell "低" [ref=e1007]:
+                      - generic [ref=e1013]: 低
+                    - cell "不可以（含云服务）" [ref=e1014]:
+                      - generic [ref=e1020]: 不可以（含云服务）
+                    - cell "有" [ref=e1021]:
+                      - generic [ref=e1027]: 有
+                    - cell "最强（含网络）" [ref=e1028]:
+                      - generic [ref=e1034]: 最强（含网络）
+                    - cell "Nextcloud、Bitwarden" [ref=e1035]:
+                      - generic [ref=e1041]: Nextcloud、Bitwarden
+            - generic [ref=e1057]: 二、逐项解释
+            - generic [ref=e1062]: 每个协议记住一句话本质就够用了。
+            - generic [ref=e1070]:
+              - table [ref=e1071]:
+                - row "协议 一句话本质 唯一要点" [ref=e1072]:
+                  - cell "协议" [ref=e1073]:
+                    - generic [ref=e1079]: 协议
+                  - cell "一句话本质" [ref=e1080]:
+                    - generic [ref=e1086]: 一句话本质
+                  - cell "唯一要点" [ref=e1087]:
+                    - generic [ref=e1093]: 唯一要点
+              - table [ref=e1097]:
+                - rowgroup [ref=e1102]:
+                  - row "MIT 最佛系的\"随便用\" 只要求保留版权声明，其余全放行。想火、想被大厂集成就选它。" [ref=e1103]:
+                    - cell "MIT" [ref=e1104]:
+                      - generic [ref=e1110]: MIT
+                    - cell "最佛系的\"随便用\"" [ref=e1111]:
+                      - generic [ref=e1117]: 最佛系的"随便用"
+                    - cell "只要求保留版权声明，其余全放行。想火、想被大厂集成就选它。" [ref=e1118]:
+                      - generic [ref=e1124]: 只要求保留版权声明，其余全放行。想火、想被大厂集成就选它。
+                  - row "Apache 2.0 MIT + 专利授权 多一层防专利反咬的保护。做企业级、AI、大数据用它，别用 MIT。" [ref=e1125]:
+                    - cell "Apache 2.0" [ref=e1126]:
+                      - generic [ref=e1132]: Apache 2.0
+                    - cell "MIT + 专利授权" [ref=e1133]:
+                      - generic [ref=e1139]: MIT + 专利授权
+                    - cell "多一层防专利反咬的保护。做企业级、AI、大数据用它，别用 MIT。" [ref=e1140]:
+                      - generic [ref=e1146]: 多一层防专利反咬的保护。做企业级、AI、大数据用它，别用 MIT。
+                  - row "BSD MIT 的双胞胎 几乎和 MIT 一样；3-Clause 版仅多一条\"不准用作者名做宣传\"。常见于系统/科研。" [ref=e1147]:
+                    - cell "BSD" [ref=e1148]:
+                      - generic [ref=e1154]: BSD
+                    - cell "MIT 的双胞胎" [ref=e1155]:
+                      - generic [ref=e1161]: MIT 的双胞胎
+                    - cell "几乎和 MIT 一样；3-Clause 版仅多一条\"不准用作者名做宣传\"。常见于系统/科研。" [ref=e1162]:
+                      - generic [ref=e1168]: 几乎和 MIT 一样；3-Clause 版仅多一条"不准用作者名做宣传"。常见于系统/科研。
+                  - row "MPL 2.0 最聪明的中间路线 只有改过的文件要开源，其余可混闭源代码。既护核心又留商业空间。" [ref=e1169]:
+                    - cell "MPL 2.0" [ref=e1170]:
+                      - generic [ref=e1176]: MPL 2.0
+                    - cell "最聪明的中间路线" [ref=e1177]:
+                      - generic [ref=e1183]: 最聪明的中间路线
+                    - cell "只有改过的文件要开源，其余可混闭源代码。既护核心又留商业空间。" [ref=e1184]:
+                      - generic [ref=e1190]: 只有改过的文件要开源，其余可混闭源代码。既护核心又留商业空间。
+                  - row "GPL 强 Copyleft 铁律 碰了代码，整个衍生项目都得开源，禁止闭源商用。v3 额外防硬件锁。" [ref=e1191]:
+                    - cell "GPL" [ref=e1192]:
+                      - generic [ref=e1198]: GPL
+                    - cell "强 Copyleft 铁律" [ref=e1199]:
+                      - generic [ref=e1205]: 强 Copyleft 铁律
+                    - cell "碰了代码，整个衍生项目都得开源，禁止闭源商用。v3 额外防硬件锁。" [ref=e1206]:
+                      - generic [ref=e1212]: 碰了代码，整个衍生项目都得开源，禁止闭源商用。v3 额外防硬件锁。
+                  - row "AGPL v3 云时代防白嫖核武器 堵住 GPL 漏洞：只要对外提供网络服务，改动也必须公开。SaaS 必备。" [ref=e1213]:
+                    - cell "AGPL v3" [ref=e1214]:
+                      - generic [ref=e1220]: AGPL v3
+                    - cell "云时代防白嫖核武器" [ref=e1221]:
+                      - generic [ref=e1227]: 云时代防白嫖核武器
+                    - cell "堵住 GPL 漏洞：只要对外提供网络服务，改动也必须公开。SaaS 必备。" [ref=e1228]:
+                      - generic [ref=e1234]: 堵住 GPL 漏洞：只要对外提供网络服务，改动也必须公开。SaaS 必备。
+  - textbox [active] [ref=e1241]

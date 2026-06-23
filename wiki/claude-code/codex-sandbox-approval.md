@@ -39,6 +39,17 @@ Codex 把 Agent 权限拆成**两个正交维度**——比 Claude Code 的[[per
 - **On-failure**：失败了才问（自动重试/调整）
 - **Never**：完全静默——配 sandbox 限制使用
 
+## 新增一层：Rules / Exec Policy
+
+Codex 现在还可以用 `.rules`（通常放在 `rules/` 目录）写 Starlark 执行策略，并用 `codex execpolicy check` 预检命令是否允许。它不替代 Sandbox / Approval：Sandbox 决定文件系统边界，Approval 决定是否打断用户，Rules 则适合把"这个项目允许/禁止哪些命令形态"版本化。
+
+> [!example] 三层一起看
+> | 层 | 解决的问题 |
+> |---|---|
+> | Sandbox | 这个 Agent 能碰哪些文件 |
+> | Approval | 碰之前要不要问人 |
+> | Rules | 某类 shell 命令是否符合项目策略 |
+
 > [!warning] 默认是收紧的，明确需要再放
 > Codex Best Practices 的原文："**Start with the defaults and loosen permissions only when needed.**" 因为很多"质量问题"本质是"权限问题"——错误的工作目录、缺写权限、模型默认值不对。先收紧、看哪里卡了再针对性放，比一上来全开然后到处踩坑安全得多。
 

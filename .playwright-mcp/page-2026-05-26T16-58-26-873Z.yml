@@ -1,0 +1,34 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Collections" [level=2] [ref=e5]
+        - link "+ New" [ref=e6] [cursor=pointer]:
+          - /url: /admin/collections/new
+      - navigation [ref=e7]:
+        - link "All QRs" [ref=e8] [cursor=pointer]:
+          - /url: /admin
+        - link "buyer-conversion" [ref=e9] [cursor=pointer]:
+          - /url: /admin?c=JkWRX89h
+      - link "+ New QR" [ref=e11] [cursor=pointer]:
+        - /url: /admin/qrs/new
+    - main [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - heading "buyer-conversion(2)" [level=1] [ref=e15]:
+            - text: buyer-conversion
+            - generic [ref=e16]: (2)
+          - textbox "Search…" [disabled]
+        - generic [ref=e17]:
+          - link "sssss xhsdiscover://rn/wakanda/buyer-conversion?sku_id=662a079c7feea700015b9582&isUnicomKing=false&seller_id=653f9db143e89d0001bcb137&host_id=64e42c8a0000000001012864&themeType=default&item_id=662a079c7d287800018aa76d" [ref=e18] [cursor=pointer]:
+            - /url: /q/4A85hpKZ
+            - img [ref=e20]
+            - heading "sssss" [level=3] [ref=e23]
+            - paragraph [ref=e24]: xhsdiscover://rn/wakanda/buyer-conversion?sku_id=662a079c7feea700015b9582&isUnicomKing=false&seller_id=653f9db143e89d0001bcb137&host_id=64e42c8a0000000001012864&themeType=default&item_id=662a079c7d287800018aa76d
+          - link "数据详情 xhsdiscover://rn/wakanda/buyer-conversion?sku_id=69b22771e95b340001e7a375&isUnicomKing=false&seller_id=5a151d9deb90b912e76ee832&host_id=67b30274000000001802602a&themeType=default&item_id=69b22771e95b340001e7a374" [ref=e25] [cursor=pointer]:
+            - /url: /q/p8RwdPZU
+            - img [ref=e27]
+            - heading "数据详情" [level=3] [ref=e30]
+            - paragraph [ref=e31]: xhsdiscover://rn/wakanda/buyer-conversion?sku_id=69b22771e95b340001e7a375&isUnicomKing=false&seller_id=5a151d9deb90b912e76ee832&host_id=67b30274000000001802602a&themeType=default&item_id=69b22771e95b340001e7a374
+  - region "Notifications alt+T"
+  - alert [ref=e32]
